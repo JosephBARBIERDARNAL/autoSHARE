@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def getData(dataPath: str, wave: int, cols: list):
+def get_data(dataPath: str, wave: int, cols: list):
     """
     Load the data from the specified wave and columns.
     Args:

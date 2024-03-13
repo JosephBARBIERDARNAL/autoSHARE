@@ -3,7 +3,7 @@ import streamlit as st
 
 
 
-def makeSpace(n: int, sidebar: bool=False):
+def make_space(n: int, sidebar: bool=False):
     """
     Inserts n empty lines in the UI.
     """
@@ -31,7 +31,7 @@ def loadFooter():
     Loads the footer of the app.
     """
 
-    makeSpace(10)
+    make_space(10)
     st.markdown(
         "<h5 style='text-align: center;'>Developed by <a href='https://www.cieri-analytics.com/' target='_blank'>CIERI Analytics</a></h5>",
         unsafe_allow_html=True

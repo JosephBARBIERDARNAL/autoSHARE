@@ -1,12 +1,19 @@
+###############################################
+### HOW TO USE THIS SCRIPT
+### 1. Add new packages to the packages list.
+### 2. Run the script.
+### 3. The requirements.txt file is now updated.
+###############################################
+
 
 
 import subprocess
-packages = ['pandas', 'streamlit']
+packages = ['pandas', 'streamlit', 'tqdm']
 requirements_file = 'requirements.txt'
 
 
 
-def getPackageVersion(package_name: str) -> str:
+def get_package_version(package_name: str) -> str:
     """
     Get the version of a package using pip show.
     Args:
@@ -28,7 +35,7 @@ def getPackageVersion(package_name: str) -> str:
 
 with open(requirements_file, 'w') as file:
     for package in packages:
-        version = getPackageVersion(package)
+        version = get_package_version(package)
         if version:
             packageVersion = f"{package}=={version}"
             print(packageVersion)

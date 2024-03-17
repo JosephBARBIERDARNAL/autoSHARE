@@ -1,19 +1,27 @@
 yearToWave = {
-        2004: 1,
-        2006: 2,
-        2008: 3,
-        2011: 4,
-        2013: 5,
-        2015: 6,
-        2017: 7,
-        2019: 8
+        '2004/2005': 1,
+        '2006/2007': 2,
+        '2008/2009': 3,
+        '2011/2012': 4,
+        '2013': 5,
+        '2015': 6,
+        '2017': 7,
+        '2019/2020': 8
     }
 waveToYear = {v:k for k,v in yearToWave.items()}
 
-dataPath = "../SHARE/data/"
+data_path = "static/data"
 
 
 # HELP ITEMS FOR THE UI
+helpExplicitNA = """
+        By coching this option, missing values in categorical variables will be treated as a
+        separate category. This can be useful when missing values are not missing at random.
+        """
+helpMissingCode = """
+        By coching this option, the missing codes, such as "Don't know" or "Refusal", will be
+        treated as NaN values. Recommended if you don't know what to choose.
+        """
 helpWave = """
         SHARE data have been collected by wave. The first wave was in 2004, and the most
         recent one in 2019. Select a wave to load the data for that year.

@@ -1,37 +1,41 @@
 import streamlit as st
-import pandas as pd
 from src.ui import make_space, loadHeader, loadFooter
-from src.const import yearToWave, waveToYear, dataPath
-from src.const import helpWave, helpColumns, helpTarget, helpPredictors
+from src.const import yearToWave, waveToYear, data_path
+from src.const import helpWave, helpColumns, helpTarget, helpPredictors, helpExplicitNA, helpMissingCode
+from src.data import load_data_properties, datasetManager
 
 
 loadHeader(
     title="Auto SHARE",
     subtitle="Analyze and model the SHARE data with ease"
 )
-make_space(3)
+make_space(8)
+
 
 
 
 # DEFINE WAVE
 st.markdown("### Wave")
-wave = st.selectbox(
+wave = st.slider(
     'Select a wave:',
-    options=list(waveToYear.keys()),
+    min_value=1,
+    max_value=8,
+    value=1,
     key=1,
     help=helpWave
 )
 wave = int(wave)
-st.markdown(f"Selected wave: {wave}")
-make_space(2)
+year = waveToYear[wave]
+st.markdown(f"Selected wave: {wave} ({year})")
+make_space(8)
 
 
 if wave:
 
     # DEFINE VARIABLES
     st.markdown("### Variables")
-    with open(f'static/columns/wave_{int(wave)}_columns.txt') as file:
-        columns = file.read().splitlines()
+    columns_properties = load_data_properties(wave)
+    columns = columns_properties['column'].tolist()
     cols = st.multiselect(
         'Select the columns you want to load:',
         options=columns,
@@ -40,7 +44,7 @@ if wave:
     )
     if len(cols)>0:
         st.markdown(f"Selected columns:\n{cols}")
-        make_space(2)
+        make_space(8)
 
 
         # DEFINE TARGET AND PREDICTORS
@@ -62,6 +66,41 @@ if wave:
                 help=helpPredictors
             )
             st.markdown(f"Selected predictors: {predictors}")
+
+
+        # CREATE DATASET
+        if len(predictors)>0 and target:
+            make_space(8)
+            st.markdown("### Data")
+            load_data = st.checkbox(
+                "Load data (can take a while...)",
+                value=False,
+                key=5
+            )
+            if load_data:
+                datasetManager = datasetManager(data_path, wave)
+                df = datasetManager.create_dataframe(cols)
+                datasetManager.display_dataset_properties(df)
+                make_space(8)
+
+
+                # DEFINE MODEL
+                st.markdown("### Missing values")
+                same_missing_code = st.checkbox(
+                    'Consider all missing codes as NaN',
+                    value=True,
+                    key=6,
+                    help=helpMissingCode
+                )
+                explicit_na = st.checkbox(
+                    'Consider missing values as a separate category',
+                    value=False,
+                    key=7,
+                    help=helpExplicitNA
+                )
+
+
+
 
 
 

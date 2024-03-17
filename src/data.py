@@ -51,46 +51,59 @@ class datasetManager:
             if len(df)==0:
                 df = temp
             else:
-                df = df.merge(
-                    temp,
-                    on='mergeid',
-                    how='outer'
-                )
+                if 'mergeid' not in temp.columns:
+                    st.write(f"mergeid not found in {file_name} (removed from the dataset)")
+                else:
+                    df = df.merge(
+                        temp,
+                        on='mergeid',
+                        how='outer'
+                    )
 
         df = df[cols]
         self.df = df
         return df
     
-    def display_dataset_properties(self, df):
+
+    def display_dataset_properties(self, df, print_na: bool = True):
         """
         Display the properties of the dataset.
         Args:
             - df: the dataset.
         """
-        st.write("First rows of the dataset:")
-        st.dataframe(df.head(5))
-        st.success(f"Rows: {df.shape[0]}, Columns: {df.shape[1]}")
-        st.warning(f"Memory usage: {df.memory_usage().sum()/(1024*1024):.2f} MB")
-        missing_values = df.isna().sum()/df.shape[0]#*100
-        missing_values = missing_values.to_frame('missing_values')
-        missing_values['column'] = missing_values.index
-        missing_values = missing_values.sort_values(by='missing_values', ascending=False)
-        c1, used_col, c3 = st.columns([1, 6, 1])
-        with used_col:
-            st.data_editor(
-                missing_values,
-                column_config={
-                    "missing_values": st.column_config.ProgressColumn(
-                        "% of missing values",
-                        min_value=0,
-                        max_value=1,
-                        width='large'
-                    ),
-                },
-                hide_index=True
-            )
+
+        # display statistics about the dataset
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            st.success(f"{df.shape[0]} rows and {df.shape[1]} columns")
+        with col2:
+            st.warning(f"Memory usage: {df.memory_usage().sum()/(1024*1024):.2f} MB")
+        
+        if print_na:
+            # count missing values
+            missing_values = df.isna().sum()/df.shape[0]#*100
+            missing_values = missing_values.to_frame('missing_values')
+            missing_values['column'] = missing_values.index
+            missing_values = missing_values.sort_values(by='missing_values', ascending=False)
+            
+            # display percentage of missing values per column
+            c1, used_col, c3 = st.columns([1, 6, 1])
+            with used_col:
+                st.data_editor(
+                    missing_values,
+                    column_config={
+                        "missing_values": st.column_config.ProgressColumn(
+                            "% of missing values",
+                            min_value=0,
+                            max_value=1,
+                            width='large'
+                        ),
+                    },
+                    hide_index=True
+                )
     
-    def replace_missing_code(self, df: pd.DataFrame) -> pd.DataFrame:
+
+    def replace_missing_codes(self, df: pd.DataFrame) -> pd.DataFrame:
         valuesToReplace = [
             "Don't know",
             "Refusal",
@@ -103,5 +116,10 @@ class datasetManager:
             -9999992,
         ]
         df = df.replace(valuesToReplace, pd.NA)
+        self.df = df
+        return df
+    
+    def make_explicit_na(self, df: pd.DataFrame) -> pd.DataFrame:
+        df = df.fillna('missing')
         self.df = df
         return df

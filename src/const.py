@@ -22,6 +22,11 @@ helpMissingCode = """
         By coching this option, the missing codes, such as "Don't know" or "Refusal", will be
         treated as NaN values. Recommended if you don't know what to choose.
         """
+helpDropNA = """
+        By coching this option, all rows with at least one missing value will be dropped from
+        the dataset. This is a simple and straightforward way to handle missing values, but
+        it can lead to a significant loss of data.
+        """
 helpWave = """
         SHARE data have been collected by wave. The first wave was in 2004, and the most
         recent one in 2019. Select a wave to load the data for that year.

@@ -14,6 +14,11 @@ data_path = "static/data"
 
 
 # HELP ITEMS FOR THE UI
+helpColumnsNA = """
+        By coching this option, you can decide of a threshold for the percentage of missing
+        values in a column. Columns with a percentage of missing values above the threshold
+        will be dropped from the dataset.
+        """
 helpExplicitNA = """
         By coching this option, missing values in categorical variables will be treated as a
         separate category. This can be useful when missing values are not missing at random.

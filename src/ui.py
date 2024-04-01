@@ -14,8 +14,15 @@ def make_space(n: int, sidebar: bool=False):
         else:
             st.text('')
 
+def horizontal_line():
+    """
+    Inserts an horizontal line in the UI.
+    """
 
-def loadHeader(title: str, subtitle: str):
+    st.markdown('<hr>', unsafe_allow_html=True)
+
+
+def load_header(title: str, subtitle: str):
     """
     Loads the header of the app.
     """
@@ -26,7 +33,7 @@ def loadHeader(title: str, subtitle: str):
     st.markdown(subtitle, unsafe_allow_html=True)
 
 
-def loadFooter():
+def load_footer():
     """
     Loads the footer of the app.
     """

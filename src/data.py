@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+from src.ui import make_space
 
 
 
@@ -65,21 +66,35 @@ class datasetManager:
         return df
     
 
-    def display_dataset_properties(self, df, print_na: bool = True):
+    def display_dataset_properties(self, df, key, print_na: bool = True):
         """
         Display the properties of the dataset.
         Args:
             - df: the dataset.
+            - key: the key to use for the widgets.
+            - print_na: whether to print the missing values.
         """
 
+        make_space(2)
+
+        # display the first rows of the dataset
+        st.markdown("First rows of the dataset")
+        st.write(df.head())
+        make_space(2)
+
         # display statistics about the dataset
+        st.markdown("Dataset shape")
         col1, col2 = st.columns([1, 1])
         with col1:
             st.success(f"{df.shape[0]} rows and {df.shape[1]} columns")
         with col2:
             st.warning(f"Memory usage: {df.memory_usage().sum()/(1024*1024):.2f} MB")
+        make_space(2)
         
         if print_na:
+
+            st.markdown("Missing values")
+
             # count missing values
             missing_values = df.isna().sum()/df.shape[0]#*100
             missing_values = missing_values.to_frame('missing_values')
@@ -99,7 +114,8 @@ class datasetManager:
                             width='large'
                         ),
                     },
-                    hide_index=True
+                    hide_index=True,
+                    key=key
                 )
     
 
@@ -123,3 +139,16 @@ class datasetManager:
         df = df.fillna('missing')
         self.df = df
         return df
+    
+    def count_percent_na_columns(self, df: pd.DataFrame, threshold: int) -> pd.DataFrame:
+        """
+        Count the percentage of missing values in each column.
+        Args:
+            - df: the dataset.
+            - threshold: the threshold to use.
+        Returns:
+            - cols_to_remove: the columns to remove.
+        """
+        missing_values = df.isna().sum()/df.shape[0] * 100
+        cols_to_remove = missing_values[missing_values>threshold].index
+        return cols_to_remove.to_list()

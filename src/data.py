@@ -42,7 +42,7 @@ class datasetManager:
 
         # load all datasets
         for file_name in file_names:
-            full_path = f'{self.data_path}/sharew{self.wave}_rel8-0-0_ALL_datasets_stata/{file_name}'
+            full_path = f'{self.data_path}/sharew{self.wave}_rel9-0-0_ALL_datasets_stata/{file_name}'
             temp = pd.read_stata(
                 full_path,
                 convert_categoricals=False

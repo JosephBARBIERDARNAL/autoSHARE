@@ -9,41 +9,28 @@ pip install -r requirements.txt
 streamlit run AutoSHARE.py
 ```
 
+<br>
+
 ### Run the tests:
 
-```
-pytest tests/
-```
-
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-### To add later
+- Run all tests:
 
 ```
-# DEFINE TARGET AND PREDICTORS
-st.markdown("### Predictors and Target")
-col1, col2 = st.columns([1,3])
-with col1:
-    target = st.selectbox(
-        'Select the target variable:',
-        options=cols,
-        key=3,
-        help=helpTarget
-    )
-    st.markdown(f"Selected target: {target}")
-with col2:
-    predictors = st.multiselect(
-        'Select the predictor variables:',
-        options=cols,
-        default=cols,
-        key=4,
-        help=helpPredictors
-    )
-    st.markdown(f"Selected predictors: {predictors}")
+pytest tests/test_*.py
 ```
+
+- Run a specific test file:
+
+```
+pytest tests/test_file_name.py
+```
+
+- Run a specific test function:
+
+```
+pytest tests/test_file_name.py::test_function_name
+```
+
+<br><br><br><br><br>
+
+Developed by [CIERI Analytics](https://www.cieri-analytics.com/)

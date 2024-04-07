@@ -7,11 +7,11 @@ from src.ui import make_space
 
 
 @st.cache_data(show_spinner=False)
-def load_data_properties(wave: int):
+def load_data_properties(wave: int, data_path: str = 'static/columns'):
     """
     Load the properties of the columns for the specified wave.
     """
-    columns_properties = pd.read_csv(f'static/columns/wave_{wave}_columns.csv')
+    columns_properties = pd.read_csv(f'{data_path}/wave_{wave}_columns.csv')
     return columns_properties
 
 
@@ -86,7 +86,7 @@ class datasetManager:
         # display statistics about the dataset
         col1, col2, col3 = st.columns([1, 1, 1])
         with col1:
-            st.success(f"{df.shape[0]} rows")# and {df.shape[1]} columns")
+            st.success(f"{df.shape[0]} rows")
         with col2:
             st.warning(f"Memory usage: {df.memory_usage().sum()/(1024*1024):.2f} MB")
         with col3:

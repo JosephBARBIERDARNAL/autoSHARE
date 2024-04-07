@@ -1,14 +1,24 @@
-# Auto SHARE
-
-### Analyze and model the SHARE data with ease
+# Auto SHARE: Analyze and model the SHARE data with ease
 
 <br>
-Run the project:
+
+### Run the project:
 
 ```
 pip install -r requirements.txt
 streamlit run AutoSHARE.py
 ```
+
+### Run the tests:
+
+```
+pytest tests/
+```
+
+
+
+
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
 

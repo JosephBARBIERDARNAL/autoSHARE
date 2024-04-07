@@ -6,7 +6,8 @@ yearToWave = {
         '2013': 5,
         '2015': 6,
         '2017': 7,
-        '2019/2020': 8
+        '2019/2020': 8,
+        '2024': 9
     }
 waveToYear = {v:k for k,v in yearToWave.items()}
 
@@ -25,12 +26,25 @@ helpExplicitNA = """
         """
 helpMissingCode = """
         By coching this option, the missing codes, such as "Don't know" or "Refusal", will be
-        treated as NaN values. Recommended if you don't know what to choose.
+        treated as NA values. Recommended if you don't know what to choose.
         """
 helpDropNA = """
         By coching this option, all rows with at least one missing value will be dropped from
         the dataset. This is a simple and straightforward way to handle missing values, but
         it can lead to a significant loss of data.
+        """
+helpOutliers = """
+        By coching this option, you can decide to remove outliers from the dataset. Outliers
+        are defined as values that are too extreme compared to the rest of the data.
+        """
+helpZScore = """
+        The Z-score is a measure of how many standard deviations a data point is from the mean.
+        Data points with an absolute Z-score above a certain threshold are considered outliers.
+        """
+helpIQR = """
+        The Interquartile Range (IQR) is a measure of statistical dispersion. You can decide
+        to remove data points that are below Q1 - t * IQR or above Q3 + t * IQR, where t is a
+        threshold you can choose.
         """
 helpWave = """
         SHARE data have been collected by wave. The first wave was in 2004, and the most

@@ -38,7 +38,7 @@ def load_footer():
     Loads the footer of the app.
     """
 
-    make_space(10)
+    make_space(15)
     st.markdown(
         "<h5 style='text-align: center;'>Developed by <a href='https://www.cieri-analytics.com/' target='_blank'>CIERI Analytics</a></h5>",
         unsafe_allow_html=True

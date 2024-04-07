@@ -8,7 +8,7 @@
 
 
 import subprocess
-packages = ['pandas', 'streamlit', 'tqdm', 'kaggle']
+packages = ['pandas', 'streamlit', 'tqdm', 'scipy', 'numpy']
 requirements_file = 'requirements.txt'
 
 

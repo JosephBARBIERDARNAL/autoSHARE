@@ -19,7 +19,7 @@ st.markdown("### Wave")
 wave = st.slider(
     'Select a wave:',
     min_value=1,
-    max_value=8,
+    max_value=9,
     value=1,
     key='wave',
     help=helpWave
@@ -62,7 +62,7 @@ if len(cols)>0:
         with col1:
             same_missing_code = st.toggle(
                 'Consider all missing codes as NA',
-                value=True,
+                value=False,
                 key='same_missing_code',
                 help=helpMissingCode
             )
@@ -107,12 +107,81 @@ if len(cols)>0:
             cols_to_remove = datasetManager.count_percent_na_columns(df, threshold)
             st.write(f"Columns removed: {cols_to_remove}")
             df = df.drop(columns=cols_to_remove)
-        
-        
+            
         make_space(3)
         na_after = df.isna().sum().sum()
         with st.expander("Dataset info"):
             datasetManager.display_dataset_properties(df, key='dataset_info missing')
+        make_space(10)
+
+
+        # OUTLIERS MANAGEMENT
+        st.markdown("### Outliers")
+        remove_outliers = st.toggle(
+            'Remove outliers',
+            value=False,
+            key='remove_outliers',
+            help=helpOutliers
+        )
+
+        if remove_outliers:
+
+            col1, col2 = st.columns([1, 1])
+            with col1:
+                # choose variables to apply the method
+                variables = df.columns.tolist()
+                variables = st.multiselect(
+                    'Select the variables to apply the method:',
+                    options=variables,
+                    key='variables outliers'
+                )
+            with col2:
+                # choose the method
+                methods = ['Z-score', 'IQR', 'Isolation Forest']
+                method = st.selectbox(
+                    'Select the method to remove outliers:',
+                    options=methods,
+                    key='method outliers'
+                )
+
+            if method == 'Z-score':
+                threshold = st.slider(
+                    'Select the threshold for Z-score:',
+                    min_value=0.0,
+                    max_value=10.0,
+                    step=0.1,
+                    value=3.0,
+                    key='threshold_z',
+                    help=helpZScore
+                )
+            
+            elif method == 'IQR':
+                threshold = st.slider(
+                    'Select the threshold for IQR:',
+                    min_value=0.0,
+                    max_value=10.0,
+                    step=0.1,
+                    value=1.5,
+                    key='threshold_iqr',
+                    help=helpIQR
+                )
+
+            elif method == 'Isolation Forest':
+                outliers = []
+                st.error("Method not implemented yet.")
+
+            outliers = datasetManager.find_outliers(threshold, method, df)
+            n_outliers = len(outliers)
+            prop_outliers = n_outliers/df.shape[0]
+            st.warning(f"Number of outliers removed: {n_outliers} ({prop_outliers:.2%} of the dataset)")
+            df = datasetManager.remove_outliers(outliers, df)
+
+            make_space(3)
+            with st.expander("Dataset info"):
+                datasetManager.display_dataset_properties(df, key='dataset_info outliers', print_na=False)
+            make_space(10)
+                
+
 
 
 

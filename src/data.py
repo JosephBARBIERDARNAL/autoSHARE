@@ -1,4 +1,6 @@
 import pandas as pd
+import numpy as np
+from scipy import stats
 import streamlit as st
 from src.ui import make_space
 
@@ -66,7 +68,7 @@ class datasetManager:
         return df
     
 
-    def display_dataset_properties(self, df, key, print_na: bool = True):
+    def display_dataset_properties(self, df: pd.DataFrame, key: str, print_na: bool = True):
         """
         Display the properties of the dataset.
         Args:
@@ -78,17 +80,23 @@ class datasetManager:
         make_space(2)
 
         # display the first rows of the dataset
-        st.markdown("First rows of the dataset")
-        st.write(df.head())
-        make_space(2)
+        st.markdown("Preview of the dataset")
+        st.write(df.head())        
 
         # display statistics about the dataset
-        st.markdown("Dataset shape")
-        col1, col2 = st.columns([1, 1])
+        col1, col2, col3 = st.columns([1, 1, 1])
         with col1:
-            st.success(f"{df.shape[0]} rows and {df.shape[1]} columns")
+            st.success(f"{df.shape[0]} rows")# and {df.shape[1]} columns")
         with col2:
             st.warning(f"Memory usage: {df.memory_usage().sum()/(1024*1024):.2f} MB")
+        with col3:
+            st.download_button(
+            label="Download dataset",
+            data=df.to_csv(index=False),
+            file_name=f"wave_{self.wave}_dataset.csv",
+            mime="text/csv",
+            key=key+"_download"
+        )
         make_space(2)
         
         if print_na:
@@ -152,3 +160,67 @@ class datasetManager:
         missing_values = df.isna().sum()/df.shape[0] * 100
         cols_to_remove = missing_values[missing_values>threshold].index
         return cols_to_remove.to_list()
+    
+    def find_z_outliers(self, threshold_z: int, df: pd.DataFrame):
+        """
+        Find outliers using the Z-score.
+        Args:
+            - threshold_z: the threshold to use.
+            - df: the dataset.
+        Returns:
+            - outliers: the index of the outliers.
+        """
+
+        # normalize
+        numerical_cols = df.select_dtypes(include=['float64', 'int64']).columns
+        df_num = df[numerical_cols]
+        df_num = (df_num - df_num.mean()) / df_num.std()
+
+        # get index of outliers
+        z = np.abs(stats.zscore(df_num))
+        outliers = np.where(z > threshold_z)
+        outliers = list(set(outliers[0]))
+        return outliers
+    
+    def find_iqr_outliers(self, threshold_iqr: float, df: pd.DataFrame):
+        """
+        Find outliers using the IQR.
+        Args:
+            - threshold_iqr: the threshold to use.
+            - df: the dataset.
+        Returns:
+            - outliers: the index of the outliers.
+        """
+        numerical_cols = df.select_dtypes(include=['float64', 'int64']).columns
+        Q1 = df[numerical_cols].quantile(0.25)
+        Q3 = df[numerical_cols].quantile(0.75)
+        IQR = Q3 - Q1
+        lower_filter = (df[numerical_cols] < (Q1 - threshold_iqr * IQR))
+        upper_filter = (df[numerical_cols] > (Q3 + threshold_iqr * IQR))
+        outliers = df[(lower_filter | upper_filter).any(axis=1)].index
+        return outliers
+    
+    def find_outliers(self, threshold: float, method: str, df: pd.DataFrame):
+
+        if method not in ['Z-score', 'IQR', 'Isolation Forest']:
+            raise ValueError("Method not supported.")
+        
+        if method=='Z-score':
+            outliers = self.find_z_outliers(threshold, df)
+        elif method=='IQR':
+            outliers = self.find_iqr_outliers(threshold, df)
+        return outliers
+
+    def remove_outliers(self, index: list, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Remove the outliers.
+        Args:
+            - index: the index of the outliers.
+            - df: the dataset.
+        Returns:
+            - df: the dataset without the outliers.
+        """
+        df = df.drop(index)
+        self.df = df
+        return df
+    

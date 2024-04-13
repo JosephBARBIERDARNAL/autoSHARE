@@ -53,7 +53,7 @@ helpWave = """
 helpColumns = """
         The data is organized in datasets, each containing a set of variables. Select the
         variables you want to load. The data will be loaded from the selected wave and the
-        selected variables.
+        selected variables. At the moment, the maximum number of variables you can select is 10.
         """
 helpTarget = """
         The target variable is the variable you want to predict. Select the variable you want

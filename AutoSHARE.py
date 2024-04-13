@@ -1,5 +1,5 @@
 import streamlit as st
-from src.ui import make_space, load_header, load_footer
+from src.ui import make_space, load_header, load_footer, display_meta
 from src.const import *
 from src.data import load_data_properties, datasetManager
 
@@ -38,10 +38,12 @@ cols = st.multiselect(
     'Select the columns you want to load:',
     options=columns,
     key='columns',
+    max_selections=10,
     help=helpColumns
 )
 if len(cols)>0:
-
+    
+    # load dataframe with chosen columns
     load_data = st.toggle(
         "Load data",
         value=False,
@@ -50,8 +52,7 @@ if len(cols)>0:
     if load_data:
         datasetManager = datasetManager(data_path, wave)
         df = datasetManager.create_dataframe(cols)
-        with st.expander("Dataset info"):
-            datasetManager.display_dataset_properties(df, key='dataset_info variables')
+        display_meta(df, key='dataset_info variables')
         make_space(10)
 
 
@@ -110,8 +111,7 @@ if len(cols)>0:
             
         make_space(3)
         na_after = df.isna().sum().sum()
-        with st.expander("Dataset info"):
-            datasetManager.display_dataset_properties(df, key='dataset_info missing')
+        display_meta(df, key='dataset_info missing')
         make_space(10)
 
 
@@ -168,7 +168,8 @@ if len(cols)>0:
 
             elif method == 'Isolation Forest':
                 outliers = []
-                st.error("Method not implemented yet.")
+                st.error("Method not implemented yet. Will use Z-score (z=3) instead.")
+                method, threshold = 'Z-score', 3.0
 
             outliers = datasetManager.find_outliers(threshold, method, df)
             n_outliers = len(outliers)
@@ -177,8 +178,7 @@ if len(cols)>0:
             df = datasetManager.remove_outliers(outliers, df)
 
             make_space(3)
-            with st.expander("Dataset info"):
-                datasetManager.display_dataset_properties(df, key='dataset_info outliers', print_na=False)
+            display_meta(df, key='dataset_info outliers', print_na=False)
             make_space(10)
                 
 

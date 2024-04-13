@@ -2,17 +2,9 @@ import pandas as pd
 import numpy as np
 from scipy import stats
 import streamlit as st
-from src.ui import make_space
 
+from src.utils import clean_suffix_from_cols, load_data_properties
 
-
-@st.cache_data(show_spinner=False)
-def load_data_properties(wave: int, data_path: str = 'static/columns'):
-    """
-    Load the properties of the columns for the specified wave.
-    """
-    columns_properties = pd.read_csv(f'{data_path}/wave_{wave}_columns.csv')
-    return columns_properties
 
 
 
@@ -41,6 +33,7 @@ class datasetManager:
             file_name = columns_properties.loc[columns_properties['column']==col, 'file_name'].values[0]
             if file_name not in file_names:
                 file_names.append(file_name)
+        file_names.append(f'wave{self.wave}_dummy.stata')
 
         # load all datasets
         for file_name in file_names:
@@ -63,68 +56,20 @@ class datasetManager:
                         how='outer'
                     )
 
+        # add country and language
+        cols.extend(['country', 'language'])
+
+        # remove dupplicate columns from merging
+        df = clean_suffix_from_cols(df)
+
+        # keep only the selected columns
+        cols = list(set(cols))
         df = df[cols]
+
+        # output
         self.df = df
         return df
     
-
-    def display_dataset_properties(self, df: pd.DataFrame, key: str, print_na: bool = True):
-        """
-        Display the properties of the dataset.
-        Args:
-            - df: the dataset.
-            - key: the key to use for the widgets.
-            - print_na: whether to print the missing values.
-        """
-
-        make_space(2)
-
-        # display the first rows of the dataset
-        st.markdown("Preview of the dataset")
-        st.write(df.head())        
-
-        # display statistics about the dataset
-        col1, col2, col3 = st.columns([1, 1, 1])
-        with col1:
-            st.success(f"{df.shape[0]} rows")
-        with col2:
-            st.warning(f"Memory usage: {df.memory_usage().sum()/(1024*1024):.2f} MB")
-        with col3:
-            st.download_button(
-            label="Download dataset",
-            data=df.to_csv(index=False),
-            file_name=f"wave_{self.wave}_dataset.csv",
-            mime="text/csv",
-            key=key+"_download"
-        )
-        make_space(2)
-        
-        if print_na:
-
-            st.markdown("Missing values")
-
-            # count missing values
-            missing_values = df.isna().sum()/df.shape[0]#*100
-            missing_values = missing_values.to_frame('missing_values')
-            missing_values['column'] = missing_values.index
-            missing_values = missing_values.sort_values(by='missing_values', ascending=False)
-            
-            # display percentage of missing values per column
-            c1, used_col, c3 = st.columns([1, 6, 1])
-            with used_col:
-                st.data_editor(
-                    missing_values,
-                    column_config={
-                        "missing_values": st.column_config.ProgressColumn(
-                            "% of missing values",
-                            min_value=0,
-                            max_value=1,
-                            width='large'
-                        ),
-                    },
-                    hide_index=True,
-                    key=key
-                )
     
 
     def replace_missing_codes(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -224,3 +169,4 @@ class datasetManager:
         self.df = df
         return df
     
+

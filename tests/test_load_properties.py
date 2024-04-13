@@ -1,9 +1,8 @@
 import pytest
 import pandas as pd
-from pandas.testing import assert_frame_equal
 
 # module to be tested
-from src.data import load_data_properties
+from src.utils import load_data_properties
 
 test_cases = [
     (1, True),

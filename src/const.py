@@ -48,7 +48,7 @@ helpIQR = """
         """
 helpWave = """
         SHARE data have been collected by wave. The first wave was in 2004, and the most
-        recent one in 2019. Select a wave to load the data for that year.
+        recent one in 2024. Select a wave to load the data for that year.
         """
 helpColumns = """
         The data is organized in datasets, each containing a set of variables. Select the

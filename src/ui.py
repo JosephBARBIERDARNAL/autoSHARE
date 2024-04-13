@@ -39,11 +39,9 @@ def load_footer():
     """
 
     make_space(15)
-    st.markdown(
-        "<h5 style='text-align: center;'>Developed by <a href='https://www.cieri-analytics.com/' target='_blank'>CIERI Analytics</a></h5>",
-        unsafe_allow_html=True
+    st.html(
+        "<h5 style='text-align: center;'>Developed by <a href='https://www.cieri-analytics.com/' target='_blank'>CIERI Analytics</a></h5>"
     )
-    st.markdown(
-        "<h5 style='text-align: center;'>Contribute <a href='https://github.com/JosephBARBIERDARNAL/autoSHARE' target='_blank'>here</a></h5>",
-        unsafe_allow_html=True
+    st.html(
+        "<h5 style='text-align: center;'>Contribute <a href='https://github.com/JosephBARBIERDARNAL/autoSHARE' target='_blank'>here</a></h5>"
     )

@@ -179,7 +179,7 @@ class datasetManager:
         # get index of outliers
         z = np.abs(stats.zscore(df_num))
         outliers = np.where(z > threshold_z)
-        outliers = list(set(outliers[0]))
+        outliers = df.iloc[outliers[0]].index
         return outliers
     
     def find_iqr_outliers(self, threshold_iqr: float, df: pd.DataFrame):

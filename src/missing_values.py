@@ -1,3 +1,7 @@
+"""
+This module contains the MissingValuesManager class.
+"""
+
 import pandas as pd
 
 

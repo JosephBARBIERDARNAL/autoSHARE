@@ -1,3 +1,8 @@
+"""
+This module contains the DatasetManager class.
+"""
+
+
 import pandas as pd
 import streamlit as st
 
@@ -62,5 +67,4 @@ class DatasetManager:
         df = df[cols]
 
         # output
-        self.df = df
         return df

@@ -1,3 +1,7 @@
+"""
+This module contains the OutliersManager class.
+"""
+
 import pandas as pd
 import numpy as np
 from scipy import stats

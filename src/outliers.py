@@ -3,10 +3,10 @@ import numpy as np
 from scipy import stats
 
 
-
-
-
-class outliersManager:
+class OutliersManager:
+    """
+    Class to handle outliers.
+    """
 
     def __init__(self):
         self.outliers = []
@@ -22,7 +22,7 @@ class outliersManager:
         """
 
         # normalize
-        numerical_cols = df.select_dtypes(include=['float64', 'int64']).columns
+        numerical_cols = df.select_dtypes(include=["float64", "int64"]).columns
         df_num = df[numerical_cols]
         df_num = (df_num - df_num.mean()) / df_num.std()
 
@@ -42,12 +42,12 @@ class outliersManager:
         Returns:
             - outliers: the index of the outliers.
         """
-        numerical_cols = df.select_dtypes(include=['float64', 'int64']).columns
+        numerical_cols = df.select_dtypes(include=["float64", "int64"]).columns
         Q1 = df[numerical_cols].quantile(0.25)
         Q3 = df[numerical_cols].quantile(0.75)
         IQR = Q3 - Q1
-        lower_filter = (df[numerical_cols] < (Q1 - threshold_iqr * IQR))
-        upper_filter = (df[numerical_cols] > (Q3 + threshold_iqr * IQR))
+        lower_filter = df[numerical_cols] < (Q1 - threshold_iqr * IQR)
+        upper_filter = df[numerical_cols] > (Q3 + threshold_iqr * IQR)
         outliers = df[(lower_filter | upper_filter).any(axis=1)].index
 
         return outliers
@@ -63,12 +63,12 @@ class outliersManager:
             - outliers: the index of the outliers.
         """
 
-        if method not in ['Z-score', 'IQR', 'Isolation Forest']:
+        if method not in ["Z-score", "IQR", "Isolation Forest"]:
             raise ValueError("Method not supported.")
 
-        if method=='Z-score':
+        if method == "Z-score":
             outliers = self.find_z_outliers(threshold, df)
-        elif method=='IQR':
+        elif method == "IQR":
             outliers = self.find_iqr_outliers(threshold, df)
 
         self.outliers = outliers

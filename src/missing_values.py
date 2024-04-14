@@ -1,10 +1,10 @@
 import pandas as pd
 
 
-
-
-
-class missingValuesManager:
+class MissingValuesManager:
+    """
+    Class to handle missing values.
+    """
 
     def __init__(self):
         self.missing_values = []
@@ -31,12 +31,14 @@ class missingValuesManager:
             "Not yet coded",
             "Not applicable",
             -9999991,
-            -9999992
+            -9999992,
         ]
         df = df.replace(valuesToReplace, None)
         return df
 
-    def make_explicit_na(self, df: pd.DataFrame, explicit_name='missing') -> pd.DataFrame:
+    def make_explicit_na(
+        self, df: pd.DataFrame, explicit_name="missing"
+    ) -> pd.DataFrame:
         """
         Takes all missing values and replace them with 'missing',
         also known as explicit missing values.
@@ -59,6 +61,6 @@ class missingValuesManager:
             - cols_to_remove: the columns to remove.
         """
 
-        missing_values = df.isna().sum()/df.shape[0] * 100
-        cols_to_remove = missing_values[missing_values>threshold].index
+        missing_values = df.isna().sum() / df.shape[0] * 100
+        cols_to_remove = missing_values[missing_values > threshold].index
         return cols_to_remove.to_list()

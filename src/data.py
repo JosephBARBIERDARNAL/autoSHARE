@@ -4,10 +4,10 @@ import streamlit as st
 from src.utils import clean_suffix_from_cols, load_data_properties
 
 
-
-
-
-class datasetManager:
+class DatasetManager:
+    """
+    Class to handle the dataset.
+    """
 
     def __init__(self, data_path: str, wave: int):
         self.data_path = data_path
@@ -28,34 +28,31 @@ class datasetManager:
         # get all files needed
         file_names = []
         for col in cols:
-            file_name = columns_properties.loc[columns_properties['column']==col, 'file_name'].values[0]
+            file_name = columns_properties.loc[
+                columns_properties["column"] == col, "file_name"
+            ].values[0]
             if file_name not in file_names:
                 file_names.append(file_name)
-        file_names.append(f'wave{self.wave}_dummy.stata')
+        file_names.append(f"wave{self.wave}_dummy.stata")
 
         # load all datasets
         for file_name in file_names:
-            full_path = f'{self.data_path}/sharew{self.wave}_rel9-0-0_ALL_datasets_stata/{file_name}'
-            temp = pd.read_stata(
-                full_path,
-                convert_categoricals=False
-            )
+            full_path = f"{self.data_path}/sharew{self.wave}_rel9-0-0_ALL_datasets_stata/{file_name}"
+            temp = pd.read_stata(full_path, convert_categoricals=False)
 
             # merge with mergeid
-            if len(df)==0:
+            if len(df) == 0:
                 df = temp
             else:
-                if 'mergeid' not in temp.columns:
-                    st.write(f"mergeid not found in {file_name} (removed from the dataset)")
-                else:
-                    df = df.merge(
-                        temp,
-                        on='mergeid',
-                        how='outer'
+                if "mergeid" not in temp.columns:
+                    st.write(
+                        f"mergeid not found in {file_name} (removed from the dataset)"
                     )
+                else:
+                    df = df.merge(temp, on="mergeid", how="outer")
 
         # add country and language
-        cols.extend(['country', 'language'])
+        cols.extend(["country", "language"])
 
         # remove dupplicate columns from merging
         df = clean_suffix_from_cols(df)

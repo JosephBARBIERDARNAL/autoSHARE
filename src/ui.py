@@ -1,25 +1,24 @@
 import streamlit as st
 
 
-
-
-def make_space(n: int, sidebar: bool=False):
+def make_space(n: int, sidebar: bool = False):
     """
     Inserts n empty lines in the UI.
     """
 
     for _ in range(n):
         if sidebar:
-            st.sidebar.text('')
+            st.sidebar.text("")
         else:
-            st.text('')
+            st.text("")
+
 
 def horizontal_line():
     """
     Inserts an horizontal line in the UI.
     """
 
-    st.markdown('<hr>', unsafe_allow_html=True)
+    st.markdown("<hr>", unsafe_allow_html=True)
 
 
 def load_header(title: str, subtitle: str):
@@ -38,7 +37,6 @@ def load_footer():
     Loads the footer of the app.
     """
     make_space(15)
-
 
     css = """
     <style>
@@ -69,8 +67,6 @@ def load_footer():
     st.markdown(footer)
 
 
-
-
 def display_meta(df, key, print_na: bool = True):
     """
     Display the properties of the dataset.
@@ -95,12 +91,12 @@ def display_meta(df, key, print_na: bool = True):
             st.warning(f"Memory usage: {df.memory_usage().sum()/(1024*1024):.2f} MB")
         with col3:
             st.download_button(
-            label="Download dataset",
-            data=df.to_csv(index=False),
-            file_name=f"share_dataset.csv",
-            mime="text/csv",
-            key=key+"_download"
-        )
+                label="Download dataset",
+                data=df.to_csv(index=False),
+                file_name=f"share_dataset.csv",
+                mime="text/csv",
+                key=key + "_download",
+            )
         make_space(2)
 
         if print_na:
@@ -108,10 +104,12 @@ def display_meta(df, key, print_na: bool = True):
             st.markdown("Missing values")
 
             # count missing values
-            missing_values = df.isna().sum()/df.shape[0]
-            missing_values = missing_values.to_frame('missing_values')
-            missing_values['column'] = missing_values.index
-            missing_values = missing_values.sort_values(by='missing_values', ascending=False)
+            missing_values = df.isna().sum() / df.shape[0]
+            missing_values = missing_values.to_frame("missing_values")
+            missing_values["column"] = missing_values.index
+            missing_values = missing_values.sort_values(
+                by="missing_values", ascending=False
+            )
 
             # display percentage of missing values per column
             c1, used_col, c3 = st.columns([1, 6, 1])
@@ -123,9 +121,9 @@ def display_meta(df, key, print_na: bool = True):
                             "% of missing values",
                             min_value=0,
                             max_value=1,
-                            width='large'
+                            width="large",
                         ),
                     },
                     hide_index=True,
-                    key=key
+                    key=key,
                 )

@@ -1,6 +1,21 @@
+"""
+AutoSHARE.py
+"""
+
 import streamlit as st
 
-from src.const import *
+from src.const.helps import (
+    HELPCOLUMNS,
+    HELPCOLUMNSNA,
+    HELPEXPLICITNA,
+    HELPMISSINGCODE,
+    HELPDROPNA,
+    HELPOUTLIERS,
+    HELPZSCORE,
+    HELPIQR,
+    HELPWAVE,
+)
+from src.const.constants import waveToYear
 from src.utils import load_data_properties
 from src.data import DatasetManager
 from src.outliers import OutliersManager
@@ -15,7 +30,7 @@ make_space(10)
 # DEFINE WAVE
 st.markdown("### Wave")
 wave = st.slider(
-    "Select a wave:", min_value=1, max_value=9, value=1, key="wave", help=helpWave
+    "Select a wave:", min_value=1, max_value=9, value=1, key="wave", help=HELPWAVE
 )
 wave = int(wave)
 year = waveToYear[wave]
@@ -24,7 +39,8 @@ make_space(10)
 
 
 # init managers
-DatasetManager = DatasetManager(data_path, wave)
+DATA_PATH = "static/data"
+DatasetManager = DatasetManager(DATA_PATH, wave)
 OutliersManager = OutliersManager()
 MissingValuesManager = MissingValuesManager()
 
@@ -38,7 +54,7 @@ cols = st.multiselect(
     options=columns,
     key="columns",
     max_selections=10,
-    help=helpColumns,
+    help=HELPCOLUMNS,
 )
 if len(cols) > 0:
 
@@ -58,21 +74,21 @@ if len(cols) > 0:
                 "Consider all missing codes as NA",
                 value=False,
                 key="same_missing_code",
-                help=helpMissingCode,
+                help=HELPMISSINGCODE,
             )
         with col2:
             explicit_na = st.toggle(
                 "Consider missing values as a separate category",
                 value=False,
                 key="explicit_na",
-                help=helpExplicitNA,
+                help=HELPEXPLICITNA,
             )
         with col3:
             drop_row_na = st.toggle(
                 "Drop rows with missing values",
                 value=False,
                 key="drop_row_na",
-                help=helpDropNA,
+                help=HELPDROPNA,
             )
 
         if drop_row_na:
@@ -88,7 +104,7 @@ if len(cols) > 0:
             "Remove columns based on missing values",
             value=False,
             key="remove_cols_na",
-            help=helpColumnsNA,
+            help=HELPCOLUMNSNA,
         )
         if remove_cols_na:
             threshold = st.slider(
@@ -110,7 +126,7 @@ if len(cols) > 0:
         # OUTLIERS MANAGEMENT
         st.markdown("### Outliers")
         remove_outliers = st.toggle(
-            "Remove outliers", value=False, key="remove_outliers", help=helpOutliers
+            "Remove outliers", value=False, key="remove_outliers", help=HELPOUTLIERS
         )
 
         if remove_outliers:
@@ -141,7 +157,7 @@ if len(cols) > 0:
                     step=0.1,
                     value=3.0,
                     key="threshold_z",
-                    help=helpZScore,
+                    help=HELPZSCORE,
                 )
 
             elif method == "IQR":
@@ -152,7 +168,7 @@ if len(cols) > 0:
                     step=0.1,
                     value=1.5,
                     key="threshold_iqr",
-                    help=helpIQR,
+                    help=HELPIQR,
                 )
 
             elif method == "Isolation Forest":

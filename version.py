@@ -9,7 +9,7 @@
 import subprocess
 
 packages = ["pandas", "streamlit", "tqdm", "scipy", "numpy", "pytest"]
-requirements_file = "requirements.txt"
+REQUIREMENTS_FILE = "requirements.txt"
 
 
 def get_package_version(package_name: str) -> str:
@@ -21,20 +21,17 @@ def get_package_version(package_name: str) -> str:
         The version of the package.
     """
 
-    try:
-        result = subprocess.run(
-            ["pip", "show", package_name], capture_output=True, text=True
-        )
-        details = result.stdout.split("\n")
-        for line in details:
-            if line.startswith("Version: "):
-                return line.split(" ")[1]
-    except Exception as e:
-        print(f"Error getting version for package {package_name}: {str(e)}")
+    result = subprocess.run(
+        ["pip", "show", package_name], capture_output=True, text=True
+    )
+    details = result.stdout.split("\n")
+    for line in details:
+        if line.startswith("Version: "):
+            return line.split(" ")[1]
     return None
 
 
-with open(requirements_file, "w") as file:
+with open(REQUIREMENTS_FILE, "w") as file:
     for package in packages:
         version = get_package_version(package)
         if version:

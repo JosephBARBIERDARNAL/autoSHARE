@@ -12,3 +12,4 @@ ipynb_checkpoints/
 # others
 .DS_Store
 sanbox.ipynb
+.vscode/

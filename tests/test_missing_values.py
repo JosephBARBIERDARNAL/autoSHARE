@@ -54,7 +54,3 @@ def test_count_percent_na_columns(df, threshold, expected):
     manager = datasetManager(data_path="", wave=1)
     cols_to_remove = manager.count_percent_na_columns(df, threshold)
     assert sorted(cols_to_remove) == sorted(expected), f"Expected {expected} but got {cols_to_remove}"
-
-
-
-

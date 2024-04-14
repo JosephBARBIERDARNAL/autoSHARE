@@ -7,7 +7,7 @@ from scipy import stats
 
 
 class outliersManager:
-    
+
     def __init__(self):
         self.outliers = []
 
@@ -32,7 +32,7 @@ class outliersManager:
         outliers = df.iloc[outliers[0]].index
 
         return outliers
-    
+
     def find_iqr_outliers(self, threshold_iqr: float, df: pd.DataFrame):
         """
         Find outliers using the IQR.
@@ -51,7 +51,7 @@ class outliersManager:
         outliers = df[(lower_filter | upper_filter).any(axis=1)].index
 
         return outliers
-    
+
     def find_outliers(self, threshold: float, method: str, df: pd.DataFrame):
         """
         Find outliers using the specified method and threshold.
@@ -65,7 +65,7 @@ class outliersManager:
 
         if method not in ['Z-score', 'IQR', 'Isolation Forest']:
             raise ValueError("Method not supported.")
-        
+
         if method=='Z-score':
             outliers = self.find_z_outliers(threshold, df)
         elif method=='IQR':

@@ -50,7 +50,7 @@ cols = st.multiselect(
     help=helpColumns
 )
 if len(cols)>0:
-    
+
     # load dataframe with chosen columns
     load_data = st.toggle(
         "Load data",
@@ -88,7 +88,7 @@ if len(cols)>0:
                 key='drop_row_na',
                 help=helpDropNA
             )
-        
+
         if drop_row_na:
             df = df.dropna()
         if same_missing_code:
@@ -115,7 +115,7 @@ if len(cols)>0:
             cols_to_remove = missingValuesManager.count_na_columns(df, threshold)
             st.write(f"Columns removed: {cols_to_remove}")
             df = df.drop(columns=cols_to_remove)
-            
+
         make_space(3)
         na_after = df.isna().sum().sum()
         display_meta(df, key='dataset_info missing')
@@ -161,7 +161,7 @@ if len(cols)>0:
                     key='threshold_z',
                     help=helpZScore
                 )
-            
+
             elif method == 'IQR':
                 threshold = st.slider(
                     'Select the threshold for IQR:',
@@ -187,7 +187,7 @@ if len(cols)>0:
             make_space(3)
             display_meta(df, key='dataset_info outliers', print_na=False)
             make_space(10)
-                
+
 
 
 

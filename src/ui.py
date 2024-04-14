@@ -85,7 +85,7 @@ def display_meta(df, key, print_na: bool = True):
 
         # display the first rows of the dataset
         st.markdown("Preview of the dataset")
-        st.write(df.head(10))        
+        st.write(df.head(10))
 
         # display statistics about the dataset
         col1, col2, col3 = st.columns([1, 1, 1])
@@ -102,7 +102,7 @@ def display_meta(df, key, print_na: bool = True):
             key=key+"_download"
         )
         make_space(2)
-        
+
         if print_na:
 
             st.markdown("Missing values")
@@ -112,7 +112,7 @@ def display_meta(df, key, print_na: bool = True):
             missing_values = missing_values.to_frame('missing_values')
             missing_values['column'] = missing_values.index
             missing_values = missing_values.sort_values(by='missing_values', ascending=False)
-            
+
             # display percentage of missing values per column
             c1, used_col, c3 = st.columns([1, 6, 1])
             with used_col:

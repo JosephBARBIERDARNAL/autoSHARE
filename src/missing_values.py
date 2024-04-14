@@ -2,9 +2,9 @@ import pandas as pd
 
 
 
- 
 
-class missingValuesManager: 
+
+class missingValuesManager:
 
     def __init__(self):
         self.missing_values = []
@@ -35,7 +35,7 @@ class missingValuesManager:
         ]
         df = df.replace(valuesToReplace, None)
         return df
-    
+
     def make_explicit_na(self, df: pd.DataFrame, explicit_name='missing') -> pd.DataFrame:
         """
         Takes all missing values and replace them with 'missing',
@@ -47,8 +47,8 @@ class missingValuesManager:
             - df: the dataset with explicit missing values.
         """
         df = df.fillna(explicit_name)
-        return df 
-    
+        return df
+
     def count_na_columns(self, df: pd.DataFrame, threshold: int) -> pd.DataFrame:
         """
         Count the percentage of missing values in each column.

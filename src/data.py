@@ -66,6 +66,4 @@ class datasetManager:
 
         # output
         self.df = df
-        return df 
-    
-
+        return df

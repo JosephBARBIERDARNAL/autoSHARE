@@ -1,10 +1,10 @@
 """
-AutoSHARE.py
+Auto SHARE is a Streamlit app that allows users to load, clean, and analyze the SHARE data with ease
 """
 
 import streamlit as st
 
-from src.const.helps import (
+from src.helps import (
     HELPCOLUMNS,
     HELPCOLUMNSNA,
     HELPEXPLICITNA,
@@ -15,7 +15,7 @@ from src.const.helps import (
     HELPIQR,
     HELPWAVE,
 )
-from src.const.constants import waveToYear
+from src.constants import waveToYear
 from src.utils import load_data_properties
 from src.data import DatasetManager
 from src.outliers import OutliersManager

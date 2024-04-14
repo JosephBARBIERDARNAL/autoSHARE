@@ -2,9 +2,9 @@ import pandas as pd
 
 
 
+ 
 
-
-class missingValuesManager:
+class missingValuesManager: 
 
     def __init__(self):
         self.missing_values = []
@@ -47,7 +47,7 @@ class missingValuesManager:
             - df: the dataset with explicit missing values.
         """
         df = df.fillna(explicit_name)
-        return df
+        return df 
     
     def count_na_columns(self, df: pd.DataFrame, threshold: int) -> pd.DataFrame:
         """

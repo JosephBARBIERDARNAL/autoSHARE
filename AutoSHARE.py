@@ -1,7 +1,11 @@
 import streamlit as st
-from src.ui import make_space, load_header, load_footer, display_meta
+
 from src.const import *
-from src.data import load_data_properties, datasetManager
+from src.utils import load_data_properties
+from src.data import datasetManager
+from src.outliers import outliersManager
+from src.missing_values import missingValuesManager
+from src.ui import make_space, load_header, load_footer, display_meta
 
 
 
@@ -10,8 +14,6 @@ load_header(
     subtitle="Analyze and model the SHARE data with ease"
 )
 make_space(10)
-
-
 
 
 # DEFINE WAVE
@@ -28,6 +30,12 @@ wave = int(wave)
 year = waveToYear[wave]
 st.markdown(f"Selected wave: {wave} ({year})")
 make_space(10)
+
+
+# init managers
+datasetManager = datasetManager(data_path, wave)
+outliersManager = outliersManager()
+missingValuesManager = missingValuesManager()
 
 
 # DEFINE VARIABLES
@@ -50,7 +58,6 @@ if len(cols)>0:
         key='load_data'
     )
     if load_data:
-        datasetManager = datasetManager(data_path, wave)
         df = datasetManager.create_dataframe(cols)
         display_meta(df, key='dataset_info variables')
         make_space(10)
@@ -85,9 +92,9 @@ if len(cols)>0:
         if drop_row_na:
             df = df.dropna()
         if same_missing_code:
-            df = datasetManager.replace_missing_codes(df)
+            df = missingValuesManager.replace_missing_codes(df)
         if explicit_na:
-            df = datasetManager.make_explicit_na(df)
+            df = missingValuesManager.make_explicit_na(df)
 
         make_space(3)
 
@@ -105,7 +112,7 @@ if len(cols)>0:
                 value=90,
                 key='threshold'
             )
-            cols_to_remove = datasetManager.count_percent_na_columns(df, threshold)
+            cols_to_remove = missingValuesManager.count_na_columns(df, threshold)
             st.write(f"Columns removed: {cols_to_remove}")
             df = df.drop(columns=cols_to_remove)
             
@@ -171,11 +178,11 @@ if len(cols)>0:
                 st.error("Method not implemented yet. Will use Z-score (z=3) instead.")
                 method, threshold = 'Z-score', 3.0
 
-            outliers = datasetManager.find_outliers(threshold, method, df)
+            outliers = outliersManager.find_outliers(threshold, method, df)
             n_outliers = len(outliers)
             prop_outliers = n_outliers/df.shape[0]
             st.warning(f"Number of outliers removed: {n_outliers} ({prop_outliers:.2%} of the dataset)")
-            df = datasetManager.remove_outliers(outliers, df)
+            df = outliersManager.remove_outliers(outliers, df)
 
             make_space(3)
             display_meta(df, key='dataset_info outliers', print_na=False)

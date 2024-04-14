@@ -1,6 +1,14 @@
+# lib
 venv/
+
+# share datasets
 data/
+
+# cache
 __pycache__/
 ipynb_checkpoints/
+.pytest_cache/
+
+# others
 .DS_Store
 sanbox.ipynb

@@ -28,7 +28,7 @@ def clean_suffix_from_cols(df):
 @st.cache_data(show_spinner=False)
 def load_data_properties(wave: int, data_path: str = 'static/columns'):
     """
-    Load the properties of the columns for the specified wave.
+    Load the properties/meta-data of the columns for the specified wave.
     """
     columns_properties = pd.read_csv(f'{data_path}/wave_{wave}_columns.csv')
     return columns_properties

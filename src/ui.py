@@ -37,14 +37,38 @@ def load_footer():
     """
     Loads the footer of the app.
     """
-
     make_space(15)
-    st.html(
-        "<h5 style='text-align: center;'>Developed by <a href='https://www.cieri-analytics.com/' target='_blank'>CIERI Analytics</a></h5>"
-    )
-    st.html(
-        "<h5 style='text-align: center;'>Contribute <a href='https://github.com/JosephBARBIERDARNAL/autoSHARE' target='_blank'>here</a></h5>"
-    )
+
+
+    css = """
+    <style>
+        h5 {
+            text-decoration: none;
+            text-align: center;
+            color: #808080;
+        }
+
+        h5 a {
+            color: red;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        h5 a:hover {
+            color: orange;
+            text-decoration: none;
+        }
+    </style>
+    """
+    st.html(css)
+
+    footer = f"""
+    ##### Report bug, contribute or contact [here](https://github.com/JosephBARBIERDARNAL/autoSHARE)
+    ##### Developed by [CIERI Analytics](https://www.cieri-analytics.com/)
+    """
+    st.markdown(footer)
+
+
 
 
 def display_meta(df, key, print_na: bool = True):
@@ -61,7 +85,7 @@ def display_meta(df, key, print_na: bool = True):
 
         # display the first rows of the dataset
         st.markdown("Preview of the dataset")
-        st.write(df.head())        
+        st.write(df.head(10))        
 
         # display statistics about the dataset
         col1, col2, col3 = st.columns([1, 1, 1])
@@ -84,7 +108,7 @@ def display_meta(df, key, print_na: bool = True):
             st.markdown("Missing values")
 
             # count missing values
-            missing_values = df.isna().sum()/df.shape[0]#*100
+            missing_values = df.isna().sum()/df.shape[0]
             missing_values = missing_values.to_frame('missing_values')
             missing_values['column'] = missing_values.index
             missing_values = missing_values.sort_values(by='missing_values', ascending=False)

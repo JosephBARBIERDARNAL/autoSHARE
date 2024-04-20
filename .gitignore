@@ -2,7 +2,7 @@
 venv/
 
 # share datasets
-data/
+static/data/
 
 # cache
 __pycache__/

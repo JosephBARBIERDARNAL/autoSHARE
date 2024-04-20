@@ -6,7 +6,7 @@ import streamlit as st
 import pandas as pd
 import json
 
-from src.helps import (
+from src.ui.helps import (
     HELPCOLUMNS,
     HELPCOLUMNSNA,
     HELPEXPLICITNA,
@@ -17,13 +17,17 @@ from src.helps import (
     HELPIQR,
     HELPWAVE,
     HELPUPLOADCONFIG,
+    HELPTARGET,
+    HELPPREDICTORS,
 )
 from src.constants import waveToYear
 from src.utils import load_data_properties
-from src.data import DatasetManager
-from src.outliers import OutliersManager
-from src.missing_values import MissingValuesManager
-from src.ui import (
+from src.data.data import DatasetManager
+from src.data.outliers import OutliersManager
+from src.data.missing_values import MissingValuesManager
+from src.data.variable_types import VariableTypesManager
+from src.viz.plot_distribution import PlotDistribution
+from src.ui.ui import (
     make_space,
     load_header,
     load_footer,
@@ -148,6 +152,7 @@ elif not use_my_config:
     DatasetManager = DatasetManager(DATA_PATH, wave)
     OutliersManager = OutliersManager()
     MissingValuesManager = MissingValuesManager()
+    VariableTypesManager = VariableTypesManager()
 
     # DEFINE VARIABLES
     st.markdown("### Variables")
@@ -219,7 +224,9 @@ elif not use_my_config:
                     key="threshold",
                 )
                 cols_to_remove = MissingValuesManager.count_na_columns(df, threshold)
-                st.write(f"Columns removed: {cols_to_remove}")
+                st.markdown(
+                    f"Columns removed (with threshold of {threshold}%): `{', '.join(cols_to_remove)}`"
+                )
                 df = df.drop(columns=cols_to_remove)
 
             make_space(3)
@@ -292,23 +299,64 @@ elif not use_my_config:
 
                 make_space(3)
                 display_meta(df, key="dataset_info outliers", print_na=False)
+            make_space(10)
+
+            # MODELING
+            st.markdown("### Modeling")
+            col1, col2 = st.columns([1, 2])
+            with col1:
+                target = st.selectbox(
+                    "Select the target variable:",
+                    options=df.columns.tolist(),
+                    key="target",
+                    help=HELPTARGET,
+                )
+            with col2:
+                predictors = st.multiselect(
+                    "Select the predictor variables:",
+                    options=df.columns.tolist(),
+                    key="predictors",
+                    help=HELPPREDICTORS,
+                )
+
+            # check if target is in predictors
+            if target in predictors:
+                st.warning(
+                    """The *target variable* is currently in the *predictor variables*.
+                This can lead to various **numerical issues**. It is recommended to **remove** it."""
+                )
+
+            make_space(3)
+            cols_for_model = [target] + predictors
+            st.write(f"Columns for modeling: `{', '.join(cols_for_model)}`")
+            with st.expander("Visualize data distribution"):
+                col_to_plot = st.selectbox(
+                    "Select the column to plot:",
+                    options=cols_for_model,
+                    key="column_plot",
+                )
+                PlotDistribution().plot_distribution(df, col_to_plot)
+
                 make_space(10)
 
+                can_display_config = False
+
                 # SAVE CONFIGURATION (create json file with all the configurations)
-                display_config_explanation(
-                    wave,
-                    year,
-                    cols,
-                    same_missing_code,
-                    explicit_na,
-                    drop_row_na,
-                    remove_cols_na,
-                    remove_outliers,
-                    variables,
-                    method,
-                    threshold,
-                    df,
-                )
+                if can_display_config:
+                    display_config_explanation(
+                        wave,
+                        year,
+                        cols,
+                        same_missing_code,
+                        explicit_na,
+                        drop_row_na,
+                        remove_cols_na,
+                        remove_outliers,
+                        variables,
+                        method,
+                        threshold,
+                        df,
+                    )
 
 
 load_footer()

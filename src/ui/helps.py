@@ -46,3 +46,11 @@ HELPUPLOADCONFIG = """
         Here you can drop your configAutoSHARE.json file that you may have downloaded when using the
         app. If you lost this file, you will have to fill all parameters again.
         """
+HELPTARGET = """
+        Select the target variable you want to predict. This variable will be removed from the
+        dataset and used as the target variable in the prediction model.
+        """
+HELPPREDICTORS = """
+        Select the predictor variables you want to use in the prediction model. These variables
+        will be used to predict the target variable.
+        """

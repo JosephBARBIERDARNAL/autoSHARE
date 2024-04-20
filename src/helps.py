@@ -42,3 +42,7 @@ HELPCOLUMNS = """
         variables you want to load. The data will be loaded from the selected wave and the
         selected variables. At the moment, the maximum number of variables you can select is 10.
         """
+HELPUPLOADCONFIG = """
+        Here you can drop your configAutoSHARE.json file that you may have downloaded when using the
+        app. If you lost this file, you will have to fill all parameters again.
+        """

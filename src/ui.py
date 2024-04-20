@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import json
 
 
 def make_space(n: int, sidebar: bool = False):
@@ -127,3 +129,60 @@ def display_meta(df, key, print_na: bool = True):
                     hide_index=True,
                     key=key,
                 )
+
+
+def display_config_explanation(
+    wave,
+    year,
+    cols,
+    same_missing_code,
+    explicit_na,
+    drop_row_na,
+    remove_cols_na,
+    remove_outliers,
+    variables,
+    method,
+    threshold,
+    df,
+):
+    st.markdown("### Configuration")
+    with st.expander("What is this?"):
+        st.markdown(
+            """The configuration file will store all the **parameters**
+            used in the data cleaning process. It's an easy way to keep track
+            of the steps taken to clean the data. Also, it can be used to
+            reproduce the same cleaning process in the future and by so
+            ensure **reproducibility**."""
+        )
+    config = {
+        "wave": wave,
+        "year": year,
+        "columns": cols,
+        "same_missing_code": same_missing_code,
+        "explicit_na": explicit_na,
+        "drop_row_na": drop_row_na,
+        "remove_cols_na": remove_cols_na,
+        "threshold": threshold,
+        "remove_outliers": remove_outliers,
+        "variables": variables,
+        "method": method,
+        "threshold": threshold,
+    }
+    col1, col2 = st.columns([1, 1])
+    with col1:
+        with open("configAutoSHARE.json", "w") as f:
+            json.dump(config, f)
+            st.download_button(
+                label="Download configuration",
+                data="configAutoSHARE.json",
+                file_name="configAutoSHARE.json",
+                key="download_config",
+            )
+    with col2:
+        today = pd.Timestamp.today().strftime("%Y_%m_%d")
+        st.download_button(
+            label="Download dataset",
+            data=df.to_csv(index=False),
+            file_name=f"autoshare_data_{today}.csv",
+            key="download_cleaned_data",
+        )

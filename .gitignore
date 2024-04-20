@@ -13,3 +13,4 @@ ipynb_checkpoints/
 .DS_Store
 sanbox.ipynb
 .vscode/
+*.json

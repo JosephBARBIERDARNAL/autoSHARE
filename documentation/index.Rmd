@@ -1,0 +1,34 @@
+---
+title: "AutoSHARE: documentation"
+author: "Joseph Barbier, Thomas Salanova"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    theme: cosmo
+    highlight: tango
+    code_folding: show
+    fig_width: 8
+    fig_height: 6
+    fig_caption: true
+    df_print: paged
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+    echo = TRUE,
+    warning = FALSE,
+    message = FALSE
+)
+```
+
+<br>
+
+# AutoSHARE
+
+[Module on missing values](missing_values.html)
+
+[Module on outliers](outliers.html)

@@ -29,6 +29,6 @@ knitr::opts_chunk$set(
 
 # AutoSHARE
 
-[Module on missing values](missing_values.html)
+[Module on missing values](documentation/missing_values.html)
 
-[Module on outliers](outliers.html)
+[Module on outliers](documentation/outliers.html)

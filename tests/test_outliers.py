@@ -3,7 +3,7 @@ import numpy as np
 import pytest
 
 # module to be tested
-from src.outliers import OutliersManager
+from src.data.outliers import OutliersManager
 
 
 @pytest.fixture

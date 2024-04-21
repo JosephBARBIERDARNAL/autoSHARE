@@ -2,7 +2,7 @@ import pandas as pd
 import pytest
 
 # module to be tested
-from src.missing_values import MissingValuesManager
+from src.data.missing_values import MissingValuesManager
 
 
 @pytest.mark.parametrize(

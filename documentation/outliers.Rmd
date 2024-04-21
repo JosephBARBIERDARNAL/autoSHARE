@@ -1,0 +1,85 @@
+---
+title: "Outliers module"
+author: "Joseph Barbier, Thomas Salanova"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    theme: cosmo
+    highlight: tango
+    code_folding: show
+    fig_width: 8
+    fig_height: 6
+    fig_caption: true
+    df_print: paged
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+    echo = TRUE,
+    warning = FALSE,
+    message = FALSE
+)
+```
+
+<br>
+
+# About
+***
+
+The outliers module is used to manage outliers in the dataframe.
+
+It's stored at: `root/src/data/outliers.py`
+
+<br><br>
+
+# Methods
+***
+
+<br>
+
+## Find outliers using Z-score
+
+- `find_z_outliers()`
+
+This method finds the outliers in the dataframe using the Z-score method. Based on a threshold, it returns a list of the indexes of the outliers.
+
+## Find outliers using IQR
+
+- `find_iqr_outliers()`
+
+This method finds the outliers in the dataframe using the IQR method. Based on a threshold, it returns a list of the indexes of the outliers.
+
+<br>
+
+## Find outliers
+
+- `find_outliers()`
+
+This method wraps the `find_z_outliers()` and `find_iqr_outliers()` methods. Based on the method chosen and the threshold, it returns a list of the indexes of the outliers.
+
+<br>
+
+## Remove outliers
+
+- `remove_outliers()`
+
+This method removes the outliers from the dataframe. Based on the indexes of the outliers, it returns the dataframe without the outliers.
+
+
+
+<br><br>
+
+# Tests
+***
+
+The tests are stored at: `root/tests/test_outliers.py`
+
+Run the tests with the following command:
+
+```bash
+pytest tests/test_outliers.py
+```

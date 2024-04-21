@@ -14,7 +14,7 @@ class PlotDistribution:
     def __init__(self):
         pass
 
-    def plot_distribution(self, df, column):
+    def plot_distribution(self, df, column, color="#FF4B4B"):
         """
         Plot the distribution of a variable depending on its type.
         Args:
@@ -40,6 +40,7 @@ class PlotDistribution:
                     go.Bar(
                         x=df[column].value_counts().index,
                         y=df[column].value_counts().values / len(df) * 100,
+                        marker_color=color,
                     )
                 ]
             )
@@ -56,11 +57,13 @@ class PlotDistribution:
                     go.Histogram(
                         x=df[column],
                         nbinsx=bins,
+                        marker_color=color,
                     )
                 ]
             )
 
         # display the plot and return the figure
+        st.markdown(f"Distribution of {column} (conisdered as a {type} variable)")
         st.plotly_chart(fig, use_container_width=True, help="plot_distribution")
         return fig
 

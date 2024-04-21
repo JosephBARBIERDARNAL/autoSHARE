@@ -27,11 +27,8 @@ def load_header(title: str, subtitle: str):
     """
     Loads the header of the app.
     """
-
-    title = f"<h1 style='text-align: center;'>{title}</h1>"
-    subtitle = f"<h4 style='text-align: center;'>{subtitle}</h1>"
-    st.markdown(title, unsafe_allow_html=True)
-    st.markdown(subtitle, unsafe_allow_html=True)
+    st.html(f"<h1 style='text-align: center;'>{title}</h1>")
+    st.html(f"<h4 style='text-align: center;'>{subtitle}</h1>")
 
 
 def load_footer():
@@ -144,14 +141,18 @@ def display_config_explanation(
     method,
     threshold,
     df,
+    target,
+    predictors,
+    task,
+    model,
 ):
     st.markdown("### Configuration")
     with st.expander("What is this?"):
         st.markdown(
             """The configuration file will store all the **parameters**
-            used in the data cleaning process. It's an easy way to keep track
-            of the steps taken to clean the data. Also, it can be used to
-            reproduce the same cleaning process in the future and by so
+            used in the data cleaning/modelling process. It's an easy way to keep track
+            of the steps taken. Also, it can be used to
+            reproduce the same cleaning/modelling process in the future and by so
             ensure **reproducibility**."""
         )
     config = {
@@ -167,21 +168,23 @@ def display_config_explanation(
         "variables": variables,
         "method": method,
         "threshold": threshold,
+        "target": target,
+        "predictors": predictors,
+        "task": task,
+        "model": model,
     }
+    today = pd.Timestamp.today().strftime("%Y_%m_%d_%Hh_%Mmin")
     col1, col2 = st.columns([1, 1])
     with col1:
-        with open("configAutoSHARE.json", "w") as f:
-            json.dump(config, f)
-            st.download_button(
-                label="Download configuration",
-                data="configAutoSHARE.json",
-                file_name="configAutoSHARE.json",
-                key="download_config",
-            )
-    with col2:
-        today = pd.Timestamp.today().strftime("%Y_%m_%d")
         st.download_button(
-            label="Download dataset",
+            label="Download configuration",
+            data=json.dumps(config),
+            file_name=f"configAutoSHARE_{today}.json",
+            key="download_config",
+        )
+    with col2:
+        st.download_button(
+            label="Download dataset as CSV",
             data=df.to_csv(index=False),
             file_name=f"autoshare_data_{today}.csv",
             key="download_cleaned_data",

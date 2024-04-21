@@ -19,9 +19,12 @@ from src.ui.helps import (
     HELPUPLOADCONFIG,
     HELPTARGET,
     HELPPREDICTORS,
+    HELPTASK,
+    HELPFITEST,
 )
 from src.constants import waveToYear
 from src.utils import load_data_properties
+from src.model.model import ModelManager
 from src.data.data import DatasetManager
 from src.data.outliers import OutliersManager
 from src.data.missing_values import MissingValuesManager
@@ -58,6 +61,8 @@ with st.expander("Use the app with a config file"):
     )
     use_my_config = st.toggle("Use my config file")
     if use_my_config:
+
+        # get config file
         config_file = st.file_uploader(
             "Upload configAutoSHARE.json",
             type="json",
@@ -66,19 +71,30 @@ with st.expander("Use the app with a config file"):
             help=HELPUPLOADCONFIG,
         )
         if config_file:
-            config = json.load(config_file)
-            wave = config["wave"]
-            year = config["year"]
-            cols = config["columns"]
-            same_missing_code = config["same_missing_code"]
-            explicit_na = config["explicit_na"]
-            drop_row_na = config["drop_row_na"]
-            remove_cols_na = config["remove_cols_na"]
-            threshold = config["threshold"]
-            remove_outliers = config["remove_outliers"]
-            variables = config["variables"]
-            method = config["method"]
-            threshold = config["threshold"]
+            try:
+                config = json.load(config_file)
+                wave = config["wave"]
+                year = config["year"]
+                cols = config["columns"]
+                same_missing_code = config["same_missing_code"]
+                explicit_na = config["explicit_na"]
+                drop_row_na = config["drop_row_na"]
+                remove_cols_na = config["remove_cols_na"]
+                threshold = config["threshold"]
+                remove_outliers = config["remove_outliers"]
+                variables = config["variables"]
+                method = config["method"]
+                threshold = config["threshold"]
+                target = config["target"]
+                predictors = config["predictors"]
+                task = config["task"]
+                model = config["model"]
+            except KeyError as e:
+                st.error(
+                    f"""Error: config file is missing the following keys: {e}.
+                Make sure that you didn't modify the file manually."""
+                )
+                st.stop()
             st.success("Config file loaded successfully!")
             successfully_loaded = True
 
@@ -90,14 +106,19 @@ with st.expander("Use the app with a config file"):
             successfully_loaded = False
 
 
-# RUN APP WITH CONFIG FILE
+##################################################################################
+####### APP WITH CONFIG FILE #####################################################
+##################################################################################
+
 if use_my_config and successfully_loaded == True:
 
     # init managers
     DatasetManager = DatasetManager(DATA_PATH, wave)
     OutliersManager = OutliersManager()
     MissingValuesManager = MissingValuesManager()
+    ModelManager = ModelManager()
 
+    # run app with config file
     df = DatasetManager.create_dataframe(cols)
     if drop_row_na:
         df = df.dropna()
@@ -111,30 +132,36 @@ if use_my_config and successfully_loaded == True:
     if remove_outliers:
         outliers = OutliersManager.find_outliers(threshold, method, df)
         df = OutliersManager.remove_outliers(outliers, df)
-    display_meta(df, key="dataset_info")
+    model = ModelManager.fit_model(df[predictors], df[target], model)
+    summary_table = ModelManager.display_model()
+    st.write(summary_table)
 
-    # SAVE CONFIGURATION (create json file with all the configurations)
-    make_space(10)
-    display_config_explanation(
-        wave,
-        year,
-        cols,
-        same_missing_code,
-        explicit_na,
-        drop_row_na,
-        remove_cols_na,
-        remove_outliers,
-        variables,
-        method,
-        threshold,
-        df,
-    )
+    col1, col2 = st.columns([1, 1])
+    with col1:
+
+        # save summary table as csv
+        summary_table_csv = summary_table.as_csv()
+        st.download_button(
+            label="Download model summary as CSV",
+            data=summary_table_csv,
+            file_name="model_summary.csv",
+            mime="text/csv",
+        )
+    with col2:
+
+        # download dataset
+        st.download_button(
+            label="Download dataset as CSV",
+            data=df.to_csv(index=False),
+            file_name=f"share_dataset.csv",
+            mime="text/csv",
+        )
 
 
 ##################################################################################
+####### APP WITHOUT CONFIG FILE ##################################################
+##################################################################################
 
-
-# RUN APP WITHOUT CONFIG FILE
 elif not use_my_config:
 
     # DEFINE WAVE
@@ -235,128 +262,184 @@ elif not use_my_config:
             make_space(10)
 
             # OUTLIERS MANAGEMENT
-            st.markdown("### Outliers")
-            remove_outliers = st.toggle(
-                "Remove outliers", value=False, key="remove_outliers", help=HELPOUTLIERS
-            )
+            if na_after == 0:
+                st.markdown("### Outliers")
+                remove_outliers = st.toggle(
+                    "Remove outliers",
+                    value=False,
+                    key="remove_outliers",
+                    help=HELPOUTLIERS,
+                )
 
-            if remove_outliers:
+                if remove_outliers:
 
-                col1, col2 = st.columns([1, 1])
-                with col1:
-                    # choose variables to apply the method
+                    col1, col2 = st.columns([1, 1])
+                    with col1:
+                        # choose variables to apply the method
+                        variables = df.columns.tolist()
+                        variables = st.multiselect(
+                            "Select the variables to apply the method:",
+                            options=variables,
+                            key="variables outliers",
+                        )
+                    with col2:
+                        # choose the method
+                        methods = ["Z-score", "IQR", "Isolation Forest"]
+                        method = st.selectbox(
+                            "Select the method to remove outliers:",
+                            options=methods,
+                            key="method outliers",
+                        )
+
+                    if method == "Z-score":
+                        threshold = st.slider(
+                            "Select the threshold for Z-score:",
+                            min_value=0.0,
+                            max_value=10.0,
+                            step=0.1,
+                            value=3.0,
+                            key="threshold_z",
+                            help=HELPZSCORE,
+                        )
+
+                    elif method == "IQR":
+                        threshold = st.slider(
+                            "Select the threshold for IQR:",
+                            min_value=0.0,
+                            max_value=10.0,
+                            step=0.1,
+                            value=1.5,
+                            key="threshold_iqr",
+                            help=HELPIQR,
+                        )
+
+                    elif method == "Isolation Forest":
+                        outliers = []
+                        st.error(
+                            "Method not implemented yet. Will use Z-score (z=3) instead."
+                        )
+                        method, threshold = "Z-score", 3.0
+
+                    outliers = OutliersManager.find_outliers(threshold, method, df)
+                    n_outliers = len(outliers)
+                    prop_outliers = n_outliers / df.shape[0]
+                    st.warning(
+                        f"Number of outliers removed: {n_outliers} ({prop_outliers:.2%} of the dataset)"
+                    )
+                    df = OutliersManager.remove_outliers(outliers, df)
+
+                    make_space(3)
+                    display_meta(df, key="dataset_info outliers", print_na=False)
+                else:
                     variables = df.columns.tolist()
-                    variables = st.multiselect(
-                        "Select the variables to apply the method:",
-                        options=variables,
-                        key="variables outliers",
+                    method = "None"
+                    threshold = 0.0
+                    make_space(10)
+
+                # MODELING
+                st.markdown("### Target and predictors selection")
+                col1, col2 = st.columns([1, 2])
+                with col1:
+                    target = st.selectbox(
+                        "Select the target variable:",
+                        options=df.columns.tolist(),
+                        key="target",
+                        help=HELPTARGET,
                     )
                 with col2:
-                    # choose the method
-                    methods = ["Z-score", "IQR", "Isolation Forest"]
-                    method = st.selectbox(
-                        "Select the method to remove outliers:",
-                        options=methods,
-                        key="method outliers",
+                    predictors = st.multiselect(
+                        "Select the predictor variables:",
+                        options=df.columns.tolist(),
+                        key="predictors",
+                        help=HELPPREDICTORS,
                     )
 
-                if method == "Z-score":
-                    threshold = st.slider(
-                        "Select the threshold for Z-score:",
-                        min_value=0.0,
-                        max_value=10.0,
-                        step=0.1,
-                        value=3.0,
-                        key="threshold_z",
-                        help=HELPZSCORE,
+                # check if target is in predictors
+                if target in predictors:
+                    st.warning(
+                        """The *target variable* is currently in the *predictor variables*.
+                    This can lead to various **numerical issues**. It is recommended to **remove** it."""
                     )
-
-                elif method == "IQR":
-                    threshold = st.slider(
-                        "Select the threshold for IQR:",
-                        min_value=0.0,
-                        max_value=10.0,
-                        step=0.1,
-                        value=1.5,
-                        key="threshold_iqr",
-                        help=HELPIQR,
-                    )
-
-                elif method == "Isolation Forest":
-                    outliers = []
-                    st.error(
-                        "Method not implemented yet. Will use Z-score (z=3) instead."
-                    )
-                    method, threshold = "Z-score", 3.0
-
-                outliers = OutliersManager.find_outliers(threshold, method, df)
-                n_outliers = len(outliers)
-                prop_outliers = n_outliers / df.shape[0]
-                st.warning(
-                    f"Number of outliers removed: {n_outliers} ({prop_outliers:.2%} of the dataset)"
-                )
-                df = OutliersManager.remove_outliers(outliers, df)
 
                 make_space(3)
-                display_meta(df, key="dataset_info outliers", print_na=False)
-            make_space(10)
-
-            # MODELING
-            st.markdown("### Modeling")
-            col1, col2 = st.columns([1, 2])
-            with col1:
-                target = st.selectbox(
-                    "Select the target variable:",
-                    options=df.columns.tolist(),
-                    key="target",
-                    help=HELPTARGET,
-                )
-            with col2:
-                predictors = st.multiselect(
-                    "Select the predictor variables:",
-                    options=df.columns.tolist(),
-                    key="predictors",
-                    help=HELPPREDICTORS,
-                )
-
-            # check if target is in predictors
-            if target in predictors:
-                st.warning(
-                    """The *target variable* is currently in the *predictor variables*.
-                This can lead to various **numerical issues**. It is recommended to **remove** it."""
-                )
-
-            make_space(3)
-            cols_for_model = [target] + predictors
-            st.write(f"Columns for modeling: `{', '.join(cols_for_model)}`")
-            with st.expander("Visualize data distribution"):
-                col_to_plot = st.selectbox(
-                    "Select the column to plot:",
-                    options=cols_for_model,
-                    key="column_plot",
-                )
-                PlotDistribution().plot_distribution(df, col_to_plot)
+                cols_for_model = [target] + predictors
+                st.write(f"Columns for modeling: `{', '.join(cols_for_model)}`")
+                with st.expander("Visualize data distribution"):
+                    col_to_plot = st.selectbox(
+                        "Select the column to plot:",
+                        options=cols_for_model,
+                        key="column_plot",
+                    )
+                    PlotDistribution().plot_distribution(df, col_to_plot)
 
                 make_space(10)
 
-                can_display_config = False
-
-                # SAVE CONFIGURATION (create json file with all the configurations)
-                if can_display_config:
-                    display_config_explanation(
-                        wave,
-                        year,
-                        cols,
-                        same_missing_code,
-                        explicit_na,
-                        drop_row_na,
-                        remove_cols_na,
-                        remove_outliers,
-                        variables,
-                        method,
-                        threshold,
-                        df,
+                # MODELING
+                st.markdown("### Modeling")
+                col1, col2 = st.columns([1, 2])
+                with col1:
+                    task = st.selectbox(
+                        "Select the task:",
+                        options=["Classification", "Regression"],
+                        help=HELPTASK,
+                        key="task",
                     )
+                with col2:
+                    if task == "Classification":
+                        available_models = ["Logistic Regression"]
+                    elif task == "Regression":
+                        available_models = ["Linear Regression"]
+
+                    model = st.selectbox(
+                        "Select the model:",
+                        options=available_models,
+                        key="model",
+                    )
+
+                fit_estimator = st.toggle(
+                    "Fit the model", value=False, help=HELPFITEST, key="fit_estimator"
+                )
+
+                if fit_estimator:
+                    ModelManager = ModelManager()
+                    model_fit = ModelManager.fit_model(
+                        df[predictors], df[target], model
+                    )
+                    summary_table = ModelManager.display_model()
+                    st.write(summary_table)
+
+                    # save summary table as csv
+                    summary_table_csv = summary_table.as_csv()
+                    st.download_button(
+                        label="Download model summary as CSV",
+                        data=summary_table_csv,
+                        file_name="model_summary.csv",
+                        mime="text/csv",
+                    )
+
+                    can_display_config = True
+
+                    # SAVE CONFIGURATION (create json file with all the configurations)
+                    if can_display_config:
+                        make_space(10)
+                        display_config_explanation(
+                            wave,
+                            year,
+                            cols,
+                            same_missing_code,
+                            explicit_na,
+                            drop_row_na,
+                            remove_cols_na,
+                            remove_outliers,
+                            variables,
+                            method,
+                            threshold,
+                            df,
+                            target,
+                            predictors,
+                            task,
+                            model,
+                        )
 
 
 load_footer()

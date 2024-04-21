@@ -9,6 +9,8 @@ pip install -r requirements.txt
 streamlit run AutoSHARE.py
 ```
 
+`find . -name '*.py' -not -path '*/venv/*' | xargs wc -l`
+
 
 <br>
 

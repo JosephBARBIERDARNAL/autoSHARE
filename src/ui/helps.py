@@ -54,3 +54,12 @@ HELPPREDICTORS = """
         Select the predictor variables you want to use in the prediction model. These variables
         will be used to predict the target variable.
         """
+HELPTASK = """
+        Select the type of prediction task you want to perform. A cassification task is used
+        when the target variable is categorical, while a regression task is used when the target
+        variable is numerical.
+        """
+HELPFITEST = """
+        By coching this option, the app will estimate parameters for the model using given predictors
+        and target variable. At the current state of the app, there is no training/test split.
+        """

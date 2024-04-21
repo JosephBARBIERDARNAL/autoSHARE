@@ -2676,6 +2676,7 @@ color: #f3a50a;
 h1 {margin-top: 80px;}
 h2 {margin-top: 40px;}
 h3 {margin-top: 30px;}
+p, li {font-size: large;}
 </style>
 
 
@@ -2888,6 +2889,21 @@ visualizations</li>
 models</li>
 <li>and other python files that contain miscellaneous functions</li>
 </ul>
+</div>
+<div id="run-tests" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Run tests:</h2>
+<ul>
+<li>Run all tests:</li>
+</ul>
+<pre><code>pytest tests/test_*.py</code></pre>
+<ul>
+<li>Run a specific test file:</li>
+</ul>
+<pre><code>pytest tests/test_file_name.py</code></pre>
+<ul>
+<li>Run a specific test function:</li>
+</ul>
+<pre><code>pytest tests/test_file_name.py::test_function_name</code></pre>
 </div>
 </div>
 

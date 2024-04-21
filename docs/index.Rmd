@@ -58,3 +58,24 @@ Currently, the `src/` directory is organized as follows:
 - `viz/` contains functions used to generate visualizations
 - `model/` contains the functions used to fit and evaluate models
 - and other python files that contain miscellaneous functions
+
+
+## Run tests:
+
+- Run all tests:
+
+```
+pytest tests/test_*.py
+```
+
+- Run a specific test file:
+
+```
+pytest tests/test_file_name.py
+```
+
+- Run a specific test function:
+
+```
+pytest tests/test_file_name.py::test_function_name
+```

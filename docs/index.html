@@ -11,7 +11,6 @@
 
 <meta name="author" content="Joseph Barbier, Thomas Salanova" />
 
-<meta name="date" content="2024-04-21" />
 
 <title>AutoSHARE: documentation</title>
 
@@ -2829,19 +2828,60 @@ border-radius: 0px;
 
 <h1 class="title toc-ignore">AutoSHARE: documentation</h1>
 <h4 class="author">Joseph Barbier, Thomas Salanova</h4>
-<h4 class="date">2024-04-21</h4>
+<h4 class="date">2024-04-21 (last update)</h4>
 
 </div>
 
 
 <p><br></p>
-<div id="autoshare" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> AutoSHARE</h1>
-<p><a href="documentation/missing_values.html">Module on missing
-values</a></p>
-<p><a href="documentation/outliers.html">Module on outliers</a></p>
+<div id="about" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> About</h1>
+<hr />
+<p>AutoSHARE is a web application that allows researchers to
+<strong>easily access and perform</strong> data cleaning/analysis on the
+<a href="https://share-eric.eu/">SHARE</a> data.</p>
+<p>The application is built using Python 3.10.13 and the <a href="https://streamlit.io/">Streamlit</a> library (full requirements
+can be found in the <code>root/requirements.txt</code> file).</p>
+<p>Entire source code can be found on the <a href="https://github.com/JosephBARBIERDARNAL/autoSHARE">GitHub
+repository</a>.</p>
+<p>You can learn how to install the app on the <a href="installation-guide.html">installation guide</a>.</p>
+<p><br><br></p>
+</div>
+<div id="technical-documentation" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Technical
+documentation</h1>
+<hr />
+<p><br></p>
+<div id="overview" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Overview</h2>
+<p>The main file app is at the root of the project and is named
+<code>AutoSHARE.py</code>. It relies on various modules that are located
+in the <code>src/</code> directory.</p>
+<p>Currently, the <code>src/</code> directory is organized as
+follows:</p>
+<ul>
+<li><code>data/</code> contains the data loading and cleaning functions
+<ul>
+<li><a href="missing_values.html">Module on missing values</a></li>
+<li><a href="outliers.html">Module on outliers</a></li>
+</ul></li>
+<li><code>ui/</code> contains functions used in the user interface</li>
+<li><code>viz/</code> contains functions used to generate
+visualizations</li>
+<li><code>model/</code> contains the functions used to fit and evaluate
+models</li>
+<li>and other python files that contain miscellaneous functions</li>
+</ul>
+</div>
 </div>
 
+<br><br><br>
+
+ 
+<hr />
+<p style="text-align: center;"><a href="index.html">Back to homepage</a></p>
+
+ 
 
 
 </div>

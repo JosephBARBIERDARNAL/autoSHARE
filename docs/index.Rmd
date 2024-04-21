@@ -1,7 +1,7 @@
 ---
 title: "AutoSHARE: documentation"
 author: "Joseph Barbier, Thomas Salanova"
-date: "`r Sys.Date()`"
+date: "`r Sys.Date()` (last update)"
 output:
   html_document:
     toc: true
@@ -15,6 +15,8 @@ output:
     fig_caption: true
     df_print: paged
     toc_depth: 3
+    includes:
+      after_body: footer.html
 ---
 
 ```{r setup, include=FALSE}
@@ -27,8 +29,37 @@ knitr::opts_chunk$set(
 
 <br>
 
-# AutoSHARE
 
-[Module on missing values](documentation/missing_values.html)
+# About
+***
 
-[Module on outliers](documentation/outliers.html)
+AutoSHARE is a web application that allows researchers to **easily access and perform** data cleaning/analysis on the [SHARE](https://share-eric.eu/) data.
+
+The application is built using Python 3.10.13 and the [Streamlit](https://streamlit.io/) library (full requirements can be found in the `root/requirements.txt` file).
+
+Entire source code can be found on the [GitHub repository](https://github.com/JosephBARBIERDARNAL/autoSHARE).
+
+You can learn how to install the app on the [installation guide](installation-guide.html).
+
+<br><br>
+
+
+
+# Technical documentation
+***
+
+<br>
+
+## Overview
+
+The main file app is at the root of the project and is named `AutoSHARE.py`. It relies on various modules that are located in the `src/` directory.
+
+Currently, the `src/` directory is organized as follows:
+
+- `data/` contains the data loading and cleaning functions
+  - [Module on missing values](missing_values.html)
+  - [Module on outliers](outliers.html)
+- `ui/` contains functions used in the user interface
+- `viz/` contains functions used to generate visualizations
+- `model/` contains the functions used to fit and evaluate models
+- and other python files that contain miscellaneous functions

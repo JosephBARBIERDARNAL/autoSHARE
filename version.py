@@ -8,7 +8,16 @@
 
 import subprocess
 
-packages = ["pandas", "streamlit", "tqdm", "scipy", "numpy", "pytest", "plotly"]
+packages = [
+    "pandas",
+    "streamlit",
+    "tqdm",
+    "scipy",
+    "numpy",
+    "pytest",
+    "plotly",
+    "statsmodels",
+]
 REQUIREMENTS_FILE = "requirements.txt"
 
 

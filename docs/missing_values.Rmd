@@ -7,7 +7,7 @@ output:
     toc: true
     toc_float: true
     number_sections: true
-    theme: cosmo
+    theme: darkly
     highlight: tango
     code_folding: show
     fig_width: 8
@@ -15,6 +15,7 @@ output:
     fig_caption: true
     df_print: paged
     toc_depth: 3
+    css: style.css
     includes:
       after_body: footer.html
 ---
@@ -27,8 +28,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-<br>
-
 # About
 ***
 
@@ -36,10 +35,10 @@ The missing values module is used to manage missing values in the dataframe. It 
 
 It's stored at: `root/src/data/missing_values.py`
 
-<br>
-
 # Methods
 ***
+
+The `missing_values` module relies on the `MissingValuesManager` class. This class contains several methods (functions) to manage missing values in the dataframe.
 
 ## Missing codes
 
@@ -68,8 +67,6 @@ Inside the expander widget, a summary table with percentage of missing values pe
     <img src="img/na_per_column.png" width="50%">
     <i>Figure 1: Number of missing values per column</i>
 </center>
-
-<br>
 
 # Tests
 ***

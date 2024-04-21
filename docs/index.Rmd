@@ -7,7 +7,7 @@ output:
     toc: true
     toc_float: true
     number_sections: true
-    theme: cosmo
+    theme: darkly
     highlight: tango
     code_folding: show
     fig_width: 8
@@ -15,6 +15,7 @@ output:
     fig_caption: true
     df_print: paged
     toc_depth: 3
+    css: style.css
     includes:
       after_body: footer.html
 ---
@@ -26,8 +27,6 @@ knitr::opts_chunk$set(
     message = FALSE
 )
 ```
-
-<br>
 
 
 # About
@@ -41,14 +40,10 @@ Entire source code can be found on the [GitHub repository](https://github.com/Jo
 
 You can learn how to install the app on the [installation guide](installation-guide.html).
 
-<br><br>
-
 
 
 # Technical documentation
 ***
-
-<br>
 
 ## Overview
 

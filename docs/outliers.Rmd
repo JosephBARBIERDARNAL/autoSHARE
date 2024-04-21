@@ -7,7 +7,7 @@ output:
     toc: true
     toc_float: true
     number_sections: true
-    theme: cosmo
+    theme: darkly
     highlight: tango
     code_folding: show
     fig_width: 8
@@ -15,6 +15,9 @@ output:
     fig_caption: true
     df_print: paged
     toc_depth: 3
+    css: style.css
+    includes:
+      after_body: footer.html
 ---
 
 ```{r setup, include=FALSE}
@@ -25,8 +28,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-<br>
-
 # About
 ***
 
@@ -34,12 +35,8 @@ The outliers module is used to manage outliers in the dataframe.
 
 It's stored at: `root/src/data/outliers.py`
 
-<br><br>
-
 # Methods
 ***
-
-<br>
 
 ## Find outliers using Z-score
 
@@ -53,15 +50,11 @@ This method finds the outliers in the dataframe using the Z-score method. Based 
 
 This method finds the outliers in the dataframe using the IQR method. Based on a threshold, it returns a list of the indexes of the outliers.
 
-<br>
-
 ## Find outliers
 
 - `find_outliers()`
 
 This method wraps the `find_z_outliers()` and `find_iqr_outliers()` methods. Based on the method chosen and the threshold, it returns a list of the indexes of the outliers.
-
-<br>
 
 ## Remove outliers
 
@@ -70,8 +63,6 @@ This method wraps the `find_z_outliers()` and `find_iqr_outliers()` methods. Bas
 This method removes the outliers from the dataframe. Based on the indexes of the outliers, it returns the dataframe without the outliers.
 
 
-
-<br><br>
 
 # Tests
 ***

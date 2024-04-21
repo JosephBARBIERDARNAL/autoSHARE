@@ -7,7 +7,7 @@ output:
     toc: true
     toc_float: true
     number_sections: true
-    theme: cosmo
+    theme: darkly
     highlight: tango
     code_folding: show
     fig_width: 8
@@ -15,6 +15,7 @@ output:
     fig_caption: true
     df_print: paged
     toc_depth: 3
+    css: style.css
     includes:
       after_body: footer.html
 ---
@@ -27,14 +28,10 @@ knitr::opts_chunk$set(
 )
 ```
 
-<br>
-
 
 # Installation
 
 At the moment, the application is only available locally. To run the application, you need to:
-
-<br>
 
 ## Clone the repository
 
@@ -45,8 +42,6 @@ Then you can clone the repository by running the following command in your termi
 ```bash
 git clone https://github.com/JosephBARBIERDARNAL/autoSHARE.git
 ```
-
-<br>
 
 ## Install the required packages
 
@@ -65,8 +60,6 @@ To **install the required packages**, you can run the following command in your 
 pip install -r requirements.txt
 ```
 
-<br>
-
 ## Set up the data
 
 Our goal is to create a make an app that does not require this step (aka a **deployment on a server** with the data already loaded). However, for now, the data needs to be set up locally.
@@ -84,8 +77,6 @@ The quickest way to set up the data is to download the data (stata files) from t
 
     <img src="img/wave1_dir.png" width="30%">
     <i>Figure 2: Data files in wave 1 directory</i>
-
-<br>
 
 ## Run the application
 

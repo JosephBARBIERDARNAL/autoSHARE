@@ -17,6 +17,8 @@ packages = [
     "pytest",
     "plotly",
     "statsmodels",
+    "openai",
+    "PyPDF2",
 ]
 REQUIREMENTS_FILE = "requirements.txt"
 

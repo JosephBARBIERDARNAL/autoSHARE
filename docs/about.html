@@ -12,7 +12,7 @@
 <meta name="author" content="Joseph Barbier, Thomas Salanova" />
 
 
-<title>AutoSHARE: documentation</title>
+<title>About AutoSHARE</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -2846,64 +2846,76 @@ border-radius: 0px;
 
 
 
-<h1 class="title toc-ignore">AutoSHARE: documentation</h1>
+<h1 class="title toc-ignore">About AutoSHARE</h1>
 <h4 class="author">Joseph Barbier, Thomas Salanova</h4>
 <h4 class="date">2024-04-27 (last update)</h4>
 
 </div>
 
 
-<div id="about" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> About</h1>
+<div id="share" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> SHARE</h1>
 <hr />
-<p>AutoSHARE is a web application that allows researchers to
-<strong>easily access and perform</strong> data cleaning/analysis on the
-<a href="https://share-eric.eu/">SHARE</a> data. <a href="about.html">Learn more</a></p>
-<p>The application is built using Python 3.10.13 and the <a href="https://streamlit.io/">Streamlit</a> library (full requirements
-can be found in the <code>root/requirements.txt</code> file).</p>
-<p>Entire source code can be found on the <a href="https://github.com/JosephBARBIERDARNAL/autoSHARE">GitHub
-repository</a>.</p>
-<p>You can learn how to install the app on the <a href="installation-guide.html">installation guide</a>.</p>
-</div>
-<div id="technical-documentation" class="section level1" number="2">
-<h1><span class="header-section-number">2</span> Technical
-documentation</h1>
-<hr />
-<div id="overview" class="section level2" number="2.1">
-<h2><span class="header-section-number">2.1</span> Overview</h2>
-<p>The main file app is at the root of the project and is named
-<code>AutoSHARE.py</code>. It relies on various modules that are located
-in the <code>src/</code> directory.</p>
-<p>Currently, the <code>src/</code> directory is organized as
-follows:</p>
+<blockquote>
+<p><em>“The Survey of Health, Ageing and Retirement in Europe (SHARE) is
+a research infrastructure for studying the effects of health, social,
+economic and environmental policies over the life-course of European
+citizens and beyond”</em></p>
+</blockquote>
+<p>Key numbers:</p>
 <ul>
-<li><code>data/</code> contains the data loading and cleaning functions
-<ul>
-<li><a href="missing_values.html">Module on missing values</a></li>
-<li><a href="outliers.html">Module on outliers</a></li>
-</ul></li>
-<li><code>ui/</code> contains functions used in the user interface</li>
-<li><code>viz/</code> contains functions used to generate
-visualizations</li>
-<li><code>model/</code> contains the functions used to fit and evaluate
-models</li>
-<li>and other python files that contain miscellaneous functions</li>
+<li>9 waves</li>
+<li>24 years</li>
+<li>530000 interviews</li>
+<li>28 countries</li>
+<li>almost 4000 publications</li>
 </ul>
 </div>
-<div id="tests" class="section level2" number="2.2">
-<h2><span class="header-section-number">2.2</span> Tests:</h2>
+<div id="autoshare" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> autoSHARE</h1>
+<hr />
+<div id="motivation" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Motivation</h2>
+<p>We (autoSHARE’s developers) believe that SHARE contains a wealth of
+information that can be used to answer a wide range of
+research/policy/clinical questions. However, we also believe that the
+complexity of SHARE data can be a barrier for many potential users. This
+is why we developed <strong>autoSHARE</strong>. We also believe that
+technical problems should not restrein the use of SHARE data, and that
+technology makes science more efficient, transparent and
+reproducible.</p>
+</div>
+<div id="what-autoshare-does" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> What autoSHARE
+does</h2>
+<p>AutoSHARE provides a user-friendly interface to manipulate, clean and
+analyze SHARE data. It is designed to make reproducible research easier,
+and to facilitate the use of SHARE data for a wide range of users.</p>
+<p>This project is a PoC (Proof of Concept) and is still in development.
+Our goal is to create a tool able to:</p>
 <ul>
-<li>Run all tests:</li>
+<li>Load SHARE data, for one or multiple waves</li>
+<li>Clean and harmonize SHARE data</li>
+<li>Manage missing values with different methods</li>
+<li>Manage outliers with different methods</li>
+<li>Visualize data with interactive widgets</li>
+<li>Perform statistical modeling</li>
+<li>Save, export and share results easily</li>
 </ul>
-<pre><code>pytest tests/test_*.py</code></pre>
-<ul>
-<li>Run a specific test file:</li>
-</ul>
-<pre><code>pytest tests/test_file_name.py</code></pre>
-<ul>
-<li>Run a specific test function:</li>
-</ul>
-<pre><code>pytest tests/test_file_name.py::test_function_name</code></pre>
+</div>
+<div id="how-autoshare-works" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> How autoSHARE
+works</h2>
+<p>AutoSHARE uses the <code>streamlit</code> library for the user
+interface, and other Python packages that you can find <a href="https://github.com/JosephBARBIERDARNAL/autoSHARE/blob/main/requirements.txt">here</a>.</p>
+<p>A more in-depth explanation of the code can be found <a href="index.html">on the main page</a>.</p>
+</div>
+<div id="code" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Code</h2>
+<p>The entire source code is available on <a href="https://github.com/JosephBARBIERDARNAL/autoSHARE">GitHub</a>.
+Contributions, bug reports, feature requests and feedback are
+welcome.</p>
+<p>Even small contributions or feedback help us a lot!</p>
 </div>
 </div>
 

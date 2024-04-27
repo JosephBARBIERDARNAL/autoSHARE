@@ -32,7 +32,7 @@ knitr::opts_chunk$set(
 # About
 ***
 
-AutoSHARE is a web application that allows researchers to **easily access and perform** data cleaning/analysis on the [SHARE](https://share-eric.eu/) data.
+AutoSHARE is a web application that allows researchers to **easily access and perform** data cleaning/analysis on the [SHARE](https://share-eric.eu/) data. [Learn more](about.html)
 
 The application is built using Python 3.10.13 and the [Streamlit](https://streamlit.io/) library (full requirements can be found in the `root/requirements.txt` file).
 
@@ -60,7 +60,7 @@ Currently, the `src/` directory is organized as follows:
 - and other python files that contain miscellaneous functions
 
 
-## Run tests:
+## Tests:
 
 - Run all tests:
 

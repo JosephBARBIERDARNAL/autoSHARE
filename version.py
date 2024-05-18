@@ -19,6 +19,7 @@ packages = [
     "statsmodels",
     "openai",
     "PyPDF2",
+    "pyreadstat",
 ]
 REQUIREMENTS_FILE = "requirements.txt"
 

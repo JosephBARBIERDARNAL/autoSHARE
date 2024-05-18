@@ -11,8 +11,7 @@ def get_descriptions(path, output_dir):
     )
     nom_fichier_csv = os.path.basename(path).replace(".dta", ".csv")
     path_csv = os.path.join(output_dir, nom_fichier_csv)
-    # print(path_csv)
-    # names_and_labels.to_csv(path_csv, index=False)
+    names_and_labels.to_csv(path_csv, index=False)
 
 
 input_dirs = [

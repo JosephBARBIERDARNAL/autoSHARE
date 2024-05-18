@@ -1,1659 +1,1659 @@
-column,file_name,is_valid
-country,sharew1_rel9-0-0_hc.dta,True
-language,sharew1_rel9-0-0_hc.dta,True
-exrate,sharew1_rel9-0-0_hc.dta,True
-hc002_,sharew1_rel9-0-0_hc.dta,True
-hc003_,sharew1_rel9-0-0_hc.dta,True
-hc004_,sharew1_rel9-0-0_hc.dta,True
-hc005_,sharew1_rel9-0-0_hc.dta,True
-hc006_,sharew1_rel9-0-0_hc.dta,True
-hc007_,sharew1_rel9-0-0_hc.dta,True
-hc008_,sharew1_rel9-0-0_hc.dta,True
-hc009_,sharew1_rel9-0-0_hc.dta,True
-hc010_,sharew1_rel9-0-0_hc.dta,True
-hc011_,sharew1_rel9-0-0_hc.dta,True
-hc012_,sharew1_rel9-0-0_hc.dta,True
-hc013_,sharew1_rel9-0-0_hc.dta,True
-hc014_,sharew1_rel9-0-0_hc.dta,True
-hc015d1,sharew1_rel9-0-0_hc.dta,True
-hc015d2,sharew1_rel9-0-0_hc.dta,True
-hc015d3,sharew1_rel9-0-0_hc.dta,True
-hc016_,sharew1_rel9-0-0_hc.dta,True
-hc017_,sharew1_rel9-0-0_hc.dta,True
-hc018_,sharew1_rel9-0-0_hc.dta,True
-hc019_,sharew1_rel9-0-0_hc.dta,True
-hc020_,sharew1_rel9-0-0_hc.dta,True
-hc021_,sharew1_rel9-0-0_hc.dta,True
-hc022_,sharew1_rel9-0-0_hc.dta,True
-hc023_,sharew1_rel9-0-0_hc.dta,True
-hc024_,sharew1_rel9-0-0_hc.dta,True
-hc025_,sharew1_rel9-0-0_hc.dta,True
-hc026_,sharew1_rel9-0-0_hc.dta,True
-hc027_,sharew1_rel9-0-0_hc.dta,True
-hc028_,sharew1_rel9-0-0_hc.dta,True
-hc029_,sharew1_rel9-0-0_hc.dta,True
-hc030_,sharew1_rel9-0-0_hc.dta,True
-hc031_,sharew1_rel9-0-0_hc.dta,True
-hc032d1,sharew1_rel9-0-0_hc.dta,True
-hc032d2,sharew1_rel9-0-0_hc.dta,True
-hc032d3,sharew1_rel9-0-0_hc.dta,True
-hc032dno,sharew1_rel9-0-0_hc.dta,True
-hc033_,sharew1_rel9-0-0_hc.dta,True
-hc034_,sharew1_rel9-0-0_hc.dta,True
-hc035_,sharew1_rel9-0-0_hc.dta,True
-hc036_,sharew1_rel9-0-0_hc.dta,True
-hc037_,sharew1_rel9-0-0_hc.dta,True
-hc038_,sharew1_rel9-0-0_hc.dta,True
-hc039d1,sharew1_rel9-0-0_hc.dta,True
-hc039d2,sharew1_rel9-0-0_hc.dta,True
-hc039d3,sharew1_rel9-0-0_hc.dta,True
-hc039d4,sharew1_rel9-0-0_hc.dta,True
-hc039d5,sharew1_rel9-0-0_hc.dta,True
-hc039d6,sharew1_rel9-0-0_hc.dta,True
-hc039d7,sharew1_rel9-0-0_hc.dta,True
-hc039d8,sharew1_rel9-0-0_hc.dta,True
-hc039d9,sharew1_rel9-0-0_hc.dta,True
-hc039d10,sharew1_rel9-0-0_hc.dta,True
-hc039d11,sharew1_rel9-0-0_hc.dta,True
-hc039dot,sharew1_rel9-0-0_hc.dta,True
-hc040_,sharew1_rel9-0-0_hc.dta,True
-hc041d1,sharew1_rel9-0-0_hc.dta,True
-hc041d2,sharew1_rel9-0-0_hc.dta,True
-hc041d3,sharew1_rel9-0-0_hc.dta,True
-hc041d4,sharew1_rel9-0-0_hc.dta,True
-hc041d5,sharew1_rel9-0-0_hc.dta,True
-hc041d6,sharew1_rel9-0-0_hc.dta,True
-hc041d7,sharew1_rel9-0-0_hc.dta,True
-hc041d8,sharew1_rel9-0-0_hc.dta,True
-hc041d9,sharew1_rel9-0-0_hc.dta,True
-hc041d10,sharew1_rel9-0-0_hc.dta,True
-hc041d11,sharew1_rel9-0-0_hc.dta,True
-hc041dot,sharew1_rel9-0-0_hc.dta,True
-hc042_,sharew1_rel9-0-0_hc.dta,True
-hc043d1,sharew1_rel9-0-0_hc.dta,True
-hc043d2,sharew1_rel9-0-0_hc.dta,True
-hc043d3,sharew1_rel9-0-0_hc.dta,True
-hc043d4,sharew1_rel9-0-0_hc.dta,True
-hc043d5,sharew1_rel9-0-0_hc.dta,True
-hc043d6,sharew1_rel9-0-0_hc.dta,True
-hc043d7,sharew1_rel9-0-0_hc.dta,True
-hc043d8,sharew1_rel9-0-0_hc.dta,True
-hc043d9,sharew1_rel9-0-0_hc.dta,True
-hc043d10,sharew1_rel9-0-0_hc.dta,True
-hc043d11,sharew1_rel9-0-0_hc.dta,True
-hc043dot,sharew1_rel9-0-0_hc.dta,True
-hc045e,sharew1_rel9-0-0_hc.dta,True
-hc045ub,sharew1_rel9-0-0_hc.dta,True
-hc045v1,sharew1_rel9-0-0_hc.dta,True
-hc045v2,sharew1_rel9-0-0_hc.dta,True
-hc045v3,sharew1_rel9-0-0_hc.dta,True
-hc047e,sharew1_rel9-0-0_hc.dta,True
-hc047ub,sharew1_rel9-0-0_hc.dta,True
-hc047v1,sharew1_rel9-0-0_hc.dta,True
-hc047v2,sharew1_rel9-0-0_hc.dta,True
-hc047v3,sharew1_rel9-0-0_hc.dta,True
-hc049e,sharew1_rel9-0-0_hc.dta,True
-hc049ub,sharew1_rel9-0-0_hc.dta,True
-hc049v1,sharew1_rel9-0-0_hc.dta,True
-hc049v2,sharew1_rel9-0-0_hc.dta,True
-hc049v3,sharew1_rel9-0-0_hc.dta,True
-hc051e,sharew1_rel9-0-0_hc.dta,True
-hc051ub,sharew1_rel9-0-0_hc.dta,True
-hc051v1,sharew1_rel9-0-0_hc.dta,True
-hc051v2,sharew1_rel9-0-0_hc.dta,True
-hc051v3,sharew1_rel9-0-0_hc.dta,True
-hc053_,sharew1_rel9-0-0_hc.dta,True
-hc054e,sharew1_rel9-0-0_hc.dta,True
-hc055_,sharew1_rel9-0-0_hc.dta,True
-hc056_,sharew1_rel9-0-0_hc.dta,True
-hc057_,sharew1_rel9-0-0_hc.dta,True
-hc058_,sharew1_rel9-0-0_hc.dta,True
-hc059d1,sharew1_rel9-0-0_hc.dta,True
-hc059d2,sharew1_rel9-0-0_hc.dta,True
-hc059d3,sharew1_rel9-0-0_hc.dta,True
-hc059d4,sharew1_rel9-0-0_hc.dta,True
-hc059d5,sharew1_rel9-0-0_hc.dta,True
-hc059d6,sharew1_rel9-0-0_hc.dta,True
-hc059d7,sharew1_rel9-0-0_hc.dta,True
-hc059d8,sharew1_rel9-0-0_hc.dta,True
-hc059d9,sharew1_rel9-0-0_hc.dta,True
-hc059d10,sharew1_rel9-0-0_hc.dta,True
-hc059d11,sharew1_rel9-0-0_hc.dta,True
-hc059d12,sharew1_rel9-0-0_hc.dta,True
-hc059dno,sharew1_rel9-0-0_hc.dta,True
-hc059dot,sharew1_rel9-0-0_hc.dta,True
-hc060d1,sharew1_rel9-0-0_hc.dta,True
-hc060d2,sharew1_rel9-0-0_hc.dta,True
-hc060d3,sharew1_rel9-0-0_hc.dta,True
-hc060d4,sharew1_rel9-0-0_hc.dta,True
-hc060d5,sharew1_rel9-0-0_hc.dta,True
-hc060d6,sharew1_rel9-0-0_hc.dta,True
-hc060d7,sharew1_rel9-0-0_hc.dta,True
-hc060d8,sharew1_rel9-0-0_hc.dta,True
-hc060d9,sharew1_rel9-0-0_hc.dta,True
-hc060d10,sharew1_rel9-0-0_hc.dta,True
-hc060d11,sharew1_rel9-0-0_hc.dta,True
-hc060d12,sharew1_rel9-0-0_hc.dta,True
-hc060d13,sharew1_rel9-0-0_hc.dta,True
-hc060d14,sharew1_rel9-0-0_hc.dta,True
-hc060d15,sharew1_rel9-0-0_hc.dta,True
-hc060d16,sharew1_rel9-0-0_hc.dta,True
-hc060d17,sharew1_rel9-0-0_hc.dta,True
-hc060d18,sharew1_rel9-0-0_hc.dta,True
-hc060d19,sharew1_rel9-0-0_hc.dta,True
-hc060d20,sharew1_rel9-0-0_hc.dta,True
-hc060d21,sharew1_rel9-0-0_hc.dta,True
-hc060d22,sharew1_rel9-0-0_hc.dta,True
-hc060dno,sharew1_rel9-0-0_hc.dta,True
-hc060dot,sharew1_rel9-0-0_hc.dta,True
-hc061e,sharew1_rel9-0-0_hc.dta,True
-hc061ub,sharew1_rel9-0-0_hc.dta,True
-hc061v1,sharew1_rel9-0-0_hc.dta,True
-hc061v2,sharew1_rel9-0-0_hc.dta,True
-hc061v3,sharew1_rel9-0-0_hc.dta,True
-hc063_,sharew1_rel9-0-0_hc.dta,True
-ep002_,sharew1_rel9-0-0_ep.dta,True
-ep003_,sharew1_rel9-0-0_ep.dta,True
-ep005_,sharew1_rel9-0-0_ep.dta,True
-ep005raw,sharew1_rel9-0-0_ep.dta,True
-ep006_,sharew1_rel9-0-0_ep.dta,True
-ep007_,sharew1_rel9-0-0_ep.dta,True
-ep009_1,sharew1_rel9-0-0_ep.dta,True
-ep009_2,sharew1_rel9-0-0_ep.dta,True
-ep010_1,sharew1_rel9-0-0_ep.dta,True
-ep010_2,sharew1_rel9-0-0_ep.dta,True
-ep011_1,sharew1_rel9-0-0_ep.dta,True
-ep011_2,sharew1_rel9-0-0_ep.dta,True
-ep012_1,sharew1_rel9-0-0_ep.dta,True
-ep012_2,sharew1_rel9-0-0_ep.dta,True
-ep013_1,sharew1_rel9-0-0_ep.dta,True
-ep013_2,sharew1_rel9-0-0_ep.dta,True
-ep014_1,sharew1_rel9-0-0_ep.dta,True
-ep014_2,sharew1_rel9-0-0_ep.dta,True
-ep019_1,sharew1_rel9-0-0_ep.dta,True
-ep019_2,sharew1_rel9-0-0_ep.dta,True
-ep020_1,sharew1_rel9-0-0_ep.dta,True
-ep020_2,sharew1_rel9-0-0_ep.dta,True
-ep021_1,sharew1_rel9-0-0_ep.dta,True
-ep021_2,sharew1_rel9-0-0_ep.dta,True
-ep022_1,sharew1_rel9-0-0_ep.dta,True
-ep022_2,sharew1_rel9-0-0_ep.dta,True
-ep024_1,sharew1_rel9-0-0_ep.dta,True
-ep024_2,sharew1_rel9-0-0_ep.dta,True
-ep026_,sharew1_rel9-0-0_ep.dta,True
-ep027_,sharew1_rel9-0-0_ep.dta,True
-ep028_,sharew1_rel9-0-0_ep.dta,True
-ep029_,sharew1_rel9-0-0_ep.dta,True
-ep030_,sharew1_rel9-0-0_ep.dta,True
-ep031_,sharew1_rel9-0-0_ep.dta,True
-ep032_,sharew1_rel9-0-0_ep.dta,True
-ep033_,sharew1_rel9-0-0_ep.dta,True
-ep034_,sharew1_rel9-0-0_ep.dta,True
-ep035_,sharew1_rel9-0-0_ep.dta,True
-ep036_,sharew1_rel9-0-0_ep.dta,True
-ep037_,sharew1_rel9-0-0_ep.dta,True
-ep038_1,sharew1_rel9-0-0_ep.dta,True
-ep038_2,sharew1_rel9-0-0_ep.dta,True
-ep041e_1,sharew1_rel9-0-0_ep.dta,True
-ep041ub_1,sharew1_rel9-0-0_ep.dta,True
-ep041e_2,sharew1_rel9-0-0_ep.dta,True
-ep041ub_2,sharew1_rel9-0-0_ep.dta,True
-ep041v1,sharew1_rel9-0-0_ep.dta,True
-ep041v2,sharew1_rel9-0-0_ep.dta,True
-ep041v3,sharew1_rel9-0-0_ep.dta,True
-ep045e_1,sharew1_rel9-0-0_ep.dta,True
-ep045ub_1,sharew1_rel9-0-0_ep.dta,True
-ep045e_2,sharew1_rel9-0-0_ep.dta,True
-ep045ub_2,sharew1_rel9-0-0_ep.dta,True
-ep045v1,sharew1_rel9-0-0_ep.dta,True
-ep045v2,sharew1_rel9-0-0_ep.dta,True
-ep045v3,sharew1_rel9-0-0_ep.dta,True
-ep049_,sharew1_rel9-0-0_ep.dta,True
-ep050_,sharew1_rel9-0-0_ep.dta,True
-ep051_,sharew1_rel9-0-0_ep.dta,True
-ep055_,sharew1_rel9-0-0_ep.dta,True
-ep056_,sharew1_rel9-0-0_ep.dta,True
-ep057_,sharew1_rel9-0-0_ep.dta,True
-ep058_,sharew1_rel9-0-0_ep.dta,True
-ep059_,sharew1_rel9-0-0_ep.dta,True
-ep061_,sharew1_rel9-0-0_ep.dta,True
-ep064d1,sharew1_rel9-0-0_ep.dta,True
-ep064d2,sharew1_rel9-0-0_ep.dta,True
-ep064d3,sharew1_rel9-0-0_ep.dta,True
-ep064d4,sharew1_rel9-0-0_ep.dta,True
-ep064d5,sharew1_rel9-0-0_ep.dta,True
-ep064d6,sharew1_rel9-0-0_ep.dta,True
-ep064d7,sharew1_rel9-0-0_ep.dta,True
-ep064d8,sharew1_rel9-0-0_ep.dta,True
-ep064d9,sharew1_rel9-0-0_ep.dta,True
-ep064d10,sharew1_rel9-0-0_ep.dta,True
-ep064dot,sharew1_rel9-0-0_ep.dta,True
-ep065_,sharew1_rel9-0-0_ep.dta,True
-ep067_,sharew1_rel9-0-0_ep.dta,True
-ep068_,sharew1_rel9-0-0_ep.dta,True
-ep069d1,sharew1_rel9-0-0_ep.dta,True
-ep069d2,sharew1_rel9-0-0_ep.dta,True
-ep069d3,sharew1_rel9-0-0_ep.dta,True
-ep069d4,sharew1_rel9-0-0_ep.dta,True
-ep069dot,sharew1_rel9-0-0_ep.dta,True
-ep071d1,sharew1_rel9-0-0_ep.dta,True
-ep071d2,sharew1_rel9-0-0_ep.dta,True
-ep071d3,sharew1_rel9-0-0_ep.dta,True
-ep071d4,sharew1_rel9-0-0_ep.dta,True
-ep071d5,sharew1_rel9-0-0_ep.dta,True
-ep071d6,sharew1_rel9-0-0_ep.dta,True
-ep071d7,sharew1_rel9-0-0_ep.dta,True
-ep071d8,sharew1_rel9-0-0_ep.dta,True
-ep071d9,sharew1_rel9-0-0_ep.dta,True
-ep071d10,sharew1_rel9-0-0_ep.dta,True
-ep071d11,sharew1_rel9-0-0_ep.dta,True
-ep071dot,sharew1_rel9-0-0_ep.dta,True
-ep071dno,sharew1_rel9-0-0_ep.dta,True
-ep074_1,sharew1_rel9-0-0_ep.dta,True
-ep074_2,sharew1_rel9-0-0_ep.dta,True
-ep074_3,sharew1_rel9-0-0_ep.dta,True
-ep074_4,sharew1_rel9-0-0_ep.dta,True
-ep074_5,sharew1_rel9-0-0_ep.dta,True
-ep074_6,sharew1_rel9-0-0_ep.dta,True
-ep074_7,sharew1_rel9-0-0_ep.dta,True
-ep074_8,sharew1_rel9-0-0_ep.dta,True
-ep074_9,sharew1_rel9-0-0_ep.dta,True
-ep074_10,sharew1_rel9-0-0_ep.dta,True
-ep074_11,sharew1_rel9-0-0_ep.dta,True
-ep078e_1,sharew1_rel9-0-0_ep.dta,True
-ep078ub_1,sharew1_rel9-0-0_ep.dta,True
-ep078e_2,sharew1_rel9-0-0_ep.dta,True
-ep078ub_2,sharew1_rel9-0-0_ep.dta,True
-ep078e_3,sharew1_rel9-0-0_ep.dta,True
-ep078ub_3,sharew1_rel9-0-0_ep.dta,True
-ep078e_4,sharew1_rel9-0-0_ep.dta,True
-ep078ub_4,sharew1_rel9-0-0_ep.dta,True
-ep078e_5,sharew1_rel9-0-0_ep.dta,True
-ep078ub_5,sharew1_rel9-0-0_ep.dta,True
-ep078e_6,sharew1_rel9-0-0_ep.dta,True
-ep078ub_6,sharew1_rel9-0-0_ep.dta,True
-ep078e_7,sharew1_rel9-0-0_ep.dta,True
-ep078ub_7,sharew1_rel9-0-0_ep.dta,True
-ep078e_8,sharew1_rel9-0-0_ep.dta,True
-ep078ub_8,sharew1_rel9-0-0_ep.dta,True
-ep078e_9,sharew1_rel9-0-0_ep.dta,True
-ep078ub_9,sharew1_rel9-0-0_ep.dta,True
-ep078e_10,sharew1_rel9-0-0_ep.dta,True
-ep078ub_10,sharew1_rel9-0-0_ep.dta,True
-ep078e_11,sharew1_rel9-0-0_ep.dta,True
-ep078ub_11,sharew1_rel9-0-0_ep.dta,True
-ep078v1,sharew1_rel9-0-0_ep.dta,True
-ep078v2,sharew1_rel9-0-0_ep.dta,True
-ep078v3,sharew1_rel9-0-0_ep.dta,True
-ep081_1,sharew1_rel9-0-0_ep.dta,True
-ep081_2,sharew1_rel9-0-0_ep.dta,True
-ep081_3,sharew1_rel9-0-0_ep.dta,True
-ep081_4,sharew1_rel9-0-0_ep.dta,True
-ep081_5,sharew1_rel9-0-0_ep.dta,True
-ep081_6,sharew1_rel9-0-0_ep.dta,True
-ep081_7,sharew1_rel9-0-0_ep.dta,True
-ep081_8,sharew1_rel9-0-0_ep.dta,True
-ep081_9,sharew1_rel9-0-0_ep.dta,True
-ep081_10,sharew1_rel9-0-0_ep.dta,True
-ep081_11,sharew1_rel9-0-0_ep.dta,True
-ep082e_1,sharew1_rel9-0-0_ep.dta,True
-ep082ub_1,sharew1_rel9-0-0_ep.dta,True
-ep082e_2,sharew1_rel9-0-0_ep.dta,True
-ep082ub_2,sharew1_rel9-0-0_ep.dta,True
-ep082e_3,sharew1_rel9-0-0_ep.dta,True
-ep082ub_3,sharew1_rel9-0-0_ep.dta,True
-ep082e_4,sharew1_rel9-0-0_ep.dta,True
-ep082ub_4,sharew1_rel9-0-0_ep.dta,True
-ep082e_5,sharew1_rel9-0-0_ep.dta,True
-ep082ub_5,sharew1_rel9-0-0_ep.dta,True
-ep082e_6,sharew1_rel9-0-0_ep.dta,True
-ep082ub_6,sharew1_rel9-0-0_ep.dta,True
-ep082e_7,sharew1_rel9-0-0_ep.dta,True
-ep082ub_7,sharew1_rel9-0-0_ep.dta,True
-ep082e_8,sharew1_rel9-0-0_ep.dta,True
-ep082ub_8,sharew1_rel9-0-0_ep.dta,True
-ep082e_9,sharew1_rel9-0-0_ep.dta,True
-ep082ub_9,sharew1_rel9-0-0_ep.dta,True
-ep082e_10,sharew1_rel9-0-0_ep.dta,True
-ep082ub_10,sharew1_rel9-0-0_ep.dta,True
-ep082e_11,sharew1_rel9-0-0_ep.dta,True
-ep082ub_11,sharew1_rel9-0-0_ep.dta,True
-ep082v1,sharew1_rel9-0-0_ep.dta,True
-ep082v2,sharew1_rel9-0-0_ep.dta,True
-ep082v3,sharew1_rel9-0-0_ep.dta,True
-ep085_,sharew1_rel9-0-0_ep.dta,True
-ep086e,sharew1_rel9-0-0_ep.dta,True
-ep087_,sharew1_rel9-0-0_ep.dta,True
-ep088_,sharew1_rel9-0-0_ep.dta,True
-ep089d1,sharew1_rel9-0-0_ep.dta,True
-ep089d2,sharew1_rel9-0-0_ep.dta,True
-ep089d3,sharew1_rel9-0-0_ep.dta,True
-ep089d4,sharew1_rel9-0-0_ep.dta,True
-ep089d5,sharew1_rel9-0-0_ep.dta,True
-ep089dno,sharew1_rel9-0-0_ep.dta,True
-ep090_1,sharew1_rel9-0-0_ep.dta,True
-ep090_2,sharew1_rel9-0-0_ep.dta,True
-ep090_3,sharew1_rel9-0-0_ep.dta,True
-ep090_4,sharew1_rel9-0-0_ep.dta,True
-ep090_5,sharew1_rel9-0-0_ep.dta,True
-ep092_1,sharew1_rel9-0-0_ep.dta,True
-ep092_2,sharew1_rel9-0-0_ep.dta,True
-ep092_3,sharew1_rel9-0-0_ep.dta,True
-ep092_4,sharew1_rel9-0-0_ep.dta,True
-ep092_5,sharew1_rel9-0-0_ep.dta,True
-ep094e_1,sharew1_rel9-0-0_ep.dta,True
-ep094ub_1,sharew1_rel9-0-0_ep.dta,True
-ep094e_2,sharew1_rel9-0-0_ep.dta,True
-ep094ub_2,sharew1_rel9-0-0_ep.dta,True
-ep094e_3,sharew1_rel9-0-0_ep.dta,True
-ep094ub_3,sharew1_rel9-0-0_ep.dta,True
-ep094e_4,sharew1_rel9-0-0_ep.dta,True
-ep094ub_4,sharew1_rel9-0-0_ep.dta,True
-ep094e_5,sharew1_rel9-0-0_ep.dta,True
-ep094ub_5,sharew1_rel9-0-0_ep.dta,True
-ep094v1,sharew1_rel9-0-0_ep.dta,True
-ep094v2,sharew1_rel9-0-0_ep.dta,True
-ep094v3,sharew1_rel9-0-0_ep.dta,True
-ep096_1,sharew1_rel9-0-0_ep.dta,True
-ep096_2,sharew1_rel9-0-0_ep.dta,True
-ep096_3,sharew1_rel9-0-0_ep.dta,True
-ep096_4,sharew1_rel9-0-0_ep.dta,True
-ep096_5,sharew1_rel9-0-0_ep.dta,True
-ep097_,sharew1_rel9-0-0_ep.dta,True
-ep098d1,sharew1_rel9-0-0_ep.dta,True
-ep098d2,sharew1_rel9-0-0_ep.dta,True
-ep098d3,sharew1_rel9-0-0_ep.dta,True
-ep098d4,sharew1_rel9-0-0_ep.dta,True
-ep098d5,sharew1_rel9-0-0_ep.dta,True
-ep098d6,sharew1_rel9-0-0_ep.dta,True
-ep098d7,sharew1_rel9-0-0_ep.dta,True
-ep098dno,sharew1_rel9-0-0_ep.dta,True
-ep099_1,sharew1_rel9-0-0_ep.dta,True
-ep099_2,sharew1_rel9-0-0_ep.dta,True
-ep099_3,sharew1_rel9-0-0_ep.dta,True
-ep099_4,sharew1_rel9-0-0_ep.dta,True
-ep099_5,sharew1_rel9-0-0_ep.dta,True
-ep099_6,sharew1_rel9-0-0_ep.dta,True
-ep099_7,sharew1_rel9-0-0_ep.dta,True
-ep100_1,sharew1_rel9-0-0_ep.dta,True
-ep100_2,sharew1_rel9-0-0_ep.dta,True
-ep100_3,sharew1_rel9-0-0_ep.dta,True
-ep100_4,sharew1_rel9-0-0_ep.dta,True
-ep100_5,sharew1_rel9-0-0_ep.dta,True
-ep100_6,sharew1_rel9-0-0_ep.dta,True
-ep100_7,sharew1_rel9-0-0_ep.dta,True
-ep102_1,sharew1_rel9-0-0_ep.dta,True
-ep102_2,sharew1_rel9-0-0_ep.dta,True
-ep102_3,sharew1_rel9-0-0_ep.dta,True
-ep102_4,sharew1_rel9-0-0_ep.dta,True
-ep102_5,sharew1_rel9-0-0_ep.dta,True
-ep102_6,sharew1_rel9-0-0_ep.dta,True
-ep102_7,sharew1_rel9-0-0_ep.dta,True
-ep103_1,sharew1_rel9-0-0_ep.dta,True
-ep103_2,sharew1_rel9-0-0_ep.dta,True
-ep103_3,sharew1_rel9-0-0_ep.dta,True
-ep103_4,sharew1_rel9-0-0_ep.dta,True
-ep103_5,sharew1_rel9-0-0_ep.dta,True
-ep103_6,sharew1_rel9-0-0_ep.dta,True
-ep103_7,sharew1_rel9-0-0_ep.dta,True
-ep104_1,sharew1_rel9-0-0_ep.dta,True
-ep104_2,sharew1_rel9-0-0_ep.dta,True
-ep104_3,sharew1_rel9-0-0_ep.dta,True
-ep104_4,sharew1_rel9-0-0_ep.dta,True
-ep104_5,sharew1_rel9-0-0_ep.dta,True
-ep104_6,sharew1_rel9-0-0_ep.dta,True
-ep104_7,sharew1_rel9-0-0_ep.dta,True
-ep105_1,sharew1_rel9-0-0_ep.dta,True
-ep105_2,sharew1_rel9-0-0_ep.dta,True
-ep105_3,sharew1_rel9-0-0_ep.dta,True
-ep105_4,sharew1_rel9-0-0_ep.dta,True
-ep105_5,sharew1_rel9-0-0_ep.dta,True
-ep105_6,sharew1_rel9-0-0_ep.dta,True
-ep105_7,sharew1_rel9-0-0_ep.dta,True
-ep106_1,sharew1_rel9-0-0_ep.dta,True
-ep106_2,sharew1_rel9-0-0_ep.dta,True
-ep106_3,sharew1_rel9-0-0_ep.dta,True
-ep106_4,sharew1_rel9-0-0_ep.dta,True
-ep106_5,sharew1_rel9-0-0_ep.dta,True
-ep106_6,sharew1_rel9-0-0_ep.dta,True
-ep106_7,sharew1_rel9-0-0_ep.dta,True
-ep107_1,sharew1_rel9-0-0_ep.dta,True
-ep107_2,sharew1_rel9-0-0_ep.dta,True
-ep107_3,sharew1_rel9-0-0_ep.dta,True
-ep107_4,sharew1_rel9-0-0_ep.dta,True
-ep107_5,sharew1_rel9-0-0_ep.dta,True
-ep107_6,sharew1_rel9-0-0_ep.dta,True
-ep107_7,sharew1_rel9-0-0_ep.dta,True
-ep108e_1,sharew1_rel9-0-0_ep.dta,True
-ep108ub_1,sharew1_rel9-0-0_ep.dta,True
-ep108e_2,sharew1_rel9-0-0_ep.dta,True
-ep108ub_2,sharew1_rel9-0-0_ep.dta,True
-ep108e_3,sharew1_rel9-0-0_ep.dta,True
-ep108ub_3,sharew1_rel9-0-0_ep.dta,True
-ep108e_4,sharew1_rel9-0-0_ep.dta,True
-ep108ub_4,sharew1_rel9-0-0_ep.dta,True
-ep108e_5,sharew1_rel9-0-0_ep.dta,True
-ep108ub_5,sharew1_rel9-0-0_ep.dta,True
-ep108e_6,sharew1_rel9-0-0_ep.dta,True
-ep108ub_6,sharew1_rel9-0-0_ep.dta,True
-ep108e_7,sharew1_rel9-0-0_ep.dta,True
-ep108ub_7,sharew1_rel9-0-0_ep.dta,True
-ep108v1,sharew1_rel9-0-0_ep.dta,True
-ep108v2,sharew1_rel9-0-0_ep.dta,True
-ep108v3,sharew1_rel9-0-0_ep.dta,True
-ep109_1,sharew1_rel9-0-0_ep.dta,True
-ep109_2,sharew1_rel9-0-0_ep.dta,True
-ep109_3,sharew1_rel9-0-0_ep.dta,True
-ep109_4,sharew1_rel9-0-0_ep.dta,True
-ep109_5,sharew1_rel9-0-0_ep.dta,True
-ep109_6,sharew1_rel9-0-0_ep.dta,True
-ep109_7,sharew1_rel9-0-0_ep.dta,True
-ep201e_1,sharew1_rel9-0-0_ep.dta,True
-ep201ub_1,sharew1_rel9-0-0_ep.dta,True
-ep201e_2,sharew1_rel9-0-0_ep.dta,True
-ep201ub_2,sharew1_rel9-0-0_ep.dta,True
-ep201v1,sharew1_rel9-0-0_ep.dta,True
-ep201v2,sharew1_rel9-0-0_ep.dta,True
-ep201v3,sharew1_rel9-0-0_ep.dta,True
-ep204_,sharew1_rel9-0-0_ep.dta,True
-ep205e,sharew1_rel9-0-0_ep.dta,True
-ep205ub,sharew1_rel9-0-0_ep.dta,True
-ep205v1,sharew1_rel9-0-0_ep.dta,True
-ep205v2,sharew1_rel9-0-0_ep.dta,True
-ep205v3,sharew1_rel9-0-0_ep.dta,True
-ep206_,sharew1_rel9-0-0_ep.dta,True
-ep207e,sharew1_rel9-0-0_ep.dta,True
-ep207ub,sharew1_rel9-0-0_ep.dta,True
-ep207v1,sharew1_rel9-0-0_ep.dta,True
-ep207v2,sharew1_rel9-0-0_ep.dta,True
-ep207v3,sharew1_rel9-0-0_ep.dta,True
-ep208_1,sharew1_rel9-0-0_ep.dta,True
-ep208_2,sharew1_rel9-0-0_ep.dta,True
-ep208_3,sharew1_rel9-0-0_ep.dta,True
-ep208_4,sharew1_rel9-0-0_ep.dta,True
-ep208_5,sharew1_rel9-0-0_ep.dta,True
-ep208_6,sharew1_rel9-0-0_ep.dta,True
-ep208_7,sharew1_rel9-0-0_ep.dta,True
-ep208_8,sharew1_rel9-0-0_ep.dta,True
-ep208_9,sharew1_rel9-0-0_ep.dta,True
-ep208_10,sharew1_rel9-0-0_ep.dta,True
-ep208_11,sharew1_rel9-0-0_ep.dta,True
-ep209e_1,sharew1_rel9-0-0_ep.dta,True
-ep209ub_1,sharew1_rel9-0-0_ep.dta,True
-ep209e_2,sharew1_rel9-0-0_ep.dta,True
-ep209ub_2,sharew1_rel9-0-0_ep.dta,True
-ep209e_3,sharew1_rel9-0-0_ep.dta,True
-ep209ub_3,sharew1_rel9-0-0_ep.dta,True
-ep209e_4,sharew1_rel9-0-0_ep.dta,True
-ep209ub_4,sharew1_rel9-0-0_ep.dta,True
-ep209e_5,sharew1_rel9-0-0_ep.dta,True
-ep209ub_5,sharew1_rel9-0-0_ep.dta,True
-ep209v1,sharew1_rel9-0-0_ep.dta,True
-ep209v2,sharew1_rel9-0-0_ep.dta,True
-ep209v3,sharew1_rel9-0-0_ep.dta,True
-ep210_,sharew1_rel9-0-0_ep.dta,True
-ep213_1,sharew1_rel9-0-0_ep.dta,True
-ep213_2,sharew1_rel9-0-0_ep.dta,True
-ep213_3,sharew1_rel9-0-0_ep.dta,True
-ep213_4,sharew1_rel9-0-0_ep.dta,True
-ep213_5,sharew1_rel9-0-0_ep.dta,True
-ep213_6,sharew1_rel9-0-0_ep.dta,True
-ep213_7,sharew1_rel9-0-0_ep.dta,True
-ep213_8,sharew1_rel9-0-0_ep.dta,True
-ep213_9,sharew1_rel9-0-0_ep.dta,True
-ep213_10,sharew1_rel9-0-0_ep.dta,True
-ep213_11,sharew1_rel9-0-0_ep.dta,True
-ep214_1,sharew1_rel9-0-0_ep.dta,True
-ep214_2,sharew1_rel9-0-0_ep.dta,True
-intidwX,sharew1_rel9-0-0_iv.dta,True
-intid,sharew1_rel9-0-0_iv.dta,True
-iv002d1,sharew1_rel9-0-0_iv.dta,True
-iv002d2,sharew1_rel9-0-0_iv.dta,True
-iv002d3,sharew1_rel9-0-0_iv.dta,True
-iv002d4,sharew1_rel9-0-0_iv.dta,True
-iv002d5,sharew1_rel9-0-0_iv.dta,True
-iv002d6,sharew1_rel9-0-0_iv.dta,True
-iv003_,sharew1_rel9-0-0_iv.dta,True
-iv004_,sharew1_rel9-0-0_iv.dta,True
-iv005d1,sharew1_rel9-0-0_iv.dta,True
-iv005d2,sharew1_rel9-0-0_iv.dta,True
-iv005d3,sharew1_rel9-0-0_iv.dta,True
-iv007_,sharew1_rel9-0-0_iv.dta,True
-iv008_,sharew1_rel9-0-0_iv.dta,True
-iv009_,sharew1_rel9-0-0_iv.dta,True
-iv010_,sharew1_rel9-0-0_iv.dta,True
-iv011_,sharew1_rel9-0-0_iv.dta,True
-iv012_,sharew1_rel9-0-0_iv.dta,True
-iv013_,sharew1_rel9-0-0_iv.dta,True
-iv014_,sharew1_rel9-0-0_iv.dta,True
-iv015_,sharew1_rel9-0-0_iv.dta,True
-iv016d1,sharew1_rel9-0-0_iv.dta,True
-iv016d2,sharew1_rel9-0-0_iv.dta,True
-iv016d3,sharew1_rel9-0-0_iv.dta,True
-iv016d4,sharew1_rel9-0-0_iv.dta,True
-iv016d5,sharew1_rel9-0-0_iv.dta,True
-iv016d6,sharew1_rel9-0-0_iv.dta,True
-iv016d11,sharew1_rel9-0-0_iv.dta,True
-iv016d12,sharew1_rel9-0-0_iv.dta,True
-iv016d13,sharew1_rel9-0-0_iv.dta,True
-iv016d95,sharew1_rel9-0-0_iv.dta,True
-iv016dno,sharew1_rel9-0-0_iv.dta,True
-iv016dot,sharew1_rel9-0-0_iv.dta,True
-iv018_,sharew1_rel9-0-0_iv.dta,True
-iv020_,sharew1_rel9-0-0_iv.dta,True
-cf001_,sharew1_rel9-0-0_cf.dta,True
-cf002_,sharew1_rel9-0-0_cf.dta,True
-cf003_,sharew1_rel9-0-0_cf.dta,True
-cf004_,sharew1_rel9-0-0_cf.dta,True
-cf005_,sharew1_rel9-0-0_cf.dta,True
-cf006_,sharew1_rel9-0-0_cf.dta,True
-cf008tot,sharew1_rel9-0-0_cf.dta,True
-cf010_,sharew1_rel9-0-0_cf.dta,True
-cf012_,sharew1_rel9-0-0_cf.dta,True
-cf013_,sharew1_rel9-0-0_cf.dta,True
-cf014_,sharew1_rel9-0-0_cf.dta,True
-cf015_,sharew1_rel9-0-0_cf.dta,True
-cf016tot,sharew1_rel9-0-0_cf.dta,True
-cf017_,sharew1_rel9-0-0_cf.dta,True
-cf018d1,sharew1_rel9-0-0_cf.dta,True
-cf018d2,sharew1_rel9-0-0_cf.dta,True
-cf018d3,sharew1_rel9-0-0_cf.dta,True
-cf018d4,sharew1_rel9-0-0_cf.dta,True
-ws001_,sharew1_rel9-0-0_ws.dta,True
-ws002_,sharew1_rel9-0-0_ws.dta,True
-ws003_,sharew1_rel9-0-0_ws.dta,True
-ws004_,sharew1_rel9-0-0_ws.dta,True
-ws005_,sharew1_rel9-0-0_ws.dta,True
-ws007_,sharew1_rel9-0-0_ws.dta,True
-ws010_,sharew1_rel9-0-0_ws.dta,True
-ws011_,sharew1_rel9-0-0_ws.dta,True
-ws012_,sharew1_rel9-0-0_ws.dta,True
-ws013_,sharew1_rel9-0-0_ws.dta,True
-ws014_,sharew1_rel9-0-0_ws.dta,True
-ws015_,sharew1_rel9-0-0_ws.dta,True
-ws017_,sharew1_rel9-0-0_ws.dta,True
-br001_,sharew1_rel9-0-0_br.dta,True
-br002_,sharew1_rel9-0-0_br.dta,True
-br003_,sharew1_rel9-0-0_br.dta,True
-br004_,sharew1_rel9-0-0_br.dta,True
-br005d1,sharew1_rel9-0-0_br.dta,True
-br005d2,sharew1_rel9-0-0_br.dta,True
-br005d3,sharew1_rel9-0-0_br.dta,True
-br006_,sharew1_rel9-0-0_br.dta,True
-br007_,sharew1_rel9-0-0_br.dta,True
-br008_,sharew1_rel9-0-0_br.dta,True
-br010_,sharew1_rel9-0-0_br.dta,True
-br011_,sharew1_rel9-0-0_br.dta,True
-br012_,sharew1_rel9-0-0_br.dta,True
-br013_,sharew1_rel9-0-0_br.dta,True
-br015_,sharew1_rel9-0-0_br.dta,True
-br016_,sharew1_rel9-0-0_br.dta,True
-br017_,sharew1_rel9-0-0_br.dta,True
-mh002_,sharew1_rel9-0-0_mh.dta,True
-mh003_,sharew1_rel9-0-0_mh.dta,True
-mh004_,sharew1_rel9-0-0_mh.dta,True
-mh005_,sharew1_rel9-0-0_mh.dta,True
-mh006_,sharew1_rel9-0-0_mh.dta,True
-mh007_,sharew1_rel9-0-0_mh.dta,True
-mh008_,sharew1_rel9-0-0_mh.dta,True
-mh009_,sharew1_rel9-0-0_mh.dta,True
-mh010_,sharew1_rel9-0-0_mh.dta,True
-mh011_,sharew1_rel9-0-0_mh.dta,True
-mh012_,sharew1_rel9-0-0_mh.dta,True
-mh013_,sharew1_rel9-0-0_mh.dta,True
-mh014_,sharew1_rel9-0-0_mh.dta,True
-mh015_,sharew1_rel9-0-0_mh.dta,True
-mh016_,sharew1_rel9-0-0_mh.dta,True
-mh017_,sharew1_rel9-0-0_mh.dta,True
-mh018_,sharew1_rel9-0-0_mh.dta,True
-mh019_,sharew1_rel9-0-0_mh.dta,True
-mh020_,sharew1_rel9-0-0_mh.dta,True
-mh021_,sharew1_rel9-0-0_mh.dta,True
-co002e,sharew1_rel9-0-0_co.dta,True
-co003e,sharew1_rel9-0-0_co.dta,True
-co004e,sharew1_rel9-0-0_co.dta,True
-co005e,sharew1_rel9-0-0_co.dta,True
-co007_,sharew1_rel9-0-0_co.dta,True
-co008_,sharew1_rel9-0-0_co.dta,True
-co009_,sharew1_rel9-0-0_co.dta,True
-as002d1,sharew1_rel9-0-0_as.dta,True
-as002d2,sharew1_rel9-0-0_as.dta,True
-as002d3,sharew1_rel9-0-0_as.dta,True
-as002d4,sharew1_rel9-0-0_as.dta,True
-as002d5,sharew1_rel9-0-0_as.dta,True
-as002d6,sharew1_rel9-0-0_as.dta,True
-as002d7,sharew1_rel9-0-0_as.dta,True
-as002d8,sharew1_rel9-0-0_as.dta,True
-as002dno,sharew1_rel9-0-0_as.dta,True
-as003e,sharew1_rel9-0-0_as.dta,True
-as003ub,sharew1_rel9-0-0_as.dta,True
-as003v1,sharew1_rel9-0-0_as.dta,True
-as003v2,sharew1_rel9-0-0_as.dta,True
-as003v3,sharew1_rel9-0-0_as.dta,True
-as005e,sharew1_rel9-0-0_as.dta,True
-as005ub,sharew1_rel9-0-0_as.dta,True
-as005v1,sharew1_rel9-0-0_as.dta,True
-as005v2,sharew1_rel9-0-0_as.dta,True
-as005v3,sharew1_rel9-0-0_as.dta,True
-as007e,sharew1_rel9-0-0_as.dta,True
-as007ub,sharew1_rel9-0-0_as.dta,True
-as007v1,sharew1_rel9-0-0_as.dta,True
-as007v2,sharew1_rel9-0-0_as.dta,True
-as007v3,sharew1_rel9-0-0_as.dta,True
-as009e,sharew1_rel9-0-0_as.dta,True
-as009ub,sharew1_rel9-0-0_as.dta,True
-as009v1,sharew1_rel9-0-0_as.dta,True
-as009v2,sharew1_rel9-0-0_as.dta,True
-as009v3,sharew1_rel9-0-0_as.dta,True
-as011e,sharew1_rel9-0-0_as.dta,True
-as011ub,sharew1_rel9-0-0_as.dta,True
-as011v1,sharew1_rel9-0-0_as.dta,True
-as011v2,sharew1_rel9-0-0_as.dta,True
-as011v3,sharew1_rel9-0-0_as.dta,True
-as015e,sharew1_rel9-0-0_as.dta,True
-as015ub,sharew1_rel9-0-0_as.dta,True
-as015v1,sharew1_rel9-0-0_as.dta,True
-as015v2,sharew1_rel9-0-0_as.dta,True
-as015v3,sharew1_rel9-0-0_as.dta,True
-as017e,sharew1_rel9-0-0_as.dta,True
-as017ub,sharew1_rel9-0-0_as.dta,True
-as017v1,sharew1_rel9-0-0_as.dta,True
-as017v2,sharew1_rel9-0-0_as.dta,True
-as017v3,sharew1_rel9-0-0_as.dta,True
-as019_,sharew1_rel9-0-0_as.dta,True
-as020_,sharew1_rel9-0-0_as.dta,True
-as021e,sharew1_rel9-0-0_as.dta,True
-as021ub,sharew1_rel9-0-0_as.dta,True
-as021v1,sharew1_rel9-0-0_as.dta,True
-as021v2,sharew1_rel9-0-0_as.dta,True
-as021v3,sharew1_rel9-0-0_as.dta,True
-as023_,sharew1_rel9-0-0_as.dta,True
-as024e,sharew1_rel9-0-0_as.dta,True
-as024ub,sharew1_rel9-0-0_as.dta,True
-as024v1,sharew1_rel9-0-0_as.dta,True
-as024v2,sharew1_rel9-0-0_as.dta,True
-as024v3,sharew1_rel9-0-0_as.dta,True
-as026_,sharew1_rel9-0-0_as.dta,True
-as027e,sharew1_rel9-0-0_as.dta,True
-as027ub,sharew1_rel9-0-0_as.dta,True
-as027v1,sharew1_rel9-0-0_as.dta,True
-as027v2,sharew1_rel9-0-0_as.dta,True
-as027v3,sharew1_rel9-0-0_as.dta,True
-as029_,sharew1_rel9-0-0_as.dta,True
-as030e,sharew1_rel9-0-0_as.dta,True
-as030ub,sharew1_rel9-0-0_as.dta,True
-as030v1,sharew1_rel9-0-0_as.dta,True
-as030v2,sharew1_rel9-0-0_as.dta,True
-as030v3,sharew1_rel9-0-0_as.dta,True
-as032e_1,sharew1_rel9-0-0_as.dta,True
-as032ub_1,sharew1_rel9-0-0_as.dta,True
-as032e_2,sharew1_rel9-0-0_as.dta,True
-as032ub_2,sharew1_rel9-0-0_as.dta,True
-as032v1,sharew1_rel9-0-0_as.dta,True
-as032v2,sharew1_rel9-0-0_as.dta,True
-as032v3,sharew1_rel9-0-0_as.dta,True
-as034e_1,sharew1_rel9-0-0_as.dta,True
-as034ub_1,sharew1_rel9-0-0_as.dta,True
-as034e_2,sharew1_rel9-0-0_as.dta,True
-as034ub_2,sharew1_rel9-0-0_as.dta,True
-as034v1,sharew1_rel9-0-0_as.dta,True
-as034v2,sharew1_rel9-0-0_as.dta,True
-as034v3,sharew1_rel9-0-0_as.dta,True
-as040_,sharew1_rel9-0-0_as.dta,True
-as041_,sharew1_rel9-0-0_as.dta,True
-as042e,sharew1_rel9-0-0_as.dta,True
-as042ub,sharew1_rel9-0-0_as.dta,True
-as042v1,sharew1_rel9-0-0_as.dta,True
-as042v2,sharew1_rel9-0-0_as.dta,True
-as042v3,sharew1_rel9-0-0_as.dta,True
-as044_,sharew1_rel9-0-0_as.dta,True
-as044ub,sharew1_rel9-0-0_as.dta,True
-as044v1,sharew1_rel9-0-0_as.dta,True
-as044v2,sharew1_rel9-0-0_as.dta,True
-as044v3,sharew1_rel9-0-0_as.dta,True
-as049_,sharew1_rel9-0-0_as.dta,True
-as051e,sharew1_rel9-0-0_as.dta,True
-as051ub,sharew1_rel9-0-0_as.dta,True
-as051v1,sharew1_rel9-0-0_as.dta,True
-as051v2,sharew1_rel9-0-0_as.dta,True
-as051v3,sharew1_rel9-0-0_as.dta,True
-as054d1,sharew1_rel9-0-0_as.dta,True
-as054d2,sharew1_rel9-0-0_as.dta,True
-as054d3,sharew1_rel9-0-0_as.dta,True
-as054d4,sharew1_rel9-0-0_as.dta,True
-as054d5,sharew1_rel9-0-0_as.dta,True
-as054d6,sharew1_rel9-0-0_as.dta,True
-as054dno,sharew1_rel9-0-0_as.dta,True
-as054dot,sharew1_rel9-0-0_as.dta,True
-as055e,sharew1_rel9-0-0_as.dta,True
-as055ub,sharew1_rel9-0-0_as.dta,True
-as055v1,sharew1_rel9-0-0_as.dta,True
-as055v2,sharew1_rel9-0-0_as.dta,True
-as055v3,sharew1_rel9-0-0_as.dta,True
-as057_,sharew1_rel9-0-0_as.dta,True
-as058e,sharew1_rel9-0-0_as.dta,True
-as058ub,sharew1_rel9-0-0_as.dta,True
-as058v1,sharew1_rel9-0-0_as.dta,True
-as058v2,sharew1_rel9-0-0_as.dta,True
-as058v3,sharew1_rel9-0-0_as.dta,True
-childid_1,sharew1_rel9-0-0_ch.dta,True
-childid_2,sharew1_rel9-0-0_ch.dta,True
-childid_3,sharew1_rel9-0-0_ch.dta,True
-childid_4,sharew1_rel9-0-0_ch.dta,True
-childid_5,sharew1_rel9-0-0_ch.dta,True
-childid_6,sharew1_rel9-0-0_ch.dta,True
-childid_7,sharew1_rel9-0-0_ch.dta,True
-childid_8,sharew1_rel9-0-0_ch.dta,True
-childid_9,sharew1_rel9-0-0_ch.dta,True
-childid_10,sharew1_rel9-0-0_ch.dta,True
-childid_11,sharew1_rel9-0-0_ch.dta,True
-childid_12,sharew1_rel9-0-0_ch.dta,True
-childid_13,sharew1_rel9-0-0_ch.dta,True
-childid_14,sharew1_rel9-0-0_ch.dta,True
-childid_15,sharew1_rel9-0-0_ch.dta,True
-childid_16,sharew1_rel9-0-0_ch.dta,True
-childid_17,sharew1_rel9-0-0_ch.dta,True
-childid_18,sharew1_rel9-0-0_ch.dta,True
-childid_19,sharew1_rel9-0-0_ch.dta,True
-childid_20,sharew1_rel9-0-0_ch.dta,True
-ch001_,sharew1_rel9-0-0_ch.dta,True
-ch002_,sharew1_rel9-0-0_ch.dta,True
-ch005_1,sharew1_rel9-0-0_ch.dta,True
-ch005_2,sharew1_rel9-0-0_ch.dta,True
-ch005_3,sharew1_rel9-0-0_ch.dta,True
-ch005_4,sharew1_rel9-0-0_ch.dta,True
-ch005_5,sharew1_rel9-0-0_ch.dta,True
-ch005_6,sharew1_rel9-0-0_ch.dta,True
-ch005_7,sharew1_rel9-0-0_ch.dta,True
-ch005_8,sharew1_rel9-0-0_ch.dta,True
-ch005_9,sharew1_rel9-0-0_ch.dta,True
-ch005_10,sharew1_rel9-0-0_ch.dta,True
-ch005_11,sharew1_rel9-0-0_ch.dta,True
-ch005_12,sharew1_rel9-0-0_ch.dta,True
-ch005_13,sharew1_rel9-0-0_ch.dta,True
-ch005_14,sharew1_rel9-0-0_ch.dta,True
-ch005_15,sharew1_rel9-0-0_ch.dta,True
-ch005_16,sharew1_rel9-0-0_ch.dta,True
-ch005_17,sharew1_rel9-0-0_ch.dta,True
-ch005_18,sharew1_rel9-0-0_ch.dta,True
-ch005_19,sharew1_rel9-0-0_ch.dta,True
-ch005_20,sharew1_rel9-0-0_ch.dta,True
-ch006_1,sharew1_rel9-0-0_ch.dta,True
-ch006_2,sharew1_rel9-0-0_ch.dta,True
-ch006_3,sharew1_rel9-0-0_ch.dta,True
-ch006_4,sharew1_rel9-0-0_ch.dta,True
-ch006_5,sharew1_rel9-0-0_ch.dta,True
-ch006_6,sharew1_rel9-0-0_ch.dta,True
-ch006_7,sharew1_rel9-0-0_ch.dta,True
-ch006_8,sharew1_rel9-0-0_ch.dta,True
-ch006_9,sharew1_rel9-0-0_ch.dta,True
-ch006_10,sharew1_rel9-0-0_ch.dta,True
-ch006_11,sharew1_rel9-0-0_ch.dta,True
-ch006_12,sharew1_rel9-0-0_ch.dta,True
-ch006_13,sharew1_rel9-0-0_ch.dta,True
-ch006_14,sharew1_rel9-0-0_ch.dta,True
-ch006_15,sharew1_rel9-0-0_ch.dta,True
-ch006_16,sharew1_rel9-0-0_ch.dta,True
-ch006_17,sharew1_rel9-0-0_ch.dta,True
-ch006_18,sharew1_rel9-0-0_ch.dta,True
-ch006_19,sharew1_rel9-0-0_ch.dta,True
-ch006_20,sharew1_rel9-0-0_ch.dta,True
-ch007_1,sharew1_rel9-0-0_ch.dta,True
-ch007_2,sharew1_rel9-0-0_ch.dta,True
-ch007_3,sharew1_rel9-0-0_ch.dta,True
-ch007_4,sharew1_rel9-0-0_ch.dta,True
-ch007_5,sharew1_rel9-0-0_ch.dta,True
-ch007_6,sharew1_rel9-0-0_ch.dta,True
-ch007_7,sharew1_rel9-0-0_ch.dta,True
-ch007_8,sharew1_rel9-0-0_ch.dta,True
-ch007_9,sharew1_rel9-0-0_ch.dta,True
-ch007_10,sharew1_rel9-0-0_ch.dta,True
-ch007_11,sharew1_rel9-0-0_ch.dta,True
-ch007_12,sharew1_rel9-0-0_ch.dta,True
-ch007_13,sharew1_rel9-0-0_ch.dta,True
-ch007_14,sharew1_rel9-0-0_ch.dta,True
-ch007_15,sharew1_rel9-0-0_ch.dta,True
-ch007_16,sharew1_rel9-0-0_ch.dta,True
-ch007_17,sharew1_rel9-0-0_ch.dta,True
-ch007_18,sharew1_rel9-0-0_ch.dta,True
-ch007_19,sharew1_rel9-0-0_ch.dta,True
-ch007_20,sharew1_rel9-0-0_ch.dta,True
-ch008c_1,sharew1_rel9-0-0_ch.dta,True
-ch008c_2,sharew1_rel9-0-0_ch.dta,True
-ch008c_3,sharew1_rel9-0-0_ch.dta,True
-ch008c_4,sharew1_rel9-0-0_ch.dta,True
-ch008c_5,sharew1_rel9-0-0_ch.dta,True
-ch008c_6,sharew1_rel9-0-0_ch.dta,True
-ch008c_7,sharew1_rel9-0-0_ch.dta,True
-ch008c_8,sharew1_rel9-0-0_ch.dta,True
-ch008c_9,sharew1_rel9-0-0_ch.dta,True
-ch008c_10,sharew1_rel9-0-0_ch.dta,True
-ch008c_11,sharew1_rel9-0-0_ch.dta,True
-ch008c_12,sharew1_rel9-0-0_ch.dta,True
-ch008c_13,sharew1_rel9-0-0_ch.dta,True
-ch008c_14,sharew1_rel9-0-0_ch.dta,True
-ch008c_15,sharew1_rel9-0-0_ch.dta,True
-ch008c_16,sharew1_rel9-0-0_ch.dta,True
-ch008c_17,sharew1_rel9-0-0_ch.dta,True
-ch008c_18,sharew1_rel9-0-0_ch.dta,True
-ch008c_19,sharew1_rel9-0-0_ch.dta,True
-ch008c_20,sharew1_rel9-0-0_ch.dta,True
-chselch1,sharew1_rel9-0-0_ch.dta,True
-chselch2,sharew1_rel9-0-0_ch.dta,True
-chselch3,sharew1_rel9-0-0_ch.dta,True
-chselch4,sharew1_rel9-0-0_ch.dta,True
-ch010_1,sharew1_rel9-0-0_ch.dta,True
-ch010_2,sharew1_rel9-0-0_ch.dta,True
-ch010_3,sharew1_rel9-0-0_ch.dta,True
-ch010_4,sharew1_rel9-0-0_ch.dta,True
-ch011_1,sharew1_rel9-0-0_ch.dta,True
-ch011_2,sharew1_rel9-0-0_ch.dta,True
-ch011_3,sharew1_rel9-0-0_ch.dta,True
-ch011_4,sharew1_rel9-0-0_ch.dta,True
-ch012_1,sharew1_rel9-0-0_ch.dta,True
-ch012_2,sharew1_rel9-0-0_ch.dta,True
-ch012_3,sharew1_rel9-0-0_ch.dta,True
-ch012_4,sharew1_rel9-0-0_ch.dta,True
-ch013_1,sharew1_rel9-0-0_ch.dta,True
-ch013_2,sharew1_rel9-0-0_ch.dta,True
-ch013_3,sharew1_rel9-0-0_ch.dta,True
-ch013_4,sharew1_rel9-0-0_ch.dta,True
-ch014_1,sharew1_rel9-0-0_ch.dta,True
-ch014_2,sharew1_rel9-0-0_ch.dta,True
-ch014_3,sharew1_rel9-0-0_ch.dta,True
-ch014_4,sharew1_rel9-0-0_ch.dta,True
-ch015_1,sharew1_rel9-0-0_ch.dta,True
-ch015_2,sharew1_rel9-0-0_ch.dta,True
-ch015_3,sharew1_rel9-0-0_ch.dta,True
-ch015_4,sharew1_rel9-0-0_ch.dta,True
-ch016_1,sharew1_rel9-0-0_ch.dta,True
-ch016_2,sharew1_rel9-0-0_ch.dta,True
-ch016_3,sharew1_rel9-0-0_ch.dta,True
-ch016_4,sharew1_rel9-0-0_ch.dta,True
-ch017_1,sharew1_rel9-0-0_ch.dta,True
-ch017_2,sharew1_rel9-0-0_ch.dta,True
-ch017_3,sharew1_rel9-0-0_ch.dta,True
-ch017_4,sharew1_rel9-0-0_ch.dta,True
-ch018d1_1,sharew1_rel9-0-0_ch.dta,True
-ch018d1_2,sharew1_rel9-0-0_ch.dta,True
-ch018d1_3,sharew1_rel9-0-0_ch.dta,True
-ch018d1_4,sharew1_rel9-0-0_ch.dta,True
-ch018d2_1,sharew1_rel9-0-0_ch.dta,True
-ch018d2_2,sharew1_rel9-0-0_ch.dta,True
-ch018d2_3,sharew1_rel9-0-0_ch.dta,True
-ch018d2_4,sharew1_rel9-0-0_ch.dta,True
-ch018d3_1,sharew1_rel9-0-0_ch.dta,True
-ch018d3_2,sharew1_rel9-0-0_ch.dta,True
-ch018d3_3,sharew1_rel9-0-0_ch.dta,True
-ch018d3_4,sharew1_rel9-0-0_ch.dta,True
-ch018d4_1,sharew1_rel9-0-0_ch.dta,True
-ch018d4_2,sharew1_rel9-0-0_ch.dta,True
-ch018d4_3,sharew1_rel9-0-0_ch.dta,True
-ch018d4_4,sharew1_rel9-0-0_ch.dta,True
-ch018d5_1,sharew1_rel9-0-0_ch.dta,True
-ch018d5_2,sharew1_rel9-0-0_ch.dta,True
-ch018d5_3,sharew1_rel9-0-0_ch.dta,True
-ch018d5_4,sharew1_rel9-0-0_ch.dta,True
-ch018d6_1,sharew1_rel9-0-0_ch.dta,True
-ch018d6_2,sharew1_rel9-0-0_ch.dta,True
-ch018d6_3,sharew1_rel9-0-0_ch.dta,True
-ch018d6_4,sharew1_rel9-0-0_ch.dta,True
-ch018d7_1,sharew1_rel9-0-0_ch.dta,True
-ch018d7_2,sharew1_rel9-0-0_ch.dta,True
-ch018d7_3,sharew1_rel9-0-0_ch.dta,True
-ch018d7_4,sharew1_rel9-0-0_ch.dta,True
-ch018d8_1,sharew1_rel9-0-0_ch.dta,True
-ch018d8_2,sharew1_rel9-0-0_ch.dta,True
-ch018d8_3,sharew1_rel9-0-0_ch.dta,True
-ch018d8_4,sharew1_rel9-0-0_ch.dta,True
-ch018d9_1,sharew1_rel9-0-0_ch.dta,True
-ch018d9_2,sharew1_rel9-0-0_ch.dta,True
-ch018d9_3,sharew1_rel9-0-0_ch.dta,True
-ch018d9_4,sharew1_rel9-0-0_ch.dta,True
-ch018d10_1,sharew1_rel9-0-0_ch.dta,True
-ch018d10_2,sharew1_rel9-0-0_ch.dta,True
-ch018d10_3,sharew1_rel9-0-0_ch.dta,True
-ch018d10_4,sharew1_rel9-0-0_ch.dta,True
-ch018d11_1,sharew1_rel9-0-0_ch.dta,True
-ch018d11_2,sharew1_rel9-0-0_ch.dta,True
-ch018d11_3,sharew1_rel9-0-0_ch.dta,True
-ch018d11_4,sharew1_rel9-0-0_ch.dta,True
-ch018d12_1,sharew1_rel9-0-0_ch.dta,True
-ch018d12_2,sharew1_rel9-0-0_ch.dta,True
-ch018d12_3,sharew1_rel9-0-0_ch.dta,True
-ch018d12_4,sharew1_rel9-0-0_ch.dta,True
-ch018d13_1,sharew1_rel9-0-0_ch.dta,True
-ch018d13_2,sharew1_rel9-0-0_ch.dta,True
-ch018d13_3,sharew1_rel9-0-0_ch.dta,True
-ch018d13_4,sharew1_rel9-0-0_ch.dta,True
-ch018d14_1,sharew1_rel9-0-0_ch.dta,True
-ch018d14_2,sharew1_rel9-0-0_ch.dta,True
-ch018d14_3,sharew1_rel9-0-0_ch.dta,True
-ch018d14_4,sharew1_rel9-0-0_ch.dta,True
-ch018d95_1,sharew1_rel9-0-0_ch.dta,True
-ch018d95_2,sharew1_rel9-0-0_ch.dta,True
-ch018d95_3,sharew1_rel9-0-0_ch.dta,True
-ch018d95_4,sharew1_rel9-0-0_ch.dta,True
-ch018dno_1,sharew1_rel9-0-0_ch.dta,True
-ch018dno_2,sharew1_rel9-0-0_ch.dta,True
-ch018dno_3,sharew1_rel9-0-0_ch.dta,True
-ch018dno_4,sharew1_rel9-0-0_ch.dta,True
-ch018dot_1,sharew1_rel9-0-0_ch.dta,True
-ch018dot_2,sharew1_rel9-0-0_ch.dta,True
-ch018dot_3,sharew1_rel9-0-0_ch.dta,True
-ch018dot_4,sharew1_rel9-0-0_ch.dta,True
-ch019_1,sharew1_rel9-0-0_ch.dta,True
-ch019_2,sharew1_rel9-0-0_ch.dta,True
-ch019_3,sharew1_rel9-0-0_ch.dta,True
-ch019_4,sharew1_rel9-0-0_ch.dta,True
-ch020_1,sharew1_rel9-0-0_ch.dta,True
-ch020_2,sharew1_rel9-0-0_ch.dta,True
-ch020_3,sharew1_rel9-0-0_ch.dta,True
-ch020_4,sharew1_rel9-0-0_ch.dta,True
-ch021_,sharew1_rel9-0-0_ch.dta,True
-ch022_,sharew1_rel9-0-0_ch.dta,True
-ch023_,sharew1_rel9-0-0_ch.dta,True
-ac002d1,sharew1_rel9-0-0_ac.dta,True
-ac002d2,sharew1_rel9-0-0_ac.dta,True
-ac002d3,sharew1_rel9-0-0_ac.dta,True
-ac002d4,sharew1_rel9-0-0_ac.dta,True
-ac002d5,sharew1_rel9-0-0_ac.dta,True
-ac002d6,sharew1_rel9-0-0_ac.dta,True
-ac002d7,sharew1_rel9-0-0_ac.dta,True
-ac002dno,sharew1_rel9-0-0_ac.dta,True
-ac003_1,sharew1_rel9-0-0_ac.dta,True
-ac003_2,sharew1_rel9-0-0_ac.dta,True
-ac003_3,sharew1_rel9-0-0_ac.dta,True
-ac003_4,sharew1_rel9-0-0_ac.dta,True
-ac003_5,sharew1_rel9-0-0_ac.dta,True
-ac003_6,sharew1_rel9-0-0_ac.dta,True
-ac003_7,sharew1_rel9-0-0_ac.dta,True
-ac004d1_1,sharew1_rel9-0-0_ac.dta,True
-ac004d1_2,sharew1_rel9-0-0_ac.dta,True
-ac004d1_3,sharew1_rel9-0-0_ac.dta,True
-ac004d1_4,sharew1_rel9-0-0_ac.dta,True
-ac004d1_5,sharew1_rel9-0-0_ac.dta,True
-ac004d1_6,sharew1_rel9-0-0_ac.dta,True
-ac004d1_7,sharew1_rel9-0-0_ac.dta,True
-ac004d2_1,sharew1_rel9-0-0_ac.dta,True
-ac004d2_2,sharew1_rel9-0-0_ac.dta,True
-ac004d2_3,sharew1_rel9-0-0_ac.dta,True
-ac004d2_4,sharew1_rel9-0-0_ac.dta,True
-ac004d2_5,sharew1_rel9-0-0_ac.dta,True
-ac004d2_6,sharew1_rel9-0-0_ac.dta,True
-ac004d2_7,sharew1_rel9-0-0_ac.dta,True
-ac004d3_1,sharew1_rel9-0-0_ac.dta,True
-ac004d3_2,sharew1_rel9-0-0_ac.dta,True
-ac004d3_3,sharew1_rel9-0-0_ac.dta,True
-ac004d3_4,sharew1_rel9-0-0_ac.dta,True
-ac004d3_5,sharew1_rel9-0-0_ac.dta,True
-ac004d3_6,sharew1_rel9-0-0_ac.dta,True
-ac004d3_7,sharew1_rel9-0-0_ac.dta,True
-ac004d4_1,sharew1_rel9-0-0_ac.dta,True
-ac004d4_2,sharew1_rel9-0-0_ac.dta,True
-ac004d4_3,sharew1_rel9-0-0_ac.dta,True
-ac004d4_4,sharew1_rel9-0-0_ac.dta,True
-ac004d4_5,sharew1_rel9-0-0_ac.dta,True
-ac004d4_6,sharew1_rel9-0-0_ac.dta,True
-ac004d4_7,sharew1_rel9-0-0_ac.dta,True
-ac004d5_1,sharew1_rel9-0-0_ac.dta,True
-ac004d5_2,sharew1_rel9-0-0_ac.dta,True
-ac004d5_3,sharew1_rel9-0-0_ac.dta,True
-ac004d5_4,sharew1_rel9-0-0_ac.dta,True
-ac004d5_5,sharew1_rel9-0-0_ac.dta,True
-ac004d5_6,sharew1_rel9-0-0_ac.dta,True
-ac004d5_7,sharew1_rel9-0-0_ac.dta,True
-ac004d6_1,sharew1_rel9-0-0_ac.dta,True
-ac004d6_2,sharew1_rel9-0-0_ac.dta,True
-ac004d6_3,sharew1_rel9-0-0_ac.dta,True
-ac004d6_4,sharew1_rel9-0-0_ac.dta,True
-ac004d6_5,sharew1_rel9-0-0_ac.dta,True
-ac004d6_6,sharew1_rel9-0-0_ac.dta,True
-ac004d6_7,sharew1_rel9-0-0_ac.dta,True
-ac004d7_1,sharew1_rel9-0-0_ac.dta,True
-ac004d7_2,sharew1_rel9-0-0_ac.dta,True
-ac004d7_3,sharew1_rel9-0-0_ac.dta,True
-ac004d7_4,sharew1_rel9-0-0_ac.dta,True
-ac004d7_5,sharew1_rel9-0-0_ac.dta,True
-ac004d7_6,sharew1_rel9-0-0_ac.dta,True
-ac004d7_7,sharew1_rel9-0-0_ac.dta,True
-ac004d8_1,sharew1_rel9-0-0_ac.dta,True
-ac004d8_2,sharew1_rel9-0-0_ac.dta,True
-ac004d8_3,sharew1_rel9-0-0_ac.dta,True
-ac004d8_4,sharew1_rel9-0-0_ac.dta,True
-ac004d8_5,sharew1_rel9-0-0_ac.dta,True
-ac004d8_6,sharew1_rel9-0-0_ac.dta,True
-ac004d8_7,sharew1_rel9-0-0_ac.dta,True
-ac004dno_1,sharew1_rel9-0-0_ac.dta,True
-ac004dno_2,sharew1_rel9-0-0_ac.dta,True
-ac004dno_3,sharew1_rel9-0-0_ac.dta,True
-ac004dno_4,sharew1_rel9-0-0_ac.dta,True
-ac004dno_5,sharew1_rel9-0-0_ac.dta,True
-ac004dno_6,sharew1_rel9-0-0_ac.dta,True
-ac004dno_7,sharew1_rel9-0-0_ac.dta,True
-ac006_1,sharew1_rel9-0-0_ac.dta,True
-ac006_2,sharew1_rel9-0-0_ac.dta,True
-ac006_3,sharew1_rel9-0-0_ac.dta,True
-ac007_1,sharew1_rel9-0-0_ac.dta,True
-ac007_2,sharew1_rel9-0-0_ac.dta,True
-ac007_3,sharew1_rel9-0-0_ac.dta,True
-gs001_,sharew1_rel9-0-0_gs.dta,True
-gs002_,sharew1_rel9-0-0_gs.dta,True
-gs004_,sharew1_rel9-0-0_gs.dta,True
-gs006_,sharew1_rel9-0-0_gs.dta,True
-gs007_,sharew1_rel9-0-0_gs.dta,True
-gs008_,sharew1_rel9-0-0_gs.dta,True
-gs009_,sharew1_rel9-0-0_gs.dta,True
-areabldgi,sharew1_rel9-0-0_gv_housing.dta,True
-typebldgi,sharew1_rel9-0-0_gv_housing.dta,True
-floorsbli,sharew1_rel9-0-0_gv_housing.dta,True
-nstepsi,sharew1_rel9-0-0_gv_housing.dta,True
-nuts1_2003,sharew1_rel9-0-0_gv_housing.dta,True
-isced1997_c1,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997_c2,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997_c3,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997_c4,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997_iv,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997_r,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997_sp,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997y_c1,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997y_c2,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997y_c3,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997y_c4,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997y_iv,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997y_r,sharew1_rel9-0-0_gv_isced.dta,True
-isced1997y_sp,sharew1_rel9-0-0_gv_isced.dta,True
-hh001_,sharew1_rel9-0-0_hh.dta,True
-hh002e,sharew1_rel9-0-0_hh.dta,True
-hh002ub,sharew1_rel9-0-0_hh.dta,True
-hh002v1,sharew1_rel9-0-0_hh.dta,True
-hh002v2,sharew1_rel9-0-0_hh.dta,True
-hh002v3,sharew1_rel9-0-0_hh.dta,True
-hh010_,sharew1_rel9-0-0_hh.dta,True
-hh011e,sharew1_rel9-0-0_hh.dta,True
-hh011ub,sharew1_rel9-0-0_hh.dta,True
-hh011v1,sharew1_rel9-0-0_hh.dta,True
-hh011v2,sharew1_rel9-0-0_hh.dta,True
-hh011v3,sharew1_rel9-0-0_hh.dta,True
-hh014_,sharew1_rel9-0-0_hh.dta,True
-ft002_,sharew1_rel9-0-0_ft.dta,True
-ft003_1,sharew1_rel9-0-0_ft.dta,True
-ft003_2,sharew1_rel9-0-0_ft.dta,True
-ft003_3,sharew1_rel9-0-0_ft.dta,True
-ft004e_1,sharew1_rel9-0-0_ft.dta,True
-ft004ub_1,sharew1_rel9-0-0_ft.dta,True
-ft004e_2,sharew1_rel9-0-0_ft.dta,True
-ft004ub_2,sharew1_rel9-0-0_ft.dta,True
-ft004e_3,sharew1_rel9-0-0_ft.dta,True
-ft004ub_3,sharew1_rel9-0-0_ft.dta,True
-ft004v1,sharew1_rel9-0-0_ft.dta,True
-ft004v2,sharew1_rel9-0-0_ft.dta,True
-ft004v3,sharew1_rel9-0-0_ft.dta,True
-ft006_1,sharew1_rel9-0-0_ft.dta,True
-ft006_2,sharew1_rel9-0-0_ft.dta,True
-ft006_3,sharew1_rel9-0-0_ft.dta,True
-ft009_,sharew1_rel9-0-0_ft.dta,True
-ft010_1,sharew1_rel9-0-0_ft.dta,True
-ft010_2,sharew1_rel9-0-0_ft.dta,True
-ft010_3,sharew1_rel9-0-0_ft.dta,True
-ft011e_1,sharew1_rel9-0-0_ft.dta,True
-ft011ub_1,sharew1_rel9-0-0_ft.dta,True
-ft011e_2,sharew1_rel9-0-0_ft.dta,True
-ft011ub_2,sharew1_rel9-0-0_ft.dta,True
-ft011e_3,sharew1_rel9-0-0_ft.dta,True
-ft011ub_3,sharew1_rel9-0-0_ft.dta,True
-ft011v1,sharew1_rel9-0-0_ft.dta,True
-ft011v2,sharew1_rel9-0-0_ft.dta,True
-ft011v3,sharew1_rel9-0-0_ft.dta,True
-ft013_1,sharew1_rel9-0-0_ft.dta,True
-ft013_2,sharew1_rel9-0-0_ft.dta,True
-ft013_3,sharew1_rel9-0-0_ft.dta,True
-ft015_,sharew1_rel9-0-0_ft.dta,True
-ft016_1,sharew1_rel9-0-0_ft.dta,True
-ft016_2,sharew1_rel9-0-0_ft.dta,True
-ft016_3,sharew1_rel9-0-0_ft.dta,True
-ft016_4,sharew1_rel9-0-0_ft.dta,True
-ft016_5,sharew1_rel9-0-0_ft.dta,True
-ft017_1,sharew1_rel9-0-0_ft.dta,True
-ft017_2,sharew1_rel9-0-0_ft.dta,True
-ft017_3,sharew1_rel9-0-0_ft.dta,True
-ft017_4,sharew1_rel9-0-0_ft.dta,True
-ft017_5,sharew1_rel9-0-0_ft.dta,True
-ft018e_1,sharew1_rel9-0-0_ft.dta,True
-ft018ub_1,sharew1_rel9-0-0_ft.dta,True
-ft018e_2,sharew1_rel9-0-0_ft.dta,True
-ft018ub_2,sharew1_rel9-0-0_ft.dta,True
-ft018e_3,sharew1_rel9-0-0_ft.dta,True
-ft018ub_3,sharew1_rel9-0-0_ft.dta,True
-ft018e_4,sharew1_rel9-0-0_ft.dta,True
-ft018ub_4,sharew1_rel9-0-0_ft.dta,True
-ft018e_5,sharew1_rel9-0-0_ft.dta,True
-ft018ub_5,sharew1_rel9-0-0_ft.dta,True
-ft018v1,sharew1_rel9-0-0_ft.dta,True
-ft018v2,sharew1_rel9-0-0_ft.dta,True
-ft018v3,sharew1_rel9-0-0_ft.dta,True
-ft021_,sharew1_rel9-0-0_ft.dta,True
-ex001_,sharew1_rel9-0-0_ex.dta,True
-ex002_,sharew1_rel9-0-0_ex.dta,True
-ex003_,sharew1_rel9-0-0_ex.dta,True
-ex004_,sharew1_rel9-0-0_ex.dta,True
-ex005_,sharew1_rel9-0-0_ex.dta,True
-ex006_,sharew1_rel9-0-0_ex.dta,True
-ex007_,sharew1_rel9-0-0_ex.dta,True
-ex008_,sharew1_rel9-0-0_ex.dta,True
-ex009_,sharew1_rel9-0-0_ex.dta,True
-ex009age,sharew1_rel9-0-0_ex.dta,True
-ex010_,sharew1_rel9-0-0_ex.dta,True
-ex011_,sharew1_rel9-0-0_ex.dta,True
-ex013_,sharew1_rel9-0-0_ex.dta,True
-ex014_,sharew1_rel9-0-0_ex.dta,True
-ex014e,sharew1_rel9-0-0_ex.dta,True
-ex015_,sharew1_rel9-0-0_ex.dta,True
-ex016_,sharew1_rel9-0-0_ex.dta,True
-ex016e,sharew1_rel9-0-0_ex.dta,True
-ex017_,sharew1_rel9-0-0_ex.dta,True
-ex018_,sharew1_rel9-0-0_ex.dta,True
-ex018e,sharew1_rel9-0-0_ex.dta,True
-ex019_,sharew1_rel9-0-0_ex.dta,True
-ex020_,sharew1_rel9-0-0_ex.dta,True
-ex020e,sharew1_rel9-0-0_ex.dta,True
-ex021_,sharew1_rel9-0-0_ex.dta,True
-ex022_,sharew1_rel9-0-0_ex.dta,True
-ex022e,sharew1_rel9-0-0_ex.dta,True
-hhsize,sharew1_rel9-0-0_gv_grossnet.dta,True
-htype,sharew1_rel9-0-0_gv_grossnet.dta,True
-sic,sharew1_rel9-0-0_gv_grossnet.dta,True
-tax,sharew1_rel9-0-0_gv_grossnet.dta,True
-ytotg,sharew1_rel9-0-0_gv_grossnet.dta,True
-ytotn,sharew1_rel9-0-0_gv_grossnet.dta,True
-ynrpg,sharew1_rel9-0-0_gv_grossnet.dta,True
-ynrpn,sharew1_rel9-0-0_gv_grossnet.dta,True
-hhyotg,sharew1_rel9-0-0_gv_grossnet.dta,True
-hhyotn,sharew1_rel9-0-0_gv_grossnet.dta,True
-hhytotg,sharew1_rel9-0-0_gv_grossnet.dta,True
-hhytotn,sharew1_rel9-0-0_gv_grossnet.dta,True
-hhyotg_f,sharew1_rel9-0-0_gv_grossnet.dta,True
-hhyotn_f,sharew1_rel9-0-0_gv_grossnet.dta,True
-dn002_,sharew1_rel9-0-0_dn.dta,True
-dn003_,sharew1_rel9-0-0_dn.dta,True
-dn004_,sharew1_rel9-0-0_dn.dta,True
-dn005c,sharew1_rel9-0-0_dn.dta,True
-dn006_,sharew1_rel9-0-0_dn.dta,True
-dn007_,sharew1_rel9-0-0_dn.dta,True
-dn008c,sharew1_rel9-0-0_dn.dta,True
-dn009_,sharew1_rel9-0-0_dn.dta,True
-dn010_,sharew1_rel9-0-0_dn.dta,True
-dn012d1,sharew1_rel9-0-0_dn.dta,True
-dn012d2,sharew1_rel9-0-0_dn.dta,True
-dn012d3,sharew1_rel9-0-0_dn.dta,True
-dn012d4,sharew1_rel9-0-0_dn.dta,True
-dn012d5,sharew1_rel9-0-0_dn.dta,True
-dn012d6,sharew1_rel9-0-0_dn.dta,True
-dn012d7,sharew1_rel9-0-0_dn.dta,True
-dn012d8,sharew1_rel9-0-0_dn.dta,True
-dn012d9,sharew1_rel9-0-0_dn.dta,True
-dn012d10,sharew1_rel9-0-0_dn.dta,True
-dn012d11,sharew1_rel9-0-0_dn.dta,True
-dn012d12,sharew1_rel9-0-0_dn.dta,True
-dn012d13,sharew1_rel9-0-0_dn.dta,True
-dn012d14,sharew1_rel9-0-0_dn.dta,True
-dn012d95,sharew1_rel9-0-0_dn.dta,True
-dn012dno,sharew1_rel9-0-0_dn.dta,True
-dn012dot,sharew1_rel9-0-0_dn.dta,True
-dn014_,sharew1_rel9-0-0_dn.dta,True
-dn015_,sharew1_rel9-0-0_dn.dta,True
-dn016_,sharew1_rel9-0-0_dn.dta,True
-dn017_,sharew1_rel9-0-0_dn.dta,True
-dn018_,sharew1_rel9-0-0_dn.dta,True
-dn019_,sharew1_rel9-0-0_dn.dta,True
-dn020_,sharew1_rel9-0-0_dn.dta,True
-dn021_,sharew1_rel9-0-0_dn.dta,True
-dn023d1,sharew1_rel9-0-0_dn.dta,True
-dn023d2,sharew1_rel9-0-0_dn.dta,True
-dn023d3,sharew1_rel9-0-0_dn.dta,True
-dn023d4,sharew1_rel9-0-0_dn.dta,True
-dn023d5,sharew1_rel9-0-0_dn.dta,True
-dn023d6,sharew1_rel9-0-0_dn.dta,True
-dn023d7,sharew1_rel9-0-0_dn.dta,True
-dn023d8,sharew1_rel9-0-0_dn.dta,True
-dn023d9,sharew1_rel9-0-0_dn.dta,True
-dn023d10,sharew1_rel9-0-0_dn.dta,True
-dn023d11,sharew1_rel9-0-0_dn.dta,True
-dn023d12,sharew1_rel9-0-0_dn.dta,True
-dn023d13,sharew1_rel9-0-0_dn.dta,True
-dn023d14,sharew1_rel9-0-0_dn.dta,True
-dn023d95,sharew1_rel9-0-0_dn.dta,True
-dn023dno,sharew1_rel9-0-0_dn.dta,True
-dn023dot,sharew1_rel9-0-0_dn.dta,True
-dn026_1,sharew1_rel9-0-0_dn.dta,True
-dn026_2,sharew1_rel9-0-0_dn.dta,True
-dn027_1,sharew1_rel9-0-0_dn.dta,True
-dn027_2,sharew1_rel9-0-0_dn.dta,True
-dn028_1,sharew1_rel9-0-0_dn.dta,True
-dn028_2,sharew1_rel9-0-0_dn.dta,True
-dn030_1,sharew1_rel9-0-0_dn.dta,True
-dn030_2,sharew1_rel9-0-0_dn.dta,True
-dn032_1,sharew1_rel9-0-0_dn.dta,True
-dn032_2,sharew1_rel9-0-0_dn.dta,True
-dn033_1,sharew1_rel9-0-0_dn.dta,True
-dn033_2,sharew1_rel9-0-0_dn.dta,True
-dn034_,sharew1_rel9-0-0_dn.dta,True
-dn035_,sharew1_rel9-0-0_dn.dta,True
-dn036_,sharew1_rel9-0-0_dn.dta,True
-dn037_,sharew1_rel9-0-0_dn.dta,True
-dn038_,sharew1_rel9-0-0_dn.dta,True
-dn042_,sharew1_rel9-0-0_dn.dta,True
-sp002_,sharew1_rel9-0-0_sp.dta,True
-sp003_1,sharew1_rel9-0-0_sp.dta,True
-sp003_2,sharew1_rel9-0-0_sp.dta,True
-sp003_3,sharew1_rel9-0-0_sp.dta,True
-sp004d1_1,sharew1_rel9-0-0_sp.dta,True
-sp004d1_2,sharew1_rel9-0-0_sp.dta,True
-sp004d1_3,sharew1_rel9-0-0_sp.dta,True
-sp004d2_1,sharew1_rel9-0-0_sp.dta,True
-sp004d2_2,sharew1_rel9-0-0_sp.dta,True
-sp004d2_3,sharew1_rel9-0-0_sp.dta,True
-sp004d3_1,sharew1_rel9-0-0_sp.dta,True
-sp004d3_2,sharew1_rel9-0-0_sp.dta,True
-sp004d3_3,sharew1_rel9-0-0_sp.dta,True
-sp005_1,sharew1_rel9-0-0_sp.dta,True
-sp005_2,sharew1_rel9-0-0_sp.dta,True
-sp005_3,sharew1_rel9-0-0_sp.dta,True
-sp006_1,sharew1_rel9-0-0_sp.dta,True
-sp006_2,sharew1_rel9-0-0_sp.dta,True
-sp006_3,sharew1_rel9-0-0_sp.dta,True
-sp007_1,sharew1_rel9-0-0_sp.dta,True
-sp007_2,sharew1_rel9-0-0_sp.dta,True
-sp008_,sharew1_rel9-0-0_sp.dta,True
-sp009_1,sharew1_rel9-0-0_sp.dta,True
-sp009_2,sharew1_rel9-0-0_sp.dta,True
-sp009_3,sharew1_rel9-0-0_sp.dta,True
-sp010d1_1,sharew1_rel9-0-0_sp.dta,True
-sp010d1_2,sharew1_rel9-0-0_sp.dta,True
-sp010d1_3,sharew1_rel9-0-0_sp.dta,True
-sp010d2_1,sharew1_rel9-0-0_sp.dta,True
-sp010d2_2,sharew1_rel9-0-0_sp.dta,True
-sp010d2_3,sharew1_rel9-0-0_sp.dta,True
-sp010d3_1,sharew1_rel9-0-0_sp.dta,True
-sp010d3_2,sharew1_rel9-0-0_sp.dta,True
-sp010d3_3,sharew1_rel9-0-0_sp.dta,True
-sp011_1,sharew1_rel9-0-0_sp.dta,True
-sp011_2,sharew1_rel9-0-0_sp.dta,True
-sp011_3,sharew1_rel9-0-0_sp.dta,True
-sp012_1,sharew1_rel9-0-0_sp.dta,True
-sp012_2,sharew1_rel9-0-0_sp.dta,True
-sp012_3,sharew1_rel9-0-0_sp.dta,True
-sp013_1,sharew1_rel9-0-0_sp.dta,True
-sp013_2,sharew1_rel9-0-0_sp.dta,True
-sp014_,sharew1_rel9-0-0_sp.dta,True
-sp015d1,sharew1_rel9-0-0_sp.dta,True
-sp015d2,sharew1_rel9-0-0_sp.dta,True
-sp015d3,sharew1_rel9-0-0_sp.dta,True
-sp015d4,sharew1_rel9-0-0_sp.dta,True
-sp015d5,sharew1_rel9-0-0_sp.dta,True
-sp015d6,sharew1_rel9-0-0_sp.dta,True
-sp015d7,sharew1_rel9-0-0_sp.dta,True
-sp015d8,sharew1_rel9-0-0_sp.dta,True
-sp015d9,sharew1_rel9-0-0_sp.dta,True
-sp015d10,sharew1_rel9-0-0_sp.dta,True
-sp015d11,sharew1_rel9-0-0_sp.dta,True
-sp015d12,sharew1_rel9-0-0_sp.dta,True
-sp015d13,sharew1_rel9-0-0_sp.dta,True
-sp015d14,sharew1_rel9-0-0_sp.dta,True
-sp015d15,sharew1_rel9-0-0_sp.dta,True
-sp015d16,sharew1_rel9-0-0_sp.dta,True
-sp015d17,sharew1_rel9-0-0_sp.dta,True
-sp015d18,sharew1_rel9-0-0_sp.dta,True
-sp015d19,sharew1_rel9-0-0_sp.dta,True
-sp015d20,sharew1_rel9-0-0_sp.dta,True
-sp015d21,sharew1_rel9-0-0_sp.dta,True
-sp016_1,sharew1_rel9-0-0_sp.dta,True
-sp016_2,sharew1_rel9-0-0_sp.dta,True
-sp016_3,sharew1_rel9-0-0_sp.dta,True
-sp016_4,sharew1_rel9-0-0_sp.dta,True
-sp016_5,sharew1_rel9-0-0_sp.dta,True
-sp016_6,sharew1_rel9-0-0_sp.dta,True
-sp016_7,sharew1_rel9-0-0_sp.dta,True
-sp016_8,sharew1_rel9-0-0_sp.dta,True
-sp016_9,sharew1_rel9-0-0_sp.dta,True
-sp016_10,sharew1_rel9-0-0_sp.dta,True
-sp016_11,sharew1_rel9-0-0_sp.dta,True
-sp016_12,sharew1_rel9-0-0_sp.dta,True
-sp016_13,sharew1_rel9-0-0_sp.dta,True
-sp016_14,sharew1_rel9-0-0_sp.dta,True
-sp016_17,sharew1_rel9-0-0_sp.dta,True
-sp017_1,sharew1_rel9-0-0_sp.dta,True
-sp017_2,sharew1_rel9-0-0_sp.dta,True
-sp017_3,sharew1_rel9-0-0_sp.dta,True
-sp017_4,sharew1_rel9-0-0_sp.dta,True
-sp017_5,sharew1_rel9-0-0_sp.dta,True
-sp017_6,sharew1_rel9-0-0_sp.dta,True
-sp017_7,sharew1_rel9-0-0_sp.dta,True
-sp017_8,sharew1_rel9-0-0_sp.dta,True
-sp017_9,sharew1_rel9-0-0_sp.dta,True
-sp017_10,sharew1_rel9-0-0_sp.dta,True
-sp017_11,sharew1_rel9-0-0_sp.dta,True
-sp017_12,sharew1_rel9-0-0_sp.dta,True
-sp017_13,sharew1_rel9-0-0_sp.dta,True
-sp017_14,sharew1_rel9-0-0_sp.dta,True
-sp017_17,sharew1_rel9-0-0_sp.dta,True
-sp018_,sharew1_rel9-0-0_sp.dta,True
-sp019d1,sharew1_rel9-0-0_sp.dta,True
-sp019d2,sharew1_rel9-0-0_sp.dta,True
-sp019d3,sharew1_rel9-0-0_sp.dta,True
-sp019d4,sharew1_rel9-0-0_sp.dta,True
-sp019d5,sharew1_rel9-0-0_sp.dta,True
-sp019d6,sharew1_rel9-0-0_sp.dta,True
-sp019d7,sharew1_rel9-0-0_sp.dta,True
-sp019d8,sharew1_rel9-0-0_sp.dta,True
-sp019d9,sharew1_rel9-0-0_sp.dta,True
-sp019d10,sharew1_rel9-0-0_sp.dta,True
-sp019d11,sharew1_rel9-0-0_sp.dta,True
-sp019d12,sharew1_rel9-0-0_sp.dta,True
-sp019d13,sharew1_rel9-0-0_sp.dta,True
-sp019d14,sharew1_rel9-0-0_sp.dta,True
-sp019d15,sharew1_rel9-0-0_sp.dta,True
-sp019d16,sharew1_rel9-0-0_sp.dta,True
-sp019d17,sharew1_rel9-0-0_sp.dta,True
-sp019d18,sharew1_rel9-0-0_sp.dta,True
-sp019d19,sharew1_rel9-0-0_sp.dta,True
-sp019d20,sharew1_rel9-0-0_sp.dta,True
-sp019d21,sharew1_rel9-0-0_sp.dta,True
-sp019d22,sharew1_rel9-0-0_sp.dta,True
-sp019d23,sharew1_rel9-0-0_sp.dta,True
-sp019d24,sharew1_rel9-0-0_sp.dta,True
-sp019d25,sharew1_rel9-0-0_sp.dta,True
-sp019d26,sharew1_rel9-0-0_sp.dta,True
-sp019d27,sharew1_rel9-0-0_sp.dta,True
-sp019d28,sharew1_rel9-0-0_sp.dta,True
-sp019d29,sharew1_rel9-0-0_sp.dta,True
-sp019d30,sharew1_rel9-0-0_sp.dta,True
-sp019d31,sharew1_rel9-0-0_sp.dta,True
-sp019d32,sharew1_rel9-0-0_sp.dta,True
-sp019d33,sharew1_rel9-0-0_sp.dta,True
-sp020_,sharew1_rel9-0-0_sp.dta,True
-sp021d1,sharew1_rel9-0-0_sp.dta,True
-sp021d2,sharew1_rel9-0-0_sp.dta,True
-sp021d3,sharew1_rel9-0-0_sp.dta,True
-sp021d4,sharew1_rel9-0-0_sp.dta,True
-sp021d5,sharew1_rel9-0-0_sp.dta,True
-sp021d6,sharew1_rel9-0-0_sp.dta,True
-sp021d7,sharew1_rel9-0-0_sp.dta,True
-sp021d8,sharew1_rel9-0-0_sp.dta,True
-sp021d9,sharew1_rel9-0-0_sp.dta,True
-sp021d10,sharew1_rel9-0-0_sp.dta,True
-sp021d11,sharew1_rel9-0-0_sp.dta,True
-sp021d12,sharew1_rel9-0-0_sp.dta,True
-sp021d13,sharew1_rel9-0-0_sp.dta,True
-sp021d14,sharew1_rel9-0-0_sp.dta,True
-sp021d15,sharew1_rel9-0-0_sp.dta,True
-sp021d16,sharew1_rel9-0-0_sp.dta,True
-sp021d17,sharew1_rel9-0-0_sp.dta,True
-sp021d18,sharew1_rel9-0-0_sp.dta,True
-sp021d19,sharew1_rel9-0-0_sp.dta,True
-sp021d20,sharew1_rel9-0-0_sp.dta,True
-sp021d21,sharew1_rel9-0-0_sp.dta,True
-sp021d22,sharew1_rel9-0-0_sp.dta,True
-sp021d23,sharew1_rel9-0-0_sp.dta,True
-sp021d24,sharew1_rel9-0-0_sp.dta,True
-sp021d25,sharew1_rel9-0-0_sp.dta,True
-sp021d26,sharew1_rel9-0-0_sp.dta,True
-sp021d27,sharew1_rel9-0-0_sp.dta,True
-sp021d28,sharew1_rel9-0-0_sp.dta,True
-sp021d29,sharew1_rel9-0-0_sp.dta,True
-sp021d30,sharew1_rel9-0-0_sp.dta,True
-sp021d31,sharew1_rel9-0-0_sp.dta,True
-sp021d32,sharew1_rel9-0-0_sp.dta,True
-sp021d33,sharew1_rel9-0-0_sp.dta,True
-sp022_,sharew1_rel9-0-0_sp.dta,True
-isco_1job,sharew1_rel9-0-0_gv_isco.dta,True
-text_1job,sharew1_rel9-0-0_gv_isco.dta,True
-nace_1job,sharew1_rel9-0-0_gv_isco.dta,True
-ind_1job,sharew1_rel9-0-0_gv_isco.dta,True
-isco_2job,sharew1_rel9-0-0_gv_isco.dta,True
-text_2job,sharew1_rel9-0-0_gv_isco.dta,True
-nace_2job,sharew1_rel9-0-0_gv_isco.dta,True
-ind_2job,sharew1_rel9-0-0_gv_isco.dta,True
-isco_ljob,sharew1_rel9-0-0_gv_isco.dta,True
-text_ljob,sharew1_rel9-0-0_gv_isco.dta,True
-nace_ljob,sharew1_rel9-0-0_gv_isco.dta,True
-ind_ljob,sharew1_rel9-0-0_gv_isco.dta,True
-isco_exp,sharew1_rel9-0-0_gv_isco.dta,True
-text_exp,sharew1_rel9-0-0_gv_isco.dta,True
-isco_mo,sharew1_rel9-0-0_gv_isco.dta,True
-text_mo,sharew1_rel9-0-0_gv_isco.dta,True
-isco_fa,sharew1_rel9-0-0_gv_isco.dta,True
-text_fa,sharew1_rel9-0-0_gv_isco.dta,True
-phrandom,sharew1_rel9-0-0_ph.dta,True
-ph002_,sharew1_rel9-0-0_ph.dta,True
-ph003_,sharew1_rel9-0-0_ph.dta,True
-ph004_,sharew1_rel9-0-0_ph.dta,True
-ph005_,sharew1_rel9-0-0_ph.dta,True
-ph006d1,sharew1_rel9-0-0_ph.dta,True
-ph006d2,sharew1_rel9-0-0_ph.dta,True
-ph006d3,sharew1_rel9-0-0_ph.dta,True
-ph006d4,sharew1_rel9-0-0_ph.dta,True
-ph006d5,sharew1_rel9-0-0_ph.dta,True
-ph006d6,sharew1_rel9-0-0_ph.dta,True
-ph006d7,sharew1_rel9-0-0_ph.dta,True
-ph006d8,sharew1_rel9-0-0_ph.dta,True
-ph006d9,sharew1_rel9-0-0_ph.dta,True
-ph006d10,sharew1_rel9-0-0_ph.dta,True
-ph006d11,sharew1_rel9-0-0_ph.dta,True
-ph006d12,sharew1_rel9-0-0_ph.dta,True
-ph006d13,sharew1_rel9-0-0_ph.dta,True
-ph006d14,sharew1_rel9-0-0_ph.dta,True
-ph006dno,sharew1_rel9-0-0_ph.dta,True
-ph006dot,sharew1_rel9-0-0_ph.dta,True
-ph008d1,sharew1_rel9-0-0_ph.dta,True
-ph008d2,sharew1_rel9-0-0_ph.dta,True
-ph008d3,sharew1_rel9-0-0_ph.dta,True
-ph008d4,sharew1_rel9-0-0_ph.dta,True
-ph008d5,sharew1_rel9-0-0_ph.dta,True
-ph008d6,sharew1_rel9-0-0_ph.dta,True
-ph008d7,sharew1_rel9-0-0_ph.dta,True
-ph008d8,sharew1_rel9-0-0_ph.dta,True
-ph008d9,sharew1_rel9-0-0_ph.dta,True
-ph008d10,sharew1_rel9-0-0_ph.dta,True
-ph008d11,sharew1_rel9-0-0_ph.dta,True
-ph008d12,sharew1_rel9-0-0_ph.dta,True
-ph008d13,sharew1_rel9-0-0_ph.dta,True
-ph008d14,sharew1_rel9-0-0_ph.dta,True
-ph008d15,sharew1_rel9-0-0_ph.dta,True
-ph008d16,sharew1_rel9-0-0_ph.dta,True
-ph008d17,sharew1_rel9-0-0_ph.dta,True
-ph008d18,sharew1_rel9-0-0_ph.dta,True
-ph008d19,sharew1_rel9-0-0_ph.dta,True
-ph008d20,sharew1_rel9-0-0_ph.dta,True
-ph008d21,sharew1_rel9-0-0_ph.dta,True
-ph008d22,sharew1_rel9-0-0_ph.dta,True
-ph008dot,sharew1_rel9-0-0_ph.dta,True
-ph009_1,sharew1_rel9-0-0_ph.dta,True
-ph009_2,sharew1_rel9-0-0_ph.dta,True
-ph009_3,sharew1_rel9-0-0_ph.dta,True
-ph009_4,sharew1_rel9-0-0_ph.dta,True
-ph009_5,sharew1_rel9-0-0_ph.dta,True
-ph009_6,sharew1_rel9-0-0_ph.dta,True
-ph009_7,sharew1_rel9-0-0_ph.dta,True
-ph009_8,sharew1_rel9-0-0_ph.dta,True
-ph009_9,sharew1_rel9-0-0_ph.dta,True
-ph009_10,sharew1_rel9-0-0_ph.dta,True
-ph009_11,sharew1_rel9-0-0_ph.dta,True
-ph009_12,sharew1_rel9-0-0_ph.dta,True
-ph009_13,sharew1_rel9-0-0_ph.dta,True
-ph009_14,sharew1_rel9-0-0_ph.dta,True
-ph009_97,sharew1_rel9-0-0_ph.dta,True
-ph010d1,sharew1_rel9-0-0_ph.dta,True
-ph010d2,sharew1_rel9-0-0_ph.dta,True
-ph010d3,sharew1_rel9-0-0_ph.dta,True
-ph010d4,sharew1_rel9-0-0_ph.dta,True
-ph010d5,sharew1_rel9-0-0_ph.dta,True
-ph010d6,sharew1_rel9-0-0_ph.dta,True
-ph010d7,sharew1_rel9-0-0_ph.dta,True
-ph010d8,sharew1_rel9-0-0_ph.dta,True
-ph010d9,sharew1_rel9-0-0_ph.dta,True
-ph010d10,sharew1_rel9-0-0_ph.dta,True
-ph010d11,sharew1_rel9-0-0_ph.dta,True
-ph010dno,sharew1_rel9-0-0_ph.dta,True
-ph010dot,sharew1_rel9-0-0_ph.dta,True
-ph011d1,sharew1_rel9-0-0_ph.dta,True
-ph011d2,sharew1_rel9-0-0_ph.dta,True
-ph011d3,sharew1_rel9-0-0_ph.dta,True
-ph011d4,sharew1_rel9-0-0_ph.dta,True
-ph011d5,sharew1_rel9-0-0_ph.dta,True
-ph011d6,sharew1_rel9-0-0_ph.dta,True
-ph011d7,sharew1_rel9-0-0_ph.dta,True
-ph011d8,sharew1_rel9-0-0_ph.dta,True
-ph011d9,sharew1_rel9-0-0_ph.dta,True
-ph011d10,sharew1_rel9-0-0_ph.dta,True
-ph011d11,sharew1_rel9-0-0_ph.dta,True
-ph011d12,sharew1_rel9-0-0_ph.dta,True
-ph011d13,sharew1_rel9-0-0_ph.dta,True
-ph011d14,sharew1_rel9-0-0_ph.dta,True
-ph011dno,sharew1_rel9-0-0_ph.dta,True
-ph011dot,sharew1_rel9-0-0_ph.dta,True
-ph012_,sharew1_rel9-0-0_ph.dta,True
-ph013_,sharew1_rel9-0-0_ph.dta,True
-ph024_,sharew1_rel9-0-0_ph.dta,True
-ph025_,sharew1_rel9-0-0_ph.dta,True
-ph041_,sharew1_rel9-0-0_ph.dta,True
-ph042_,sharew1_rel9-0-0_ph.dta,True
-ph043_,sharew1_rel9-0-0_ph.dta,True
-ph044_,sharew1_rel9-0-0_ph.dta,True
-ph045_,sharew1_rel9-0-0_ph.dta,True
-ph046_,sharew1_rel9-0-0_ph.dta,True
-ph047_,sharew1_rel9-0-0_ph.dta,True
-ph048d1,sharew1_rel9-0-0_ph.dta,True
-ph048d2,sharew1_rel9-0-0_ph.dta,True
-ph048d3,sharew1_rel9-0-0_ph.dta,True
-ph048d4,sharew1_rel9-0-0_ph.dta,True
-ph048d5,sharew1_rel9-0-0_ph.dta,True
-ph048d6,sharew1_rel9-0-0_ph.dta,True
-ph048d7,sharew1_rel9-0-0_ph.dta,True
-ph048d8,sharew1_rel9-0-0_ph.dta,True
-ph048d9,sharew1_rel9-0-0_ph.dta,True
-ph048d10,sharew1_rel9-0-0_ph.dta,True
-ph048dno,sharew1_rel9-0-0_ph.dta,True
-ph049d1,sharew1_rel9-0-0_ph.dta,True
-ph049d2,sharew1_rel9-0-0_ph.dta,True
-ph049d3,sharew1_rel9-0-0_ph.dta,True
-ph049d4,sharew1_rel9-0-0_ph.dta,True
-ph049d5,sharew1_rel9-0-0_ph.dta,True
-ph049d6,sharew1_rel9-0-0_ph.dta,True
-ph049d7,sharew1_rel9-0-0_ph.dta,True
-ph049d8,sharew1_rel9-0-0_ph.dta,True
-ph049d9,sharew1_rel9-0-0_ph.dta,True
-ph049d10,sharew1_rel9-0-0_ph.dta,True
-ph049d11,sharew1_rel9-0-0_ph.dta,True
-ph049d12,sharew1_rel9-0-0_ph.dta,True
-ph049d13,sharew1_rel9-0-0_ph.dta,True
-ph049dno,sharew1_rel9-0-0_ph.dta,True
-ph050_,sharew1_rel9-0-0_ph.dta,True
-ph051_,sharew1_rel9-0-0_ph.dta,True
-ph052_,sharew1_rel9-0-0_ph.dta,True
-ph053_,sharew1_rel9-0-0_ph.dta,True
-ph054_,sharew1_rel9-0-0_ph.dta,True
-ph055_,sharew1_rel9-0-0_ph.dta,True
-ph056_,sharew1_rel9-0-0_ph.dta,True
-adl,sharew1_rel9-0-0_gv_health.dta,True
-adl2,sharew1_rel9-0-0_gv_health.dta,True
-bmi,sharew1_rel9-0-0_gv_health.dta,True
-bmi2,sharew1_rel9-0-0_gv_health.dta,True
-casp,sharew1_rel9-0-0_gv_health.dta,True
-chronic2w1,sharew1_rel9-0-0_gv_health.dta,True
-chronicw1,sharew1_rel9-0-0_gv_health.dta,True
-cusmoke,sharew1_rel9-0-0_gv_health.dta,True
-drinkin2,sharew1_rel9-0-0_gv_health.dta,True
-euro1,sharew1_rel9-0-0_gv_health.dta,True
-euro2,sharew1_rel9-0-0_gv_health.dta,True
-euro3,sharew1_rel9-0-0_gv_health.dta,True
-euro4,sharew1_rel9-0-0_gv_health.dta,True
-euro5,sharew1_rel9-0-0_gv_health.dta,True
-euro6,sharew1_rel9-0-0_gv_health.dta,True
-euro7,sharew1_rel9-0-0_gv_health.dta,True
-euro8,sharew1_rel9-0-0_gv_health.dta,True
-euro9,sharew1_rel9-0-0_gv_health.dta,True
-euro10,sharew1_rel9-0-0_gv_health.dta,True
-euro11,sharew1_rel9-0-0_gv_health.dta,True
-euro12,sharew1_rel9-0-0_gv_health.dta,True
-eurod,sharew1_rel9-0-0_gv_health.dta,True
-eurodcat,sharew1_rel9-0-0_gv_health.dta,True
-gali,sharew1_rel9-0-0_gv_health.dta,True
-iadl,sharew1_rel9-0-0_gv_health.dta,True
-iadl2,sharew1_rel9-0-0_gv_health.dta,True
-maxgrip,sharew1_rel9-0-0_gv_health.dta,True
-mobilit2,sharew1_rel9-0-0_gv_health.dta,True
-mobilit3,sharew1_rel9-0-0_gv_health.dta,True
-mobility,sharew1_rel9-0-0_gv_health.dta,True
-numeracy,sharew1_rel9-0-0_gv_health.dta,True
-orienti,sharew1_rel9-0-0_gv_health.dta,True
-phactiv,sharew1_rel9-0-0_gv_health.dta,True
-spheu,sharew1_rel9-0-0_gv_health.dta,True
-spheu2,sharew1_rel9-0-0_gv_health.dta,True
-sphus,sharew1_rel9-0-0_gv_health.dta,True
-sphus2,sharew1_rel9-0-0_gv_health.dta,True
-symptoms2w1,sharew1_rel9-0-0_gv_health.dta,True
-symptomsw1,sharew1_rel9-0-0_gv_health.dta,True
-wspeed,sharew1_rel9-0-0_gv_health.dta,True
-wspeed2,sharew1_rel9-0-0_gv_health.dta,True
-ho001_,sharew1_rel9-0-0_ho.dta,True
-ho002_,sharew1_rel9-0-0_ho.dta,True
-ho003_,sharew1_rel9-0-0_ho.dta,True
-ho005e,sharew1_rel9-0-0_ho.dta,True
-ho005ub,sharew1_rel9-0-0_ho.dta,True
-ho005v1,sharew1_rel9-0-0_ho.dta,True
-ho005v2,sharew1_rel9-0-0_ho.dta,True
-ho005v3,sharew1_rel9-0-0_ho.dta,True
-ho007_,sharew1_rel9-0-0_ho.dta,True
-ho008e,sharew1_rel9-0-0_ho.dta,True
-ho008ub,sharew1_rel9-0-0_ho.dta,True
-ho008v1,sharew1_rel9-0-0_ho.dta,True
-ho008v2,sharew1_rel9-0-0_ho.dta,True
-ho008v3,sharew1_rel9-0-0_ho.dta,True
-ho010_,sharew1_rel9-0-0_ho.dta,True
-ho011_,sharew1_rel9-0-0_ho.dta,True
-ho012_,sharew1_rel9-0-0_ho.dta,True
-ho013_,sharew1_rel9-0-0_ho.dta,True
-ho014_,sharew1_rel9-0-0_ho.dta,True
-ho015e,sharew1_rel9-0-0_ho.dta,True
-ho015ub,sharew1_rel9-0-0_ho.dta,True
-ho015v1,sharew1_rel9-0-0_ho.dta,True
-ho015v2,sharew1_rel9-0-0_ho.dta,True
-ho015v3,sharew1_rel9-0-0_ho.dta,True
-ho017_,sharew1_rel9-0-0_ho.dta,True
-ho018_,sharew1_rel9-0-0_ho.dta,True
-ho020e,sharew1_rel9-0-0_ho.dta,True
-ho020ub,sharew1_rel9-0-0_ho.dta,True
-ho020v1,sharew1_rel9-0-0_ho.dta,True
-ho020v2,sharew1_rel9-0-0_ho.dta,True
-ho020v3,sharew1_rel9-0-0_ho.dta,True
-ho022_,sharew1_rel9-0-0_ho.dta,True
-ho023_,sharew1_rel9-0-0_ho.dta,True
-ho024e,sharew1_rel9-0-0_ho.dta,True
-ho024ub,sharew1_rel9-0-0_ho.dta,True
-ho024v1,sharew1_rel9-0-0_ho.dta,True
-ho024v2,sharew1_rel9-0-0_ho.dta,True
-ho024v3,sharew1_rel9-0-0_ho.dta,True
-ho026_,sharew1_rel9-0-0_ho.dta,True
-ho027e,sharew1_rel9-0-0_ho.dta,True
-ho027ub,sharew1_rel9-0-0_ho.dta,True
-ho027v1,sharew1_rel9-0-0_ho.dta,True
-ho027v2,sharew1_rel9-0-0_ho.dta,True
-ho027v3,sharew1_rel9-0-0_ho.dta,True
-ho029_,sharew1_rel9-0-0_ho.dta,True
-ho030e,sharew1_rel9-0-0_ho.dta,True
-ho030ub,sharew1_rel9-0-0_ho.dta,True
-ho030v1,sharew1_rel9-0-0_ho.dta,True
-ho030v2,sharew1_rel9-0-0_ho.dta,True
-ho030v3,sharew1_rel9-0-0_ho.dta,True
-ho032_,sharew1_rel9-0-0_ho.dta,True
-ho033_,sharew1_rel9-0-0_ho.dta,True
-ho034_,sharew1_rel9-0-0_ho.dta,True
-ho035_,sharew1_rel9-0-0_ho.dta,True
-ho036_,sharew1_rel9-0-0_ho.dta,True
-ho037_,sharew1_rel9-0-0_ho.dta,True
-ho038_,sharew1_rel9-0-0_ho.dta,True
-ho039_,sharew1_rel9-0-0_ho.dta,True
-ho041_,sharew1_rel9-0-0_ho.dta,True
-ho042_,sharew1_rel9-0-0_ho.dta,True
-ho043_,sharew1_rel9-0-0_ho.dta,True
+column,labels,file_name,is_valid
+country,Country identifier,sharew1_rel9-0-0_hc.dta,True
+language,Language of questionnaire,sharew1_rel9-0-0_hc.dta,True
+exrate,Exchange rate 1 euro,sharew1_rel9-0-0_hc.dta,True
+hc002_,How often seen or talked to medical doctor last 12 months,sharew1_rel9-0-0_hc.dta,True
+hc003_,How many of these contacts with general practitioner,sharew1_rel9-0-0_hc.dta,True
+hc004_,Contacts with specialists,sharew1_rel9-0-0_hc.dta,True
+hc005_,Most recent consulted specialist,sharew1_rel9-0-0_hc.dta,True
+hc006_,Type of last consultation to specialist,sharew1_rel9-0-0_hc.dta,True
+hc007_,Days waiting for emergency consultation to specialist,sharew1_rel9-0-0_hc.dta,True
+hc008_,Weeks waiting for non-emergency consultation,sharew1_rel9-0-0_hc.dta,True
+hc009_,Wish last specialist contact earlier,sharew1_rel9-0-0_hc.dta,True
+hc010_,Seen a dentist/dental hygienist in the last 12 months,sharew1_rel9-0-0_hc.dta,True
+hc011_,Contact dentist for routine control/prevention or treatment,sharew1_rel9-0-0_hc.dta,True
+hc012_,Stayed over night in hospital last 12 months,sharew1_rel9-0-0_hc.dta,True
+hc013_,Times being patient in hospital,sharew1_rel9-0-0_hc.dta,True
+hc014_,Total nights stayed in hospital,sharew1_rel9-0-0_hc.dta,True
+hc015d1,Reason hospital: inpatient surgery,sharew1_rel9-0-0_hc.dta,True
+hc015d2,Reason hospital: medical tests or non-surgical treatments,sharew1_rel9-0-0_hc.dta,True
+hc015d3,Reason hospital: mental health problems,sharew1_rel9-0-0_hc.dta,True
+hc016_,Times overnight in hospital for surgery,sharew1_rel9-0-0_hc.dta,True
+hc017_,Had inpatient surgery last 12 months,sharew1_rel9-0-0_hc.dta,True
+hc018_,Which inpatient surgery,sharew1_rel9-0-0_hc.dta,True
+hc019_,Planned or emergency inpatient surgery,sharew1_rel9-0-0_hc.dta,True
+hc020_,Months waiting for last inpatient surgery,sharew1_rel9-0-0_hc.dta,True
+hc021_,Wish last inpatient surgery earlier,sharew1_rel9-0-0_hc.dta,True
+hc022_,Times overnight in hospital for mental health problems,sharew1_rel9-0-0_hc.dta,True
+hc023_,Had outpatient surgery last 12 months,sharew1_rel9-0-0_hc.dta,True
+hc024_,Times had outpatient surgery last 12 months,sharew1_rel9-0-0_hc.dta,True
+hc025_,Any of these outpatient surgeries last 12 months,sharew1_rel9-0-0_hc.dta,True
+hc026_,Which outpatient surgery,sharew1_rel9-0-0_hc.dta,True
+hc027_,Months waiting for last outpatient surgery,sharew1_rel9-0-0_hc.dta,True
+hc028_,Wish last outpatient surgery earlier,sharew1_rel9-0-0_hc.dta,True
+hc029_,In a nursing home during last 12 months,sharew1_rel9-0-0_hc.dta,True
+hc030_,Times stayed in a nursing home overnight,sharew1_rel9-0-0_hc.dta,True
+hc031_,Weeks stayed in a nursing home,sharew1_rel9-0-0_hc.dta,True
+hc032d1,Received home care: nursing or personal care,sharew1_rel9-0-0_hc.dta,True
+hc032d2,Received home care: domestic tasks,sharew1_rel9-0-0_hc.dta,True
+hc032d3,Received home care: meals-on-wheels,sharew1_rel9-0-0_hc.dta,True
+hc032dno,Received home care: none of these,sharew1_rel9-0-0_hc.dta,True
+hc033_,Weeks received professional nursing care,sharew1_rel9-0-0_hc.dta,True
+hc034_,Hours received professional nursing care,sharew1_rel9-0-0_hc.dta,True
+hc035_,Weeks received paid domestic help,sharew1_rel9-0-0_hc.dta,True
+hc036_,Hours received paid domestic help,sharew1_rel9-0-0_hc.dta,True
+hc037_,Weeks received meals-on-wheels,sharew1_rel9-0-0_hc.dta,True
+hc038_,Received care from private providers,sharew1_rel9-0-0_hc.dta,True
+hc039d1,Received care: surgery,sharew1_rel9-0-0_hc.dta,True
+hc039d2,Received care: care from general practitioner,sharew1_rel9-0-0_hc.dta,True
+hc039d3,Received care: care from specialist physician,sharew1_rel9-0-0_hc.dta,True
+hc039d4,Received care: drugs,sharew1_rel9-0-0_hc.dta,True
+hc039d5,Received care: dental care,sharew1_rel9-0-0_hc.dta,True
+hc039d6,Received care: hospital rehabilitation,sharew1_rel9-0-0_hc.dta,True
+hc039d7,Received care: ambulatory rehabilitation,sharew1_rel9-0-0_hc.dta,True
+hc039d8,Received care: aids and appliances,sharew1_rel9-0-0_hc.dta,True
+hc039d9,Received care: care in nursing home,sharew1_rel9-0-0_hc.dta,True
+hc039d10,Received care: home care,sharew1_rel9-0-0_hc.dta,True
+hc039d11,Received care: paid home help,sharew1_rel9-0-0_hc.dta,True
+hc039dot,Received care: other,sharew1_rel9-0-0_hc.dta,True
+hc040_,Forgo any types of care because of costs,sharew1_rel9-0-0_hc.dta,True
+hc041d1,Too costly care: surgery,sharew1_rel9-0-0_hc.dta,True
+hc041d2,Too costly care: care from general practitioner,sharew1_rel9-0-0_hc.dta,True
+hc041d3,Too costly care: care from specialist physician,sharew1_rel9-0-0_hc.dta,True
+hc041d4,Too costly care: drugs,sharew1_rel9-0-0_hc.dta,True
+hc041d5,Too costly care: dental care,sharew1_rel9-0-0_hc.dta,True
+hc041d6,Too costly care: hospital rehabilitation,sharew1_rel9-0-0_hc.dta,True
+hc041d7,Too costly care: ambulatory rehabilitation,sharew1_rel9-0-0_hc.dta,True
+hc041d8,Too costly care: aids and appliances,sharew1_rel9-0-0_hc.dta,True
+hc041d9,Too costly care: care in nursing home,sharew1_rel9-0-0_hc.dta,True
+hc041d10,Too costly care: home care,sharew1_rel9-0-0_hc.dta,True
+hc041d11,Too costly care: paid home help,sharew1_rel9-0-0_hc.dta,True
+hc041dot,Too costly care: other,sharew1_rel9-0-0_hc.dta,True
+hc042_,Forgo any types of care because unavailable,sharew1_rel9-0-0_hc.dta,True
+hc043d1,Unavailable care: surgery,sharew1_rel9-0-0_hc.dta,True
+hc043d2,Unavailable care: care from general practitioner,sharew1_rel9-0-0_hc.dta,True
+hc043d3,Unavailable care: care from specialist physician,sharew1_rel9-0-0_hc.dta,True
+hc043d4,Unavailable care: drugs,sharew1_rel9-0-0_hc.dta,True
+hc043d5,Unavailable care: dental care,sharew1_rel9-0-0_hc.dta,True
+hc043d6,Unavailable care: hospital rehabilitation,sharew1_rel9-0-0_hc.dta,True
+hc043d7,Unavailable care: ambulatory rehabilitation,sharew1_rel9-0-0_hc.dta,True
+hc043d8,Unavailable care: aids and appliances,sharew1_rel9-0-0_hc.dta,True
+hc043d9,Unavailable care: care in nursing home,sharew1_rel9-0-0_hc.dta,True
+hc043d10,Unavailable care: home care,sharew1_rel9-0-0_hc.dta,True
+hc043d11,Unavailable care: paid home help,sharew1_rel9-0-0_hc.dta,True
+hc043dot,Unavailable care: other,sharew1_rel9-0-0_hc.dta,True
+hc045e,Paid out-of-pocket for inpatient care,sharew1_rel9-0-0_hc.dta,True
+hc045ub,Paid out-of-pocket for inpatient care ub,sharew1_rel9-0-0_hc.dta,True
+hc045v1,Bracket value 1,sharew1_rel9-0-0_hc.dta,True
+hc045v2,Bracket value 2,sharew1_rel9-0-0_hc.dta,True
+hc045v3,Bracket value 3,sharew1_rel9-0-0_hc.dta,True
+hc047e,Paid out-of-pocket for outpatient care,sharew1_rel9-0-0_hc.dta,True
+hc047ub,Paid out-of-pocket for outpatient care ub,sharew1_rel9-0-0_hc.dta,True
+hc047v1,Bracket value 1,sharew1_rel9-0-0_hc.dta,True
+hc047v2,Bracket value 2,sharew1_rel9-0-0_hc.dta,True
+hc047v3,Bracket value 3,sharew1_rel9-0-0_hc.dta,True
+hc049e,Paid out-of-pocket for prescribed drugs,sharew1_rel9-0-0_hc.dta,True
+hc049ub,Paid out-of-pocket for prescribed drugs ub,sharew1_rel9-0-0_hc.dta,True
+hc049v1,Bracket value 1,sharew1_rel9-0-0_hc.dta,True
+hc049v2,Bracket value 2,sharew1_rel9-0-0_hc.dta,True
+hc049v3,Bracket value 3,sharew1_rel9-0-0_hc.dta,True
+hc051e,Paid out-of-pocket for nursing home day-care and home-care,sharew1_rel9-0-0_hc.dta,True
+hc051ub,Paid out-of-pocket for nursing home day-care and home-care ub,sharew1_rel9-0-0_hc.dta,True
+hc051v1,Bracket value 1,sharew1_rel9-0-0_hc.dta,True
+hc051v2,Bracket value 2,sharew1_rel9-0-0_hc.dta,True
+hc051v3,Bracket value 3,sharew1_rel9-0-0_hc.dta,True
+hc053_,Basic health insurance category,sharew1_rel9-0-0_hc.dta,True
+hc054e,Deduction basic health insurance,sharew1_rel9-0-0_hc.dta,True
+hc055_,Basic health insurance gatekeeping,sharew1_rel9-0-0_hc.dta,True
+hc056_,Basic health insurance limit choice,sharew1_rel9-0-0_hc.dta,True
+hc057_,Basic health insurance coverage,sharew1_rel9-0-0_hc.dta,True
+hc058_,Basic health insurance status,sharew1_rel9-0-0_hc.dta,True
+hc059d1,Voluntary health insurance: direct access to specialists,sharew1_rel9-0-0_hc.dta,True
+hc059d2,Voluntary health insurance: access to specialists through a general practitioner,sharew1_rel9-0-0_hc.dta,True
+hc059d3,Voluntary health insurance: unrestricted choice of doctors,sharew1_rel9-0-0_hc.dta,True
+hc059d4,Voluntary health insurance: limited choice of doctors,sharew1_rel9-0-0_hc.dta,True
+hc059d5,Voluntary health insurance: dental care,sharew1_rel9-0-0_hc.dta,True
+hc059d6,Voluntary health insurance: full coverage of drugs expenses,sharew1_rel9-0-0_hc.dta,True
+hc059d7,Voluntary health insurance: partial coverage of drugs expenses,sharew1_rel9-0-0_hc.dta,True
+hc059d8,Voluntary health insurance: unrestricted choice of hospitals,sharew1_rel9-0-0_hc.dta,True
+hc059d9,Voluntary health insurance: limited choice of hospitals,sharew1_rel9-0-0_hc.dta,True
+hc059d10,Voluntary health insurance: long term care in nursing home,sharew1_rel9-0-0_hc.dta,True
+hc059d11,Voluntary health insurance: nursing care at home,sharew1_rel9-0-0_hc.dta,True
+hc059d12,Voluntary health insurance: home help,sharew1_rel9-0-0_hc.dta,True
+hc059dno,Voluntary health insurance: none of these,sharew1_rel9-0-0_hc.dta,True
+hc059dot,Voluntary health insurance: other,sharew1_rel9-0-0_hc.dta,True
+hc060d1,Voluntary supplementary health insurance: country-specific category 1,sharew1_rel9-0-0_hc.dta,True
+hc060d2,Voluntary supplementary health insurance: country-specific category 2,sharew1_rel9-0-0_hc.dta,True
+hc060d3,Voluntary supplementary health insurance: country-specific category 3,sharew1_rel9-0-0_hc.dta,True
+hc060d4,Voluntary supplementary health insurance: country-specific category 4,sharew1_rel9-0-0_hc.dta,True
+hc060d5,Voluntary supplementary health insurance: country-specific category 5,sharew1_rel9-0-0_hc.dta,True
+hc060d6,Voluntary supplementary health insurance: country-specific category 6,sharew1_rel9-0-0_hc.dta,True
+hc060d7,Voluntary supplementary health insurance: country-specific category 7,sharew1_rel9-0-0_hc.dta,True
+hc060d8,Voluntary supplementary health insurance: country-specific category 8,sharew1_rel9-0-0_hc.dta,True
+hc060d9,Voluntary supplementary health insurance: country-specific category 9,sharew1_rel9-0-0_hc.dta,True
+hc060d10,Voluntary supplementary health insurance: country-specific category 10,sharew1_rel9-0-0_hc.dta,True
+hc060d11,Voluntary supplementary health insurance: country-specific category 11,sharew1_rel9-0-0_hc.dta,True
+hc060d12,Voluntary supplementary health insurance: country-specific category 12,sharew1_rel9-0-0_hc.dta,True
+hc060d13,Voluntary supplementary health insurance: country-specific category 13,sharew1_rel9-0-0_hc.dta,True
+hc060d14,Voluntary supplementary health insurance: country-specific category 14,sharew1_rel9-0-0_hc.dta,True
+hc060d15,Voluntary supplementary health insurance: country-specific category 15,sharew1_rel9-0-0_hc.dta,True
+hc060d16,Voluntary supplementary health insurance: country-specific category 16,sharew1_rel9-0-0_hc.dta,True
+hc060d17,Voluntary supplementary health insurance: country-specific category 17,sharew1_rel9-0-0_hc.dta,True
+hc060d18,Voluntary supplementary health insurance: country-specific category 18,sharew1_rel9-0-0_hc.dta,True
+hc060d19,Voluntary supplementary health insurance: country-specific category 19,sharew1_rel9-0-0_hc.dta,True
+hc060d20,Voluntary supplementary health insurance: country-specific category 20,sharew1_rel9-0-0_hc.dta,True
+hc060d21,Voluntary supplementary health insurance: country-specific category 21,sharew1_rel9-0-0_hc.dta,True
+hc060d22,Voluntary supplementary health insurance: country-specific category 22,sharew1_rel9-0-0_hc.dta,True
+hc060dno,Voluntary supplementary health insurance: none of these,sharew1_rel9-0-0_hc.dta,True
+hc060dot,Voluntary supplementary health insurance: other,sharew1_rel9-0-0_hc.dta,True
+hc061e,Pay for all voluntary health insurance contracts,sharew1_rel9-0-0_hc.dta,True
+hc061ub,Pay for all voluntary health insurance contracts ub,sharew1_rel9-0-0_hc.dta,True
+hc061v1,Bracket value 1,sharew1_rel9-0-0_hc.dta,True
+hc061v2,Bracket value 2,sharew1_rel9-0-0_hc.dta,True
+hc061v3,Bracket value 3,sharew1_rel9-0-0_hc.dta,True
+hc063_,Who answered the questions in hc,sharew1_rel9-0-0_hc.dta,True
+ep002_,Did nevertheless any paid work last four weeks,sharew1_rel9-0-0_ep.dta,True
+ep003_,Temporarily away from work,sharew1_rel9-0-0_ep.dta,True
+ep005_,Current job situation,sharew1_rel9-0-0_ep.dta,True
+ep005raw,Current job situation (original response),sharew1_rel9-0-0_ep.dta,True
+ep006_,Ever done paid work,sharew1_rel9-0-0_ep.dta,True
+ep007_,Currently more than one job,sharew1_rel9-0-0_ep.dta,True
+ep009_1,Employee or a self-employed in (main) job,sharew1_rel9-0-0_ep.dta,True
+ep009_2,Employee or a self-employed in secondary job,sharew1_rel9-0-0_ep.dta,True
+ep010_1,Start of current (main) job (year),sharew1_rel9-0-0_ep.dta,True
+ep010_2,Start of current secondary job (year),sharew1_rel9-0-0_ep.dta,True
+ep011_1,Term of (main) job,sharew1_rel9-0-0_ep.dta,True
+ep011_2,Term of secondary job,sharew1_rel9-0-0_ep.dta,True
+ep012_1,Total contracted hours per week (main) job,sharew1_rel9-0-0_ep.dta,True
+ep012_2,Total contracted hours per week secondary job,sharew1_rel9-0-0_ep.dta,True
+ep013_1,Total hours worked per week (main) job,sharew1_rel9-0-0_ep.dta,True
+ep013_2,Total hours worked per week secondary job,sharew1_rel9-0-0_ep.dta,True
+ep014_1,Months worked in (main) job (number),sharew1_rel9-0-0_ep.dta,True
+ep014_2,Months worked in secondary job (number),sharew1_rel9-0-0_ep.dta,True
+ep019_1,Employed in the public sector (main) job,sharew1_rel9-0-0_ep.dta,True
+ep019_2,Employed in the public sector secondary job,sharew1_rel9-0-0_ep.dta,True
+ep020_1,Number of people employed at firm (main) job,sharew1_rel9-0-0_ep.dta,True
+ep020_2,Number of people employed at firm secondary job,sharew1_rel9-0-0_ep.dta,True
+ep021_1,Responsibility for supervising other employees (main) job,sharew1_rel9-0-0_ep.dta,True
+ep021_2,Responsibility for supervising other employees secondary job,sharew1_rel9-0-0_ep.dta,True
+ep022_1,Number of people responsible for in (main) job,sharew1_rel9-0-0_ep.dta,True
+ep022_2,Number of people responsible for in secondary job,sharew1_rel9-0-0_ep.dta,True
+ep024_1,Number of employees in (main) job,sharew1_rel9-0-0_ep.dta,True
+ep024_2,Number of employees in secondary job,sharew1_rel9-0-0_ep.dta,True
+ep026_,Satisfied with (main) job,sharew1_rel9-0-0_ep.dta,True
+ep027_,(Main) job physically demanding,sharew1_rel9-0-0_ep.dta,True
+ep028_,Time pressure due to a heavy workload in (main) job,sharew1_rel9-0-0_ep.dta,True
+ep029_,Little freedom to decide how I do my work in (main) job,sharew1_rel9-0-0_ep.dta,True
+ep030_,Opportunity to develop new skills in (main) job,sharew1_rel9-0-0_ep.dta,True
+ep031_,Receive support in difficult situations in (main) job,sharew1_rel9-0-0_ep.dta,True
+ep032_,Receive recognition for work in (main) job,sharew1_rel9-0-0_ep.dta,True
+ep033_,Salary or earnings are adequate in (main) job,sharew1_rel9-0-0_ep.dta,True
+ep034_,Poor prospects for (main) job advancement,sharew1_rel9-0-0_ep.dta,True
+ep035_,Poor (main) job security,sharew1_rel9-0-0_ep.dta,True
+ep036_,Look for early retirement in (main) job,sharew1_rel9-0-0_ep.dta,True
+ep037_,Afraid health limits ability to work before regular retirement in (main) job,sharew1_rel9-0-0_ep.dta,True
+ep038_1,Frequency of payment in (main) job,sharew1_rel9-0-0_ep.dta,True
+ep038_2,Frequency of payment in secondary job,sharew1_rel9-0-0_ep.dta,True
+ep041e_1,Taken home from work before tax (main) job,sharew1_rel9-0-0_ep.dta,True
+ep041ub_1,Taken home from work before tax (main) job ub,sharew1_rel9-0-0_ep.dta,True
+ep041e_2,Taken home from work before tax secondary job,sharew1_rel9-0-0_ep.dta,True
+ep041ub_2,Taken home from work before tax secondary job ub,sharew1_rel9-0-0_ep.dta,True
+ep041v1,Bracket value 1,sharew1_rel9-0-0_ep.dta,True
+ep041v2,Bracket value 2,sharew1_rel9-0-0_ep.dta,True
+ep041v3,Bracket value 3,sharew1_rel9-0-0_ep.dta,True
+ep045e_1,Total amount of profits at the end of the year (main) job,sharew1_rel9-0-0_ep.dta,True
+ep045ub_1,Total amount of profits at the end of the year (main) job ub,sharew1_rel9-0-0_ep.dta,True
+ep045e_2,Total amount of profits at the end of the year secondary job,sharew1_rel9-0-0_ep.dta,True
+ep045ub_2,Total amount of profits at the end of the year secondary job ub,sharew1_rel9-0-0_ep.dta,True
+ep045v1,Bracket value 1,sharew1_rel9-0-0_ep.dta,True
+ep045v2,Bracket value 2,sharew1_rel9-0-0_ep.dta,True
+ep045v3,Bracket value 3,sharew1_rel9-0-0_ep.dta,True
+ep049_,Years working in last job,sharew1_rel9-0-0_ep.dta,True
+ep050_,Year last job ended,sharew1_rel9-0-0_ep.dta,True
+ep051_,Employee or a self employed in last job,sharew1_rel9-0-0_ep.dta,True
+ep055_,Employed in the public sector last job,sharew1_rel9-0-0_ep.dta,True
+ep056_,Number of people employed at firm last job,sharew1_rel9-0-0_ep.dta,True
+ep057_,Responsibility for supervising others last job,sharew1_rel9-0-0_ep.dta,True
+ep058_,Number of people responsible for last job,sharew1_rel9-0-0_ep.dta,True
+ep059_,Opportunities to work after the official retirement age,sharew1_rel9-0-0_ep.dta,True
+ep061_,Number of employees last job,sharew1_rel9-0-0_ep.dta,True
+ep064d1,Reason retirement: country-specific category 1,sharew1_rel9-0-0_ep.dta,True
+ep064d2,Reason retirement: country-specific category 2,sharew1_rel9-0-0_ep.dta,True
+ep064d3,Reason retirement: country-specific category 3,sharew1_rel9-0-0_ep.dta,True
+ep064d4,Reason retirement: country-specific category 4,sharew1_rel9-0-0_ep.dta,True
+ep064d5,Reason retirement: country-specific category 5,sharew1_rel9-0-0_ep.dta,True
+ep064d6,Reason retirement: country-specific category 6,sharew1_rel9-0-0_ep.dta,True
+ep064d7,Reason retirement: country-specific category 7,sharew1_rel9-0-0_ep.dta,True
+ep064d8,Reason retirement: country-specific category 8,sharew1_rel9-0-0_ep.dta,True
+ep064d9,Reason retirement: country-specific category 9,sharew1_rel9-0-0_ep.dta,True
+ep064d10,Reason retirement: country-specific category 10,sharew1_rel9-0-0_ep.dta,True
+ep064dot,Reason retirement: other,sharew1_rel9-0-0_ep.dta,True
+ep065_,Retirement been a relief or a concern,sharew1_rel9-0-0_ep.dta,True
+ep067_,How became unemployed,sharew1_rel9-0-0_ep.dta,True
+ep068_,Disability caused by work,sharew1_rel9-0-0_ep.dta,True
+ep069d1,Reason stopped working: health problems,sharew1_rel9-0-0_ep.dta,True
+ep069d2,Reason stopped working: too tiring,sharew1_rel9-0-0_ep.dta,True
+ep069d3,Reason stopped working: too expensive to hire someone to look after home/family,sharew1_rel9-0-0_ep.dta,True
+ep069d4,Reason stopped working: wanted to take care of (grand)children,sharew1_rel9-0-0_ep.dta,True
+ep069dot,Reason stopped working: other,sharew1_rel9-0-0_ep.dta,True
+ep071d1,Income sources: country-specific category 1,sharew1_rel9-0-0_ep.dta,True
+ep071d2,Income sources: country-specific category 2,sharew1_rel9-0-0_ep.dta,True
+ep071d3,Income sources: country-specific category 3,sharew1_rel9-0-0_ep.dta,True
+ep071d4,Income sources: country-specific category 4,sharew1_rel9-0-0_ep.dta,True
+ep071d5,Income sources: country-specific category 5,sharew1_rel9-0-0_ep.dta,True
+ep071d6,Income sources: country-specific category 6,sharew1_rel9-0-0_ep.dta,True
+ep071d7,Income sources: country-specific category 7,sharew1_rel9-0-0_ep.dta,True
+ep071d8,Income sources: country-specific category 8,sharew1_rel9-0-0_ep.dta,True
+ep071d9,Income sources: country-specific category 9,sharew1_rel9-0-0_ep.dta,True
+ep071d10,Income sources: country-specific category 10,sharew1_rel9-0-0_ep.dta,True
+ep071d11,Income sources: country-specific category 11,sharew1_rel9-0-0_ep.dta,True
+ep071dot,Income sources: country-specific category 50,sharew1_rel9-0-0_ep.dta,True
+ep071dno,Income sources: none of these,sharew1_rel9-0-0_ep.dta,True
+ep074_1,Period of income source c1,sharew1_rel9-0-0_ep.dta,True
+ep074_2,Period of income source c2,sharew1_rel9-0-0_ep.dta,True
+ep074_3,Period of income source c3,sharew1_rel9-0-0_ep.dta,True
+ep074_4,Period of income source c4,sharew1_rel9-0-0_ep.dta,True
+ep074_5,Period of income source c5,sharew1_rel9-0-0_ep.dta,True
+ep074_6,Period of income source c6,sharew1_rel9-0-0_ep.dta,True
+ep074_7,Period of income source c7,sharew1_rel9-0-0_ep.dta,True
+ep074_8,Period of income source c8,sharew1_rel9-0-0_ep.dta,True
+ep074_9,Period of income source c9,sharew1_rel9-0-0_ep.dta,True
+ep074_10,Period of income source c10,sharew1_rel9-0-0_ep.dta,True
+ep074_11,Period of income source c11,sharew1_rel9-0-0_ep.dta,True
+ep078e_1,Average payment income source c1 last year,sharew1_rel9-0-0_ep.dta,True
+ep078ub_1,Average payment income source c1 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep078e_2,Average payment income source c2 last year,sharew1_rel9-0-0_ep.dta,True
+ep078ub_2,Average payment income source c2 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep078e_3,Average payment income source c3 last year,sharew1_rel9-0-0_ep.dta,True
+ep078ub_3,Average payment income source c3 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep078e_4,Average payment income source c4 last year,sharew1_rel9-0-0_ep.dta,True
+ep078ub_4,Average payment income source c4 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep078e_5,Average payment income source c5 last year,sharew1_rel9-0-0_ep.dta,True
+ep078ub_5,Average payment income source c5 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep078e_6,Average payment income source c6 last year,sharew1_rel9-0-0_ep.dta,True
+ep078ub_6,Average payment income source c6 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep078e_7,Average payment income source c7 last year,sharew1_rel9-0-0_ep.dta,True
+ep078ub_7,Average payment income source c7 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep078e_8,Average payment income source c8 last year,sharew1_rel9-0-0_ep.dta,True
+ep078ub_8,Average payment income source c8 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep078e_9,Average payment income source c9 last year,sharew1_rel9-0-0_ep.dta,True
+ep078ub_9,Average payment income source c9 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep078e_10,Average payment income source c10 last year,sharew1_rel9-0-0_ep.dta,True
+ep078ub_10,Average payment income source c10 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep078e_11,Average payment income source c11 last year,sharew1_rel9-0-0_ep.dta,True
+ep078ub_11,Average payment income source c11 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep078v1,Bracket value 1,sharew1_rel9-0-0_ep.dta,True
+ep078v2,Bracket value 2,sharew1_rel9-0-0_ep.dta,True
+ep078v3,Bracket value 3,sharew1_rel9-0-0_ep.dta,True
+ep081_1,Lump sum payment income source c1,sharew1_rel9-0-0_ep.dta,True
+ep081_2,Lump sum payment income source c2,sharew1_rel9-0-0_ep.dta,True
+ep081_3,Lump sum payment income source c3,sharew1_rel9-0-0_ep.dta,True
+ep081_4,Lump sum payment income source c4,sharew1_rel9-0-0_ep.dta,True
+ep081_5,Lump sum payment income source c5,sharew1_rel9-0-0_ep.dta,True
+ep081_6,Lump sum payment income source c6,sharew1_rel9-0-0_ep.dta,True
+ep081_7,Lump sum payment income source c7,sharew1_rel9-0-0_ep.dta,True
+ep081_8,Lump sum payment income source c8,sharew1_rel9-0-0_ep.dta,True
+ep081_9,Lump sum payment income source c9,sharew1_rel9-0-0_ep.dta,True
+ep081_10,Lump sum payment income source c10,sharew1_rel9-0-0_ep.dta,True
+ep081_11,Lump sum payment income source c11,sharew1_rel9-0-0_ep.dta,True
+ep082e_1,Total amount of lump sum payment income source c1,sharew1_rel9-0-0_ep.dta,True
+ep082ub_1,Total amount of lump sum payment income source c1 ub,sharew1_rel9-0-0_ep.dta,True
+ep082e_2,Total amount of lump sum payment income source c2,sharew1_rel9-0-0_ep.dta,True
+ep082ub_2,Total amount of lump sum payment income source c2 ub,sharew1_rel9-0-0_ep.dta,True
+ep082e_3,Total amount of lump sum payment income source c3,sharew1_rel9-0-0_ep.dta,True
+ep082ub_3,Total amount of lump sum payment income source c3 ub,sharew1_rel9-0-0_ep.dta,True
+ep082e_4,Total amount of lump sum payment income source c4,sharew1_rel9-0-0_ep.dta,True
+ep082ub_4,Total amount of lump sum payment income source c4 ub,sharew1_rel9-0-0_ep.dta,True
+ep082e_5,Total amount of lump sum payment income source c5,sharew1_rel9-0-0_ep.dta,True
+ep082ub_5,Total amount of lump sum payment income source c5 ub,sharew1_rel9-0-0_ep.dta,True
+ep082e_6,Total amount of lump sum payment income source c6,sharew1_rel9-0-0_ep.dta,True
+ep082ub_6,Total amount of lump sum payment income source c6 ub,sharew1_rel9-0-0_ep.dta,True
+ep082e_7,Total amount of lump sum payment income source c7,sharew1_rel9-0-0_ep.dta,True
+ep082ub_7,Total amount of lump sum payment income source c7 ub,sharew1_rel9-0-0_ep.dta,True
+ep082e_8,Total amount of lump sum payment income source c8,sharew1_rel9-0-0_ep.dta,True
+ep082ub_8,Total amount of lump sum payment income source c8 ub,sharew1_rel9-0-0_ep.dta,True
+ep082e_9,Total amount of lump sum payment income source c9,sharew1_rel9-0-0_ep.dta,True
+ep082ub_9,Total amount of lump sum payment income source c9 ub,sharew1_rel9-0-0_ep.dta,True
+ep082e_10,Total amount of lump sum payment income source c10,sharew1_rel9-0-0_ep.dta,True
+ep082ub_10,Total amount of lump sum payment income source c10 ub,sharew1_rel9-0-0_ep.dta,True
+ep082e_11,Total amount of lump sum payment income source c11,sharew1_rel9-0-0_ep.dta,True
+ep082ub_11,Total amount of lump sum payment income source c11 ub,sharew1_rel9-0-0_ep.dta,True
+ep082v1,Bracket value 1,sharew1_rel9-0-0_ep.dta,True
+ep082v2,Bracket value 2,sharew1_rel9-0-0_ep.dta,True
+ep082v3,Bracket value 3,sharew1_rel9-0-0_ep.dta,True
+ep085_,Receive care insurance payments,sharew1_rel9-0-0_ep.dta,True
+ep086e,Amount of care insurance,sharew1_rel9-0-0_ep.dta,True
+ep087_,Apply for care insurance,sharew1_rel9-0-0_ep.dta,True
+ep088_,Application rejected or pending,sharew1_rel9-0-0_ep.dta,True
+ep089d1,Regular payments received: life insurance,sharew1_rel9-0-0_ep.dta,True
+ep089d2,Regular payments received: private annuity/private personal pension,sharew1_rel9-0-0_ep.dta,True
+ep089d3,Regular payments received: private health insurance,sharew1_rel9-0-0_ep.dta,True
+ep089d4,Regular payments received: alimony,sharew1_rel9-0-0_ep.dta,True
+ep089d5,Regular payments received: from charities,sharew1_rel9-0-0_ep.dta,True
+ep089dno,Regular payments received: none of these,sharew1_rel9-0-0_ep.dta,True
+ep090_1,Period received payment c1,sharew1_rel9-0-0_ep.dta,True
+ep090_2,Period received payment c2,sharew1_rel9-0-0_ep.dta,True
+ep090_3,Period received payment c3,sharew1_rel9-0-0_ep.dta,True
+ep090_4,Period received payment c4,sharew1_rel9-0-0_ep.dta,True
+ep090_5,Period received payment c5,sharew1_rel9-0-0_ep.dta,True
+ep092_1,Additional payments for this benefit in last year payment c1,sharew1_rel9-0-0_ep.dta,True
+ep092_2,Additional payments for this benefit in last year payment c2,sharew1_rel9-0-0_ep.dta,True
+ep092_3,Additional payments for this benefit in last year payment c3,sharew1_rel9-0-0_ep.dta,True
+ep092_4,Additional payments for this benefit in last year payment c4,sharew1_rel9-0-0_ep.dta,True
+ep092_5,Additional payments for this benefit in last year payment c5,sharew1_rel9-0-0_ep.dta,True
+ep094e_1,Total amount payment c1 last year,sharew1_rel9-0-0_ep.dta,True
+ep094ub_1,Total amount payment c1 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep094e_2,Total amount payment c2 last year,sharew1_rel9-0-0_ep.dta,True
+ep094ub_2,Total amount payment c2 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep094e_3,Total amount payment c3 last year,sharew1_rel9-0-0_ep.dta,True
+ep094ub_3,Total amount payment c3 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep094e_4,Total amount payment c4 last year,sharew1_rel9-0-0_ep.dta,True
+ep094ub_4,Total amount payment c4 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep094e_5,Total amount payment c5 last year,sharew1_rel9-0-0_ep.dta,True
+ep094ub_5,Total amount payment c5 last year ub,sharew1_rel9-0-0_ep.dta,True
+ep094v1,Bracket value 1,sharew1_rel9-0-0_ep.dta,True
+ep094v2,Bracket value 2,sharew1_rel9-0-0_ep.dta,True
+ep094v3,Bracket value 3,sharew1_rel9-0-0_ep.dta,True
+ep096_1,Months received payment c1,sharew1_rel9-0-0_ep.dta,True
+ep096_2,Months received payment c2,sharew1_rel9-0-0_ep.dta,True
+ep096_3,Months received payment c3,sharew1_rel9-0-0_ep.dta,True
+ep096_4,Months received payment c4,sharew1_rel9-0-0_ep.dta,True
+ep096_5,Months received payment c5,sharew1_rel9-0-0_ep.dta,True
+ep097_,Pension claims,sharew1_rel9-0-0_ep.dta,True
+ep098d1,Type of pension entitled to: country specific category 1,sharew1_rel9-0-0_ep.dta,True
+ep098d2,Type of pension entitled to: country specific category 2,sharew1_rel9-0-0_ep.dta,True
+ep098d3,Type of pension entitled to: country specific category 3,sharew1_rel9-0-0_ep.dta,True
+ep098d4,Type of pension entitled to: country specific category 4,sharew1_rel9-0-0_ep.dta,True
+ep098d5,Type of pension entitled to: country specific category 5,sharew1_rel9-0-0_ep.dta,True
+ep098d6,Type of pension entitled to: country-specific category 6,sharew1_rel9-0-0_ep.dta,True
+ep098d7,Type of pension entitled to: country-specific category 7,sharew1_rel9-0-0_ep.dta,True
+ep098dno,Type of pension entitled to: none of these,sharew1_rel9-0-0_ep.dta,True
+ep099_1,Pension c1 with/without health insurance,sharew1_rel9-0-0_ep.dta,True
+ep099_2,Pension c2 with/without health insurance,sharew1_rel9-0-0_ep.dta,True
+ep099_3,Pension c3 with/without health insurance,sharew1_rel9-0-0_ep.dta,True
+ep099_4,Pension c4 with/without health insurance,sharew1_rel9-0-0_ep.dta,True
+ep099_5,Pension c5 with/without health insurance,sharew1_rel9-0-0_ep.dta,True
+ep099_6,Pension c6 with/without health insurance,sharew1_rel9-0-0_ep.dta,True
+ep099_7,Pension c7 with/without health insurance,sharew1_rel9-0-0_ep.dta,True
+ep100_1,Percentage of salary to pension c1,sharew1_rel9-0-0_ep.dta,True
+ep100_2,Percentage of salary to pension c2,sharew1_rel9-0-0_ep.dta,True
+ep100_3,Percentage of salary to pension c3,sharew1_rel9-0-0_ep.dta,True
+ep100_4,Percentage of salary to pension c4,sharew1_rel9-0-0_ep.dta,True
+ep100_5,Percentage of salary to pension c5,sharew1_rel9-0-0_ep.dta,True
+ep100_6,Percentage of salary to pension c6,sharew1_rel9-0-0_ep.dta,True
+ep100_7,Percentage of salary to pension c7,sharew1_rel9-0-0_ep.dta,True
+ep102_1,Compulsory or voluntary participation in pension c1,sharew1_rel9-0-0_ep.dta,True
+ep102_2,Compulsory or voluntary participation in pension c2,sharew1_rel9-0-0_ep.dta,True
+ep102_3,Compulsory or voluntary participation in pension c3,sharew1_rel9-0-0_ep.dta,True
+ep102_4,Compulsory or voluntary participation in pension c4,sharew1_rel9-0-0_ep.dta,True
+ep102_5,Compulsory or voluntary participation in pension c5,sharew1_rel9-0-0_ep.dta,True
+ep102_6,Compulsory or voluntary plan or fund pension c6,sharew1_rel9-0-0_ep.dta,True
+ep102_7,Compulsory or voluntary plan or fund pension c7,sharew1_rel9-0-0_ep.dta,True
+ep103_1,Years contributing to plan pension c1,sharew1_rel9-0-0_ep.dta,True
+ep103_2,Years contributing to plan pension c2,sharew1_rel9-0-0_ep.dta,True
+ep103_3,Years contributing to plan pension c3,sharew1_rel9-0-0_ep.dta,True
+ep103_4,Years contributing to plan pension c4,sharew1_rel9-0-0_ep.dta,True
+ep103_5,Years contributing to plan pension c5,sharew1_rel9-0-0_ep.dta,True
+ep103_6,Years contributing to plan pension c6,sharew1_rel9-0-0_ep.dta,True
+ep103_7,Years contributing to plan pension c7,sharew1_rel9-0-0_ep.dta,True
+ep104_1,Retirement age in pension c1,sharew1_rel9-0-0_ep.dta,True
+ep104_2,Retirement age in pension c2,sharew1_rel9-0-0_ep.dta,True
+ep104_3,Retirement age in pension c3,sharew1_rel9-0-0_ep.dta,True
+ep104_4,Retirement age in pension c4,sharew1_rel9-0-0_ep.dta,True
+ep104_5,Retirement age in pension c5,sharew1_rel9-0-0_ep.dta,True
+ep104_6,Retirement age in pension c6,sharew1_rel9-0-0_ep.dta,True
+ep104_7,Retirement age in pension c7,sharew1_rel9-0-0_ep.dta,True
+ep105_1,Early retirement possibility pension c1,sharew1_rel9-0-0_ep.dta,True
+ep105_2,Early retirement possibility pension c2,sharew1_rel9-0-0_ep.dta,True
+ep105_3,Early retirement possibility pension c3,sharew1_rel9-0-0_ep.dta,True
+ep105_4,Early retirement possibility pension c4,sharew1_rel9-0-0_ep.dta,True
+ep105_5,Early retirement possibility pension c5,sharew1_rel9-0-0_ep.dta,True
+ep105_6,Early retirement possibility pension c6,sharew1_rel9-0-0_ep.dta,True
+ep105_7,Early retirement possibility pension c7,sharew1_rel9-0-0_ep.dta,True
+ep106_1,Expected age to collect pension c1,sharew1_rel9-0-0_ep.dta,True
+ep106_2,Expected age to collect pension c2,sharew1_rel9-0-0_ep.dta,True
+ep106_3,Expected age to collect pension c3,sharew1_rel9-0-0_ep.dta,True
+ep106_4,Expected age to collect pension c4,sharew1_rel9-0-0_ep.dta,True
+ep106_5,Expected age to collect pension c5,sharew1_rel9-0-0_ep.dta,True
+ep106_6,Expected age to collect pension c6,sharew1_rel9-0-0_ep.dta,True
+ep106_7,Expected age to collect pension c7,sharew1_rel9-0-0_ep.dta,True
+ep107_1,Expect lump sum payment with pension c1,sharew1_rel9-0-0_ep.dta,True
+ep107_2,Expect lump sum payment with pension c2,sharew1_rel9-0-0_ep.dta,True
+ep107_3,Expect lump sum payment with pension c3,sharew1_rel9-0-0_ep.dta,True
+ep107_4,Expect lump sum payment with pension c4,sharew1_rel9-0-0_ep.dta,True
+ep107_5,Expect lump sum payment with pension c5,sharew1_rel9-0-0_ep.dta,True
+ep107_6,Expect lump sum payment with pension c6,sharew1_rel9-0-0_ep.dta,True
+ep107_7,Expect lump sum payment with pension c7,sharew1_rel9-0-0_ep.dta,True
+ep108e_1,Amount lump sum payment at retirement pension c1,sharew1_rel9-0-0_ep.dta,True
+ep108ub_1,Amount lump sum payment at retirement pension c1 ub,sharew1_rel9-0-0_ep.dta,True
+ep108e_2,Amount lump sum payment at retirement pension c2,sharew1_rel9-0-0_ep.dta,True
+ep108ub_2,Amount lump sum payment at retirement pension c2 ub,sharew1_rel9-0-0_ep.dta,True
+ep108e_3,Amount lump sum payment at retirement pension c3,sharew1_rel9-0-0_ep.dta,True
+ep108ub_3,Amount lump sum payment at retirement pension c3 ub,sharew1_rel9-0-0_ep.dta,True
+ep108e_4,Amount lump sum payment at retirement pension c4,sharew1_rel9-0-0_ep.dta,True
+ep108ub_4,Amount lump sum payment at retirement pension c4 ub,sharew1_rel9-0-0_ep.dta,True
+ep108e_5,Amount lump sum payment at retirement pension c5,sharew1_rel9-0-0_ep.dta,True
+ep108ub_5,Amount lump sum payment at retirement pension c5 ub,sharew1_rel9-0-0_ep.dta,True
+ep108e_6,Amount lump sum payment at retirement pension c6,sharew1_rel9-0-0_ep.dta,True
+ep108ub_6,Amount lump sum payment at retirement pension c6 ub,sharew1_rel9-0-0_ep.dta,True
+ep108e_7,Amount lump sum payment at retirement pension c7,sharew1_rel9-0-0_ep.dta,True
+ep108ub_7,Amount lump sum payment at retirement pension c7 ub,sharew1_rel9-0-0_ep.dta,True
+ep108v1,Bracket value 1,sharew1_rel9-0-0_ep.dta,True
+ep108v2,Bracket value 2,sharew1_rel9-0-0_ep.dta,True
+ep108v3,Bracket value 3,sharew1_rel9-0-0_ep.dta,True
+ep109_1,Percentage of salary received as pension c1,sharew1_rel9-0-0_ep.dta,True
+ep109_2,Percentage of salary received as pension c2,sharew1_rel9-0-0_ep.dta,True
+ep109_3,Percentage of salary received as pension c3,sharew1_rel9-0-0_ep.dta,True
+ep109_4,Percentage of salary received as pension c4,sharew1_rel9-0-0_ep.dta,True
+ep109_5,Percentage of salary received as pension c5,sharew1_rel9-0-0_ep.dta,True
+ep109_6,Percentage of salary received as pension c6,sharew1_rel9-0-0_ep.dta,True
+ep109_7,Percentage of salary received as pension c7,sharew1_rel9-0-0_ep.dta,True
+ep201e_1,Taken home from work after tax (main) job,sharew1_rel9-0-0_ep.dta,True
+ep201ub_1,Taken home from work after tax (main) job ub,sharew1_rel9-0-0_ep.dta,True
+ep201e_2,Taken home from work after tax secondary job,sharew1_rel9-0-0_ep.dta,True
+ep201ub_2,Taken home from work after tax secondary job ub,sharew1_rel9-0-0_ep.dta,True
+ep201v1,Bracket value 1,sharew1_rel9-0-0_ep.dta,True
+ep201v2,Bracket value 2,sharew1_rel9-0-0_ep.dta,True
+ep201v3,Bracket value 3,sharew1_rel9-0-0_ep.dta,True
+ep204_,Any earnings from employment previous year,sharew1_rel9-0-0_ep.dta,True
+ep205e,Earnings employment per year before taxes,sharew1_rel9-0-0_ep.dta,True
+ep205ub,Earnings employment per year before taxes ub,sharew1_rel9-0-0_ep.dta,True
+ep205v1,Bracket value 1,sharew1_rel9-0-0_ep.dta,True
+ep205v2,Bracket value 2,sharew1_rel9-0-0_ep.dta,True
+ep205v3,Bracket value 3,sharew1_rel9-0-0_ep.dta,True
+ep206_,Income from self-employment previous year,sharew1_rel9-0-0_ep.dta,True
+ep207e,Earnings self-employment per year before taxes,sharew1_rel9-0-0_ep.dta,True
+ep207ub,Earnings self-employment per year before taxes ub,sharew1_rel9-0-0_ep.dta,True
+ep207v1,Bracket value 1,sharew1_rel9-0-0_ep.dta,True
+ep207v2,Bracket value 2,sharew1_rel9-0-0_ep.dta,True
+ep207v3,Bracket value 3,sharew1_rel9-0-0_ep.dta,True
+ep208_1,How many months received income source c1,sharew1_rel9-0-0_ep.dta,True
+ep208_2,How many months received income source c2,sharew1_rel9-0-0_ep.dta,True
+ep208_3,How many months received income source c3,sharew1_rel9-0-0_ep.dta,True
+ep208_4,How many months received income source c4,sharew1_rel9-0-0_ep.dta,True
+ep208_5,How many months received income source c5,sharew1_rel9-0-0_ep.dta,True
+ep208_6,How many months received income source c6,sharew1_rel9-0-0_ep.dta,True
+ep208_7,How many months received income source c7,sharew1_rel9-0-0_ep.dta,True
+ep208_8,How many months received income source c8,sharew1_rel9-0-0_ep.dta,True
+ep208_9,How many months received income source c9,sharew1_rel9-0-0_ep.dta,True
+ep208_10,How many months received income source c10,sharew1_rel9-0-0_ep.dta,True
+ep208_11,How many months received income source c11,sharew1_rel9-0-0_ep.dta,True
+ep209e_1,Additional payments c1 after taxes,sharew1_rel9-0-0_ep.dta,True
+ep209ub_1,Additional payments c1 after taxes ub,sharew1_rel9-0-0_ep.dta,True
+ep209e_2,Additional payments c2 after taxes,sharew1_rel9-0-0_ep.dta,True
+ep209ub_2,Additional payments c2 after taxes ub,sharew1_rel9-0-0_ep.dta,True
+ep209e_3,Additional payments c3 after taxes,sharew1_rel9-0-0_ep.dta,True
+ep209ub_3,Additional payments c3 after taxes ub,sharew1_rel9-0-0_ep.dta,True
+ep209e_4,Additional payments c4 after taxes,sharew1_rel9-0-0_ep.dta,True
+ep209ub_4,Additional payments c4 after taxes ub,sharew1_rel9-0-0_ep.dta,True
+ep209e_5,Additional payments c5 after taxes,sharew1_rel9-0-0_ep.dta,True
+ep209ub_5,Additional payments c5 after taxes ub,sharew1_rel9-0-0_ep.dta,True
+ep209v1,Bracket value 1,sharew1_rel9-0-0_ep.dta,True
+ep209v2,Bracket value 2,sharew1_rel9-0-0_ep.dta,True
+ep209v3,Bracket value 3,sharew1_rel9-0-0_ep.dta,True
+ep210_,Who answered section ep,sharew1_rel9-0-0_ep.dta,True
+ep213_1,First year received income source c1,sharew1_rel9-0-0_ep.dta,True
+ep213_2,First year received income source c2,sharew1_rel9-0-0_ep.dta,True
+ep213_3,First year received income source c3,sharew1_rel9-0-0_ep.dta,True
+ep213_4,First year received income source c4,sharew1_rel9-0-0_ep.dta,True
+ep213_5,First year received income source c5,sharew1_rel9-0-0_ep.dta,True
+ep213_6,First year received income source c6,sharew1_rel9-0-0_ep.dta,True
+ep213_7,First year received income source c7,sharew1_rel9-0-0_ep.dta,True
+ep213_8,First year received income source c8,sharew1_rel9-0-0_ep.dta,True
+ep213_9,First year received income source c9,sharew1_rel9-0-0_ep.dta,True
+ep213_10,First year received income source c10,sharew1_rel9-0-0_ep.dta,True
+ep213_11,First year received income source c11,sharew1_rel9-0-0_ep.dta,True
+ep214_1,Amount includes additional payments (main) job,sharew1_rel9-0-0_ep.dta,True
+ep214_2,Amount includes additional payments secondary job,sharew1_rel9-0-0_ep.dta,True
+intidwX,Interviewer identifier (fix across waves),sharew1_rel9-0-0_iv.dta,True
+intid,Interviewer identifier (wave-specific),sharew1_rel9-0-0_iv.dta,True
+iv002d1,Present during interview: nobody else,sharew1_rel9-0-0_iv.dta,True
+iv002d2,Present during interview: spouse or partner,sharew1_rel9-0-0_iv.dta,True
+iv002d3,Present during interview: parent(s),sharew1_rel9-0-0_iv.dta,True
+iv002d4,Present during interview: child(ren),sharew1_rel9-0-0_iv.dta,True
+iv002d5,Present during interview: other relative(s),sharew1_rel9-0-0_iv.dta,True
+iv002d6,Present during interview: other person(s),sharew1_rel9-0-0_iv.dta,True
+iv003_,Intervened in interview,sharew1_rel9-0-0_iv.dta,True
+iv004_,Willingness to answer,sharew1_rel9-0-0_iv.dta,True
+iv005d1,Why willingness worse: respondent was losing interest,sharew1_rel9-0-0_iv.dta,True
+iv005d2,Why willingness worse: respondent was losing concentration,sharew1_rel9-0-0_iv.dta,True
+iv005d3,Why willingness worse: other,sharew1_rel9-0-0_iv.dta,True
+iv007_,Respondent asked for clarification,sharew1_rel9-0-0_iv.dta,True
+iv008_,Respondent understood questions,sharew1_rel9-0-0_iv.dta,True
+iv009_,Which area building located,sharew1_rel9-0-0_iv.dta,True
+iv010_,Type of building,sharew1_rel9-0-0_iv.dta,True
+iv011_,Number of floors of building,sharew1_rel9-0-0_iv.dta,True
+iv012_,Number of steps to entrance,sharew1_rel9-0-0_iv.dta,True
+iv013_,Sex of interviewer,sharew1_rel9-0-0_iv.dta,True
+iv014_,Age of interviewer,sharew1_rel9-0-0_iv.dta,True
+iv015_,Highest school interviewer,sharew1_rel9-0-0_iv.dta,True
+iv016d1,Higher/vocational degree interviewer: country-specific category 1,sharew1_rel9-0-0_iv.dta,True
+iv016d2,Higher/vocational degree interviewer: country-specific category 2,sharew1_rel9-0-0_iv.dta,True
+iv016d3,Higher/vocational degree interviewer: country-specific category 3,sharew1_rel9-0-0_iv.dta,True
+iv016d4,Higher/vocational degree interviewer: country-specific category 4,sharew1_rel9-0-0_iv.dta,True
+iv016d5,Higher/vocational degree interviewer: country-specific category 5,sharew1_rel9-0-0_iv.dta,True
+iv016d6,Higher/vocational degree interviewer: country-specific category 6,sharew1_rel9-0-0_iv.dta,True
+iv016d11,Higher/vocational degree interviewer: country-specific category 11,sharew1_rel9-0-0_iv.dta,True
+iv016d12,Higher/vocational degree interviewer: country-specific category 12,sharew1_rel9-0-0_iv.dta,True
+iv016d13,Higher/vocational degree interviewer: country-specific category 13,sharew1_rel9-0-0_iv.dta,True
+iv016d95,Higher/vocational degree interviewer: country-specific category 95,sharew1_rel9-0-0_iv.dta,True
+iv016dno,Higher/vocational degree interviewer: none of these,sharew1_rel9-0-0_iv.dta,True
+iv016dot,Higher/vocational degree interviewer: other,sharew1_rel9-0-0_iv.dta,True
+iv018_,Help needed reading showcards,sharew1_rel9-0-0_iv.dta,True
+iv020_,Relationship proxy,sharew1_rel9-0-0_iv.dta,True
+cf001_,Self-rated reading skills,sharew1_rel9-0-0_cf.dta,True
+cf002_,Self-rated writing skills,sharew1_rel9-0-0_cf.dta,True
+cf003_,Date: day of month,sharew1_rel9-0-0_cf.dta,True
+cf004_,Date: month,sharew1_rel9-0-0_cf.dta,True
+cf005_,Date: year,sharew1_rel9-0-0_cf.dta,True
+cf006_,Date: day of the week,sharew1_rel9-0-0_cf.dta,True
+cf008tot,Ten words list learning first trial total,sharew1_rel9-0-0_cf.dta,True
+cf010_,Verbal fluency score: number of animals,sharew1_rel9-0-0_cf.dta,True
+cf012_,Numeracy: chance disease 10% of 1000,sharew1_rel9-0-0_cf.dta,True
+cf013_,Numeracy: half price,sharew1_rel9-0-0_cf.dta,True
+cf014_,Numeracy: 6000 is two-thirds what is total price,sharew1_rel9-0-0_cf.dta,True
+cf015_,Numeracy: amount in the savings account,sharew1_rel9-0-0_cf.dta,True
+cf016tot,Ten words list learning delayed recall total,sharew1_rel9-0-0_cf.dta,True
+cf017_,Contextual factors during the cognitive function test,sharew1_rel9-0-0_cf.dta,True
+cf018d1,Who present during cf: respondent alone,sharew1_rel9-0-0_cf.dta,True
+cf018d2,Who present during cf: partner present,sharew1_rel9-0-0_cf.dta,True
+cf018d3,Who present during cf: child(ren) present,sharew1_rel9-0-0_cf.dta,True
+cf018d4,Who present during cf: other(s),sharew1_rel9-0-0_cf.dta,True
+ws001_,Record respondent status,sharew1_rel9-0-0_ws.dta,True
+ws002_,Able to walk alone (using aid),sharew1_rel9-0-0_ws.dta,True
+ws003_,Is it safe to carry out the test,sharew1_rel9-0-0_ws.dta,True
+ws004_,Respondent willing to do walking test,sharew1_rel9-0-0_ws.dta,True
+ws005_,Does respondent feel safe to continue,sharew1_rel9-0-0_ws.dta,True
+ws007_,Check available space for test,sharew1_rel9-0-0_ws.dta,True
+ws010_,Result of first trial,sharew1_rel9-0-0_ws.dta,True
+ws011_,Time of first walking speed test,sharew1_rel9-0-0_ws.dta,True
+ws012_,Result of second trial,sharew1_rel9-0-0_ws.dta,True
+ws013_,Time of second walking speed test,sharew1_rel9-0-0_ws.dta,True
+ws014_,Did the respondent have comment on pain,sharew1_rel9-0-0_ws.dta,True
+ws015_,Record type of floor surface,sharew1_rel9-0-0_ws.dta,True
+ws017_,Type of aid used during test,sharew1_rel9-0-0_ws.dta,True
+br001_,Ever smoked daily,sharew1_rel9-0-0_br.dta,True
+br002_,Smoke at the present time,sharew1_rel9-0-0_br.dta,True
+br003_,How many years smoked,sharew1_rel9-0-0_br.dta,True
+br004_,Age stopped smoking,sharew1_rel9-0-0_br.dta,True
+br005d1,Do or did smoke: cigarettes,sharew1_rel9-0-0_br.dta,True
+br005d2,Do or did smoke: pipe,sharew1_rel9-0-0_br.dta,True
+br005d3,Do or did smoke: cigars or cigarillos,sharew1_rel9-0-0_br.dta,True
+br006_,Average amount of cigarettes per day,sharew1_rel9-0-0_br.dta,True
+br007_,Average amount of pipes per day,sharew1_rel9-0-0_br.dta,True
+br008_,Average amount of cigars per day,sharew1_rel9-0-0_br.dta,True
+br010_,Days a week consumed alcohol last 6 months,sharew1_rel9-0-0_br.dta,True
+br011_,Freq more than 2 glasses beer in a day,sharew1_rel9-0-0_br.dta,True
+br012_,Freq more than 2 glasses wine in a day,sharew1_rel9-0-0_br.dta,True
+br013_,Freq more than 2 hard liquor in a day,sharew1_rel9-0-0_br.dta,True
+br015_,Sports or activities that are vigorous,sharew1_rel9-0-0_br.dta,True
+br016_,Activities requiring a moderate level of energy,sharew1_rel9-0-0_br.dta,True
+br017_,Who answered the questions in br,sharew1_rel9-0-0_br.dta,True
+mh002_,Sad or depressed last month,sharew1_rel9-0-0_mh.dta,True
+mh003_,Hopes for the future,sharew1_rel9-0-0_mh.dta,True
+mh004_,Suicidal feelings or wish to be dead,sharew1_rel9-0-0_mh.dta,True
+mh005_,Feels guilty,sharew1_rel9-0-0_mh.dta,True
+mh006_,Blame for what,sharew1_rel9-0-0_mh.dta,True
+mh007_,Trouble sleeping,sharew1_rel9-0-0_mh.dta,True
+mh008_,Less or same interest in things,sharew1_rel9-0-0_mh.dta,True
+mh009_,Keeps up interest,sharew1_rel9-0-0_mh.dta,True
+mh010_,Irritability,sharew1_rel9-0-0_mh.dta,True
+mh011_,Appetite,sharew1_rel9-0-0_mh.dta,True
+mh012_,Eating more or less,sharew1_rel9-0-0_mh.dta,True
+mh013_,Fatigue,sharew1_rel9-0-0_mh.dta,True
+mh014_,Concentration on entertainment,sharew1_rel9-0-0_mh.dta,True
+mh015_,Concentration on reading,sharew1_rel9-0-0_mh.dta,True
+mh016_,Enjoyment,sharew1_rel9-0-0_mh.dta,True
+mh017_,Tearfulness,sharew1_rel9-0-0_mh.dta,True
+mh018_,Depression ever,sharew1_rel9-0-0_mh.dta,True
+mh019_,Age depression symptoms first time,sharew1_rel9-0-0_mh.dta,True
+mh020_,Ever treated for depression by doctor or psychiatrist,sharew1_rel9-0-0_mh.dta,True
+mh021_,Ever admitted to mental hospital or psychiatric ward,sharew1_rel9-0-0_mh.dta,True
+co002e,Amount spent on food at home,sharew1_rel9-0-0_co.dta,True
+co003e,Amount spent on food outside the home,sharew1_rel9-0-0_co.dta,True
+co004e,Amount spent on telephones in last month,sharew1_rel9-0-0_co.dta,True
+co005e,Amount spent on all goods and services in last month,sharew1_rel9-0-0_co.dta,True
+co007_,Is household able to make ends meet,sharew1_rel9-0-0_co.dta,True
+co008_,Situation improvement thinking back one year,sharew1_rel9-0-0_co.dta,True
+co009_,Who answered the questions in co,sharew1_rel9-0-0_co.dta,True
+as002d1,Saving/investments: bank accounts transaction accounts or saving accounts,sharew1_rel9-0-0_as.dta,True
+as002d2,Saving/investments: government or corporate bonds,sharew1_rel9-0-0_as.dta,True
+as002d3,Saving/investments: stock or shares,sharew1_rel9-0-0_as.dta,True
+as002d4,Saving/investments: mutual funds or managed investment accounts,sharew1_rel9-0-0_as.dta,True
+as002d5,Saving/investments: individual retirements accounts,sharew1_rel9-0-0_as.dta,True
+as002d6,Saving/investments: contractual saving for house,sharew1_rel9-0-0_as.dta,True
+as002d7,Saving/investments: life insurance,sharew1_rel9-0-0_as.dta,True
+as002d8,Saving/investments: private pension precaution state-run supported (ATonly),sharew1_rel9-0-0_as.dta,True
+as002dno,Saving/investments: none of these,sharew1_rel9-0-0_as.dta,True
+as003e,Amount bank account,sharew1_rel9-0-0_as.dta,True
+as003ub,Amount bank account ub,sharew1_rel9-0-0_as.dta,True
+as003v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as003v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as003v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as005e,Interest from bank account,sharew1_rel9-0-0_as.dta,True
+as005ub,Interest from bank account ub,sharew1_rel9-0-0_as.dta,True
+as005v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as005v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as005v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as007e,Amount in bonds,sharew1_rel9-0-0_as.dta,True
+as007ub,Amount in bonds ub,sharew1_rel9-0-0_as.dta,True
+as007v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as007v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as007v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as009e,Interest from bonds,sharew1_rel9-0-0_as.dta,True
+as009ub,Interest from bonds ub,sharew1_rel9-0-0_as.dta,True
+as009v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as009v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as009v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as011e,Amount in stocks,sharew1_rel9-0-0_as.dta,True
+as011ub,Amount in stocks ub,sharew1_rel9-0-0_as.dta,True
+as011v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as011v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as011v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as015e,Dividend from stocks,sharew1_rel9-0-0_as.dta,True
+as015ub,Dividend from stocks ub,sharew1_rel9-0-0_as.dta,True
+as015v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as015v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as015v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as017e,Amount in mutual funds,sharew1_rel9-0-0_as.dta,True
+as017ub,Amount in mutual funds ub,sharew1_rel9-0-0_as.dta,True
+as017v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as017v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as017v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as019_,Mutual funds mostly stocks or bonds,sharew1_rel9-0-0_as.dta,True
+as020_,Who has individual retirement accounts,sharew1_rel9-0-0_as.dta,True
+as021e,Amount individual retirement accounts,sharew1_rel9-0-0_as.dta,True
+as021ub,Amount individual retirement accounts ub,sharew1_rel9-0-0_as.dta,True
+as021v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as021v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as021v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as023_,Individual retirement accounts mostly in stocks or bonds,sharew1_rel9-0-0_as.dta,True
+as024e,Partner amount individual retirement accounts,sharew1_rel9-0-0_as.dta,True
+as024ub,Partner amount individual retirement accounts ub,sharew1_rel9-0-0_as.dta,True
+as024v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as024v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as024v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as026_,Partner individual retirement accounts mostly in stocks or bonds,sharew1_rel9-0-0_as.dta,True
+as027e,Amount contractual saving for housing,sharew1_rel9-0-0_as.dta,True
+as027ub,Amount contractual saving for housing ub,sharew1_rel9-0-0_as.dta,True
+as027v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as027v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as027v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as029_,Life insurance policies term or whole life,sharew1_rel9-0-0_as.dta,True
+as030e,Face value of whole life policies,sharew1_rel9-0-0_as.dta,True
+as030ub,Face value of whole life policies ub,sharew1_rel9-0-0_as.dta,True
+as030v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as030v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as030v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as032e_1,Amount dependents get from life insurace policies,sharew1_rel9-0-0_as.dta,True
+as032ub_1,Amount dependents get from life insurace policies ub,sharew1_rel9-0-0_as.dta,True
+as032e_2,Amount dependents get from term policies,sharew1_rel9-0-0_as.dta,True
+as032ub_2,Amount dependents get from term policies ub,sharew1_rel9-0-0_as.dta,True
+as032v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as032v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as032v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as034e_1,Paid on life insurance policies,sharew1_rel9-0-0_as.dta,True
+as034ub_1,Paid on life insurance policies ub,sharew1_rel9-0-0_as.dta,True
+as034e_2,Paid on term policies,sharew1_rel9-0-0_as.dta,True
+as034ub_2,Paid on term policies ub,sharew1_rel9-0-0_as.dta,True
+as034v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as034v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as034v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as040_,How often spent time on managing savings,sharew1_rel9-0-0_as.dta,True
+as041_,Own firm company business,sharew1_rel9-0-0_as.dta,True
+as042e,Amount selling firm,sharew1_rel9-0-0_as.dta,True
+as042ub,Amount selling firm ub,sharew1_rel9-0-0_as.dta,True
+as042v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as042v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as042v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as044_,Percentage share firm owned,sharew1_rel9-0-0_as.dta,True
+as044ub,Percentage share firm owned ub,sharew1_rel9-0-0_as.dta,True
+as044v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as044v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as044v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as049_,Number of cars,sharew1_rel9-0-0_as.dta,True
+as051e,Amount selling cars,sharew1_rel9-0-0_as.dta,True
+as051ub,Amount selling cars ub,sharew1_rel9-0-0_as.dta,True
+as051v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as051v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as051v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as054d1,Owe money: debt on cars and other vehicles (vans/motorcycles/boats etc.),sharew1_rel9-0-0_as.dta,True
+as054d2,Owe money: overdue bills (phone electricity heating rent),sharew1_rel9-0-0_as.dta,True
+as054d3,Owe money: debt on credit cards/store cards,sharew1_rel9-0-0_as.dta,True
+as054d4,Owe money: loans (from bank building society or other financial institution),sharew1_rel9-0-0_as.dta,True
+as054d5,Owe money: debts to relatives or friends,sharew1_rel9-0-0_as.dta,True
+as054d6,Owe money: student loans,sharew1_rel9-0-0_as.dta,True
+as054dno,Owe money: none of these,sharew1_rel9-0-0_as.dta,True
+as054dot,Owe money: other,sharew1_rel9-0-0_as.dta,True
+as055e,Amount owing money in total,sharew1_rel9-0-0_as.dta,True
+as055ub,Amount owing money in total ub,sharew1_rel9-0-0_as.dta,True
+as055v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as055v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as055v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+as057_,Who answered the question in as,sharew1_rel9-0-0_as.dta,True
+as058e,Interest or dividend on mutual funds,sharew1_rel9-0-0_as.dta,True
+as058ub,Interest or dividend on mutual funds ub,sharew1_rel9-0-0_as.dta,True
+as058v1,Bracket value 1,sharew1_rel9-0-0_as.dta,True
+as058v2,Bracket value 2,sharew1_rel9-0-0_as.dta,True
+as058v3,Bracket value 3,sharew1_rel9-0-0_as.dta,True
+childid_1,Child identifier (fix across modules and waves): Child 1,sharew1_rel9-0-0_ch.dta,True
+childid_2,Child identifier (fix across modules and waves): Child 2,sharew1_rel9-0-0_ch.dta,True
+childid_3,Child identifier (fix across modules and waves): Child 3,sharew1_rel9-0-0_ch.dta,True
+childid_4,Child identifier (fix across modules and waves): Child 4,sharew1_rel9-0-0_ch.dta,True
+childid_5,Child identifier (fix across modules and waves): Child 5,sharew1_rel9-0-0_ch.dta,True
+childid_6,Child identifier (fix across modules and waves): Child 6,sharew1_rel9-0-0_ch.dta,True
+childid_7,Child identifier (fix across modules and waves): Child 7,sharew1_rel9-0-0_ch.dta,True
+childid_8,Child identifier (fix across modules and waves): Child 8,sharew1_rel9-0-0_ch.dta,True
+childid_9,Child identifier (fix across modules and waves): Child 9,sharew1_rel9-0-0_ch.dta,True
+childid_10,Child identifier (fix across modules and waves): Child 10,sharew1_rel9-0-0_ch.dta,True
+childid_11,Child identifier (fix across modules and waves): Child 11,sharew1_rel9-0-0_ch.dta,True
+childid_12,Child identifier (fix across modules and waves): Child 12,sharew1_rel9-0-0_ch.dta,True
+childid_13,Child identifier (fix across modules and waves): Child 13,sharew1_rel9-0-0_ch.dta,True
+childid_14,Child identifier (fix across modules and waves): Child 14,sharew1_rel9-0-0_ch.dta,True
+childid_15,Child identifier (fix across modules and waves): Child 15,sharew1_rel9-0-0_ch.dta,True
+childid_16,Child identifier (fix across modules and waves): Child 16,sharew1_rel9-0-0_ch.dta,True
+childid_17,Child identifier (fix across modules and waves): Child 17,sharew1_rel9-0-0_ch.dta,True
+childid_18,Child identifier (fix across modules and waves): Child 18,sharew1_rel9-0-0_ch.dta,True
+childid_19,Child identifier (fix across modules and waves): Child 19,sharew1_rel9-0-0_ch.dta,True
+childid_20,Child identifier (fix across modules and waves): Child 20,sharew1_rel9-0-0_ch.dta,True
+ch001_,Number of children,sharew1_rel9-0-0_ch.dta,True
+ch002_,Natural child(ren),sharew1_rel9-0-0_ch.dta,True
+ch005_1,Child 1 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_2,Child 2 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_3,Child 3 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_4,Child 4 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_5,Child 5 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_6,Child 6 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_7,Child 7 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_8,Child 8 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_9,Child 9 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_10,Child 10 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_11,Child 11 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_12,Child 12 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_13,Child 13 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_14,Child 14 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_15,Child 15 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_16,Child 16 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_17,Child 17 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_18,Child 18 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_19,Child 19 gender,sharew1_rel9-0-0_ch.dta,True
+ch005_20,Child 20 gender,sharew1_rel9-0-0_ch.dta,True
+ch006_1,Child 1 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_2,Child 2 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_3,Child 3 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_4,Child 4 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_5,Child 5 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_6,Child 6 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_7,Child 7 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_8,Child 8 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_9,Child 9 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_10,Child 10 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_11,Child 11 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_12,Child 12 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_13,Child 13 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_14,Child 14 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_15,Child 15 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_16,Child 16 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_17,Child 17 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_18,Child 18 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_19,Child 19 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch006_20,Child 20 year of birth,sharew1_rel9-0-0_ch.dta,True
+ch007_1,Child 1 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_2,Child 2 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_3,Child 3 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_4,Child 4 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_5,Child 5 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_6,Child 6 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_7,Child 7 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_8,Child 8 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_9,Child 9 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_10,Child 10 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_11,Child 11 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_12,Child 12 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_13,Child 13 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_14,Child 14 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_15,Child 15 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_16,Child 16 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_17,Child 17 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_18,Child 18 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_19,Child 19 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch007_20,Child 20 where does child live,sharew1_rel9-0-0_ch.dta,True
+ch008c_1,Child 1 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_2,Child 2 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_3,Child 3 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_4,Child 4 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_5,Child 5 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_6,Child 6 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_7,Child 7 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_8,Child 8 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_9,Child 9 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_10,Child 10 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_11,Child 11 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_12,Child 12 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_13,Child 13 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_14,Child 14 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_15,Child 15 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_16,Child 16 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_17,Child 17 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_18,Child 18 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_19,Child 19 which country - coded,sharew1_rel9-0-0_ch.dta,True
+ch008c_20,Child 20 which country - coded,sharew1_rel9-0-0_ch.dta,True
+chselch1,Child number 1 selected child,sharew1_rel9-0-0_ch.dta,True
+chselch2,Child number 2 selected child,sharew1_rel9-0-0_ch.dta,True
+chselch3,Child number 3 selected child,sharew1_rel9-0-0_ch.dta,True
+chselch4,Child number 4 selected child,sharew1_rel9-0-0_ch.dta,True
+ch010_1,Child 1 step adoptive or foster child,sharew1_rel9-0-0_ch.dta,True
+ch010_2,Child 2 step adoptive or foster child,sharew1_rel9-0-0_ch.dta,True
+ch010_3,Child 3 step adoptive or foster child,sharew1_rel9-0-0_ch.dta,True
+ch010_4,Child 4 step adoptive or foster child,sharew1_rel9-0-0_ch.dta,True
+ch011_1,Child 1 own child,sharew1_rel9-0-0_ch.dta,True
+ch011_2,Child 2 own child,sharew1_rel9-0-0_ch.dta,True
+ch011_3,Child 3 own child,sharew1_rel9-0-0_ch.dta,True
+ch011_4,Child 4 own child,sharew1_rel9-0-0_ch.dta,True
+ch012_1,Child 1 marital status,sharew1_rel9-0-0_ch.dta,True
+ch012_2,Child 2 marital status,sharew1_rel9-0-0_ch.dta,True
+ch012_3,Child 3 marital status,sharew1_rel9-0-0_ch.dta,True
+ch012_4,Child 4 marital status,sharew1_rel9-0-0_ch.dta,True
+ch013_1,Child 1 has partner,sharew1_rel9-0-0_ch.dta,True
+ch013_2,Child 2 has partner,sharew1_rel9-0-0_ch.dta,True
+ch013_3,Child 3 has partner,sharew1_rel9-0-0_ch.dta,True
+ch013_4,Child 4 has partner,sharew1_rel9-0-0_ch.dta,True
+ch014_1,Child 1 contact with child,sharew1_rel9-0-0_ch.dta,True
+ch014_2,Child 2 contact with child,sharew1_rel9-0-0_ch.dta,True
+ch014_3,Child 3 contact with child,sharew1_rel9-0-0_ch.dta,True
+ch014_4,Child 4 contact with child,sharew1_rel9-0-0_ch.dta,True
+ch015_1,Child 1 year moved out,sharew1_rel9-0-0_ch.dta,True
+ch015_2,Child 2 year moved out,sharew1_rel9-0-0_ch.dta,True
+ch015_3,Child 3 year moved out,sharew1_rel9-0-0_ch.dta,True
+ch015_4,Child 4 year moved out,sharew1_rel9-0-0_ch.dta,True
+ch016_1,Child 1 employment status,sharew1_rel9-0-0_ch.dta,True
+ch016_2,Child 2 employment status,sharew1_rel9-0-0_ch.dta,True
+ch016_3,Child 3 employment status,sharew1_rel9-0-0_ch.dta,True
+ch016_4,Child 4 employment status,sharew1_rel9-0-0_ch.dta,True
+ch017_1,Child 1 highest school degree,sharew1_rel9-0-0_ch.dta,True
+ch017_2,Child 2 highest school degree,sharew1_rel9-0-0_ch.dta,True
+ch017_3,Child 3 highest school degree,sharew1_rel9-0-0_ch.dta,True
+ch017_4,Child 4 highest school degree,sharew1_rel9-0-0_ch.dta,True
+ch018d1_1,Child 1 further education country specific category 1,sharew1_rel9-0-0_ch.dta,True
+ch018d1_2,Child 2 further education country specific category 1,sharew1_rel9-0-0_ch.dta,True
+ch018d1_3,Child 3 further education country specific category 1,sharew1_rel9-0-0_ch.dta,True
+ch018d1_4,Child 4 further education country specific category 1,sharew1_rel9-0-0_ch.dta,True
+ch018d2_1,Child 1 further education country specific category 2,sharew1_rel9-0-0_ch.dta,True
+ch018d2_2,Child 2 further education country specific category 2,sharew1_rel9-0-0_ch.dta,True
+ch018d2_3,Child 3 further education country specific category 2,sharew1_rel9-0-0_ch.dta,True
+ch018d2_4,Child 4 further education country specific category 2,sharew1_rel9-0-0_ch.dta,True
+ch018d3_1,Child 1 further education country specific category 3,sharew1_rel9-0-0_ch.dta,True
+ch018d3_2,Child 2 further education country specific category 3,sharew1_rel9-0-0_ch.dta,True
+ch018d3_3,Child 3 further education country specific category 3,sharew1_rel9-0-0_ch.dta,True
+ch018d3_4,Child 4 further education country specific category 3,sharew1_rel9-0-0_ch.dta,True
+ch018d4_1,Child 1 further education country specific category 4,sharew1_rel9-0-0_ch.dta,True
+ch018d4_2,Child 2 further education country specific category 4,sharew1_rel9-0-0_ch.dta,True
+ch018d4_3,Child 3 further education country specific category 4,sharew1_rel9-0-0_ch.dta,True
+ch018d4_4,Child 4 further education country specific category 4,sharew1_rel9-0-0_ch.dta,True
+ch018d5_1,Child 1 further education country specific category 5,sharew1_rel9-0-0_ch.dta,True
+ch018d5_2,Child 2 further education country specific category 5,sharew1_rel9-0-0_ch.dta,True
+ch018d5_3,Child 3 further education country specific category 5,sharew1_rel9-0-0_ch.dta,True
+ch018d5_4,Child 4 further education country specific category 5,sharew1_rel9-0-0_ch.dta,True
+ch018d6_1,Child 1 further education country specific category 6,sharew1_rel9-0-0_ch.dta,True
+ch018d6_2,Child 2 further education country specific category 6,sharew1_rel9-0-0_ch.dta,True
+ch018d6_3,Child 3 further education country specific category 6,sharew1_rel9-0-0_ch.dta,True
+ch018d6_4,Child 4 further education country specific category 6,sharew1_rel9-0-0_ch.dta,True
+ch018d7_1,Child 1 further education country specific category 7,sharew1_rel9-0-0_ch.dta,True
+ch018d7_2,Child 2 further education country specific category 7,sharew1_rel9-0-0_ch.dta,True
+ch018d7_3,Child 3 further education country specific category 7,sharew1_rel9-0-0_ch.dta,True
+ch018d7_4,Child 4 further education country specific category 7,sharew1_rel9-0-0_ch.dta,True
+ch018d8_1,Child 1 further education country specific category 8,sharew1_rel9-0-0_ch.dta,True
+ch018d8_2,Child 2 further education country specific category 8,sharew1_rel9-0-0_ch.dta,True
+ch018d8_3,Child 3 further education country specific category 8,sharew1_rel9-0-0_ch.dta,True
+ch018d8_4,Child 4 further education country specific category 8,sharew1_rel9-0-0_ch.dta,True
+ch018d9_1,Child 1 further education country specific category 9,sharew1_rel9-0-0_ch.dta,True
+ch018d9_2,Child 2 further education country specific category 9,sharew1_rel9-0-0_ch.dta,True
+ch018d9_3,Child 3 further education country specific category 9,sharew1_rel9-0-0_ch.dta,True
+ch018d9_4,Child 4 further education country specific category 9,sharew1_rel9-0-0_ch.dta,True
+ch018d10_1,Child 1 further education country specific category 10,sharew1_rel9-0-0_ch.dta,True
+ch018d10_2,Child 2 further education country specific category 10,sharew1_rel9-0-0_ch.dta,True
+ch018d10_3,Child 3 further education country specific category 10,sharew1_rel9-0-0_ch.dta,True
+ch018d10_4,Child 4 further education country specific category 10,sharew1_rel9-0-0_ch.dta,True
+ch018d11_1,Child 1 further education country specific category 11,sharew1_rel9-0-0_ch.dta,True
+ch018d11_2,Child 2 further education country specific category 11,sharew1_rel9-0-0_ch.dta,True
+ch018d11_3,Child 3 further education country specific category 11,sharew1_rel9-0-0_ch.dta,True
+ch018d11_4,Child 4 further education country specific category 11,sharew1_rel9-0-0_ch.dta,True
+ch018d12_1,Child 1 further education country specific category 12,sharew1_rel9-0-0_ch.dta,True
+ch018d12_2,Child 2 further education country specific category 12,sharew1_rel9-0-0_ch.dta,True
+ch018d12_3,Child 3 further education country specific category 12,sharew1_rel9-0-0_ch.dta,True
+ch018d12_4,Child 4 further education country specific category 12,sharew1_rel9-0-0_ch.dta,True
+ch018d13_1,Child 1 further education country specific category 13,sharew1_rel9-0-0_ch.dta,True
+ch018d13_2,Child 2 further education country specific category 13,sharew1_rel9-0-0_ch.dta,True
+ch018d13_3,Child 3 further education country specific category 13,sharew1_rel9-0-0_ch.dta,True
+ch018d13_4,Child 4 further education country specific category 13,sharew1_rel9-0-0_ch.dta,True
+ch018d14_1,Child 1 further education country specific category 14,sharew1_rel9-0-0_ch.dta,True
+ch018d14_2,Child 2 further education country specific category 14,sharew1_rel9-0-0_ch.dta,True
+ch018d14_3,Child 3 further education country specific category 14,sharew1_rel9-0-0_ch.dta,True
+ch018d14_4,Child 4 further education country specific category 14,sharew1_rel9-0-0_ch.dta,True
+ch018d95_1,Child 1 further education: still in education or training,sharew1_rel9-0-0_ch.dta,True
+ch018d95_2,Child 2 further education: still in education or training,sharew1_rel9-0-0_ch.dta,True
+ch018d95_3,Child 3 further education: still in education or training,sharew1_rel9-0-0_ch.dta,True
+ch018d95_4,Child 4 further education: still in education or training,sharew1_rel9-0-0_ch.dta,True
+ch018dno_1,Child 1 further education: none,sharew1_rel9-0-0_ch.dta,True
+ch018dno_2,Child 2 further education: none,sharew1_rel9-0-0_ch.dta,True
+ch018dno_3,Child 3 further education: none,sharew1_rel9-0-0_ch.dta,True
+ch018dno_4,Child 4 further education: none,sharew1_rel9-0-0_ch.dta,True
+ch018dot_1,Child 1 further education: other,sharew1_rel9-0-0_ch.dta,True
+ch018dot_2,Child 2 further education: other,sharew1_rel9-0-0_ch.dta,True
+ch018dot_3,Child 3 further education: other,sharew1_rel9-0-0_ch.dta,True
+ch018dot_4,Child 4 further education: other,sharew1_rel9-0-0_ch.dta,True
+ch019_1,Child 1 number of children,sharew1_rel9-0-0_ch.dta,True
+ch019_2,Child 2 number of children,sharew1_rel9-0-0_ch.dta,True
+ch019_3,Child 3 number of children,sharew1_rel9-0-0_ch.dta,True
+ch019_4,Child 4 number of children,sharew1_rel9-0-0_ch.dta,True
+ch020_1,Child 1 year of birth youngest child,sharew1_rel9-0-0_ch.dta,True
+ch020_2,Child 2 year of birth youngest child,sharew1_rel9-0-0_ch.dta,True
+ch020_3,Child 3 year of birth youngest child,sharew1_rel9-0-0_ch.dta,True
+ch020_4,Child 4 year of birth youngest child,sharew1_rel9-0-0_ch.dta,True
+ch021_,Number of grandchildren,sharew1_rel9-0-0_ch.dta,True
+ch022_,Has great-grandchildren,sharew1_rel9-0-0_ch.dta,True
+ch023_,Who answered questions in section CH,sharew1_rel9-0-0_ch.dta,True
+ac002d1,Activities last month: voluntary or charity work,sharew1_rel9-0-0_ac.dta,True
+ac002d2,Activities last month: cared for a sick or disabled adult,sharew1_rel9-0-0_ac.dta,True
+ac002d3,Activities last month: provided help to family friends or neighbors,sharew1_rel9-0-0_ac.dta,True
+ac002d4,Activities last month: attended educational or training course,sharew1_rel9-0-0_ac.dta,True
+ac002d5,Activities last month: gone to sport social or other kind of club,sharew1_rel9-0-0_ac.dta,True
+ac002d6,Activities last month: taken part in religious organization,sharew1_rel9-0-0_ac.dta,True
+ac002d7,Activities last month: taken part in political or community organization,sharew1_rel9-0-0_ac.dta,True
+ac002dno,Activities last month: none of these,sharew1_rel9-0-0_ac.dta,True
+ac003_1,How often in last 4 weeks: voluntary/charity work,sharew1_rel9-0-0_ac.dta,True
+ac003_2,How often in last 4 weeks: cared for sick/disabled adult,sharew1_rel9-0-0_ac.dta,True
+ac003_3,How often in last 4 weeks: provided help to family/friends/neighbors,sharew1_rel9-0-0_ac.dta,True
+ac003_4,How often in last 4 weeks: attended educational/training course,sharew1_rel9-0-0_ac.dta,True
+ac003_5,How often in last 4 weeks: sport/social/other club,sharew1_rel9-0-0_ac.dta,True
+ac003_6,How often in last 4 weeks: taken part religious organization,sharew1_rel9-0-0_ac.dta,True
+ac003_7,How often in last 4 weeks: taken part political/community-rel. org.,sharew1_rel9-0-0_ac.dta,True
+ac004d1_1,Voluntary or charity work: to meet other people,sharew1_rel9-0-0_ac.dta,True
+ac004d1_2,Cared for sick or disabled adult: to meet other people,sharew1_rel9-0-0_ac.dta,True
+ac004d1_3,Help to family friends or neighbors: to meet other people,sharew1_rel9-0-0_ac.dta,True
+ac004d1_4,Educational or training course: to meet other people,sharew1_rel9-0-0_ac.dta,True
+ac004d1_5,Sport social or other club: to meet other people,sharew1_rel9-0-0_ac.dta,True
+ac004d1_6,Religious org.: to meet other people,sharew1_rel9-0-0_ac.dta,True
+ac004d1_7,Political or community org.: to meet other people,sharew1_rel9-0-0_ac.dta,True
+ac004d2_1,Voluntary or charity work: to contribute something useful,sharew1_rel9-0-0_ac.dta,True
+ac004d2_2,Cared for sick or disabled adult: to contribute something useful,sharew1_rel9-0-0_ac.dta,True
+ac004d2_3,Help to family friends or neighbors: to contribute something useful,sharew1_rel9-0-0_ac.dta,True
+ac004d2_4,Educational or training course: to contribute something useful,sharew1_rel9-0-0_ac.dta,True
+ac004d2_5,Sport social or other club: to contribute something useful,sharew1_rel9-0-0_ac.dta,True
+ac004d2_6,Religious org.: to contribute something useful,sharew1_rel9-0-0_ac.dta,True
+ac004d2_7,Political or community org.: to contribute something useful,sharew1_rel9-0-0_ac.dta,True
+ac004d3_1,Voluntary or charity work: for personal achievement,sharew1_rel9-0-0_ac.dta,True
+ac004d3_2,Cared for sick or disabled adult: for personal achievement,sharew1_rel9-0-0_ac.dta,True
+ac004d3_3,Help to family friends or neighbors: for personal achievement,sharew1_rel9-0-0_ac.dta,True
+ac004d3_4,Educational or training course: for personal achievement,sharew1_rel9-0-0_ac.dta,True
+ac004d3_5,Sport social or other club: for personal achievement,sharew1_rel9-0-0_ac.dta,True
+ac004d3_6,Religious org.: for personal achievement,sharew1_rel9-0-0_ac.dta,True
+ac004d3_7,Political or community org.: for personal achievement,sharew1_rel9-0-0_ac.dta,True
+ac004d4_1,Voluntary or charity work: because I am needed,sharew1_rel9-0-0_ac.dta,True
+ac004d4_2,Cared for sick or disabled adult: because I am needed,sharew1_rel9-0-0_ac.dta,True
+ac004d4_3,Help to family friends or neighbors: because I am needed,sharew1_rel9-0-0_ac.dta,True
+ac004d4_4,Educational or training course: because I am needed,sharew1_rel9-0-0_ac.dta,True
+ac004d4_5,Sport social or other club: because I am needed,sharew1_rel9-0-0_ac.dta,True
+ac004d4_6,Religious org.: because I am needed,sharew1_rel9-0-0_ac.dta,True
+ac004d4_7,Political or community org.: because I am needed,sharew1_rel9-0-0_ac.dta,True
+ac004d5_1,Voluntary or charity work: to earn money,sharew1_rel9-0-0_ac.dta,True
+ac004d5_2,Cared for sick or disabled adult: to earn money,sharew1_rel9-0-0_ac.dta,True
+ac004d5_3,Help to family friends or neighbors: to earn money,sharew1_rel9-0-0_ac.dta,True
+ac004d5_4,Educational or training course: to earn money,sharew1_rel9-0-0_ac.dta,True
+ac004d5_5,Sport social or other club: to earn money,sharew1_rel9-0-0_ac.dta,True
+ac004d5_6,Religious org.: to earn money,sharew1_rel9-0-0_ac.dta,True
+ac004d5_7,Political or community org.: to earn money,sharew1_rel9-0-0_ac.dta,True
+ac004d6_1,Voluntary or charity work: because I enjoy it,sharew1_rel9-0-0_ac.dta,True
+ac004d6_2,Cared for sick or disabled adult: because I enjoy it,sharew1_rel9-0-0_ac.dta,True
+ac004d6_3,Help to family friends or neighbors: because I enjoy it,sharew1_rel9-0-0_ac.dta,True
+ac004d6_4,Educational or training course: because I enjoy it,sharew1_rel9-0-0_ac.dta,True
+ac004d6_5,Sport social or other club: because I enjoy it,sharew1_rel9-0-0_ac.dta,True
+ac004d6_6,Religious org.: because I enjoy it,sharew1_rel9-0-0_ac.dta,True
+ac004d6_7,Political or community org.: because I enjoy it,sharew1_rel9-0-0_ac.dta,True
+ac004d7_1,Voluntary or charity work: to use skills or to keep fit,sharew1_rel9-0-0_ac.dta,True
+ac004d7_2,Cared for sick or disabled adult: to use skills or to keep fit,sharew1_rel9-0-0_ac.dta,True
+ac004d7_3,Help to family friends or neighbors: to use skills or to keep fit,sharew1_rel9-0-0_ac.dta,True
+ac004d7_4,Educational or training course: to use skills or to keep fit,sharew1_rel9-0-0_ac.dta,True
+ac004d7_5,Sport social or other club: to use skills or to keep fit,sharew1_rel9-0-0_ac.dta,True
+ac004d7_6,Religious org.: to use skills or to keep fit,sharew1_rel9-0-0_ac.dta,True
+ac004d7_7,Political or community org.: to use skills or to keep fit,sharew1_rel9-0-0_ac.dta,True
+ac004d8_1,Voluntary or charity work: feel obligated to do it,sharew1_rel9-0-0_ac.dta,True
+ac004d8_2,Cared for sick or disabled adult: feel obligated to do it,sharew1_rel9-0-0_ac.dta,True
+ac004d8_3,Help to family friends or neighbors: feel obligated to do it,sharew1_rel9-0-0_ac.dta,True
+ac004d8_4,Educational or training course: feel obligated to do it,sharew1_rel9-0-0_ac.dta,True
+ac004d8_5,Sport social or other club: feel obligated to do it,sharew1_rel9-0-0_ac.dta,True
+ac004d8_6,Religious org.: feel obligated to do it,sharew1_rel9-0-0_ac.dta,True
+ac004d8_7,Political or community org.: feel obligated to do it,sharew1_rel9-0-0_ac.dta,True
+ac004dno_1,Voluntary or charity work: none of these,sharew1_rel9-0-0_ac.dta,True
+ac004dno_2,Cared for sick or disabled adult: none of these,sharew1_rel9-0-0_ac.dta,True
+ac004dno_3,Help to family friends or neighbors: none of these,sharew1_rel9-0-0_ac.dta,True
+ac004dno_4,Educational or training course: none of these,sharew1_rel9-0-0_ac.dta,True
+ac004dno_5,Sport social or other club: none of these,sharew1_rel9-0-0_ac.dta,True
+ac004dno_6,Religious org.: none of these,sharew1_rel9-0-0_ac.dta,True
+ac004dno_7,Political or community org.: none of these,sharew1_rel9-0-0_ac.dta,True
+ac006_1,Fully satisfied with what achieved so far,sharew1_rel9-0-0_ac.dta,True
+ac006_2,Fully satisfied with what achieved so far,sharew1_rel9-0-0_ac.dta,True
+ac006_3,Fully satisfied with what achieved so far,sharew1_rel9-0-0_ac.dta,True
+ac007_1,Received adequate appreciation from others,sharew1_rel9-0-0_ac.dta,True
+ac007_2,Received adequate appreciation from others,sharew1_rel9-0-0_ac.dta,True
+ac007_3,Received adequate appreciation from others,sharew1_rel9-0-0_ac.dta,True
+gs001_,Willing to have handgrip measured,sharew1_rel9-0-0_gs.dta,True
+gs002_,Record respondent status,sharew1_rel9-0-0_gs.dta,True
+gs004_,Dominant hand,sharew1_rel9-0-0_gs.dta,True
+gs006_,1st measurement: left hand,sharew1_rel9-0-0_gs.dta,True
+gs007_,2nd measurement: left hand,sharew1_rel9-0-0_gs.dta,True
+gs008_,1st measurement: right hand,sharew1_rel9-0-0_gs.dta,True
+gs009_,2nd measurement: right hand,sharew1_rel9-0-0_gs.dta,True
+areabldgi,Area of building,sharew1_rel9-0-0_gv_housing.dta,True
+typebldgi,Type of building,sharew1_rel9-0-0_gv_housing.dta,True
+floorsbli,Number of floors of building,sharew1_rel9-0-0_gv_housing.dta,True
+nstepsi,Number of steps to entrance,sharew1_rel9-0-0_gv_housing.dta,True
+nuts1_2003,NUTS level 1: nomenclature of territorial units for statistics,sharew1_rel9-0-0_gv_housing.dta,True
+isced1997_c1,"""Respondents child 1: ISCED-97 coding of education""",sharew1_rel9-0-0_gv_isced.dta,True
+isced1997_c2,"""Respondents child 2: ISCED-97 coding of education""",sharew1_rel9-0-0_gv_isced.dta,True
+isced1997_c3,"""Respondents child 3: ISCED-97 coding of education""",sharew1_rel9-0-0_gv_isced.dta,True
+isced1997_c4,"""Respondents child 4: ISCED-97 coding of education""",sharew1_rel9-0-0_gv_isced.dta,True
+isced1997_iv,Interviewer: ISCED-97 coding of education,sharew1_rel9-0-0_gv_isced.dta,True
+isced1997_r,Respondent: ISCED-97 coding of education,sharew1_rel9-0-0_gv_isced.dta,True
+isced1997_sp,Spouse/ex-spouse of respondent: ISCED-97 coding of education,sharew1_rel9-0-0_gv_isced.dta,True
+isced1997y_c1,"""Respondents sel. child 1: years of education derived from ISCED-97""",sharew1_rel9-0-0_gv_isced.dta,True
+isced1997y_c2,"""Respondents sel. child 2: years of education derived from ISCED-97""",sharew1_rel9-0-0_gv_isced.dta,True
+isced1997y_c3,"""Respondents sel. child 3: years of education derived from ISCED-97""",sharew1_rel9-0-0_gv_isced.dta,True
+isced1997y_c4,"""Respondents sel. child 4: years of education derived from ISCED-97""",sharew1_rel9-0-0_gv_isced.dta,True
+isced1997y_iv,Interviewer: years of education derived from ISCED-97,sharew1_rel9-0-0_gv_isced.dta,True
+isced1997y_r,Respondent: years of education derived from ISCED-97,sharew1_rel9-0-0_gv_isced.dta,True
+isced1997y_sp,Spouse/ex-spouse of respondent: years of education derived from ISCED-97,sharew1_rel9-0-0_gv_isced.dta,True
+hh001_,Other contributor to household income,sharew1_rel9-0-0_hh.dta,True
+hh002e,Total income (other) household members last year,sharew1_rel9-0-0_hh.dta,True
+hh002ub,Total income (other) household members last year ub,sharew1_rel9-0-0_hh.dta,True
+hh002v1,Bracket value 1,sharew1_rel9-0-0_hh.dta,True
+hh002v2,Bracket value 2,sharew1_rel9-0-0_hh.dta,True
+hh002v3,Bracket value 3,sharew1_rel9-0-0_hh.dta,True
+hh010_,Income from other sources,sharew1_rel9-0-0_hh.dta,True
+hh011e,Additional income received by all hh-members last year,sharew1_rel9-0-0_hh.dta,True
+hh011ub,Additional income received by all hh-members last year ub,sharew1_rel9-0-0_hh.dta,True
+hh011v1,Bracket value 1,sharew1_rel9-0-0_hh.dta,True
+hh011v2,Bracket value 2,sharew1_rel9-0-0_hh.dta,True
+hh011v3,Bracket value 3,sharew1_rel9-0-0_hh.dta,True
+hh014_,Who answered the question in hh,sharew1_rel9-0-0_hh.dta,True
+ft002_,Given financial gift 250 or more,sharew1_rel9-0-0_ft.dta,True
+ft003_1,To whom given gift person 1,sharew1_rel9-0-0_ft.dta,True
+ft003_2,To whom given gift person 2,sharew1_rel9-0-0_ft.dta,True
+ft003_3,To whom given gift person 3,sharew1_rel9-0-0_ft.dta,True
+ft004e_1,Amount given to person 1,sharew1_rel9-0-0_ft.dta,True
+ft004ub_1,Amount given to person 1 ub,sharew1_rel9-0-0_ft.dta,True
+ft004e_2,Amount given to person 2,sharew1_rel9-0-0_ft.dta,True
+ft004ub_2,Amount given tp person 2 ub,sharew1_rel9-0-0_ft.dta,True
+ft004e_3,Amount given to person 3,sharew1_rel9-0-0_ft.dta,True
+ft004ub_3,Amount given tp person 3 ub,sharew1_rel9-0-0_ft.dta,True
+ft004v1,Bracket value 1,sharew1_rel9-0-0_ft.dta,True
+ft004v2,Bracket value 2,sharew1_rel9-0-0_ft.dta,True
+ft004v3,Bracket value 3,sharew1_rel9-0-0_ft.dta,True
+ft006_1,Reason given to person 1,sharew1_rel9-0-0_ft.dta,True
+ft006_2,Reason given to person 2,sharew1_rel9-0-0_ft.dta,True
+ft006_3,Reason given to person 3,sharew1_rel9-0-0_ft.dta,True
+ft009_,Received financial gift of 250 or more,sharew1_rel9-0-0_ft.dta,True
+ft010_1,From whom recieved gift person 1,sharew1_rel9-0-0_ft.dta,True
+ft010_2,From whom recieved gift person 2,sharew1_rel9-0-0_ft.dta,True
+ft010_3,From whom recieved gift person 3,sharew1_rel9-0-0_ft.dta,True
+ft011e_1,Amount received from person 1,sharew1_rel9-0-0_ft.dta,True
+ft011ub_1,Amount received from person 1 ub,sharew1_rel9-0-0_ft.dta,True
+ft011e_2,Amount received from person 2,sharew1_rel9-0-0_ft.dta,True
+ft011ub_2,Amount received from person 2 ub,sharew1_rel9-0-0_ft.dta,True
+ft011e_3,Amount received from person 3,sharew1_rel9-0-0_ft.dta,True
+ft011ub_3,Amount received from person 3 ub,sharew1_rel9-0-0_ft.dta,True
+ft011v1,Bracket value 1,sharew1_rel9-0-0_ft.dta,True
+ft011v2,Bracket value 2,sharew1_rel9-0-0_ft.dta,True
+ft011v3,Bracket value 3,sharew1_rel9-0-0_ft.dta,True
+ft013_1,Reason received gift from person 1,sharew1_rel9-0-0_ft.dta,True
+ft013_2,Reason received gift from person 2,sharew1_rel9-0-0_ft.dta,True
+ft013_3,Reason received gift from person 3,sharew1_rel9-0-0_ft.dta,True
+ft015_,Ever received gift or inheritance (worth 5000 euros or more),sharew1_rel9-0-0_ft.dta,True
+ft016_1,Year inheritance or large gift 1 received,sharew1_rel9-0-0_ft.dta,True
+ft016_2,Year inheritance or large gift 2 received,sharew1_rel9-0-0_ft.dta,True
+ft016_3,Year inheritance or large gift 3 received,sharew1_rel9-0-0_ft.dta,True
+ft016_4,Year inheritance or large gift 4 received,sharew1_rel9-0-0_ft.dta,True
+ft016_5,Year inheritance or large gift 5 received,sharew1_rel9-0-0_ft.dta,True
+ft017_1,From whom inheritance or large gift 1,sharew1_rel9-0-0_ft.dta,True
+ft017_2,From whom inheritance or large gift 2,sharew1_rel9-0-0_ft.dta,True
+ft017_3,From whom inheritance or large gift 3,sharew1_rel9-0-0_ft.dta,True
+ft017_4,From whom inheritance or large gift 4,sharew1_rel9-0-0_ft.dta,True
+ft017_5,From whom inheritance or large gift 5,sharew1_rel9-0-0_ft.dta,True
+ft018e_1,Value inheritance 1,sharew1_rel9-0-0_ft.dta,True
+ft018ub_1,Value inheritance 1 ub,sharew1_rel9-0-0_ft.dta,True
+ft018e_2,Value inheritance 2,sharew1_rel9-0-0_ft.dta,True
+ft018ub_2,Value inheritance 2 ub,sharew1_rel9-0-0_ft.dta,True
+ft018e_3,Value inheritance 3,sharew1_rel9-0-0_ft.dta,True
+ft018ub_3,Value inheritance 3 ub,sharew1_rel9-0-0_ft.dta,True
+ft018e_4,Value inheritance 4,sharew1_rel9-0-0_ft.dta,True
+ft018ub_4,Value inheritance 4 ub,sharew1_rel9-0-0_ft.dta,True
+ft018e_5,Value inheritance 5,sharew1_rel9-0-0_ft.dta,True
+ft018ub_5,Value inheritance 5 ub,sharew1_rel9-0-0_ft.dta,True
+ft018v1,Bracket value 1,sharew1_rel9-0-0_ft.dta,True
+ft018v2,Bracket value 2,sharew1_rel9-0-0_ft.dta,True
+ft018v3,Bracket value 3,sharew1_rel9-0-0_ft.dta,True
+ft021_,Who answered the questions in ft,sharew1_rel9-0-0_ft.dta,True
+ex001_,Introduction and example,sharew1_rel9-0-0_ex.dta,True
+ex002_,Chance of receiving inheritance,sharew1_rel9-0-0_ex.dta,True
+ex003_,Chance inheritance more than 50000,sharew1_rel9-0-0_ex.dta,True
+ex004_,Chance of leaving inheritance more than 50000,sharew1_rel9-0-0_ex.dta,True
+ex005_,Chance of leaving any inheritance,sharew1_rel9-0-0_ex.dta,True
+ex006_,Chance of leaving inheritance more than 150000,sharew1_rel9-0-0_ex.dta,True
+ex007_,Chance government reduces pension,sharew1_rel9-0-0_ex.dta,True
+ex008_,Chance government raises retirement age,sharew1_rel9-0-0_ex.dta,True
+ex009_,Life expectancy,sharew1_rel9-0-0_ex.dta,True
+ex009age,Life expectancy target age,sharew1_rel9-0-0_ex.dta,True
+ex010_,Chance standard of living will be better,sharew1_rel9-0-0_ex.dta,True
+ex011_,Chance standard of living will be worse,sharew1_rel9-0-0_ex.dta,True
+ex013_,Save or invest any of the gift,sharew1_rel9-0-0_ex.dta,True
+ex014_,Amount save or invest of the gift (local currency),sharew1_rel9-0-0_ex.dta,True
+ex014e,Amount save or invest of the gift (euros),sharew1_rel9-0-0_ex.dta,True
+ex015_,Use any of the gift to pay off debts,sharew1_rel9-0-0_ex.dta,True
+ex016_,Amount using to pay off debts (local currency),sharew1_rel9-0-0_ex.dta,True
+ex016e,Amount using to pay debts (euros),sharew1_rel9-0-0_ex.dta,True
+ex017_,Give any to relatives or donation,sharew1_rel9-0-0_ex.dta,True
+ex018_,Amount giving to relatives or donation (local currency),sharew1_rel9-0-0_ex.dta,True
+ex018e,Amount giving to relatives or donation (euros),sharew1_rel9-0-0_ex.dta,True
+ex019_,Use to buy durables,sharew1_rel9-0-0_ex.dta,True
+ex020_,Amount using to buy durables (local currency),sharew1_rel9-0-0_ex.dta,True
+ex020e,Amount using to buy durables (euros),sharew1_rel9-0-0_ex.dta,True
+ex021_,Use for holiday or journey,sharew1_rel9-0-0_ex.dta,True
+ex022_,Amount holiday or journey (local currency),sharew1_rel9-0-0_ex.dta,True
+ex022e,Amount holiday or journey (euros),sharew1_rel9-0-0_ex.dta,True
+hhsize,Household size,sharew1_rel9-0-0_gv_grossnet.dta,True
+htype,Household type,sharew1_rel9-0-0_gv_grossnet.dta,True
+sic,Social insurance contributions,sharew1_rel9-0-0_gv_grossnet.dta,True
+tax,Personal income tax,sharew1_rel9-0-0_gv_grossnet.dta,True
+ytotg,Total individual income gross,sharew1_rel9-0-0_gv_grossnet.dta,True
+ytotn,Total individual income net,sharew1_rel9-0-0_gv_grossnet.dta,True
+ynrpg,NRP income gross,sharew1_rel9-0-0_gv_grossnet.dta,True
+ynrpn,NRP income net,sharew1_rel9-0-0_gv_grossnet.dta,True
+hhyotg,Other household members gross income and household benefits,sharew1_rel9-0-0_gv_grossnet.dta,True
+hhyotn,Other household members net income and household benefits,sharew1_rel9-0-0_gv_grossnet.dta,True
+hhytotg,Total household income gross,sharew1_rel9-0-0_gv_grossnet.dta,True
+hhytotn,Total household income net,sharew1_rel9-0-0_gv_grossnet.dta,True
+hhyotg_f,Other household members gross income and household benefits - Flag,sharew1_rel9-0-0_gv_grossnet.dta,True
+hhyotn_f,Other household members net income and household benefits - Flag,sharew1_rel9-0-0_gv_grossnet.dta,True
+dn002_,Month of birth,sharew1_rel9-0-0_dn.dta,True
+dn003_,Year of birth,sharew1_rel9-0-0_dn.dta,True
+dn004_,Born in the country of interview,sharew1_rel9-0-0_dn.dta,True
+dn005c,Foreign country of birth coding,sharew1_rel9-0-0_dn.dta,True
+dn006_,Year came to live in country,sharew1_rel9-0-0_dn.dta,True
+dn007_,Citizenship country of interview,sharew1_rel9-0-0_dn.dta,True
+dn008c,Other citizenship coding,sharew1_rel9-0-0_dn.dta,True
+dn009_,Country-specific question,sharew1_rel9-0-0_dn.dta,True
+dn010_,Highest school degree obtained,sharew1_rel9-0-0_dn.dta,True
+dn012d1,Further education: country-specific category 1,sharew1_rel9-0-0_dn.dta,True
+dn012d2,Further education: country-specific category 2,sharew1_rel9-0-0_dn.dta,True
+dn012d3,Further education: country-specific category 3,sharew1_rel9-0-0_dn.dta,True
+dn012d4,Further education: country-specific category 4,sharew1_rel9-0-0_dn.dta,True
+dn012d5,Further education: country-specific category 5,sharew1_rel9-0-0_dn.dta,True
+dn012d6,Further education: country-specific category 6,sharew1_rel9-0-0_dn.dta,True
+dn012d7,Further education: country-specific category 7,sharew1_rel9-0-0_dn.dta,True
+dn012d8,Further education: country-specific category 8,sharew1_rel9-0-0_dn.dta,True
+dn012d9,Further education: country-specific category 9,sharew1_rel9-0-0_dn.dta,True
+dn012d10,Further education: country-specific category 10,sharew1_rel9-0-0_dn.dta,True
+dn012d11,Further education: country-specific category 11,sharew1_rel9-0-0_dn.dta,True
+dn012d12,Further education: country-specific category 12,sharew1_rel9-0-0_dn.dta,True
+dn012d13,Further education: country-specific category 13,sharew1_rel9-0-0_dn.dta,True
+dn012d14,Further education: country-specific category 14,sharew1_rel9-0-0_dn.dta,True
+dn012d95,Further education: still in education or training,sharew1_rel9-0-0_dn.dta,True
+dn012dno,Further education: none,sharew1_rel9-0-0_dn.dta,True
+dn012dot,Further education: other,sharew1_rel9-0-0_dn.dta,True
+dn014_,Marital status,sharew1_rel9-0-0_dn.dta,True
+dn015_,Year of marriage if living together,sharew1_rel9-0-0_dn.dta,True
+dn016_,Year of registered partnership,sharew1_rel9-0-0_dn.dta,True
+dn017_,Year of marriage if living separated,sharew1_rel9-0-0_dn.dta,True
+dn018_,Since when divorced,sharew1_rel9-0-0_dn.dta,True
+dn019_,Since when widowed,sharew1_rel9-0-0_dn.dta,True
+dn020_,Year of birth of former partner,sharew1_rel9-0-0_dn.dta,True
+dn021_,Highest educational degree of former partner,sharew1_rel9-0-0_dn.dta,True
+dn023d1,Further education former partner: country-specific category 1,sharew1_rel9-0-0_dn.dta,True
+dn023d2,Further education former partner: country-specific category 2,sharew1_rel9-0-0_dn.dta,True
+dn023d3,Further education former partner: country-specific category 3,sharew1_rel9-0-0_dn.dta,True
+dn023d4,Further education former partner: country-specific category 4,sharew1_rel9-0-0_dn.dta,True
+dn023d5,Further education former partner: country-specific category 5,sharew1_rel9-0-0_dn.dta,True
+dn023d6,Further education former partner: country-specific category 6,sharew1_rel9-0-0_dn.dta,True
+dn023d7,Further education former partner: country-specific category 7,sharew1_rel9-0-0_dn.dta,True
+dn023d8,Further education former partner: country-specific category 8,sharew1_rel9-0-0_dn.dta,True
+dn023d9,Further education former partner: country-specific category 9,sharew1_rel9-0-0_dn.dta,True
+dn023d10,Further education former partner: country-specific category 10,sharew1_rel9-0-0_dn.dta,True
+dn023d11,Further education former partner: country-specific category 11,sharew1_rel9-0-0_dn.dta,True
+dn023d12,Further education former partner: country-specific category 12,sharew1_rel9-0-0_dn.dta,True
+dn023d13,Further education former partner: country-specific category 13,sharew1_rel9-0-0_dn.dta,True
+dn023d14,Further education partner: country-specific category 14,sharew1_rel9-0-0_dn.dta,True
+dn023d95,Further education former partner: still in education or training,sharew1_rel9-0-0_dn.dta,True
+dn023dno,Further education former partner: none,sharew1_rel9-0-0_dn.dta,True
+dn023dot,Further education former partner: other,sharew1_rel9-0-0_dn.dta,True
+dn026_1,Is natural parent still alive: mother,sharew1_rel9-0-0_dn.dta,True
+dn026_2,Is natural parent still alive: father,sharew1_rel9-0-0_dn.dta,True
+dn027_1,Age of death of parent: mother,sharew1_rel9-0-0_dn.dta,True
+dn027_2,Age of death of parent: father,sharew1_rel9-0-0_dn.dta,True
+dn028_1,Age of natural parent: mother,sharew1_rel9-0-0_dn.dta,True
+dn028_2,Age of natural parent: father,sharew1_rel9-0-0_dn.dta,True
+dn030_1,Where does parent live: mother,sharew1_rel9-0-0_dn.dta,True
+dn030_2,Where does parent live: father,sharew1_rel9-0-0_dn.dta,True
+dn032_1,Personal contact with parent during past 12 months: mother,sharew1_rel9-0-0_dn.dta,True
+dn032_2,Personal contact with parent during past 12 months: father,sharew1_rel9-0-0_dn.dta,True
+dn033_1,Health of parent: mother,sharew1_rel9-0-0_dn.dta,True
+dn033_2,Health of parent: father,sharew1_rel9-0-0_dn.dta,True
+dn034_,Ever had any siblings,sharew1_rel9-0-0_dn.dta,True
+dn035_,Oldest or youngest child,sharew1_rel9-0-0_dn.dta,True
+dn036_,How many brothers alive,sharew1_rel9-0-0_dn.dta,True
+dn037_,How many sisters alive,sharew1_rel9-0-0_dn.dta,True
+dn038_,Who answered the questions in dn,sharew1_rel9-0-0_dn.dta,True
+dn042_,Male or female,sharew1_rel9-0-0_dn.dta,True
+sp002_,Received help from others (outside hh),sharew1_rel9-0-0_sp.dta,True
+sp003_1,Who gave help: person 1,sharew1_rel9-0-0_sp.dta,True
+sp003_2,Who gave help: person 2,sharew1_rel9-0-0_sp.dta,True
+sp003_3,Who gave help: person 3,sharew1_rel9-0-0_sp.dta,True
+sp004d1_1,Help provided from person 1: personal care,sharew1_rel9-0-0_sp.dta,True
+sp004d1_2,Help provided from person 2: personal care,sharew1_rel9-0-0_sp.dta,True
+sp004d1_3,Help provided from person 3: personal care,sharew1_rel9-0-0_sp.dta,True
+sp004d2_1,Help provided from person 1: practical household help,sharew1_rel9-0-0_sp.dta,True
+sp004d2_2,Help provided from person 2: practical household help,sharew1_rel9-0-0_sp.dta,True
+sp004d2_3,Help provided from person 3: practical household help,sharew1_rel9-0-0_sp.dta,True
+sp004d3_1,Help provided from person 1: help with paperwork,sharew1_rel9-0-0_sp.dta,True
+sp004d3_2,Help provided from person 2: help with paperwork,sharew1_rel9-0-0_sp.dta,True
+sp004d3_3,Help provided from person 3: help with paperwork,sharew1_rel9-0-0_sp.dta,True
+sp005_1,How often received help: from person 1,sharew1_rel9-0-0_sp.dta,True
+sp005_2,How often received help: from person 2,sharew1_rel9-0-0_sp.dta,True
+sp005_3,How often received help: from person 3,sharew1_rel9-0-0_sp.dta,True
+sp006_1,Hours received houshold help: person 1,sharew1_rel9-0-0_sp.dta,True
+sp006_2,Hours received houshold help: person 2,sharew1_rel9-0-0_sp.dta,True
+sp006_3,Hours received houshold help: person 3,sharew1_rel9-0-0_sp.dta,True
+sp007_1,Any other helper from outside the household,sharew1_rel9-0-0_sp.dta,True
+sp007_2,Any other helper from outside the household,sharew1_rel9-0-0_sp.dta,True
+sp008_,Given help last twelve months,sharew1_rel9-0-0_sp.dta,True
+sp009_1,To whom did you give help: person 1,sharew1_rel9-0-0_sp.dta,True
+sp009_2,To whom did you give help: person 2,sharew1_rel9-0-0_sp.dta,True
+sp009_3,To whom did you give help: person 3,sharew1_rel9-0-0_sp.dta,True
+sp010d1_1,Help given person 1: personal care,sharew1_rel9-0-0_sp.dta,True
+sp010d1_2,Help given person 2: personal care,sharew1_rel9-0-0_sp.dta,True
+sp010d1_3,Help given person 3: personal care,sharew1_rel9-0-0_sp.dta,True
+sp010d2_1,Help given person 1: practical household help,sharew1_rel9-0-0_sp.dta,True
+sp010d2_2,Help given person 2: practical household help,sharew1_rel9-0-0_sp.dta,True
+sp010d2_3,Help given person 3: practical household help,sharew1_rel9-0-0_sp.dta,True
+sp010d3_1,Help given person 1: help with paperwork,sharew1_rel9-0-0_sp.dta,True
+sp010d3_2,Help given person 2: help with paperwork,sharew1_rel9-0-0_sp.dta,True
+sp010d3_3,Help given person 3: help with paperwork,sharew1_rel9-0-0_sp.dta,True
+sp011_1,How often given help to person 1,sharew1_rel9-0-0_sp.dta,True
+sp011_2,How often given help to person 2,sharew1_rel9-0-0_sp.dta,True
+sp011_3,How often given help to person 3,sharew1_rel9-0-0_sp.dta,True
+sp012_1,Hours given help to person 1,sharew1_rel9-0-0_sp.dta,True
+sp012_2,Hours given help to person 2,sharew1_rel9-0-0_sp.dta,True
+sp012_3,Hours given help to person 3,sharew1_rel9-0-0_sp.dta,True
+sp013_1,Have you given help to others,sharew1_rel9-0-0_sp.dta,True
+sp013_2,Have you given help to others,sharew1_rel9-0-0_sp.dta,True
+sp014_,Looked after grandchildren,sharew1_rel9-0-0_sp.dta,True
+sp015d1,Looked after child of child 1,sharew1_rel9-0-0_sp.dta,True
+sp015d2,Looked after child of child 2,sharew1_rel9-0-0_sp.dta,True
+sp015d3,Looked after child of child 3,sharew1_rel9-0-0_sp.dta,True
+sp015d4,Looked after child of child 4,sharew1_rel9-0-0_sp.dta,True
+sp015d5,Looked after child of child 5,sharew1_rel9-0-0_sp.dta,True
+sp015d6,Looked after child of child 6,sharew1_rel9-0-0_sp.dta,True
+sp015d7,Looked after child of child 7,sharew1_rel9-0-0_sp.dta,True
+sp015d8,Looked after child of child 8,sharew1_rel9-0-0_sp.dta,True
+sp015d9,Looked after child of child 9,sharew1_rel9-0-0_sp.dta,True
+sp015d10,Looked after child of child 10,sharew1_rel9-0-0_sp.dta,True
+sp015d11,Looked after child of child 11,sharew1_rel9-0-0_sp.dta,True
+sp015d12,Looked after child of child 12,sharew1_rel9-0-0_sp.dta,True
+sp015d13,Looked after child of child 13,sharew1_rel9-0-0_sp.dta,True
+sp015d14,Looked after child of child 14,sharew1_rel9-0-0_sp.dta,True
+sp015d15,Looked after child of child 15,sharew1_rel9-0-0_sp.dta,True
+sp015d16,Looked after child of child 16,sharew1_rel9-0-0_sp.dta,True
+sp015d17,Looked after child of child 17,sharew1_rel9-0-0_sp.dta,True
+sp015d18,Looked after child of child 18,sharew1_rel9-0-0_sp.dta,True
+sp015d19,Looked after child of child 19,sharew1_rel9-0-0_sp.dta,True
+sp015d20,Looked after child of child 20,sharew1_rel9-0-0_sp.dta,True
+sp015d21,Looked after child of deceased child,sharew1_rel9-0-0_sp.dta,True
+sp016_1,How often did you look after child of child 1,sharew1_rel9-0-0_sp.dta,True
+sp016_2,How often did you look after child of child 2,sharew1_rel9-0-0_sp.dta,True
+sp016_3,How often did you look after child of child 3,sharew1_rel9-0-0_sp.dta,True
+sp016_4,How often did you look after child of child 4,sharew1_rel9-0-0_sp.dta,True
+sp016_5,How often did you look after child of child 5,sharew1_rel9-0-0_sp.dta,True
+sp016_6,How often did you look after child of child 6,sharew1_rel9-0-0_sp.dta,True
+sp016_7,How often did you look after child of child 7,sharew1_rel9-0-0_sp.dta,True
+sp016_8,How often did you look after child of child 8,sharew1_rel9-0-0_sp.dta,True
+sp016_9,How often did you look after child of child 9,sharew1_rel9-0-0_sp.dta,True
+sp016_10,How often did you look after child of child 10,sharew1_rel9-0-0_sp.dta,True
+sp016_11,How often did you look after child of child 11,sharew1_rel9-0-0_sp.dta,True
+sp016_12,How often did you look after child of child 12,sharew1_rel9-0-0_sp.dta,True
+sp016_13,How often did you look after child of child 13,sharew1_rel9-0-0_sp.dta,True
+sp016_14,How often did you look after child of child 14,sharew1_rel9-0-0_sp.dta,True
+sp016_17,How often do you look after child of child 17,sharew1_rel9-0-0_sp.dta,True
+sp017_1,Hours looked after child(ren) of child 1,sharew1_rel9-0-0_sp.dta,True
+sp017_2,Hours looked after child(ren) of child 2,sharew1_rel9-0-0_sp.dta,True
+sp017_3,Hours looked after child(ren) of child 3,sharew1_rel9-0-0_sp.dta,True
+sp017_4,Hours looked after child(ren) of child 4,sharew1_rel9-0-0_sp.dta,True
+sp017_5,Hours looked after child(ren) of child 5,sharew1_rel9-0-0_sp.dta,True
+sp017_6,Hours looked after child(ren) of child 6,sharew1_rel9-0-0_sp.dta,True
+sp017_7,Hours looked after child(ren) of child 7,sharew1_rel9-0-0_sp.dta,True
+sp017_8,Hours looked after child(ren) of child 8,sharew1_rel9-0-0_sp.dta,True
+sp017_9,Hours looked after child(ren) of child 9,sharew1_rel9-0-0_sp.dta,True
+sp017_10,Hours looked after child(ren) of child 10,sharew1_rel9-0-0_sp.dta,True
+sp017_11,Hours looked after child(ren) of child 11,sharew1_rel9-0-0_sp.dta,True
+sp017_12,Hours looked after child(ren) of child 12,sharew1_rel9-0-0_sp.dta,True
+sp017_13,Hours looked after child(ren) of child 13,sharew1_rel9-0-0_sp.dta,True
+sp017_14,Hours looked after child(ren) of child 14,sharew1_rel9-0-0_sp.dta,True
+sp017_17,Hours looked after child(ren) of child 17,sharew1_rel9-0-0_sp.dta,True
+sp018_,Given help to someone with personal care in the household,sharew1_rel9-0-0_sp.dta,True
+sp019d1,R provided help with personal care to: spouse/partner,sharew1_rel9-0-0_sp.dta,True
+sp019d2,R provided help with personal care to: mother,sharew1_rel9-0-0_sp.dta,True
+sp019d3,R provided help with personal care to: father,sharew1_rel9-0-0_sp.dta,True
+sp019d4,R provided help with personal care to: mother-in-law,sharew1_rel9-0-0_sp.dta,True
+sp019d5,R provided help with personal care to: father-in-law,sharew1_rel9-0-0_sp.dta,True
+sp019d6,R provided help with personal care to: stepmother,sharew1_rel9-0-0_sp.dta,True
+sp019d7,R provided help with personal care to: stepfather,sharew1_rel9-0-0_sp.dta,True
+sp019d8,R provided help with personal care to: brother,sharew1_rel9-0-0_sp.dta,True
+sp019d9,R provided help with personal care to: sister,sharew1_rel9-0-0_sp.dta,True
+sp019d10,R provided help with personal care to: child 1,sharew1_rel9-0-0_sp.dta,True
+sp019d11,R provided help with personal care to: child 2,sharew1_rel9-0-0_sp.dta,True
+sp019d12,R provided help with personal care to: child 3,sharew1_rel9-0-0_sp.dta,True
+sp019d13,R provided help with personal care to: child 4,sharew1_rel9-0-0_sp.dta,True
+sp019d14,R provided help with personal care to: child 5,sharew1_rel9-0-0_sp.dta,True
+sp019d15,R provided help with personal care to: child 6,sharew1_rel9-0-0_sp.dta,True
+sp019d16,R provided help with personal care to: child 7,sharew1_rel9-0-0_sp.dta,True
+sp019d17,R provided help with personal care to: child 8,sharew1_rel9-0-0_sp.dta,True
+sp019d18,R provided help with personal care to: child 9,sharew1_rel9-0-0_sp.dta,True
+sp019d19,R provided help with personal care to: other child,sharew1_rel9-0-0_sp.dta,True
+sp019d20,R provided help with personal care to: son-in-law,sharew1_rel9-0-0_sp.dta,True
+sp019d21,R provided help with personal care to: daughter-in-law,sharew1_rel9-0-0_sp.dta,True
+sp019d22,R provided help with personal care to: grandchild,sharew1_rel9-0-0_sp.dta,True
+sp019d23,R provided help with personal care to: grandparent,sharew1_rel9-0-0_sp.dta,True
+sp019d24,R provided help with personal care to: aunt,sharew1_rel9-0-0_sp.dta,True
+sp019d25,R provided help with personal care to: uncle,sharew1_rel9-0-0_sp.dta,True
+sp019d26,R provided help with personal care to: niece,sharew1_rel9-0-0_sp.dta,True
+sp019d27,R provided help with personal care to: nephew,sharew1_rel9-0-0_sp.dta,True
+sp019d28,R provided help with personal care to: other relative,sharew1_rel9-0-0_sp.dta,True
+sp019d29,R provided help with personal care to: friend,sharew1_rel9-0-0_sp.dta,True
+sp019d30,R provided help with personal care to: (ex-)colleague,sharew1_rel9-0-0_sp.dta,True
+sp019d31,R provided help with personal care to: neighbour,sharew1_rel9-0-0_sp.dta,True
+sp019d32,R provided help with personal care to: ex-spouse/partner,sharew1_rel9-0-0_sp.dta,True
+sp019d33,R provided help with personal care to: other acquaintance,sharew1_rel9-0-0_sp.dta,True
+sp020_,Someone in this household helped you regularly with personal care,sharew1_rel9-0-0_sp.dta,True
+sp021d1,R received help with personal care from: spouse/partner,sharew1_rel9-0-0_sp.dta,True
+sp021d2,R received help with personal care from: mother,sharew1_rel9-0-0_sp.dta,True
+sp021d3,R received help with personal care from: father,sharew1_rel9-0-0_sp.dta,True
+sp021d4,R received help with personal care from: mother-in-law,sharew1_rel9-0-0_sp.dta,True
+sp021d5,R received help with personal care from: father-in-law,sharew1_rel9-0-0_sp.dta,True
+sp021d6,R received help with personal care from: stepmother,sharew1_rel9-0-0_sp.dta,True
+sp021d7,R received help with personal care from: stepfather,sharew1_rel9-0-0_sp.dta,True
+sp021d8,R received help with personal care from: brother,sharew1_rel9-0-0_sp.dta,True
+sp021d9,R received help with personal care from: sister,sharew1_rel9-0-0_sp.dta,True
+sp021d10,R received help with personal care from: child 1,sharew1_rel9-0-0_sp.dta,True
+sp021d11,R received help with personal care from: child 2,sharew1_rel9-0-0_sp.dta,True
+sp021d12,R received help with personal care from: child 3,sharew1_rel9-0-0_sp.dta,True
+sp021d13,R received help with personal care from: child 4,sharew1_rel9-0-0_sp.dta,True
+sp021d14,R received help with personal care from: child 5,sharew1_rel9-0-0_sp.dta,True
+sp021d15,R received help with personal care from: child 6,sharew1_rel9-0-0_sp.dta,True
+sp021d16,R received help with personal care from: child 7,sharew1_rel9-0-0_sp.dta,True
+sp021d17,R received help with personal care from: child 8,sharew1_rel9-0-0_sp.dta,True
+sp021d18,R received help with personal care from: child 9,sharew1_rel9-0-0_sp.dta,True
+sp021d19,R received help with personal care from: other child,sharew1_rel9-0-0_sp.dta,True
+sp021d20,R received help with personal care from: son-in-law,sharew1_rel9-0-0_sp.dta,True
+sp021d21,R received help with personal care from: daughter-in-law,sharew1_rel9-0-0_sp.dta,True
+sp021d22,R received help with personal care from: grandchild,sharew1_rel9-0-0_sp.dta,True
+sp021d23,R received help with personal care from: grandparent,sharew1_rel9-0-0_sp.dta,True
+sp021d24,R received help with personal care from: aunt,sharew1_rel9-0-0_sp.dta,True
+sp021d25,R received help with personal care from: uncle,sharew1_rel9-0-0_sp.dta,True
+sp021d26,R received help with personal care from: niece,sharew1_rel9-0-0_sp.dta,True
+sp021d27,R received help with personal care from: nephew,sharew1_rel9-0-0_sp.dta,True
+sp021d28,R received help with personal care from: other relative,sharew1_rel9-0-0_sp.dta,True
+sp021d29,R received help with personal care from: friend,sharew1_rel9-0-0_sp.dta,True
+sp021d30,R received help with personal care from: (ex-)colleague,sharew1_rel9-0-0_sp.dta,True
+sp021d31,R received help with personal care from: neighbour,sharew1_rel9-0-0_sp.dta,True
+sp021d32,R received help with personal care from: ex-spouse/partner,sharew1_rel9-0-0_sp.dta,True
+sp021d33,R received help with personal care from: other acquaintance,sharew1_rel9-0-0_sp.dta,True
+sp022_,Who answered the questions in sp,sharew1_rel9-0-0_sp.dta,True
+isco_1job,"""Isco-88 respondents first job (ep016_1)""",sharew1_rel9-0-0_gv_isco.dta,True
+text_1job,"""Label for isco_1job (respondents first job)""",sharew1_rel9-0-0_gv_isco.dta,True
+nace_1job,"""Nace industry of respondents first job (ep018_1 / ep023_1)""",sharew1_rel9-0-0_gv_isco.dta,True
+ind_1job,"""Label for nace_1job (industry of respondents first job)""",sharew1_rel9-0-0_gv_isco.dta,True
+isco_2job,"""Isco-88 respondents second job (ep016_2)""",sharew1_rel9-0-0_gv_isco.dta,True
+text_2job,"""Label for isco_2job (respondents second job)""",sharew1_rel9-0-0_gv_isco.dta,True
+nace_2job,"""Nace industry of respondents second job (ep018_2 / ep023_2)""",sharew1_rel9-0-0_gv_isco.dta,True
+ind_2job,"""Label for nace_2job (industry of respondents second job)""",sharew1_rel9-0-0_gv_isco.dta,True
+isco_ljob,"""Isco-88 respondents last job (ep052)""",sharew1_rel9-0-0_gv_isco.dta,True
+text_ljob,"""Label for isco_ljob (respondents last job)""",sharew1_rel9-0-0_gv_isco.dta,True
+nace_ljob,"""Nace industry of respondents last job (ep054 / ep060)""",sharew1_rel9-0-0_gv_isco.dta,True
+ind_ljob,"""Label for nace_ljob (industry of respondents last job)""",sharew1_rel9-0-0_gv_isco.dta,True
+isco_exp,"""Isco-88 former partners job (dn025)""",sharew1_rel9-0-0_gv_isco.dta,True
+text_exp,"""Label for isco_exp (former partners job)""",sharew1_rel9-0-0_gv_isco.dta,True
+isco_mo,"""Isco-88 mothers job (dn029_1)""",sharew1_rel9-0-0_gv_isco.dta,True
+text_mo,"""Label for isco_mo (mothers job)""",sharew1_rel9-0-0_gv_isco.dta,True
+isco_fa,"""Isco-88 fathers job (dn029_2)""",sharew1_rel9-0-0_gv_isco.dta,True
+text_fa,"""Label for isco_fa (fathers job)""",sharew1_rel9-0-0_gv_isco.dta,True
+phrandom,Random assignment: Health in general questions,sharew1_rel9-0-0_ph.dta,True
+ph002_,Health in general question 1,sharew1_rel9-0-0_ph.dta,True
+ph003_,Health in general question 2,sharew1_rel9-0-0_ph.dta,True
+ph004_,Long-term illness,sharew1_rel9-0-0_ph.dta,True
+ph005_,Limited in activities because of health,sharew1_rel9-0-0_ph.dta,True
+ph006d1,Heart attack: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d2,High blood pressure or hypertension: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d3,High blood cholesterol: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d4,Stroke: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d5,Diabetes or high blood sugar: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d6,Chronic lung disease: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d7,Asthma: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d8,Arthritis: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d9,Osteoporosis: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d10,Cancer: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d11,Stomach or duodenal ulcer peptic ulcer: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d12,Parkinson disease: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d13,Cataracts: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006d14,Hip fracture or femoral fracture: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006dno,None: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph006dot,Other: ever diagnosed,sharew1_rel9-0-0_ph.dta,True
+ph008d1,Cancer in: brain,sharew1_rel9-0-0_ph.dta,True
+ph008d2,Cancer in: oral cavity,sharew1_rel9-0-0_ph.dta,True
+ph008d3,Cancer in: larynx,sharew1_rel9-0-0_ph.dta,True
+ph008d4,Cancer in: other pharynx,sharew1_rel9-0-0_ph.dta,True
+ph008d5,Cancer in: thyroid,sharew1_rel9-0-0_ph.dta,True
+ph008d6,Cancer in: lung,sharew1_rel9-0-0_ph.dta,True
+ph008d7,Cancer in: breast,sharew1_rel9-0-0_ph.dta,True
+ph008d8,Cancer in: oesophagus,sharew1_rel9-0-0_ph.dta,True
+ph008d9,Cancer in: stomach,sharew1_rel9-0-0_ph.dta,True
+ph008d10,Cancer in: liver,sharew1_rel9-0-0_ph.dta,True
+ph008d11,Cancer in: pancreas,sharew1_rel9-0-0_ph.dta,True
+ph008d12,Cancer in: kidney,sharew1_rel9-0-0_ph.dta,True
+ph008d13,Cancer in: prostate,sharew1_rel9-0-0_ph.dta,True
+ph008d14,Cancer in: testicle,sharew1_rel9-0-0_ph.dta,True
+ph008d15,Cancer in: ovary,sharew1_rel9-0-0_ph.dta,True
+ph008d16,Cancer in: cervix,sharew1_rel9-0-0_ph.dta,True
+ph008d17,Cancer in: endometrium,sharew1_rel9-0-0_ph.dta,True
+ph008d18,Cancer in: colon or rectum,sharew1_rel9-0-0_ph.dta,True
+ph008d19,Cancer in: bladder,sharew1_rel9-0-0_ph.dta,True
+ph008d20,Cancer in: skin,sharew1_rel9-0-0_ph.dta,True
+ph008d21,Cancer in: non-hodgkin lymphoma,sharew1_rel9-0-0_ph.dta,True
+ph008d22,Cancer in: leukaemia,sharew1_rel9-0-0_ph.dta,True
+ph008dot,Cancer in: other organ,sharew1_rel9-0-0_ph.dta,True
+ph009_1,Age heart attack or other heart problems,sharew1_rel9-0-0_ph.dta,True
+ph009_2,Age high blood pressure,sharew1_rel9-0-0_ph.dta,True
+ph009_3,Age high blood cholesterol,sharew1_rel9-0-0_ph.dta,True
+ph009_4,Age stroke or cerebral vascular disease,sharew1_rel9-0-0_ph.dta,True
+ph009_5,Age diabetes,sharew1_rel9-0-0_ph.dta,True
+ph009_6,Age chronic lung disease,sharew1_rel9-0-0_ph.dta,True
+ph009_7,Age asthma,sharew1_rel9-0-0_ph.dta,True
+ph009_8,Age arthritis or rheumatism,sharew1_rel9-0-0_ph.dta,True
+ph009_9,Age osteoporosis,sharew1_rel9-0-0_ph.dta,True
+ph009_10,Age cancer or malignant tumour,sharew1_rel9-0-0_ph.dta,True
+ph009_11,Age stomach duodenal or peptic ulcer,sharew1_rel9-0-0_ph.dta,True
+ph009_12,Age parkinson disease,sharew1_rel9-0-0_ph.dta,True
+ph009_13,Age cataracts,sharew1_rel9-0-0_ph.dta,True
+ph009_14,Age hip or femoral fracture,sharew1_rel9-0-0_ph.dta,True
+ph009_97,Age other condition,sharew1_rel9-0-0_ph.dta,True
+ph010d1,Bothered by: pain in back knees hips or other joint,sharew1_rel9-0-0_ph.dta,True
+ph010d2,Bothered by: heart trouble,sharew1_rel9-0-0_ph.dta,True
+ph010d3,Bothered by: breathlessness,sharew1_rel9-0-0_ph.dta,True
+ph010d4,Bothered by: persistent cough,sharew1_rel9-0-0_ph.dta,True
+ph010d5,Bothered by: swollen legs,sharew1_rel9-0-0_ph.dta,True
+ph010d6,Bothered by: sleeping problems,sharew1_rel9-0-0_ph.dta,True
+ph010d7,Bothered by: falling down,sharew1_rel9-0-0_ph.dta,True
+ph010d8,Bothered by: fear of falling down,sharew1_rel9-0-0_ph.dta,True
+ph010d9,Bothered by: dizziness faints or blackouts,sharew1_rel9-0-0_ph.dta,True
+ph010d10,Bothered by: stomach or intestine problems,sharew1_rel9-0-0_ph.dta,True
+ph010d11,Bothered by: incontinence,sharew1_rel9-0-0_ph.dta,True
+ph010dno,Bothered by: no symptoms,sharew1_rel9-0-0_ph.dta,True
+ph010dot,Bothered by: other symptoms,sharew1_rel9-0-0_ph.dta,True
+ph011d1,Drugs for: high blood cholesterol,sharew1_rel9-0-0_ph.dta,True
+ph011d2,Drugs for: high blood pressure,sharew1_rel9-0-0_ph.dta,True
+ph011d3,Drugs for: coronary diseases,sharew1_rel9-0-0_ph.dta,True
+ph011d4,Drugs for: other heart diseases,sharew1_rel9-0-0_ph.dta,True
+ph011d5,Drugs for: asthma,sharew1_rel9-0-0_ph.dta,True
+ph011d6,Drugs for: diabetes,sharew1_rel9-0-0_ph.dta,True
+ph011d7,Drugs for: joint pain,sharew1_rel9-0-0_ph.dta,True
+ph011d8,Drugs for: other pain,sharew1_rel9-0-0_ph.dta,True
+ph011d9,Drugs for: sleep problems,sharew1_rel9-0-0_ph.dta,True
+ph011d10,Drugs for: anxiety or depression,sharew1_rel9-0-0_ph.dta,True
+ph011d11,Drugs for: osteoporosis (hormonal),sharew1_rel9-0-0_ph.dta,True
+ph011d12,Drugs for: osteoporosis (other),sharew1_rel9-0-0_ph.dta,True
+ph011d13,Drugs for: stomach burns,sharew1_rel9-0-0_ph.dta,True
+ph011d14,Drugs for: chronic bronchitis,sharew1_rel9-0-0_ph.dta,True
+ph011dno,Drugs for: none,sharew1_rel9-0-0_ph.dta,True
+ph011dot,Drugs for: other,sharew1_rel9-0-0_ph.dta,True
+ph012_,Weight of respondent,sharew1_rel9-0-0_ph.dta,True
+ph013_,How tall are you?,sharew1_rel9-0-0_ph.dta,True
+ph024_,Use dentures,sharew1_rel9-0-0_ph.dta,True
+ph025_,Bite on hard foods,sharew1_rel9-0-0_ph.dta,True
+ph041_,Wears glasses/contact lenses,sharew1_rel9-0-0_ph.dta,True
+ph042_,Eyesight,sharew1_rel9-0-0_ph.dta,True
+ph043_,Eyesight distance,sharew1_rel9-0-0_ph.dta,True
+ph044_,Eyesight reading,sharew1_rel9-0-0_ph.dta,True
+ph045_,Use hearing aid,sharew1_rel9-0-0_ph.dta,True
+ph046_,Hearing,sharew1_rel9-0-0_ph.dta,True
+ph047_,Hearing with background noise,sharew1_rel9-0-0_ph.dta,True
+ph048d1,Difficulties: walking 100 metres,sharew1_rel9-0-0_ph.dta,True
+ph048d2,Difficulties: sitting two hours,sharew1_rel9-0-0_ph.dta,True
+ph048d3,Difficulties: getting up from chair,sharew1_rel9-0-0_ph.dta,True
+ph048d4,Difficulties: climbing several flights of stairs,sharew1_rel9-0-0_ph.dta,True
+ph048d5,Difficulties: climbing one flight of stairs,sharew1_rel9-0-0_ph.dta,True
+ph048d6,Difficulties: stooping kneeling crouching,sharew1_rel9-0-0_ph.dta,True
+ph048d7,Difficulties: reaching or extending arms above shoulder,sharew1_rel9-0-0_ph.dta,True
+ph048d8,Difficulties: pulling or pushing large objects,sharew1_rel9-0-0_ph.dta,True
+ph048d9,Difficulties: lifting or carrying weights over 5 kilos,sharew1_rel9-0-0_ph.dta,True
+ph048d10,Difficulties: picking up a small coin from a table,sharew1_rel9-0-0_ph.dta,True
+ph048dno,Difficulties: none of these,sharew1_rel9-0-0_ph.dta,True
+ph049d1,Difficulties: dressing including shoes and socks,sharew1_rel9-0-0_ph.dta,True
+ph049d2,Difficulties: walking across a room,sharew1_rel9-0-0_ph.dta,True
+ph049d3,Difficulties: bathing or showering,sharew1_rel9-0-0_ph.dta,True
+ph049d4,Difficulties: eating cutting up food,sharew1_rel9-0-0_ph.dta,True
+ph049d5,Difficulties: getting in or out of bed,sharew1_rel9-0-0_ph.dta,True
+ph049d6,Difficulties: using the toilet incl getting up or down,sharew1_rel9-0-0_ph.dta,True
+ph049d7,Difficulties: using a map in a strange place,sharew1_rel9-0-0_ph.dta,True
+ph049d8,Difficulties: preparing a hot meal,sharew1_rel9-0-0_ph.dta,True
+ph049d9,Difficulties: shopping for groceries,sharew1_rel9-0-0_ph.dta,True
+ph049d10,Difficulties: telephone calls,sharew1_rel9-0-0_ph.dta,True
+ph049d11,Difficulties: taking medications,sharew1_rel9-0-0_ph.dta,True
+ph049d12,Difficulties: doing work around the house or garden,sharew1_rel9-0-0_ph.dta,True
+ph049d13,Difficulties: managing money,sharew1_rel9-0-0_ph.dta,True
+ph049dno,Difficulties: none of these,sharew1_rel9-0-0_ph.dta,True
+ph050_,Help activities,sharew1_rel9-0-0_ph.dta,True
+ph051_,Help meets needs,sharew1_rel9-0-0_ph.dta,True
+ph052_,Health in general question 2,sharew1_rel9-0-0_ph.dta,True
+ph053_,Health in general question 1,sharew1_rel9-0-0_ph.dta,True
+ph054_,Who answered the questions in ph,sharew1_rel9-0-0_ph.dta,True
+ph055_,Hearing with several people,sharew1_rel9-0-0_ph.dta,True
+ph056_,Hearing with one person,sharew1_rel9-0-0_ph.dta,True
+adl,Number of limitations with activities of daily living (adl),sharew1_rel9-0-0_gv_health.dta,True
+adl2,1+ adl limitations,sharew1_rel9-0-0_gv_health.dta,True
+bmi,Body mass index,sharew1_rel9-0-0_gv_health.dta,True
+bmi2,Bmi categories,sharew1_rel9-0-0_gv_health.dta,True
+casp,CASP index for quality of life and well-being,sharew1_rel9-0-0_gv_health.dta,True
+chronic2w1,2+ chronic diseases (w1 version),sharew1_rel9-0-0_gv_health.dta,True
+chronicw1,Number of chronic diseases (w1 version),sharew1_rel9-0-0_gv_health.dta,True
+cusmoke,Current smoking,sharew1_rel9-0-0_gv_health.dta,True
+drinkin2,Drinking more than 2 glasses of alcohol almost every or 5/6 days a week,sharew1_rel9-0-0_gv_health.dta,True
+euro1,Depression(part of EURO-D),sharew1_rel9-0-0_gv_health.dta,True
+euro2,Pessimism (part of EURO-D),sharew1_rel9-0-0_gv_health.dta,True
+euro3,Suicidality (part of EURO-D),sharew1_rel9-0-0_gv_health.dta,True
+euro4,Guilt (part of EURO-D),sharew1_rel9-0-0_gv_health.dta,True
+euro5,Sleep (part of EURO-D),sharew1_rel9-0-0_gv_health.dta,True
+euro6,Interest (part of EURO-D),sharew1_rel9-0-0_gv_health.dta,True
+euro7,Irritability (part of EURO-D),sharew1_rel9-0-0_gv_health.dta,True
+euro8,Appetite (part of EURO-D),sharew1_rel9-0-0_gv_health.dta,True
+euro9,Fatigue (part of EURO-D),sharew1_rel9-0-0_gv_health.dta,True
+euro10,Concentration (part of EURO-D),sharew1_rel9-0-0_gv_health.dta,True
+euro11,Enjoyment (part of EURO-D),sharew1_rel9-0-0_gv_health.dta,True
+euro12,Tearfulness (part of EURO-D),sharew1_rel9-0-0_gv_health.dta,True
+eurod,Depression scale EURO-D - high is depressed,sharew1_rel9-0-0_gv_health.dta,True
+eurodcat,EURO-D caseness,sharew1_rel9-0-0_gv_health.dta,True
+gali,Limitations with activities - gali,sharew1_rel9-0-0_gv_health.dta,True
+iadl,Limitations with instrumental activities of daily living (iadl),sharew1_rel9-0-0_gv_health.dta,True
+iadl2,1+ iadl limitations,sharew1_rel9-0-0_gv_health.dta,True
+maxgrip,Max. of grip strength measure,sharew1_rel9-0-0_gv_health.dta,True
+mobilit2,1+ mobility arm function and fine motor limitations,sharew1_rel9-0-0_gv_health.dta,True
+mobilit3,3+ mobility arm function and fine motor limitations,sharew1_rel9-0-0_gv_health.dta,True
+mobility,Mobility arm function and fine motor limitations,sharew1_rel9-0-0_gv_health.dta,True
+numeracy,Numeracy score: mathematical performance (percentage),sharew1_rel9-0-0_gv_health.dta,True
+orienti,Orientation to date monthyear and day of week,sharew1_rel9-0-0_gv_health.dta,True
+phactiv,Physical inactivity,sharew1_rel9-0-0_gv_health.dta,True
+spheu,Self-perceived health - european version,sharew1_rel9-0-0_gv_health.dta,True
+spheu2,Spheu-less than good health,sharew1_rel9-0-0_gv_health.dta,True
+sphus,Self-perceived health - us version,sharew1_rel9-0-0_gv_health.dta,True
+sphus2,Sphus-less than very good health,sharew1_rel9-0-0_gv_health.dta,True
+symptoms2w1,2+ symptoms (w1 version),sharew1_rel9-0-0_gv_health.dta,True
+symptomsw1,Number of symptoms (w1 version),sharew1_rel9-0-0_gv_health.dta,True
+wspeed,Walking speed,sharew1_rel9-0-0_gv_health.dta,True
+wspeed2,Walking speed: cut-off point,sharew1_rel9-0-0_gv_health.dta,True
+ho001_,Interview in house of respondent,sharew1_rel9-0-0_ho.dta,True
+ho002_,Owner tenant or rent free,sharew1_rel9-0-0_ho.dta,True
+ho003_,Rent payment period,sharew1_rel9-0-0_ho.dta,True
+ho005e,Amount last rent payment,sharew1_rel9-0-0_ho.dta,True
+ho005ub,Amount last rent payment ub,sharew1_rel9-0-0_ho.dta,True
+ho005v1,Bracket value 1,sharew1_rel9-0-0_ho.dta,True
+ho005v2,Bracket value 2,sharew1_rel9-0-0_ho.dta,True
+ho005v3,Bracket value 3,sharew1_rel9-0-0_ho.dta,True
+ho007_,Last rent payment included all charges and services,sharew1_rel9-0-0_ho.dta,True
+ho008e,Amount charges and services,sharew1_rel9-0-0_ho.dta,True
+ho008ub,Amount charges and services ub,sharew1_rel9-0-0_ho.dta,True
+ho008v1,Bracket value 1,sharew1_rel9-0-0_ho.dta,True
+ho008v2,Bracket value 2,sharew1_rel9-0-0_ho.dta,True
+ho008v3,Bracket value 3,sharew1_rel9-0-0_ho.dta,True
+ho010_,More than two months behind with rent,sharew1_rel9-0-0_ho.dta,True
+ho011_,How property acquired,sharew1_rel9-0-0_ho.dta,True
+ho012_,Year acquired property,sharew1_rel9-0-0_ho.dta,True
+ho013_,Mortgages or loans on property,sharew1_rel9-0-0_ho.dta,True
+ho014_,Years left of mortgage or loan,sharew1_rel9-0-0_ho.dta,True
+ho015e,Amount still to pay on mortgage or loan,sharew1_rel9-0-0_ho.dta,True
+ho015ub,Amount still to pay on mortgage or loan ub,sharew1_rel9-0-0_ho.dta,True
+ho015v1,Bracket value 1,sharew1_rel9-0-0_ho.dta,True
+ho015v2,Bracket value 2,sharew1_rel9-0-0_ho.dta,True
+ho015v3,Bracket value 3,sharew1_rel9-0-0_ho.dta,True
+ho017_,Regularly repay mortgage or loans,sharew1_rel9-0-0_ho.dta,True
+ho018_,period repay mortgage or loan,sharew1_rel9-0-0_ho.dta,True
+ho020e,Amount regular repayments on mortgage or loan,sharew1_rel9-0-0_ho.dta,True
+ho020ub,Amount regular repayments on mortgage or loan ub,sharew1_rel9-0-0_ho.dta,True
+ho020v1,Bracket value 1,sharew1_rel9-0-0_ho.dta,True
+ho020v2,Bracket value 2,sharew1_rel9-0-0_ho.dta,True
+ho020v3,Bracket value 3,sharew1_rel9-0-0_ho.dta,True
+ho022_,Behind with regular repay mortgage or loan,sharew1_rel9-0-0_ho.dta,True
+ho023_,Sublet or let parts of accommodation,sharew1_rel9-0-0_ho.dta,True
+ho024e,Value of property,sharew1_rel9-0-0_ho.dta,True
+ho024ub,Value of property ub,sharew1_rel9-0-0_ho.dta,True
+ho024v1,Bracket value 1,sharew1_rel9-0-0_ho.dta,True
+ho024v2,Bracket value 2,sharew1_rel9-0-0_ho.dta,True
+ho024v3,Bracket value 3,sharew1_rel9-0-0_ho.dta,True
+ho026_,Own other real estate,sharew1_rel9-0-0_ho.dta,True
+ho027e,Value of other real estate,sharew1_rel9-0-0_ho.dta,True
+ho027ub,Value of other real estate ub,sharew1_rel9-0-0_ho.dta,True
+ho027v1,Bracket value 1,sharew1_rel9-0-0_ho.dta,True
+ho027v2,Bracket value 2,sharew1_rel9-0-0_ho.dta,True
+ho027v3,Bracket value 3,sharew1_rel9-0-0_ho.dta,True
+ho029_,Received income or rent of other real estate,sharew1_rel9-0-0_ho.dta,True
+ho030e,Amount income or rent of other real estate last year,sharew1_rel9-0-0_ho.dta,True
+ho030ub,Amount income or rent of other real estate last year ub,sharew1_rel9-0-0_ho.dta,True
+ho030v1,Bracket value 1,sharew1_rel9-0-0_ho.dta,True
+ho030v2,Bracket value 2,sharew1_rel9-0-0_ho.dta,True
+ho030v3,Bracket value 3,sharew1_rel9-0-0_ho.dta,True
+ho032_,Number of rooms in accommodation,sharew1_rel9-0-0_ho.dta,True
+ho033_,Special features in accommodation,sharew1_rel9-0-0_ho.dta,True
+ho034_,Years in accommodation,sharew1_rel9-0-0_ho.dta,True
+ho035_,Years in community,sharew1_rel9-0-0_ho.dta,True
+ho036_,Type of building,sharew1_rel9-0-0_ho.dta,True
+ho037_,Area where respondent lives,sharew1_rel9-0-0_ho.dta,True
+ho038_,Spend regulary time in other residence,sharew1_rel9-0-0_ho.dta,True
+ho039_,Location of other residence,sharew1_rel9-0-0_ho.dta,True
+ho041_,Who answered the questions in ho,sharew1_rel9-0-0_ho.dta,True
+ho042_,Number of floors of building,sharew1_rel9-0-0_ho.dta,True
+ho043_,Number of steps to entrance,sharew1_rel9-0-0_ho.dta,True

@@ -1,12 +1,12 @@
 """
-This module contains the PlotDistribution class.
+This module contains the Plot class.
 """
 
 import streamlit as st
 import plotly.graph_objects as go
 
 
-class PlotDistribution:
+class Plot:
     """
     Class to handle missing values.
     """
@@ -14,7 +14,7 @@ class PlotDistribution:
     def __init__(self):
         pass
 
-    def plot_distribution(self, df, column, color="#FF4B4B"):
+    def distribution(self, df, column, color="#FF4B4B"):
         """
         Plot the distribution of a variable depending on its type.
         Args:
@@ -64,7 +64,7 @@ class PlotDistribution:
 
         # display the plot and return the figure
         st.markdown(f"Distribution of {column} (conisdered as a {type} variable)")
-        st.plotly_chart(fig, use_container_width=True, help="plot_distribution")
+        st.plotly_chart(fig, use_container_width=True, help="distribution")
         return fig
 
     def find_type(self, df, column):

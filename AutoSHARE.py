@@ -29,7 +29,7 @@ from src.data.data import DatasetManager
 from src.data.outliers import OutliersManager
 from src.data.missing_values import MissingValuesManager
 from src.data.variable_types import VariableTypesManager
-from src.viz.plot_distribution import PlotDistribution
+from src.viz.plot_distribution import Plot
 from src.ui.ui import (
     make_space,
     load_header,
@@ -233,7 +233,13 @@ elif not use_my_config:
                 )
 
             if drop_row_na:
-                df = df.dropna()
+                na_before = df.isna().sum().sum()
+                df.dropna(inplace=True)
+                na_after = df.isna().sum().sum()
+                st.warning(
+                    f"Number of rows removed: {na_before-na_after} \
+                    ({(na_before-na_after)/df.shape[0]:.2%} of the dataset)"
+                )
             if same_missing_code:
                 df = MissingValuesManager.replace_missing_codes(df)
             if explicit_na:
@@ -377,7 +383,7 @@ elif not use_my_config:
                         key="column_plot",
                     )
                     col_to_plot = display_to_col[col_to_plot]
-                    PlotDistribution().plot_distribution(df, col_to_plot)
+                    Plot().distribution(df, col_to_plot)
 
                 make_space(10)
 

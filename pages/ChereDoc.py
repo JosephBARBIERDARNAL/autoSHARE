@@ -1,7 +1,9 @@
 import streamlit as st
 import pandas as pd
-from pages.ChereDoc.utils import extract_content, call_gpt, space
 from openai import OpenAI, BadRequestError
+
+from src.ui.ui import load_footer
+from pages.ChereDoc.utils import extract_content, call_gpt, space
 
 client = OpenAI(api_key=st.secrets["api_key"])
 
@@ -59,3 +61,6 @@ if run:
             st.success(question_found)
         except BadRequestError:
             st.error("Question not found")
+
+
+load_footer()

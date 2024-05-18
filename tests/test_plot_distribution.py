@@ -1,7 +1,7 @@
 import pytest
 import pandas as pd
 from unittest.mock import patch
-from src.viz.plot_distribution import PlotDistribution
+from src.viz.distribution import Plot
 
 
 df_categorical = pd.DataFrame({"Category": ["apple", "banana", "apple", "orange"]})
@@ -10,7 +10,7 @@ df_numerical = pd.DataFrame({"Value": [10, 15, 10, 20]})
 
 @pytest.fixture
 def plot_dist():
-    return PlotDistribution()
+    return Plot()
 
 
 def test_find_type_categorical(plot_dist):
@@ -27,7 +27,7 @@ def test_find_type_numerical(plot_dist):
 def test_plot_distribution_categorical(
     mock_markdown, mock_plotly_chart, mock_slider, plot_dist
 ):
-    fig = plot_dist.plot_distribution(df_categorical, "Category")
+    fig = plot_dist.distribution(df_categorical, "Category")
     assert "Bar" in str(fig.data[0]), "Should use a bar plot for categorical data"
 
 
@@ -37,5 +37,5 @@ def test_plot_distribution_categorical(
 def test_plot_distribution_numerical(
     mock_markdown, mock_plotly_chart, mock_slider, plot_dist
 ):
-    fig = plot_dist.plot_distribution(df_numerical, "Value")
+    fig = plot_dist.distribution(df_numerical, "Value")
     assert "Histogram" in str(fig.data[0]), "Should use a histogram for numerical data"

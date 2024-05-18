@@ -185,13 +185,18 @@ elif not use_my_config:
     st.markdown("### Variables")
     columns_properties = load_data_properties(wave)
     columns = columns_properties["column"].tolist()
-    cols = st.multiselect(
+    labels = columns_properties["labels"].tolist()
+    display_options = [f"{col} ({label})" for col, label in zip(columns, labels)]
+    display_to_col = {display: col for display, col in zip(display_options, columns)}
+    col_to_display = {col: display for display, col in zip(display_options, columns)}
+    cols_selected_display = st.multiselect(
         "Select the columns you want to load:",
-        options=columns,
+        options=display_options,
         key="columns",
         max_selections=10,
         help=HELPCOLUMNS,
     )
+    cols = [display_to_col[col] for col in cols_selected_display]
     if len(cols) > 0:
 
         # load dataframe with chosen columns
@@ -334,7 +339,7 @@ elif not use_my_config:
                     variables = df.columns.tolist()
                     method = "None"
                     threshold = 0.0
-                    make_space(10)
+                make_space(10)
 
                 # MODELING
                 st.markdown("### Target and predictors selection")
@@ -363,13 +368,15 @@ elif not use_my_config:
 
                 make_space(3)
                 cols_for_model = [target] + predictors
+                cols_model_display = [col_to_display[col] for col in cols_for_model]
                 st.write(f"Columns for modeling: `{', '.join(cols_for_model)}`")
                 with st.expander("Visualize data distribution"):
                     col_to_plot = st.selectbox(
                         "Select the column to plot:",
-                        options=cols_for_model,
+                        options=cols_model_display,
                         key="column_plot",
                     )
+                    col_to_plot = display_to_col[col_to_plot]
                     PlotDistribution().plot_distribution(df, col_to_plot)
 
                 make_space(10)

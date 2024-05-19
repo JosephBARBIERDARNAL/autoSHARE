@@ -21,9 +21,18 @@ It is recommended to create a [virtual environment](https://docs.python.org/3/li
 
 You can do so by running the following command in your terminal:
 
+- MacOS/Linux:
+
 ```bash
 python -m venv venv
 source venv/bin/activate
+```
+
+- Windows:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
 ```
 
 To **install the required packages**, you can run the following command in your terminal:
@@ -43,12 +52,12 @@ The quickest way to set up the data is to download the data (stata files) from t
 
 - Inside the `data/` directory, create a new directory for each wave, and keep their original names. For example, wave 1 directory is named `sharew1_rel9-0-0_ALL_datasets_stata`. This should look like this:
 
-    <img src="img/data_dir.png" width="30%">
+    <img src="https://raw.githubusercontent.com/JosephBARBIERDARNAL/autoSHARE/main/docs/img/data_dir.png" width="30%">
     <i>Figure 1: Data directory structure</i>
 
 - Inside each wave directory, put all raw `.dta` files. This should look like this for the wave 1 directory:
 
-    <img src="img/wave1_dir.png" width="30%">
+    <img src="https://raw.githubusercontent.com/JosephBARBIERDARNAL/autoSHARE/main/docs/img/wave1_dir.png" width="30%">
     <i>Figure 2: Data files in wave 1 directory</i>
 
 ## Run the application

@@ -9,17 +9,5 @@ Entire source code can be found on the [GitHub repository](https://github.com/Jo
 
 You can learn how to install the app on the [installation guide](installation-guide.md).
 
-
-
-# Technical documentation
-***
-
-## Overview
-
-The main file app is at the root of the project and is named `autoSHARE.py`. It relies on various modules that are located in the `src/` directory.
-
-Currently, the project is organized as follows:
-
-- [Module on missing values](source/missing_values.md)
-- [Module on outliers](source/outliers.md)
+You can learn more about how the app works on the [technical documentation](source/index.md).
 

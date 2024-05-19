@@ -16,30 +16,36 @@ Key numbers:
 ***
 
 ## Motivation
+***
 
-We (autoSHARE's developers) believe that SHARE contains a wealth of information that can be used to answer a wide range of research/policy/clinical questions. However, we also believe that the complexity of SHARE data can be a barrier for many potential users. This is why we developed **autoSHARE**. We also believe that technical problems should not restrein the use of SHARE data, and that technology makes science more efficient, transparent and reproducible.
+We (autoSHARE's developers) believe that [SHARE](https://share-eric.eu/) contains a **wealth of information** that can be used to answer a wide range of research/policy/clinical questions. However, we also believe that the complexity of SHARE data can be a barrier for many potential users.
+
+This is why we developed **autoSHARE**, a web application that simplifies data analysis in SHARE. We also believe that technical problems should not restrein the use of SHARE data, and that technology can make science more efficient, transparent and reproducible.
 
 ## What autoSHARE does
+***
 
 autoSHARE provides a user-friendly interface to manipulate, clean and analyze SHARE data. It is designed to make reproducible research easier, and to facilitate the use of SHARE data for a wide range of users.
 
 This project is a PoC (Proof of Concept) and is still in development. Our goal is to create a tool able to:
 
-- Load SHARE data, for one or multiple waves
-- Clean and harmonize SHARE data
-- Manage missing values with different methods
-- Manage outliers with different methods
-- Visualize data with interactive widgets
-- Perform statistical modeling
-- Save, export and share results easily
+- Load SHARE data, for one or multiple waves ✅
+- Clean and harmonize SHARE data ✅
+- Manage missing values with different methods ✅
+- Manage outliers with different methods ✅
+- Visualize data with interactive widgets ❌
+- Perform statistical modeling ❌
+- Save, export and share results easily ❌
 
 ## How autoSHARE works
+***
 
 autoSHARE uses the `streamlit` library for the user interface, and other Python packages that you can find [here](https://github.com/JosephBARBIERDARNAL/autoSHARE/blob/main/requirements.txt).
 
-A more in-depth explanation of the code can be found [on the main page](index.md).
+A more in-depth explanation of the code can be found [on the source directory](source/index.md).
 
 ## Code
+***
 
 The entire source code is available on [GitHub](https://github.com/JosephBARBIERDARNAL/autoSHARE). Contributions, bug reports, feature requests and feedback are welcome.
 

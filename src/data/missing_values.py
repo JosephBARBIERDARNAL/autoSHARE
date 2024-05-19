@@ -7,7 +7,8 @@ import pandas as pd
 
 class MissingValuesManager:
     """
-    Class to handle missing values.
+    The `MissingValuesManager` is a class to handle missing
+    values in the dataset.
     """
 
     def __init__(self):

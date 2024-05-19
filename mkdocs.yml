@@ -6,6 +6,7 @@ nav:
   - About: about.md
   - Installation: installation-guide.md
   - source:
+    - Overview: source/index.md
     - Outliers: source/outliers.md
     - Missing values: source/missing_values.md
 theme:

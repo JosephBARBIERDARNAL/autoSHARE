@@ -30,7 +30,7 @@ from src.model.model import ModelManager
 from src.data.data import DatasetManager
 from src.data.outliers import OutliersManager
 from src.data.missing_values import MissingValuesManager
-from src.viz.plot_distribution import Plot
+from src.viz.plot import Plot
 from src.ui.ui import (
     make_space,
     load_header,

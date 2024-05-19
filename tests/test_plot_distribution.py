@@ -1,7 +1,7 @@
 import pytest
 import pandas as pd
 from unittest.mock import patch
-from src.viz.plot_distribution import Plot
+from src.viz.plot import Plot
 
 
 df_categorical = pd.DataFrame({"Category": ["apple", "banana", "apple", "orange"]})

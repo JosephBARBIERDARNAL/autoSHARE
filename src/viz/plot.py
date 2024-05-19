@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 
 class Plot:
     """
-    Class to handle missing values.
+    Class to handle the plots.
     """
 
     def __init__(self):

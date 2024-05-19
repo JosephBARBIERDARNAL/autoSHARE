@@ -1,8 +1,10 @@
 # Installation
+***
 
 At the moment, the application is only available locally. To run the application, you need to:
 
 ## Clone the repository
+***
 
 You need to have `Git` installed on your machine. If you don't, you can download it [here](https://git-scm.com/downloads).
 
@@ -13,6 +15,7 @@ git clone https://github.com/JosephBARBIERDARNAL/autoSHARE.git
 ```
 
 ## Install the required packages
+***
 
 It is recommended to create a [virtual environment](https://docs.python.org/3/library/venv.html) before installing the required packages. This will **prevent any conflicts** with other Python projects you may have on your machine.
 
@@ -30,6 +33,7 @@ pip install -r requirements.txt
 ```
 
 ## Set up the data
+***
 
 Our goal is to create a make an app that does not require this step (aka a **deployment on a server** with the data already loaded). However, for now, the data needs to be set up locally.
 
@@ -48,6 +52,7 @@ The quickest way to set up the data is to download the data (stata files) from t
     <i>Figure 2: Data files in wave 1 directory</i>
 
 ## Run the application
+***
 
 To run the application, you can run the following command in your terminal:
 

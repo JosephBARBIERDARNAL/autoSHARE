@@ -36,7 +36,7 @@ def get_column_names(wave, path_to_txt="pages/ChereDoc/column_names/"):
     return column_names
 
 
-for wave in range(1, 9):
+for wave in range(1, 10):
     directory = f"static/data/sharew{wave}_rel9-0-0_ALL_datasets_stata/"
     column_names = save_column_names(directory, wave)
     print(f"Wave {wave} has {len(column_names)} columns\n")

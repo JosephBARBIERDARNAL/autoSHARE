@@ -13,7 +13,10 @@ class MissingValuesManager:
     def __init__(self):
         self.missing_values = []
 
-    def replace_missing_codes(self, df: pd.DataFrame) -> pd.DataFrame:
+    def replace_missing_codes(
+        self,
+        df: pd.DataFrame
+    ) -> pd.DataFrame:
         """
         Replace the missing codes with NA.
         Missing codes are different values, defined by SHARE, that
@@ -21,9 +24,10 @@ class MissingValuesManager:
         purposes.
 
         Args:
-            - df: the dataset.
+            - df: the dataset
+
         Returns:
-            - df: the dataset with missing codes replaced by NA.
+            - df: the dataset with missing codes replaced by NA
         """
 
         valuesToReplace = [
@@ -37,32 +41,40 @@ class MissingValuesManager:
             -9999991,
             -9999992,
         ]
-        df = df.replace(valuesToReplace, None)
-        return df
+        return df.replace(valuesToReplace, None)
 
     def make_explicit_na(
-        self, df: pd.DataFrame, explicit_name="missing"
+        self,
+        df: pd.DataFrame,
+        explicit_name: str="missing"
     ) -> pd.DataFrame:
         """
-        Takes all missing values and replace them with 'missing',
+        Takes all missing values and replace them with an explicit name,
         also known as explicit missing values.
 
         Args:
-            - df: the dataset.
-        Returns:
-            - df: the dataset with explicit missing values.
-        """
-        df = df.fillna(explicit_name)
-        return df
+            - df: the dataset
+            - explicit_name: the name to use for the explicit missing values
 
-    def count_na_columns(self, df: pd.DataFrame, threshold: int) -> pd.DataFrame:
-        """
-        Count the percentage of missing values in each column.
-        Args:
-            - df: the dataset.
-            - threshold: the threshold to use.
         Returns:
-            - cols_to_remove: the columns to remove.
+            - df: the dataset with explicit missing values
+        """
+        return df.fillna(explicit_name)
+
+    def count_na_columns(
+        self,
+        df: pd.DataFrame,
+        threshold: int
+    ) -> pd.DataFrame:
+        """
+        Count the percentage of missing values in each column
+
+        Args:
+            - df: the dataset
+            - threshold: the threshold to use
+        
+        Returns:
+            - cols_to_remove: the columns to remove
         """
 
         missing_values = df.isna().sum() / df.shape[0] * 100

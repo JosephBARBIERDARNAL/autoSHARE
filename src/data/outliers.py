@@ -10,7 +10,8 @@ AVAILABLE_METHODS = ["Z-score", "IQR", "Isolation Forest"]
 
 class OutliersManager:
     """
-    Class to handle outliers.
+    The `OutliersManager` is a class to handle outliers
+    in the dataset.
     """
 
     def __init__(self):
@@ -27,12 +28,14 @@ class OutliersManager:
         Find outliers using the Z-score.
 
         Args:
-            - threshold_z: the threshold to use
-            - df: the dataset
-            - numerical_cols: the numerical columns
+
+        - threshold_z: the threshold to use
+        - df: the dataset
+        - numerical_cols: the numerical columns
 
         Returns:
-            - outliers: the index of the outliers
+
+        - outliers: the index of the outliers
         """
 
         # normalize
@@ -55,12 +58,14 @@ class OutliersManager:
         Find outliers using the IQR.
 
         Args:
-            - threshold_iqr: the threshold to use
-            - df: the dataset
-            - numerical_cols: the numerical columns
+
+        - threshold_iqr: the threshold to use
+        - df: the dataset
+        - numerical_cols: the numerical columns
         
         Returns:
-            - outliers: the index of the outliers
+
+        - outliers: the index of the outliers
         """
         
         # define the IQR
@@ -85,13 +90,15 @@ class OutliersManager:
         Find outliers using the specified method and threshold.
 
         Args:
-            - threshold: the threshold to use
-            - method: the method to use
-            - df: the dataset
-            - numerical_cols: the numerical columns
+
+        - threshold: the threshold to use
+        - method: the method to use
+        - df: the dataset
+        - numerical_cols: the numerical columns
 
         Returns:
-            - outliers: the index of the outliers
+
+        - outliers: the index of the outliers
         """
 
         # check if method is supported
@@ -115,11 +122,13 @@ class OutliersManager:
         Remove the outliers.
 
         Args:
-            - index: the index of the outliers
-            - df: the dataset
+
+        - index: the index of the outliers
+        - df: the dataset
 
         Returns:
-            - df: the dataset without the outliers
+
+        - df: the dataset without the outliers
         """
         df = df.drop(index)
         return df

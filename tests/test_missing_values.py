@@ -56,7 +56,7 @@ test_cases = [
 @pytest.mark.parametrize("df,threshold,expected", test_cases)
 def test_count_percent_na_columns(df, threshold, expected):
     manager = MissingValuesManager()
-    cols_to_remove = manager.count_na_columns(df, threshold)
+    cols_to_remove = manager.remove_na_columns(df, threshold)
     assert sorted(cols_to_remove) == sorted(
         expected
     ), f"Expected {expected} but got {cols_to_remove}"

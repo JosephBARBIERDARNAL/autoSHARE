@@ -1,34 +1,3 @@
----
-title: "Installation guide for AutoSHARE"
-author: "Joseph Barbier, Thomas Salanova"
-date: "`r Sys.Date()` (last update)"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    number_sections: true
-    theme: darkly
-    highlight: tango
-    code_folding: show
-    fig_width: 8
-    fig_height: 6
-    fig_caption: true
-    df_print: paged
-    toc_depth: 3
-    css: style.css
-    includes:
-      after_body: footer.html
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-    echo = TRUE,
-    warning = FALSE,
-    message = FALSE
-)
-```
-
-
 # Installation
 
 At the moment, the application is only available locally. To run the application, you need to:
@@ -83,7 +52,7 @@ The quickest way to set up the data is to download the data (stata files) from t
 To run the application, you can run the following command in your terminal:
 
 ```bash
-streamlit run AutoSHARE.py
+streamlit run autoSHARE.py
 ```
 
 This will open a **new tab** in your default browser with the application running, usually at the **following address**: `http://localhost:8501`.

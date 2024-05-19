@@ -1,32 +1,3 @@
----
-title: "About AutoSHARE"
-author: "Joseph Barbier, Thomas Salanova"
-date: "`r Sys.Date()` (last update)"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    number_sections: true
-    theme: darkly
-    highlight: tango
-    code_folding: show
-    fig_width: 8
-    fig_height: 6
-    fig_caption: true
-    df_print: paged
-    toc_depth: 3
-    css: style.css
-    includes:
-      after_body: footer.html
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-    echo = TRUE,
-    warning = FALSE,
-    message = FALSE
-)
-```
 
 # SHARE
 ***
@@ -50,7 +21,7 @@ We (autoSHARE's developers) believe that SHARE contains a wealth of information 
 
 ## What autoSHARE does
 
-AutoSHARE provides a user-friendly interface to manipulate, clean and analyze SHARE data. It is designed to make reproducible research easier, and to facilitate the use of SHARE data for a wide range of users.
+autoSHARE provides a user-friendly interface to manipulate, clean and analyze SHARE data. It is designed to make reproducible research easier, and to facilitate the use of SHARE data for a wide range of users.
 
 This project is a PoC (Proof of Concept) and is still in development. Our goal is to create a tool able to:
 
@@ -64,9 +35,9 @@ This project is a PoC (Proof of Concept) and is still in development. Our goal i
 
 ## How autoSHARE works
 
-AutoSHARE uses the `streamlit` library for the user interface, and other Python packages that you can find [here](https://github.com/JosephBARBIERDARNAL/autoSHARE/blob/main/requirements.txt).
+autoSHARE uses the `streamlit` library for the user interface, and other Python packages that you can find [here](https://github.com/JosephBARBIERDARNAL/autoSHARE/blob/main/requirements.txt).
 
-A more in-depth explanation of the code can be found [on the main page](index.html).
+A more in-depth explanation of the code can be found [on the main page](index.md).
 
 ## Code
 

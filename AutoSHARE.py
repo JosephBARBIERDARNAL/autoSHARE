@@ -128,7 +128,7 @@ if use_my_config and successfully_loaded == True:
     if explicit_na:
         df = MissingValuesManager.make_explicit_na(df)
     if remove_cols_na:
-        cols_to_remove = MissingValuesManager.count_na_columns(df, threshold)
+        cols_to_remove = MissingValuesManager.remove_na_columns(df, threshold)
         df = df.drop(columns=cols_to_remove)
     if remove_outliers:
         outliers = OutliersManager.find_outliers(threshold, method, df)
@@ -300,7 +300,7 @@ elif not use_my_config:
                         value=90,
                         key="threshold",
                     )
-                    cols_to_remove = MissingValuesManager.count_na_columns(df, threshold)
+                    cols_to_remove = MissingValuesManager.remove_na_columns(df, threshold)
                     if len(cols_to_remove) > 0:
                         st.markdown(
                             f"Columns removed (with threshold of {threshold}%): `{', '.join(cols_to_remove)}`"

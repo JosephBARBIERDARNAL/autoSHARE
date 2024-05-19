@@ -27,10 +27,12 @@ REQUIREMENTS_FILE = "requirements.txt"
 def get_package_version(package_name: str) -> str:
     """
     Get the version of a package using pip show.
+    
     Args:
-        package_name: Name of the package to get the version for.
+        - package_name: Name of the package to get the version for
+    
     Returns:
-        The version of the package.
+        - The version of the package
     """
 
     result = subprocess.run(

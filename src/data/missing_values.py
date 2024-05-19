@@ -24,10 +24,12 @@ class MissingValuesManager:
         purposes.
 
         Args:
-            - df: the dataset
+        
+        - df: the dataset
 
         Returns:
-            - df: the dataset with missing codes replaced by NA
+        
+        - df: the dataset with missing codes replaced by NA
         """
 
         valuesToReplace = [
@@ -53,28 +55,33 @@ class MissingValuesManager:
         also known as explicit missing values.
 
         Args:
-            - df: the dataset
-            - explicit_name: the name to use for the explicit missing values
+
+        - df: the dataset
+        - explicit_name: the name to use for the explicit missing values
 
         Returns:
-            - df: the dataset with explicit missing values
+
+        - df: the dataset with explicit missing values
         """
         return df.fillna(explicit_name)
 
-    def count_na_columns(
+    def remove_na_columns(
         self,
         df: pd.DataFrame,
         threshold: int
     ) -> pd.DataFrame:
         """
         Count the percentage of missing values in each column
+        and return the columns that have more than the threshold.
 
         Args:
-            - df: the dataset
-            - threshold: the threshold to use
+        
+        - df: the dataset
+        - threshold: the threshold to use
         
         Returns:
-            - cols_to_remove: the columns to remove
+        
+        - cols_to_remove: the columns to remove
         """
 
         missing_values = df.isna().sum() / df.shape[0] * 100

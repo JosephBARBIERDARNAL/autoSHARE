@@ -105,8 +105,17 @@
 <hr />
 <p>It is recommended to create a <a href="https://docs.python.org/3/library/venv.html">virtual environment</a> before installing the required packages. This will <strong>prevent any conflicts</strong> with other Python projects you may have on your machine.</p>
 <p>You can do so by running the following command in your terminal:</p>
+<ul>
+<li>MacOS/Linux:</li>
+</ul>
 <pre><code class="language-bash">python -m venv venv
 source venv/bin/activate
+</code></pre>
+<ul>
+<li>Windows:</li>
+</ul>
+<pre><code class="language-bash">python -m venv venv
+venv\Scripts\activate
 </code></pre>
 <p>To <strong>install the required packages</strong>, you can run the following command in your terminal:</p>
 <pre><code class="language-bash">pip install -r requirements.txt
@@ -119,12 +128,12 @@ source venv/bin/activate
 <ul>
 <li>
 <p>Inside the <code>data/</code> directory, create a new directory for each wave, and keep their original names. For example, wave 1 directory is named <code>sharew1_rel9-0-0_ALL_datasets_stata</code>. This should look like this:</p>
-<p><img src="img/data_dir.png" width="30%">
+<p><img src="https://raw.githubusercontent.com/JosephBARBIERDARNAL/autoSHARE/main/docs/img/data_dir.png" width="30%">
 <i>Figure 1: Data directory structure</i></p>
 </li>
 <li>
 <p>Inside each wave directory, put all raw <code>.dta</code> files. This should look like this for the wave 1 directory:</p>
-<p><img src="img/wave1_dir.png" width="30%">
+<p><img src="https://raw.githubusercontent.com/JosephBARBIERDARNAL/autoSHARE/main/docs/img/wave1_dir.png" width="30%">
 <i>Figure 2: Data files in wave 1 directory</i></p>
 </li>
 </ul>

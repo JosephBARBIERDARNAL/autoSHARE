@@ -3,26 +3,35 @@ This module contains the Plot class.
 """
 
 import streamlit as st
+import pandas as pd
 import plotly.graph_objects as go
 
 
 class Plot:
     """
-    Class to handle the plots.
+    The `Plot` class is used to handle the plots.
     """
 
     def __init__(self):
         pass
 
-    def distribution(self, df, column, color="#FF4B4B"):
+    def distribution(
+        self,
+        df: pd.DataFrame,
+        column: str,
+        color: str="#FF4B4B"
+    ):
         """
         Plot the distribution of a variable depending on its type.
+
         Args:
-            - df: the dataset.
-            - column: the column to plot.
+
+        - df: the dataset
+        - column: the column to plot
 
         Returns:
-            - fig: the plotly figure.
+
+        - fig: the plotly figure
         """
 
         # find the type of the column
@@ -67,15 +76,22 @@ class Plot:
         st.plotly_chart(fig, use_container_width=True, help="distribution")
         return fig
 
-    def find_type(self, df, column):
+    def find_type(
+        self,
+        df: pd.DataFrame,
+        column: str
+    ):
         """
         Find the type of a column.
+
         Args:
-            - df: the dataset.
-            - column: the column to find the type of.
+
+        - df: the dataset
+        - column: the column to find the type of
 
         Returns:
-            - type: the type of the column.
+
+        - type: the type of the column
         """
         if df[column].dtype == "object":
             return "categorical"

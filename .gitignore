@@ -16,3 +16,4 @@ sanbox.ipynb
 *.json
 .vscode/
 secrets.toml
+site/

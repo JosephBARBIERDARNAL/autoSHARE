@@ -7,6 +7,7 @@ nav:
   - Installation: installation-guide.md
   - source:
     - Overview: source/index.md
+    - Data: source/data.md
     - Outliers: source/outliers.md
     - Missing values: source/missing_values.md
     - Visualization: source/plot.md

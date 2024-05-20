@@ -11,20 +11,31 @@ from src.utils import clean_suffix_from_cols, load_data_properties
 
 class DatasetManager:
     """
-    Class to handle the dataset.
+    The `DatasetManager` class is used to handle the dataset.
     """
 
-    def __init__(self, data_path: str, wave: int):
+    def __init__(
+        self,
+        data_path: str,
+        wave: int
+    ) -> None:
         self.data_path = data_path
         self.wave = wave
 
-    def create_dataframe(self, cols: list):
+    def create_dataframe(
+        self,
+        cols: list[str]
+    ) -> pd.DataFrame:
         """
         Load the data from the specified columns.
+
         Args:
-            - cols: the columns to load.
+        
+        - cols: the columns to load
+        
         Returns:
-            - df: the dataset.
+        
+        - df: the dataset with the selected columns
         """
 
         columns_properties = load_data_properties(self.wave)
@@ -61,10 +72,5 @@ class DatasetManager:
 
         # remove dupplicate columns from merging
         df = clean_suffix_from_cols(df)
-
-        # keep only the selected columns
         cols = list(set(cols))
-        df = df[cols]
-
-        # output
-        return df
+        return df[cols]

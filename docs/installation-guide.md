@@ -12,6 +12,7 @@ Then you can clone the repository by running the following command in your termi
 
 ```bash
 git clone https://github.com/JosephBARBIERDARNAL/autoSHARE.git
+cd autoSHARE
 ```
 
 ## Install the required packages
@@ -48,9 +49,9 @@ Our goal is to create a make an app that does not require this step (aka a **dep
 
 [SHARE](https://share-eric.eu/) requires to ask and justify the use of their data. This means that this will **not work if don't have local access to the data**.
 
-The quickest way to set up the data is to download the data (stata files) from the SHARE data center, unzip them, and place them in the `data/` directory. However, here are more detailed instructions if needed:
+The fastest way to set up the data is to download the data (stata files) from the SHARE data center, unzip them, and place them in the `data/` directory. However, here are more detailed instructions if needed:
 
-- Inside the `data/` directory, create a new directory for each wave, and keep their original names. For example, wave 1 directory is named `sharew1_rel9-0-0_ALL_datasets_stata`. This should look like this:
+- Inside the `autoSHARE/static/data/` directory, create a new directory for each wave (9 different sub directories), and keep their original names. For example, wave 1 directory is named `sharew1_rel9-0-0_ALL_datasets_stata`. This should look like this:
 
     <img src="https://raw.githubusercontent.com/JosephBARBIERDARNAL/autoSHARE/main/docs/img/data_dir.png" width="30%">
     <i>Figure 1: Data directory structure</i>
@@ -59,6 +60,8 @@ The quickest way to set up the data is to download the data (stata files) from t
 
     <img src="https://raw.githubusercontent.com/JosephBARBIERDARNAL/autoSHARE/main/docs/img/wave1_dir.png" width="30%">
     <i>Figure 2: Data files in wave 1 directory</i>
+
+And that's it! The data is now set up. If you has any trouble with this step, feel free to open an issue on the [GitHub repository](https://github.com/JosephBARBIERDARNAL/autoSHARE/issues).
 
 ## Run the application
 ***

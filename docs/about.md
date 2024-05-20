@@ -2,7 +2,7 @@
 # SHARE
 ***
 
-> *"The Survey of Health, Ageing and Retirement in Europe (SHARE) is a research infrastructure for studying the effects of health, social, economic and environmental policies over the life-course of European citizens and beyond"*
+> *"The Survey of Health, Ageing and Retirement in Europe (SHARE) is a research infrastructure for studying the effects of health, social, economic and environmental policies over the life-course of European citizens and beyond"* [from SHARE's website](https://share-eric.eu/)
 
 Key numbers:
 
@@ -14,6 +14,8 @@ Key numbers:
 
 # autoSHARE
 ***
+
+autoSHARE is currently developed by [Joseph Barbier](https://www.barbierjoseph.com/) and [Thomas Salanova](https://www.linkedin.com/in/thomas-salanova/), two research enthusiasts who want to improve and facilitate social science research.
 
 ## Motivation
 ***
@@ -41,6 +43,20 @@ This project is a PoC (Proof of Concept) and is still in development. Our goal i
 ***
 
 autoSHARE uses the `streamlit` library for the user interface, and other Python packages that you can find [here](https://github.com/JosephBARBIERDARNAL/autoSHARE/blob/main/requirements.txt).
+
+When interacting with the app, the user can
+
+- load data by specifying the wave and the variables of interest
+
+- manage missing values and outliers
+
+- visualize data with interactive widgets
+
+- perform statistical modeling (supervised and unsupervised)
+
+- save, export and share results easily
+
+The aim of this app is to faster common pre-processing tasks related SHARE data, and to make the data more accessible to a wider audience. At any step of the process, the user can download the data, and gain lots of time in the data cleaning process.
 
 A more in-depth explanation of the code can be found [on the source directory](source/index.md).
 

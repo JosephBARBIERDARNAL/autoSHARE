@@ -1,7 +1,7 @@
-# Outliers
+# Visualization
 ***
 
-The outliers module is used to manage outliers in the dataframe.
+The plot module is used to manage visualization.
 
 # Code
 ***

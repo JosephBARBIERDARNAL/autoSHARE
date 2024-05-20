@@ -2,7 +2,7 @@
 # SHARE
 ***
 
-> *"The Survey of Health, Ageing and Retirement in Europe (SHARE) is a research infrastructure for studying the effects of health, social, economic and environmental policies over the life-course of European citizens and beyond"* [from SHARE's website](https://share-eric.eu/)
+> *"The Survey of Health, Ageing and Retirement in Europe (SHARE) is a research infrastructure for studying the effects of health, social, economic and environmental policies over the life-course of European citizens and beyond"*, [from SHARE's website](https://share-eric.eu/)
 
 Key numbers:
 
@@ -15,7 +15,7 @@ Key numbers:
 # autoSHARE
 ***
 
-autoSHARE is currently developed by [Joseph Barbier](https://www.barbierjoseph.com/) and [Thomas Salanova](https://www.linkedin.com/in/thomas-salanova/), two research enthusiasts who want to improve and facilitate social science research.
+autoSHARE is currently being developed by [Joseph Barbier](https://www.barbierjoseph.com/) and [Thomas Salanova](https://www.linkedin.com/in/thomas-salanova/), two research enthusiasts who want to improve and facilitate social science research.
 
 ## Motivation
 ***

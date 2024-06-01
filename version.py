@@ -20,6 +20,8 @@ packages = [
     "openai",
     "PyPDF2",
     "pyreadstat",
+    "mkdocs",
+    "mkdocstrings",
 ]
 REQUIREMENTS_FILE = "requirements.txt"
 

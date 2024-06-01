@@ -4,7 +4,7 @@ from src.ui.ui import (
     load_footer
 )
 
-load_header(title="AutoSHARE", subtitle="A tool to automate the SHARE data analysis process")
+load_header(title="Descriptive statistics", subtitle="Get descriptive statistics for the dataset")
 
 make_space(2)
 

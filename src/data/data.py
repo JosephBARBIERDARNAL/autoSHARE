@@ -67,8 +67,8 @@ class DatasetManager:
                 else:
                     df = df.merge(temp, on="mergeid", how="outer")
 
-        # add country and language
-        cols.extend(["country", "language"])
+        # add mergeid to the columns
+        cols.extend(["mergeid"])
 
         # remove dupplicate columns from merging
         df = clean_suffix_from_cols(df)

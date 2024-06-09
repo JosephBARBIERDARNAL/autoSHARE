@@ -141,18 +141,14 @@ def display_config_explanation(
     method,
     threshold,
     df,
-    target,
-    predictors,
-    task,
-    model,
 ):
     st.markdown("### Configuration")
     with st.expander("What is this?"):
         st.markdown(
             """The configuration file will store all the **parameters**
-            used in the data cleaning/modeling process. It's an easy way to keep track
+            used in the data cleaning process. It's an easy way to keep track
             of the steps taken. Also, it can be used to
-            reproduce the same cleaning/modeling process in the future and by so
+            reproduce the same cleaning process in the future and by so
             ensure **reproducibility**."""
         )
     config = {
@@ -168,10 +164,6 @@ def display_config_explanation(
         "variables": variables,
         "method": method,
         "threshold": threshold,
-        "target": target,
-        "predictors": predictors,
-        "task": task,
-        "model": model,
     }
     today = pd.Timestamp.today().strftime("%Y_%m_%d_%Hh_%Mmin")
     col1, col2 = st.columns([1, 1])

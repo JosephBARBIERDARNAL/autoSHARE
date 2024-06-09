@@ -19,10 +19,6 @@ from src.ui.helps import (
     HELPNUMERICAL,
     HELPCATEGORICAL,
     HELPUPLOADCONFIG,
-    HELPTARGET,
-    HELPPREDICTORS,
-    HELPTASK,
-    HELPFITEST,
 )
 from src.constants import waveToYear
 from src.utils import load_data_properties
@@ -30,7 +26,6 @@ from src.model.model import ModelManager
 from src.data.data import DatasetManager
 from src.data.outliers import OutliersManager
 from src.data.missing_values import MissingValuesManager
-from src.viz.plot import Plot
 from src.ui.ui import (
     make_space,
     load_header,
@@ -169,7 +164,7 @@ elif not use_my_config:
     make_space(10)
     st.markdown("### Wave")
     wave = st.slider(
-        "Select a wave:", min_value=1, max_value=9, value=1, key="wave", help=HELPWAVE
+        "Select a wave:", min_value=1, max_value=9, value=1, key="wave_", help=HELPWAVE
     )
     wave = int(wave)
     st.session_state["wave"] = wave
@@ -255,21 +250,21 @@ elif not use_my_config:
                     same_missing_code = st.toggle(
                         "Consider all missing codes as NA",
                         value=False,
-                        key="same_missing_code",
+                        key="same_missing_code_",
                         help=HELPMISSINGCODE,
                     )
                 with col2:
                     explicit_na = st.toggle(
                         "Consider missing values as a separate category",
                         value=False,
-                        key="explicit_na",
+                        key="explicit_na_",
                         help=HELPEXPLICITNA,
                     )
                 with col3:
                     drop_row_na = st.toggle(
                         "Drop rows with missing values",
                         value=False,
-                        key="drop_row_na",
+                        key="drop_row_na_",
                         help=HELPDROPNA,
                     )
 
@@ -307,7 +302,7 @@ elif not use_my_config:
                         min_value=0,
                         max_value=100,
                         value=90,
-                        key="threshold",
+                        key="threshold_",
                     )
                     cols_to_remove = MissingValuesManager.remove_na_columns(df, threshold)
                     if len(cols_to_remove) > 0:
@@ -327,7 +322,7 @@ elif not use_my_config:
                     remove_outliers = st.toggle(
                         "Remove outliers",
                         value=False,
-                        key="remove_outliers",
+                        key="remove_outliers_",
                         help=HELPOUTLIERS,
                     )
 
@@ -348,7 +343,7 @@ elif not use_my_config:
                                 max_value=10.0,
                                 step=0.1,
                                 value=3.0,
-                                key="threshold_z",
+                                key="threshold_z_",
                                 help=HELPZSCORE,
                             )
 
@@ -409,10 +404,6 @@ elif not use_my_config:
                             method,
                             threshold,
                             df,
-                            target,
-                            predictors,
-                            task,
-                            model,
                         )
 
 

@@ -172,6 +172,7 @@ elif not use_my_config:
         "Select a wave:", min_value=1, max_value=9, value=1, key="wave", help=HELPWAVE
     )
     wave = int(wave)
+    st.session_state["wave"] = wave
     year = waveToYear[wave]
     st.markdown(f"Selected wave: {wave} ({year})")
     make_space(10)
@@ -199,6 +200,7 @@ elif not use_my_config:
         help=HELPCOLUMNS,
     )
     cols = [display_to_col[col] for col in cols_selected_display]
+    st.session_state["cols"] = cols
     if len(cols) > 0:
 
         # load dataframe with chosen columns
@@ -236,6 +238,8 @@ elif not use_my_config:
                 )
             else:
                 st.success("Variables types defined successfully!")
+                st.session_state["numerical_columns"] = numerical_columns
+                st.session_state["categorical_columns"] = categorical_columns
                 df[numerical_columns] = df[numerical_columns].astype("float")
                 df[categorical_columns] = df[categorical_columns].astype("category")
                 st.write(df.dtypes)
@@ -285,6 +289,9 @@ elif not use_my_config:
                     f"Number of rows removed: {nrows_df_before - nrows_df_after} \
                     ({(nrows_df_before - nrows_df_after) / nrows_df_before:.2%} of the dataset)"
                 )
+                st.session_state["same_missing_code"] = same_missing_code
+                st.session_state["explicit_na"] = explicit_na
+                st.session_state["drop_row_na"] = drop_row_na
 
                 make_space(3)
 
@@ -378,113 +385,35 @@ elif not use_my_config:
                         method = "None"
                         threshold = 0.0
                     make_space(10)
+                    st.session_state["remove_outliers"] = remove_outliers
+                    st.session_state["variables"] = variables
+                    st.session_state["method"] = method
+                    st.session_state["threshold"] = threshold
+                    st.session_state["df"] = df
 
-                    # MODELING
-                    st.markdown("### Target and predictors selection")
-                    col1, col2 = st.columns([1, 2])
-                    with col1:
-                        target = st.selectbox(
-                            "Select the target variable:",
-                            options=df.columns.tolist(),
-                            key="target",
-                            help=HELPTARGET,
+                    can_display_config = True
+
+                    # SAVE CONFIGURATION (create json file with all the configurations)
+                    if can_display_config:
+                        make_space(10)
+                        display_config_explanation(
+                            wave,
+                            year,
+                            cols,
+                            same_missing_code,
+                            explicit_na,
+                            drop_row_na,
+                            remove_cols_na,
+                            remove_outliers,
+                            variables,
+                            method,
+                            threshold,
+                            df,
+                            target,
+                            predictors,
+                            task,
+                            model,
                         )
-                    with col2:
-                        predictors = st.multiselect(
-                            "Select the predictor variables:",
-                            options=df.columns.tolist(),
-                            key="predictors",
-                            help=HELPPREDICTORS,
-                        )
-
-                    # check if target is in predictors
-                    if target in predictors:
-                        st.warning(
-                            """The *target variable* is currently in the *predictor variables*.
-                        This can lead to various **numerical issues**. It is recommended to **remove** it."""
-                        )
-
-                    make_space(3)
-                    cols_for_model = [target] + predictors
-                    cols_model_display = [col_to_display[col] for col in cols_for_model]
-                    st.write(f"Columns for modeling: `{', '.join(cols_for_model)}`")
-                    with st.expander("Visualize data distribution"):
-                        col_to_plot = st.selectbox(
-                            "Select the column to plot:",
-                            options=cols_model_display,
-                            key="column_plot",
-                        )
-                        col_to_plot = display_to_col[col_to_plot]
-                        Plot().distribution(df, col_to_plot)
-
-                    make_space(10)
-
-                    # MODELING
-                    st.markdown("### Modeling")
-                    col1, col2 = st.columns([1, 2])
-                    with col1:
-                        task = st.selectbox(
-                            "Select the task:",
-                            options=["Classification", "Regression"],
-                            help=HELPTASK,
-                            key="task",
-                        )
-                    with col2:
-                        if task == "Classification":
-                            available_models = ["Logistic Regression"]
-                        elif task == "Regression":
-                            available_models = ["Linear Regression"]
-
-                        model = st.selectbox(
-                            "Select the model:",
-                            options=available_models,
-                            key="model",
-                        )
-
-                    fit_estimator = st.toggle(
-                        "Fit the model", value=False, help=HELPFITEST, key="fit_estimator"
-                    )
-
-                    if fit_estimator:
-                        ModelManager = ModelManager()
-                        model_fit = ModelManager.fit_model(
-                            df[predictors], df[target], model
-                        )
-                        summary_table = ModelManager.display_model()
-                        st.write(summary_table)
-
-                        # save summary table as csv
-                        summary_table_csv = summary_table.as_csv()
-                        st.download_button(
-                            label="Download model summary as CSV",
-                            data=summary_table_csv,
-                            file_name="model_summary.csv",
-                            mime="text/csv",
-                        )
-
-                        can_display_config = True
-
-                        # SAVE CONFIGURATION (create json file with all the configurations)
-                        if can_display_config:
-                            make_space(10)
-                            display_config_explanation(
-                                wave,
-                                year,
-                                cols,
-                                same_missing_code,
-                                explicit_na,
-                                drop_row_na,
-                                remove_cols_na,
-                                remove_outliers,
-                                variables,
-                                method,
-                                threshold,
-                                df,
-                                target,
-                                predictors,
-                                task,
-                                model,
-                            )
 
 
 load_footer()

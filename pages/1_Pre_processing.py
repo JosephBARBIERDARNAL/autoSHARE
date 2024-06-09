@@ -3,7 +3,6 @@ Auto SHARE is a Streamlit app that allows users to load, clean, and analyze the 
 """
 
 import streamlit as st
-import pandas as pd
 import json
 
 from src.ui.helps import (
@@ -22,7 +21,6 @@ from src.ui.helps import (
 )
 from src.constants import waveToYear
 from src.utils import load_data_properties
-from src.model.model import ModelManager
 from src.data.data import DatasetManager
 from src.data.outliers import OutliersManager
 from src.data.missing_values import MissingValuesManager
@@ -78,13 +76,8 @@ with st.expander("Use the app with a config file"):
                 remove_cols_na = config["remove_cols_na"]
                 threshold = config["threshold"]
                 remove_outliers = config["remove_outliers"]
-                variables = config["variables"]
                 method = config["method"]
                 threshold = config["threshold"]
-                target = config["target"]
-                predictors = config["predictors"]
-                task = config["task"]
-                model = config["model"]
             except KeyError as e:
                 st.error(
                     f"""Error: config file is missing the following keys: {e}.
@@ -128,30 +121,14 @@ if use_my_config and successfully_loaded == True:
     if remove_outliers:
         outliers = OutliersManager.find_outliers(threshold, method, df)
         df = OutliersManager.remove_outliers(outliers, df)
-    model = ModelManager.fit_model(df[predictors], df[target], model)
-    summary_table = ModelManager.display_model()
-    st.write(summary_table)
 
-    col1, col2 = st.columns([1, 1])
-    with col1:
-
-        # save summary table as csv
-        summary_table_csv = summary_table.as_csv()
-        st.download_button(
-            label="Download model summary as CSV",
-            data=summary_table_csv,
-            file_name="model_summary.csv",
-            mime="text/csv",
-        )
-    with col2:
-
-        # download dataset
-        st.download_button(
-            label="Download dataset as CSV",
-            data=df.to_csv(index=False),
-            file_name=f"share_dataset.csv",
-            mime="text/csv",
-        )
+    # download dataset
+    st.download_button(
+        label="Download dataset as CSV",
+        data=df.to_csv(index=False),
+        file_name=f"share_dataset.csv",
+        mime="text/csv",
+    )
 
 
 ##################################################################################
@@ -187,6 +164,8 @@ elif not use_my_config:
     display_options = sorted(display_options)
     display_to_col = {display: col for display, col in zip(display_options, columns)}
     col_to_display = {col: display for display, col in zip(display_options, columns)}
+    st.session_state["display_to_col"] = display_to_col
+    st.session_state["col_to_display"] = col_to_display
     cols_selected_display = st.multiselect(
         "Select the columns you want to load:",
         options=display_options,
@@ -238,7 +217,6 @@ elif not use_my_config:
                 df[numerical_columns] = df[numerical_columns].astype("float")
                 df[categorical_columns] = df[categorical_columns].astype("category")
                 st.write(df.dtypes)
-                make_space(3)
                 display_meta(df, key="dataset_info dtypes", print_na=False)
                 make_space(10)
 
@@ -376,12 +354,10 @@ elif not use_my_config:
                         make_space(3)
                         display_meta(df, key="dataset_info outliers", print_na=False)
                     else:
-                        variables = df.columns.tolist()
                         method = "None"
                         threshold = 0.0
                     make_space(10)
                     st.session_state["remove_outliers"] = remove_outliers
-                    st.session_state["variables"] = variables
                     st.session_state["method"] = method
                     st.session_state["threshold"] = threshold
                     st.session_state["df"] = df
@@ -400,7 +376,6 @@ elif not use_my_config:
                             drop_row_na,
                             remove_cols_na,
                             remove_outliers,
-                            variables,
                             method,
                             threshold,
                             df,

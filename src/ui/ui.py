@@ -137,7 +137,6 @@ def display_config_explanation(
     drop_row_na,
     remove_cols_na,
     remove_outliers,
-    variables,
     method,
     threshold,
     df,
@@ -161,7 +160,6 @@ def display_config_explanation(
         "remove_cols_na": remove_cols_na,
         "threshold": threshold,
         "remove_outliers": remove_outliers,
-        "variables": variables,
         "method": method,
         "threshold": threshold,
     }

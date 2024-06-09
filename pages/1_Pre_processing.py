@@ -105,7 +105,6 @@ if use_my_config and successfully_loaded == True:
     DatasetManager = DatasetManager(DATA_PATH, wave)
     OutliersManager = OutliersManager()
     MissingValuesManager = MissingValuesManager()
-    ModelManager = ModelManager()
 
     # run app with config file
     df = DatasetManager.create_dataframe(cols)
@@ -164,8 +163,6 @@ elif not use_my_config:
     display_options = sorted(display_options)
     display_to_col = {display: col for display, col in zip(display_options, columns)}
     col_to_display = {col: display for display, col in zip(display_options, columns)}
-    st.session_state["display_to_col"] = display_to_col
-    st.session_state["col_to_display"] = col_to_display
     cols_selected_display = st.multiselect(
         "Select the columns you want to load:",
         options=display_options,
@@ -357,14 +354,17 @@ elif not use_my_config:
                         method = "None"
                         threshold = 0.0
                     make_space(10)
+
+                    # add parameters to session state
+                    st.session_state["display_to_col"] = display_to_col
+                    st.session_state["col_to_display"] = col_to_display
                     st.session_state["remove_outliers"] = remove_outliers
                     st.session_state["method"] = method
                     st.session_state["threshold"] = threshold
                     st.session_state["df"] = df
 
-                    can_display_config = True
-
                     # SAVE CONFIGURATION (create json file with all the configurations)
+                    can_display_config = True
                     if can_display_config:
                         make_space(10)
                         display_config_explanation(
